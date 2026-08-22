@@ -2,7 +2,7 @@
 Terhia is a shared, open-source fantasy canon and world-building framework designed for multi-media deployment across novellas, graphic novels, tabletop roleplaying frameworks, and video games.
 Unlike traditional "kitchen-sink" fantasy settings, Terhia operates as a clockwork engine where cosmos, culture, magic, and mechanics are rigidly locked into an immutable mathematical grid.
 
-[Project Terhia](https://lmodulo.com/terhia)
+[Project Terhia Website](https://lmodulo.com/terhia)
 ------------------------------
 ## 🏗️ The System Architecture
 The world engine is built upon a base-five cosmological and mechanical matrix:
