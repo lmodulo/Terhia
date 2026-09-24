@@ -227,7 +227,7 @@ Numbers are records (Canon Discipline 5). The Ledger publishes this table and co
 
 *Register: world; the Emotional Payload paragraphs are craft.* Unchanged in v1.1.
 
-Ratified text from Canon.md. The Ranger pairing uses a dagger, which is not a ranked martial school; the Longbow Novice entry covers it ("the dagger covers the bow's blind distance") and no separate progression exists. Not a gap — a design decision — recorded here so it is not re-raised.
+Ratified text from Canon.md. The Warden pairing uses a dagger, which is not a ranked martial school; the Longbow Novice entry covers it ("the dagger covers the bow's blind distance") and no separate progression exists. Not a gap — a design decision — recorded here so it is not re-raised.
 
 ## Martial Schools
 
@@ -253,7 +253,7 @@ Martial cost follows the same law as magic cost — severity nearly equal to pow
     - Master: Battlefield geometry. Reads the flow of a melee the way doctrine reads a map; anchors a line's hinge; denies a corridor alone.
     - Guru: Moving area denial. The circle is wherever the Guru walks; a platoon engaging one is not outnumbered so much as unscheduled — it cannot bring numbers to bear faster than the reach retires them. Steel Quorum doctrine prices a Guru Vanguard as terrain. Calibration: the platoon standard expressed as space.
 - Longbow
-    - Novice: Volley-competent archer and camp scout. Keeps a watch, reads ground. The dagger covers the bow's blind distance (the Ranger pairing).
+    - Novice: Volley-competent archer and camp scout. Keeps a watch, reads ground. The dagger covers the bow's blind distance (the Warden pairing).
     - Adept: Marks moving targets at range, tracks across biomes, shoots from concealment without surrendering it.
     - Master: Overwatch. A slope, a treeline, a pass held by one bow — shots arrive where the target will be, not where it is. Master overwatch is what made the Mwamba foothills impassable.
     - Guru: Denial at landscape scale. A Guru on prepared ground stops a platoon's advance not by killing fifty but by making the first ten deaths unanswerable — no seen shooter, no counted arrows, no safe pace. Fear does the arithmetic. Calibration: the platoon standard expressed as ground the platoon will not cross.
@@ -698,8 +698,8 @@ Ratified lists and faction table from Canon.md. One [N] section at the end: a si
 ## Ethos (character classes)
 
 - Rationalist (Sorcerer, Vanguard, Artificer)
-- Devout (Archpriest, Paladin, Apostle)
-- Reverie (Ranger, Berserker, Apothecarist)
+- Devout (Elementalist, Paladin, Apostle)
+- Reverie (Warden, Berserker, Apothecarist)
 - Ethosless (Necromancer, Hexblade, Warlock)
 
 ## Ethos Statements [V]
@@ -737,10 +737,10 @@ Decision D3 (Block 2), reading (A), applied in draft. Part VII covers the four s
 - Sorcerer (Arcane)
 - Vanguard (Glaive)
 - Artificer (Alchemy light arts (flasks, familiars and gadgets))
-- Archpriest (Elemental)
+- Elementalist (Elemental)
 - Paladin (Hammers)
 - Apostle (Divine)
-- Ranger (Dagger and Longbow)
+- Warden (Dagger and Longbow)
 - Berserker (Axes)
 - Apothecarist (Nature)
 - Necromancer (Necrotic)
@@ -757,10 +757,10 @@ The class, school, and rank names above are Common Tongue registry vocabulary �
 | Apothecarist / Nature | Attunement; channel work; somatic integration | The Ledger's own file heading is "experimental mercy techniques" |
 | Necromancer / Necrotic | Boundary reading; boundary holding at Guru | The school does not raise, animate, or command the dead. "Necromancer" is the registry's word and, in Crown territory, the Purge's. Practitioners say "reader" |
 | Apostle / Divine | Boon work; transfer at Guru | Crown liturgical usage is "transfer" (Part VII) |
-| Archpriest / Elemental | Sustained work; harbor-keeping, aquifer-holding | "Archpriest" is a Crown title; Accord-side Elementals are registered by function |
+| Elementalist / Elemental | Sustained work; harbor-keeping, aquifer-holding | "Elementalist" is a Crown title; Accord-side Elementals are registered by function |
 | Vanguard / Glaive | Zone work; "holding the circle" | Steel Quorum doctrine manuals use "Vanguard" |
 | Paladin / Hammer | The column; "holding flat" | Crown title |
-| Ranger / Longbow | Overwatch; warding | Ash-and-Antler's contracts say "warden" |
+| Warden / Longbow | Overwatch; warding | Ash-and-Antler's contracts say "warden" |
 | Berserker / Ax | The gate; "opening" and "calling-back" | Tribal musters do not use "berserker"; it is the Quorum's word |
 | Hexblade / Sword-Shield | Escort; counter-practitioner work | Unsworn contracts say "escort of record" |
 | Artificer / Light Arts | Bench work; bonding (familiars) | Ledger certification category |
@@ -816,7 +816,7 @@ A view of every armed or strategic formation the canon names, with the scale wor
 
 | Force type | Party | School(s) of record | Scale word in canon | Against the platoon standard | Source |
 |:--|:--|:--|:--|:--|:--|
-| Column | Gold Crown (Chancel) | Hammer (Paladin), with Archpriest and Apostle support | "Paladin columns"; "reprisal columns" | Several platoons of drilled line; a Guru Paladin breaks a shield wall as a structure. Holds anything flat; loses everything wooded | Part III, Hammer; Part VII, Sacramental Apparatus; Part IX, Antler War |
+| Column | Gold Crown (Chancel) | Hammer (Paladin), with Elementalist and Apostle support | "Paladin columns"; "reprisal columns" | Several platoons of drilled line; a Guru Paladin breaks a shield wall as a structure. Holds anything flat; loses everything wooded | Part III, Hammer; Part VII, Sacramental Apparatus; Part IX, Antler War |
 | Garrison | Blue Accord | Glaive (Vanguard), the Accord garrison standard; Light Arts arsenals | "the Kaldmark garrison" | A settlement's standing force, doctrine-certified; a Guru Vanguard is priced as terrain. Spent the Frost winters managing bread riots | Part III, Glaive; Part IV, Light Arts; Part IX, Long Frost |
 | Muster | Green Chimera (claimants) | Ax (the gate) and Longbow (overwatch) | "tribal muster"; "berserker bands" | Uncounted — whoever came. Made the Mwamba foothills impassable; could not take a walled town. A Guru berserker ends an engagement when nothing in reach stands | Part III, Ax and Longbow; Part IX, Antler War |
 | Company | The Unsworn | Sword/Shield (Hexblade) lines; escort of record | "two Unsworn companies"; "a single consolidated contract" | A contract unit; stands down against another company of the compact in view of both principals (Marendi, 1184). Frostvatn's consolidated contract is the compact's first and only | Part III, Sword/Shield; Part VI, Factions; Part IX, 1184 and 1230–32 |
@@ -836,10 +836,10 @@ A join of the ratified lists; no new assignments.
 | Rationalist | Sorcerer | Arcane | Magic | Orrivane | Blue Accord | Research and documentation apparatus; portal staffing |
 | Rationalist | Vanguard | Glaive | Martial | — | Blue Accord | Accord garrison standard; Steel Quorum sells the doctrine |
 | Rationalist | Artificer | Light Arts | Alchemy | — | Blue Accord | Ledger-certified workshop apparatus; arsenals |
-| Devout | Archpriest | Elemental | Magic | Saelura (shared) | Gold Crown | Infrastructure; harbor Gurus leased under Escrow |
+| Devout | Elementalist | Elemental | Magic | Saelura (shared) | Gold Crown | Infrastructure; harbor Gurus leased under Escrow |
 | Devout | Paladin | Hammer | Martial | — | Gold Crown | The Crown's arm; escort of the Namaris rites |
 | Devout | Apostle | Divine | Magic | Namaris | Gold Crown | Sacramental school; Assay-verified, benefice-bearing |
-| Reverie | Ranger | Longbow (+ dagger) | Martial | — | Green Chimera | Frontier school; Ash-and-Antler's working art |
+| Reverie | Warden | Longbow (+ dagger) | Martial | — | Green Chimera | Frontier school; Ash-and-Antler's working art |
 | Reverie | Berserker | Ax | Martial | — | Green Chimera | Shock school; core of tribal musters |
 | Reverie | Apothecarist | Nature | Magic | Threnis | Green Chimera | Outside Rationalist treatment framework; Sedge Circle lodges |
 | Ethosless | Necromancer | Necrotic | Magic | Velquor | None (purged from Crown; received in Chimera) | Testimony no certifying institution admits |
@@ -866,7 +866,7 @@ Ratified 11 September 2026 (R.0 #5), including the five [retro] groundings.
 
 Scope: the four Gold Crown homelands only — Isavík, Teocalli, Bahr-Al-Asra, Oasira. Blue Accord and Green Chimera homelands have no theology defined here; the same four cultures' Accord- and Chimera-side homelands (Grimskov, Zand-Kala, Yaxkulu, Zulwazi) share the pantheons below by culture but not the Crown's ranking of them, which stops at the charter line. Nothing in this Part assigns a god to any character, school, or faction outside the Crown.
 
-Design constraints this layer was built to satisfy, all already in canon: the Crown is Devout and governed by Namaris; its classes are Apostle (Divine), Archpriest (Elemental, the shared moon), Paladin (Hammer); the Divine Guru ability is lifespan transference and the Divine cost is lifespan compression; the Indigo Assay is a Rationalist faction under Crown charter that authenticates miracles and voids benefice for fraud; the Crown purged the Ethosless (1164–66) and proscribed reverie as "the heresy nearest its own practice" (1189); the Crown holds boundary testimony to be heresy; culture is not institution.
+Design constraints this layer was built to satisfy, all already in canon: the Crown is Devout and governed by Namaris; its classes are Apostle (Divine), Elementalist (Elemental, the shared moon), Paladin (Hammer); the Divine Guru ability is lifespan transference and the Divine cost is lifespan compression; the Indigo Assay is a Rationalist faction under Crown charter that authenticates miracles and voids benefice for fraud; the Crown purged the Ethosless (1164–66) and proscribed reverie as "the heresy nearest its own practice" (1189); the Crown holds boundary testimony to be heresy; culture is not institution.
 
 ## The Doctrine of Lent Years
 
@@ -877,7 +877,7 @@ The Crown's creed, stated as the Chancel teaches it.
 3. **A miracle is a transfer that can be certified.** This is the Indigo Assay's theological warrant. The Crown chartered a Rationalist examining body because a ledger requires auditors, and a transfer that cannot be verified is either a forgery or the work of a debtor (clause 5). Fraud voids benefice because a false miracle is a forged entry against the god.
 4. **The god has one name in doctrine and four in the homelands.** The Doctrine of the Four Names holds that the Namaris-faces of Isavík, Teocalli, Bahr-Al-Asra, and Oasira are one god under local names. The Chancel's liturgical name, in the Asran register of the pontifical seat, is **Al-Muqrid** — the Lender. The Common Tongue uses the title, not the name.
 5. **Three transgressions.** *Taking without the Lender:* to speak across the death boundary is to take a span back from the Debtor's side — Necrotic practice, anathema since the Purge. *Giving outside the ledger:* to restore life by unledgered means — Nature practice, and reverie generally, proscribed since the Edict of Amilpan. *Counterfeiting a transfer:* fraud, which voids benefice and unmakes the claimant (the Disputed Seat, 1236–39).
-6. **The lesser faces are the Lender's household.** Each homeland's gods of the other four moons are classed by doctrine, not denied. Saelura-faces are *Stewards* (sanctioned; the Archpriests' patrons). Orrivane-faces are *Witnesses* (tolerated; the Assay's patrons). Threnis-faces are *Sowers* (proscribed). Velquor-faces are *Debtors* (anathema).
+6. **The lesser faces are the Lender's household.** Each homeland's gods of the other four moons are classed by doctrine, not denied. Saelura-faces are *Stewards* (sanctioned; the Elementalists' patrons). Orrivane-faces are *Witnesses* (tolerated; the Assay's patrons). Threnis-faces are *Sowers* (proscribed). Velquor-faces are *Debtors* (anathema).
 
 Three consequences the doctrine produces without anyone intending them: the Crown's most policed heresy is the school whose healing looks most like its own; the Crown's own auditors can and did bankrupt it; and the observance of the Debtor's night, 1 Velquor, is kept by a Devout faction chartered by the Accord, not the Crown (the Firstday Watch — Canon.md faction table).
 
@@ -886,7 +886,7 @@ Three consequences the doctrine produces without anyone intending them: the Crow
 | Moon | Face class | Crown status | Basis in doctrine | Dated origin of status |
 |:-:|:--|:--|:--|:--|
 | Namaris | The Lender (four names) | Canonical | Clauses 1–4 | Consecration of Qasr-Al-Rimal (pre-1145) |
-| Saelura | Steward | Sanctioned; Archpriest's patron | The Steward keeps the Lender's house — harbor, fire, water, ground | Shared moon; never contested |
+| Saelura | Steward | Sanctioned; Elementalist's patron | The Steward keeps the Lender's house — harbor, fire, water, ground | Shared moon; never contested |
 | Orrivane | Witness | Tolerated; Assay's patron | The Witness keeps the count; cannot lend, cannot take | Indigo Assay charter (within a decade of 1149) |
 | Threnis | Sower | Proscribed | Gives life without a ledger; the nearest heresy | Edict of Amilpan, 1189 |
 | Velquor | Debtor | Anathema | Takes years unreturned; speaks from the far side of the boundary | Purge of the Gold Crown, 1164 |
@@ -936,7 +936,7 @@ How the doctrine is administered; every body named already exists in canon.
 | Rites and treasury | Gilt Chancel | — | Conducts the Namaris-phase rites; holds land title and issues benefice paper against certified miracles |
 | Certification | Indigo Assay | Rationalist (Sorcerers) | Verifies Divine attunement and authenticates transfers; a void ruling unmakes benefice |
 | Healing | Apostles | Divine | Perform transfers of lent years; certified at rank; Guru transference is the creed in full |
-| Stewardship | Archpriests | Elemental | Keep the Lender's house — harbor, fire, water, ground; the Steward's clergy |
+| Stewardship | Elementalists | Elemental | Keep the Lender's house — harbor, fire, water, ground; the Steward's clergy |
 | Escort and enforcement | Paladin columns | Hammer | Escort the rites; answer "the Chancel's problems that have walls"; enforced the Edict on flat ground and failed to in trees |
 | Collection in treaty territory | Namarite Tithe | Devout | Maintains shrines in Chimera territory and collects along the Namaris circuit; pays Tangata way-tolls and books them as alms |
 | The Debtor's night | Firstday Watch | Devout, Accord-chartered | Keeps 1 Velquor as observance of record. The Crown does not keep the anathema's night; a Devout faction under the Accord's charter does, so that it can be counted |
@@ -1129,7 +1129,7 @@ The Guru Escrow Convention of 1174 was the repricing. Harbor-grade Elemental Gur
 
 The Crown came out of the Frost years financially strained and doctrinally hard, and under Basira al-Rimal's late seat it pushed the Namaris rites outward — new shrines in the borderlands where Oasira's grasslands run against tribal Threnis territory. The tribes read shrine construction as territorial claim, because it was. Shrines burned in 1178 and 1179. Crown reprisal columns crossed into unceded land in 1180. By Saelura 1181 it was a war.
 
-It was a war neither side could win on the ground it was fought on. Crown paladin columns held anything flat and lost everything wooded; Reverie rangers and berserker bands made the Mwamba foothills impassable and could not take a walled town. Ash-and-Antler, offered Crown contracts at triple rate, refused them and spent the war warding the Accord's frontier instead — a refusal the compact still cites in its charter renewals. The Unsworn took contracts from both belligerents, which produced the war's strangest hour: at Marendi in 1184, two Unsworn companies found themselves fielded on opposite sides of the same engagement, and per compact rules, stood down in view of both armies. The battle dissolved around them. The Marendi Standstill has been cited in every mercenary contract negotiation since.
+It was a war neither side could win on the ground it was fought on. Crown paladin columns held anything flat and lost everything wooded; Reverie wardens and berserker bands made the Mwamba foothills impassable and could not take a walled town. Ash-and-Antler, offered Crown contracts at triple rate, refused them and spent the war warding the Accord's frontier instead — a refusal the compact still cites in its charter renewals. The Unsworn took contracts from both belligerents, which produced the war's strangest hour: at Marendi in 1184, two Unsworn companies found themselves fielded on opposite sides of the same engagement, and per compact rules, stood down in view of both armies. The battle dissolved around them. The Marendi Standstill has been cited in every mercenary contract negotiation since.
 
 The war was ended by neither army. In the Threnis phase of 1186, with node activity along the Mwamba Range at the highest reading then on record, the forested foothills produced an apex emergence — a Master-tier predator that broke a Crown column and a tribal muster in the same eight days and held the ground between them. Both commands withdrew. Both chanceries discovered, reading the same Quorum assessment, that they had been paying for a front line a single animal could hold better than either of them.
 
