@@ -1,6 +1,6 @@
 # Terhia — Consolidated Canon
 
-> Single-file canon bible, v1.1. Revision date: 12 September 2026, from v1.0 (consolidated 11 September 2026; revised same day after two external review passes). Supersedes the four-file set (Canon.md, Canon-culture.md, Canon-history-1145-1245.md, Canon-visual-grammar.md). Present in-world year: 1245. Ratification state: Block 1 closed; Blocks 2 and 3 open (Appendix R.0). Every section added in v1.1 is tagged [V] or [N]; no ratified sentence was reworded.
+> Single-file canon bible, v1.2. Ratification revision, 24 September 2026, of v1.1 (12 September 2026), from v1.0 (consolidated 11 September 2026; revised same day after two external review passes). Supersedes the four-file set (Canon.md, Canon-culture.md, Canon-history-1145-1245.md, Canon-visual-grammar.md). Present in-world year: 1245. Ratification state: Blocks 1–3 closed (Appendix R.0); no [N] instance remains; R.5 holds no open discrepancy; open work is R.8 only. v1.2 amended two cells of the Transport table (R.0, Block 2 closing note) and no other sentence of content.
 
 ## How to read this file
 
@@ -14,7 +14,7 @@ Every section carries a status tag in its heading:
 | **[C/N]** | Ratified section with a marked [N] insertion inside it. |
 | **[V/N]** | View with marked [N] cells. |
 
-The [P] tag of v1.0 (pending, inherited from an addendum) has no remaining instances after Block 1 and is retired.
+The [P] tag of v1.0 (pending, inherited from an addendum) has no remaining instances after Block 1 and is retired. [N], [C/N] and [V/N] have no remaining instances after Blocks 2–3 (24 September 2026) and are kept for future additions.
 
 **Registers.** The file holds three kinds of text and marks which is which at the head of each Part: **world** — statements about Terhia, written for the author (Parts I–VIII; most of Part XI); **in-world** — text that exists inside Terhia, in an in-world voice (Part IX's Chronicle and compiler frame; the Doctrine of Lent Years as the Chancel teaches it; the document exemplars in XI.2; the Watch entries in Appendix D); **craft** — rules for writing and drawing (the Emotional Payloads in Parts II–IV and VIII; Ambient Ecological Confirmation; Part X; XI.5); **meta** — ratification and registers (Appendices R and H). A section in one register is not evidence in another: a craft rule is not a world fact, and a compiler's aside in the Chronicle is an in-world opinion.
 
@@ -22,11 +22,11 @@ The [P] tag of v1.0 (pending, inherited from an addendum) has no remaining insta
 
 Editorial changes made during consolidation (v1.0) that are not content changes: (1) "Apothocarist" normalized to "Apothecarist" throughout; (2) the Canon.md trailing revision comment moved into the ratification appendix (now Appendix H, R.7); (3) the Chronicle and Culture registers relocated to the ratification appendix (now Appendix H, R.3 and R.4); (4) source-file title headers dropped in favor of Part headers. Editorial changes in v1.1 are itemized in Appendix H, "Editorial log, v1.1". No sentence of ratified prose was reworded in either pass.
 
-## Design Thesis [N]
+## Design Thesis [C]
 
 Institutions, schools, and cultures perceive the same underlying reality differently, and none holds the whole of it. The Arcane overlay reads mathematics; Nature reads relation; Necrotic reads boundary; the Crown reads lifespan as accounting; the Ledger reads it as measured cost; cultures locate authority in seals, witnesses, inherited duty, water debt, or a navigator's word. Every addition to this canon is tested against that thesis: a new element should give some party a partial view, not a complete one.
 
-## Canon Discipline [N]
+## Canon Discipline [C]
 
 1. **Ratification blocks.** Pending items that other sections depend on are decided together, as a block, never left pending while dependents accumulate. The current block is Appendix R.0.
 2. **Residue rule.** The world contains things with no structural explanation (Part IX, Appendix C). Residue is never retro-explained; an item that acquires a cause stops being residue and must be re-filed as canon.
@@ -49,31 +49,31 @@ Institutions, schools, and cultures perceive the same underlying reality differe
 - Part IX — Chronicle, 1145–1245: Before 1145; The World in 1145; the century in eight periods; The Present; Appendix A (heads of institution); Appendix B (century timeline); Appendix C (Residue); Appendix D (prior Guru-tier events, as recorded)
 - Part X — Visual Grammar (graphic novel adaptation): compression scale; correspondence; POV encoding; school-specific visual language and the culture-palette cross-reference; adaptation rules
 - Part XI — Working Reference: XI.1 Quick-reference index; XI.2 Document exemplars; XI.3 Beast register; XI.4 Named-persons index; XI.5 Episode compliance checklist; XI.6 Do-not-re-raise list
-- Appendix R — Ratification (live): R.0 Blocks 1–3; R.1 Consolidation Register; R.5 Open Discrepancies; R.8 Deferred Workstreams
+- Appendix R — Ratification (live): R.0 Blocks 1–3; R.1 Consolidation Register; R.5 Open Discrepancies (none as of v1.2); R.8 Deferred Workstreams
 - Appendix H — History (closed): R.2 Evaluation Findings; R.3 Chronicle Register; R.4 Culture Register; R.5 resolved rows; R.7 Source Revision Note; Editorial log, v1.1
 
 ---
 
 # Part I — The World
 
-*Register: world.* v1.1 addition: Substrate: the Three Readings [N].
+*Register: world.* v1.1 addition: Substrate: the Three Readings [C].
 
 ## Premise [C]
 
 > Medieval Earth adjacent fantasy world. Magic replaces technology. Animal mounts vs cars, Airships vs trains, Echo Portals vs airplanes, etc. etc. No modern weaponry. The severity in cost of using magic skills are nearly equal to the power of the spell. Everyone is either born with ONE magic or martial school. Each Culture has its own language. There is a common tongue shared across all (mostly) cultures depending on education level.
 
-## Transport and Infrastructure [N]
+## Transport and Infrastructure [C]
 
 Consolidated from the premise and the Chronicle; no new mechanics, only the existing ones gathered in one place.
 
 | Mode | Charter | Staffing / power | Pricing | Notes |
 |:--|:--|:--|:--|:--|
-| Echo Portals | Blue Accord (Portal Compact, 1157) | Arcane practitioners; Guru-rank stations under exterior-placement doctrine since 1201 | Phase-pegged: cheapest in Orrivane, dearest in Velquor (Ledger Accords, 1205) | Passengers and light cargo between homeland seats, and gate stations where the Accord chartered them (Yunmen) [N, R.5 #7]. Manifest Rule (1159) requires registered cargo declarations. Suspended 1198–1201 (the Interdiction). |
-| Airships | Unchartered guilds; full Accord charter petitioned as of 1245 | Light Arts primary [N]: Artificer-built lift-gas cells and engines, Ledger-certified as gadget systems. Elemental wind-crew as supplement, priced by phase and frequently unregistered | Undercut portal tolls; unified manifest with portals since 1205 | Bulk freight. Absorbed contraband after the Manifest Rule. Richest during the Interdiction. |
+| Echo Portals | Blue Accord (Portal Compact, 1157) | Arcane practitioners; stations are Guru-presided, Masters attending (Yunmen, Part IX 1198; the Guru roll, Part II), under exterior-placement doctrine since 1201 | Phase-pegged to Arcane casting cost, lowest in Orrivane (Ledger Accords, 1205; Part IX, 1198) | Passengers and light cargo between homeland seats, and gate stations where the Accord chartered them (Yunmen) [R.5 #7, resolved]. Manifest Rule (1159) requires registered cargo declarations. Suspended 1198–1201 (the Interdiction). |
+| Airships | Unchartered guilds; full Accord charter petitioned as of 1245 | Light Arts primary: Artificer-built lift-gas cells and engines, Ledger-certified as gadget systems. Elemental wind-crew as supplement, priced by phase and frequently unregistered | Undercut portal tolls; unified manifest with portals since 1205 | Bulk freight. Absorbed contraband after the Manifest Rule. Richest during the Interdiction. |
 | Overland caravans | Local (homeland roads, drove-lines, causeways, tribal ways) | Mounts and draft animals: sledges and shag ponies (Menneske), oxen and barges (Renlei), camel and horse strings (Unsaan), porters and pack llamas (Yamana), cattle circuits (Umutu), outriggers and river craft (Tangata) | Way-tolls in Chimera territory (Tangata way law); market-truce grounds at Tinwara, Marendi | Caravan towns (Shakou, Yunmen, Bahr Sufra crossings) profit whenever portals fail. |
 | Harbor shipping | Local; harbor-grade Elemental Gurus leased under the Guru Escrow Convention (1174) | A single Guru can keep a harbor ice-free (Stenhavn) | Ice-law tolls (Menneske, extinguished at Stenhavn 1174) | Four harbor-grade Gurus alive at the Convention's signing. |
 
-**Airship propulsion [N].** Lift and drive are Light Arts: gas cells and engines built and maintained by Master artificers, certified under the same Ledger category as locks, lifts, and signal lines. Wind-work by Elemental practitioners supplements the engines on long hauls and is priced by moon phase like every other casting; guild ships have historically crewed it with unregistered Elementals, which is one reason the Off-Ledger has never lacked employment and one reason the Second Register's inspectors board airships first. Consequence for the charter question: the guilds already depend on Accord-certified workshops for every hull that flies. Full charter would formalize a dependency the Accord can already enforce by withholding certification — which is why the guilds are petitioning and why the caravan towns expect the petition to be granted.
+**Airship propulsion [C].** Lift and drive are Light Arts: gas cells and engines built and maintained by Master artificers, certified under the same Ledger category as locks, lifts, and signal lines. Wind-work by Elemental practitioners supplements the engines on long hauls and is priced by moon phase like every other casting; guild ships have historically crewed it with unregistered Elementals, which is one reason the Off-Ledger has never lacked employment and one reason the Second Register's inspectors board airships first. Consequence for the charter question: the guilds already depend on Accord-certified workshops for every hull that flies. Full charter would formalize a dependency the Accord can already enforce by withholding certification — which is why the guilds are petitioning and why the caravan towns expect the petition to be granted.
 
 ## Moons and Calendar [C]
 
@@ -89,9 +89,9 @@ Consolidated from the premise and the Chronicle; no new mechanics, only the exis
 
 **Calendar consequences established elsewhere in canon (gathered here):** casting cost runs lowest in a school's own phase (portal fares peak-traffic in Orrivane; "an Orrivane price" is cheap, "a Velquor price" is not); the Firstday Watch keeps 1 Velquor as the observance of record; the Namaris circuit governs Crown tithe collection; Threnis-phase claims govern tribal territory; Saelura-phase well work is when desert oases stabilize; five phase-turn days are market truces (Renlei) and Umutu age-set cohorts are cut by birth phase.
 
-**Day subdivision [N].** The day is divided into twenty-four hours under Cobalt Ledger measurement convention ("Ledger hours"), kept by registries, examination boards, and portal schedules, and reckoned from midnight. Cultures keep their own working divisions — watches at sea, board bells at Baishui, draw-hours at Unsaan wells — and convert to Ledger hours only when a document requires it. The "3:47" in the Necrotic emotional payload is a Ledger statistic: the registry records time of death for every filed crossing, and practitioners know the regional average because the Ledger publishes it. The figure stands.
+**Day subdivision [C].** The day is divided into twenty-four hours under Cobalt Ledger measurement convention ("Ledger hours"), kept by registries, examination boards, and portal schedules, and reckoned from midnight. Cultures keep their own working divisions — watches at sea, board bells at Baishui, draw-hours at Unsaan wells — and convert to Ledger hours only when a document requires it. The "3:47" in the Necrotic emotional payload is a Ledger statistic: the registry records time of death for every filed crossing, and practitioners know the regional average because the Ledger publishes it. The figure stands.
 
-## Substrate and Nodes [N]
+## Substrate and Nodes [C]
 
 The terms *substrate*, *node*, and *node activity* are used throughout the ratified ecological engine and the Chronicle without a definition. This section supplies one from usage only.
 
@@ -101,7 +101,7 @@ The terms *substrate*, *node*, and *node activity* are used throughout the ratif
 - **Node activity and casting.** Decided 11 September 2026: casting cost varies with moon phase only. Node activity governs what emerges from the substrate (beast tier, biome effects, manifestations), not what a practitioner pays to act on it. A Guru at Frostvatn paid the same for the Iselva diversion as anywhere else in Velquor; the node made the enemy, not the bill.
 - **Dormant node.** A region with a node reading too low to sustain Master-tier or higher emergence.
 
-## Substrate: The Three Readings [N]
+## Substrate: The Three Readings [C]
 
 What the three institutions hold the substrate to be — the Design Thesis applied to the layer the ecological engine runs on. Not a cosmology. Each reading is partial; none is privileged; the ratified definition above, drawn from usage, is the only one the file asserts. Origins of nodes are residue-class and are not explained (Canon Discipline 2); the embodiment question stays undecided (R.5 #6).
 
@@ -116,11 +116,11 @@ Rule for episodes: a character explains the substrate in the reading of their in
 
 ---
 
-# Part II — Magic Schools [C/N]
+# Part II — Magic Schools [C]
 
-*Register: world; the Emotional Payload paragraphs are craft.* v1.1 additions: Practitioner, Latent and Trained [N]; Rank Distribution [N].
+*Register: world; the Emotional Payload paragraphs are craft.* v1.1 additions: Practitioner, Latent and Trained [C]; Rank Distribution [C].
 
-Ratified text from Canon.md. Two insertions marked [N]: institutional roles for Necrotic and Divine, which every other school had and these two lacked. The five Guru abilities, formerly marked "reflexive candidate" in Canon.md, were ratified as a block on 11 September 2026 (R.0 #2).
+Ratified text from Canon.md. Two insertions, ratified in Block 2: institutional roles for Necrotic and Divine, which every other school had and these two lacked. The five Guru abilities, formerly marked "reflexive candidate" in Canon.md, were ratified as a block on 11 September 2026 (R.0 #2).
 
 ## Magic Schools
 
@@ -137,11 +137,11 @@ Ratified text from Canon.md. Two insertions marked [N]: institutional roles for 
 - Master
 - Guru
 
-## Practitioner, Latent and Trained [N — D1]
+## Practitioner, Latent and Trained [C — D1]
 
-Decision D1 (Block 2), reading (A), applied in draft: every person is born with one school as latent capacity — the premise's "everyone" — and a minority train it. Untrained latency is a knack the culture has a word for and no registry records: the fisherman who knows the weather a day early, the midwife whose voice steadies a labor, the herder the cattle follow. Training makes a practitioner; a practitioner is what the registries count; and "practitioner" in this file means the trained. The reading reconciles, without rewording any of them, the premise (everyone has a school), the Renlei non-practitioner boards (millers, pilots, midwives — people with a latent school who never trained it), and the General Register (a census of *licensed* practitioners, not of the born). A martial Novice is a trained soldier and a magic Novice is barely functional (Part III); both are practitioners; the miller is not.
+Decision D1 (Block 2), reading (A), ratified 24 September 2026: every person is born with one school as latent capacity — the premise's "everyone" — and a minority train it. Untrained latency is a knack the culture has a word for and no registry records: the fisherman who knows the weather a day early, the midwife whose voice steadies a labor, the herder the cattle follow. Training makes a practitioner; a practitioner is what the registries count; and "practitioner" in this file means the trained. The reading reconciles, without rewording any of them, the premise (everyone has a school), the Renlei non-practitioner boards (millers, pilots, midwives — people with a latent school who never trained it), and the General Register (a census of *licensed* practitioners, not of the born). A martial Novice is a trained soldier and a magic Novice is barely functional (Part III); both are practitioners; the miller is not.
 
-## Rank Distribution (Ledger Statistic) [N]
+## Rank Distribution (Ledger Statistic) [C]
 
 Numbers are records (Canon Discipline 5). The Ledger publishes this table and counts only the registered. The Assay's parallel roll counts Crown territory on a different standard. The Concord counts no one. The Sedge oral record disagrees with all three. The statistic is itself a partial view, which is the point.
 
@@ -211,13 +211,13 @@ Numbers are records (Canon Discipline 5). The Ledger publishes this table and co
 
     **Physical practice:** Necrotic practitioners work bare-handed — gloves muffle attunement. Phantom sensations map onto the living body. Self-grounding through controlled pain maintains the boundary between self and the dead.
 
-    **Institutional role [N]:** Ethosless by charter vacancy. Purged from Crown territory 1164–1166; registered but distrusted in Accord territory, where a boundary reading is inadmissible as evidence under the standing doctrine that what cannot be measured is anecdotal (Baishui, 1211); received in Chimera territory, which took the Purge refugees and does not register anyone. The one school whose peak testimony neither certifying institution will admit, and the only one that has twice named a killer.
+    **Institutional role [C]:** Ethosless by charter vacancy. Purged from Crown territory 1164–1166; registered but distrusted in Accord territory, where a boundary reading is inadmissible as evidence under the standing doctrine that what cannot be measured is anecdotal (Baishui, 1211); received in Chimera territory, which took the Purge refugees and does not register anyone. The one school whose peak testimony neither certifying institution will admit, and the only one that has twice named a killer.
 
     **Emotional Payload:** Touch erosion is not just numbness — it's the specific loss of connection to the living. The moment you realize you can't feel your lover's hand anymore, not really — that there's always something between you, something cold, something that belongs to the dead. You hold them anyway. You pretend. They pretend not to notice. But you know — you're already half-gone. The boundary thinning is the terror of not knowing where you end and they begin. You wake at 3:47, the average time of death in your region, and you don't know if the cold beside you is your partner or something else. You don't know if it matters anymore.
 - Divine
     **Cost progression:** Minor aging → frailty → organ degradation → lifespan compression.
 
-    **Institutional role [N]:** The Crown's sacramental school. Attunement is verified by the Indigo Assay; Apostle certification is benefice-bearing, and fraud voids benefice. In Accord territory Divine practitioners register like any other school, and the Ledger records their cost as aging in years — the same figure the Crown records as sacrament and the Ledger as depreciation. Under Crown doctrine (Part VII) a Divine healing is a ledgered transfer of lent years, which is why a Rationalist examining body holds Crown charter: the Crown needs counters.
+    **Institutional role [C]:** The Crown's sacramental school. Attunement is verified by the Indigo Assay; Apostle certification is benefice-bearing, and fraud voids benefice. In Accord territory Divine practitioners register like any other school, and the Ledger records their cost as aging in years — the same figure the Crown records as sacrament and the Ledger as depreciation. Under Crown doctrine (Part VII) a Divine healing is a ledgered transfer of lent years, which is why a Rationalist examining body holds Crown charter: the Crown needs counters.
 
     **Emotional Payload:** The aging is not just wrinkles — it's watching your children grow up while you grow old too fast. It's your spouse's hand in yours, their skin still young, yours already papery. It's knowing you will leave them sooner than you should, and every healing you do makes it sooner. The frailty is the moment you can't keep up with your own child, the moment they have to wait for you, the moment they realize you won't be there for their graduation, their wedding, their children. The organ degradation is the specific pain of knowing your body is failing and choosing to use it anyway, to heal one more person, to give one more day to someone else's loved one, even as it costs you a day of your own. The lifespan compression is the arithmetic of grief — each healing is a subtraction, each saved life is a loss, and you do it anyway because the alternative is letting them die, and you cannot let them die, even if it means dying sooner yourself.
 
@@ -344,7 +344,7 @@ Ratified text from Canon.md.
 
 # Part V — Geography and Peoples
 
-*Register: world.* v1.1 additions: Money, Kind and Labor, Population Magnitudes, Anchor Prices, and Phase Cascade under the Economic Baseline [N]; Material Signatures [V/N]; Common Tongue Distribution [N]; Naming and Address [V/N].
+*Register: world.* v1.1 additions: Money, Kind and Labor, Population Magnitudes, Anchor Prices, and Phase Cascade under the Economic Baseline [C]; Material Signatures [C]; Common Tongue Distribution [C]; Naming and Address [C].
 
 Biome, culture, and homeland lists are ratified [C]. The institutional alignment column (Chronicle item 1) was ratified 11 September 2026 (R.0 #1) and is now [C]. The merged reference table below is a view, not new content.
 
@@ -442,9 +442,9 @@ Settlements, biomes, and institution are [C]; the "in the century" column is a c
 
 Alignment count: Blue Accord 4, Gold Crown 4, Green Chimera 4. Settlement count: 37 (Tienling holds four). Whole-charter cultures: Renlei (Accord), Tangata (Chimera). Split cultures: Menneske, Unsaan, Yamana, Umutu.
 
-## Economic Baseline [N]
+## Economic Baseline [C]
 
-Minimal mundane layer, drafted 11 September 2026; pending ratification (R.1 item 26; Block 2). Built only from goods, trades, and institutions already in canon. Detail is deliberately uneven (asymmetry rule). Tax column answers "who pays" at the charter level; local levies (well give-back, way-tolls, ice-law) sit underneath and are described in the culture profiles.
+Minimal mundane layer, drafted 11 September 2026; ratified 24 September 2026 (R.1 item 26; Block 2). Built only from goods, trades, and institutions already in canon. Detail is deliberately uneven (asymmetry rule). Tax column answers "who pays" at the charter level; local levies (well give-back, way-tolls, ice-law) sit underneath and are described in the culture profiles.
 
 | Homeland | Principal exports | Imports it cannot do without | Land tenure | Who pays charter tax, and in what | Largest ordinary household expense |
 |:--|:--|:--|:--|:--|:--|
@@ -467,15 +467,15 @@ Minimal mundane layer, drafted 11 September 2026; pending ratification (R.1 item
 
 **Who is actually rich, homeland by homeland:** examiners and canal-frontage holders (Zhenshui); caravan guild houses (Tienling); timber houses and the Stenhavn harbor-master (Grimskov); boat-owning households and Ormsvík factors (Isavík); the Chancel, then caravan houses (Bahr-Al-Asra); lawyers and large garden allotments (Zand-Kala); precinct officers and terrace-holding lineages (Teocalli); runner lineages and warding compacts (Yaxkulu); well-keeper lineages, counted in standing rather than coin (Oasira, Zulwazi); navigator houses (Awanui); burn-right lineages (Koremu). The Green Chimera homelands hold no one rich in coin, which the Ledger records as poverty and the Concord does not record at all.
 
-### Money [N]
+### Money [C]
 
 Two mints, no third. The Cobalt Ledger strikes the **seal**, a silver coin bearing the Baishui seal, at the Ledger's mint under the First Examiner's warrant; a sealed coin binds as a sealed document does, and clipping one is seal forgery, a capital matter since the Manifest War (Part V, Renlei, seal law). Its fraction is the **eighth**, copper, eight to the seal. The Gilt Chancel strikes the **gilt**, gold-washed silver, at Qasr-Al-Rimal; benefice paper is denominated in gilts, and the Benefice Crisis was a crisis in gilts (Part IX, 1226). The Green Chimera mints nothing and never has. Both coins pass everywhere. The Ledger publishes a rate at each phase turn; the caravan houses keep their own; the two disagree by the width of a caravan house's margin. Rates of Orrivane 1244, Ledger table: one gilt to one seal and two eighths at Baishui; one gilt to one seal at Qasr-Al-Rimal by the Chancel's table — not a discrepancy but a mint favoring its own coin. "Coin" in the Economic Baseline table means seals in Accord homelands and gilts in Crown homelands.
 
-### Kind and Labor [N]
+### Kind and Labor [C]
 
 The Ledger's assessment tables rate a labor-day at one eighth and a head of cattle at six seals at the Tinwara returns; the Chancel's tithe tables rate a labor-day at one-tenth of a gilt and do not rate cattle, which are tithed by the head. Umutu well-ledgers convert nothing — a day owed to the well is a day, and *the well remembers* days (Part V, Umutu, water law). A Tangata way-toll is stated in the traveler's currency and recorded in none (Part V, Tangata, fire law). Where the Economic Baseline table says "in kind" or "in labor," the conversion is whichever assessment or tithe table applies, and the household knows which.
 
-### Population Magnitudes [N]
+### Population Magnitudes [C]
 
 Twelve order-of-magnitude figures, one per homeland, each from the record that counts there and blind to what that record does not count. The Ledger census is the Second Register base of 1214 carried forward by the Orrivane rolls; the Chancel tithe roll counts households and multiplies by a parish factor; the Concord counts no one, so the Chimera figures are estimates by whoever had a reason to estimate.
 
@@ -496,7 +496,7 @@ Twelve order-of-magnitude figures, one per homeland, each from the record that c
 
 Sum, as the Ledger sums it: on the order of three million, of whom the Ledger counts about half and the Chancel a third, and the remainder are counted by parties that would object to the word.
 
-### Anchor Prices [N]
+### Anchor Prices [C]
 
 Two figures, sourced, for the two Guru- and Master-rank services the canon already prices in principle.
 
@@ -505,9 +505,9 @@ Two figures, sourced, for the two Guru- and Master-rank services the canon alrea
 | Harbor Guru, Escrow lease, Stenhavn | 5,200 seals a year in 1244 — the largest line in the Grimskov homeland budget after grain | Ledger provincial files, Grimskov budget of Orrivane 1244. The lease is paid to the Escrow, which pays the Guru's household, the physicians who sign the organ-strain waivers, and a succession reserve | The Stenhavn moot's figure is higher: it counts the harbor dues that pass the levy through, which the Ledger books as revenue. Both are read at the moot. The Ledger's is filed |
 | Master warden, overwatch by the season (one Threnis phase, 80 days) | 60 seals, half in advance, on a compact contract; the Crown offered triple in 1181 and was refused (Part IX, Antler War) | Ash-and-Antler charter renewals, schedule of 1244; the Accord pays it for frontier warding it cannot staff (Part III, Longbow) | The compact prices the Master's cost — the watch-broken sleep, the unclosing eye — at nothing, because no contract can; the Ledger's cost file on the same warden reads it in stages. One person, two documents |
 
-### Phase Cascade [N — D2]
+### Phase Cascade [C — D2]
 
-Decision D2 (Block 2), reading (A), applied in draft. Moon-phase pricing applies to castings, portal and airship fares, and Guru leases: what is priced by the sky is what is cast, or carried by what is cast. Staples move with freight cost, lagged and damped — "the grain price took another year to follow" the Stenhavn reopening (Part IX, 1175), and "freight in Terhia has been priced by the sky ever since" 1205 (Part IX, Ledger Accords) — so a Velquor market is dearer than an Orrivane market by the freight share of a price, not by the casting share. "A Velquor price" on bread is a figure of speech; on a healing, a fare, or a lease it is a tariff (Part V, Renlei, phase-contract law). Rule for trade scenes: name the phase; price the casting, the fare, or the lease by it; let the bread move a little, and late.
+Decision D2 (Block 2), reading (A), ratified 24 September 2026. Moon-phase pricing applies to castings, portal and airship fares, and Guru leases: what is priced by the sky is what is cast, or carried by what is cast. Staples move with freight cost, lagged and damped — "the grain price took another year to follow" the Stenhavn reopening (Part IX, 1175), and "freight in Terhia has been priced by the sky ever since" 1205 (Part IX, Ledger Accords) — so a Velquor market is dearer than an Orrivane market by the freight share of a price, not by the casting share. "A Velquor price" on bread is a figure of speech; on a healing, a fare, or a lease it is a tariff (Part V, Renlei, phase-contract law). Rule for trade scenes: name the phase; price the casting, the fare, or the lease by it; let the bread move a little, and late.
 
 
 ## Culture Profiles [C]
@@ -632,11 +632,11 @@ Wholly Chimera, as the Renlei are wholly Accord — the symmetric pole. The cons
 
 ---
 
-## Material Signatures [V/N]
+## Material Signatures [C]
 
-Six rows. Building, staple, and mount are gathered from the culture profiles' "Daily life" paragraphs and the Economic Baseline, each cell [V] with its source. Fiber and cloth, one craft, and palette are new cells [N] (Block 3, row 3g), coined inside each culture's stated exports and inspiration register. The palette column supplies what Part X lacked: school colors existed, culture colors did not.
+Six rows. Building, staple, and mount are gathered from the culture profiles' "Daily life" paragraphs and the Economic Baseline, each cell [V] with its source. Fiber and cloth, one craft, and palette were new cells [N], ratified in Block 3 (row 3g), 24 September 2026, coined inside each culture's stated exports and inspiration register. The palette column supplies what Part X lacked: school colors existed, culture colors did not.
 
-| Culture | Fiber and cloth [N] | Building [V] | Staple [V] | Mount and carriage [V] | One craft [N] | Palette [N] |
+| Culture | Fiber and cloth [C] | Building [V] | Staple [V] | Mount and carriage [V] | One craft [C] | Palette [C] |
 |:--|:--|:--|:--|:--|:--|:--|
 | Menneske | Wool from the Kaldmark grasslands, sealskin from Isavík, tar-proofed for sea wear (both are exports, Economic Baseline) | Timber-and-turf longhouses banked against wind (Menneske, Daily life) | Fish, barley, imported grain (Menneske, Daily life; Economic Baseline) | Sledges and shag ponies inland; boats before almost anything else (Menneske, Daily life; Part I, Transport) | The tally: notched posts and tally-sticks at the moot ground (Part VII, Tálvin); clinker-built boats | Lamp-amber on the Longest Night; ice-white; turf-brown; tar-black timber; the grey of Svarthavet |
 | Renlei | Hemp and ramie for work; silk for board dress and seal ribbons | Timber-frame on canal frontage, tiled; the certificate wall where another culture posts its shrine (Renlei, Governance; Economic Baseline, canal frontage) | Millet and river fish in the north, dryland wheat toward the desert edge (Renlei, Daily life) | Barge trains and ox roads on the Lianshui; portal stations at the seats (Renlei, Daily life; Part I, Transport) | Seal-cutting and document wax (Renlei, seal law; Part IX, 1211); lantern-making for the caravan towns' feast (Renlei, Daily life) | Ink-black, seal-wax red, canal-water white, lantern-paper gold |
@@ -660,34 +660,34 @@ Every culture speaks it; none speaks it first. Most cross-cultural disputes in t
 | Umutu | Water owed back to a well | "Debt," which is wrong |
 | Tangata | A way that is closed, as distinct from not yet open | Two words that miss it |
 
-## Common Tongue Distribution [N]
+## Common Tongue Distribution [C]
 
 The premise gives the Common Tongue to everyone "depending on education level." Concretely: it is the language of registries, boards, courts, contracts, and the rites' administration, and it is learned where those are. Who has it: everyone registry-certified, at any rank, because the board is sat in it; clergy and Chancel officers; the caravan and harbor trades — factors, guild houses, customs officers, harbor-masters, pilots; navigators and way-keepers who treat with outsiders; runner lineages; Unsworn officers, whose contracts are written in it. Who does not: most of a settlement's households outside those trades — terrace farmers, herders on the drove-lines, fishing crews, the well-keeper's family, the burn lineage that never leaves the fire country — who hold it as a few dozen words of market and toll, or not at all. The split runs through households: the certified daughter has it, her parents do not, and she interprets at the registry desk. In Chimera territory it is thinner still, because nothing there is written in it except the Concord's minutes and the Tithe's receipts.
 
 On the page, a monolingual character is rendered in plain prose, in their own tongue, and the lexical-gap table above is the rule for what breaks. When such a character must speak the Common Tongue, they speak it short, in registry words they have heard used against them, and the one-word concept of their own language comes out as the paraphrase the table gives — a sentence and a witness; a probate filing; "debt," which is wrong. An interpreter is a character, and an interpreter's presence in a scene is a fact about who has standing in it.
 
-## Naming and Address [V/N]
+## Naming and Address [C]
 
-Gathered cells cite their source. The two given-name patterns marked D4 are Block 2 decisions applied in draft. Cells the file could not source are marked [N] and go to Block 3 (row 3i); no cell is filled from outside canon. "What a registry files" is the Ledger's practice unless stated; the Assay files as the Ledger does, with a parish added.
+Gathered cells cite their source. The two given-name patterns marked D4 are Block 2 decisions, ratified 24 September 2026. Cells the file could not source were marked [N] and ratified in Block 3 (row 3i), 24 September 2026; no cell is filled from outside canon. "What a registry files" is the Ledger's practice unless stated; the Assay files as the Ledger does, with a parish added.
 
 | Culture | Given-name pattern | Formal self-introduction | What a stranger uses | What a registry files |
 |:--|:--|:--|:--|:--|
 | Menneske | Personal name, then the toponymic — *of* a settlement, or the settlement's stem as a byname: Aslaug of Stenhavn; Halvard Sten; Sunniva (Appendix A; Part IX, 1169). **D4:** toponymic, not patronymic | Name and household, before witnesses; the settlement if away from it (Menneske, witness-law) [V] | Name and settlement — "Aslaug of Stenhavn" (Part IX) [V] | Name, settlement, and moot of record; sentences in years, with a note that "three winters" is three years — the note is wrong (Menneske, winter-count) [V] |
-| Renlei | Family name first, then a given name of one or two syllables: Luo Deshi, Feng Zhao, Wen Suyin (Appendix A). **D4:** family-first | Family name, given name, and board standing — the certificate is the introduction (Renlei, examination standing) [V] | Family name and standing; a Renlei without standing is addressed by trade [N] | The seal, then the name: authority lives in the seal (Renlei, seal law); certification grade on every file (Economic Baseline, Zhenshui) [V] |
-| Unsaan | Personal name and house in Asran; personal name and garden-name in Kalani — Golnar *Sabz* (Unsaan, the Purge at home; Appendix A). An office-holder takes the place-name and surrenders their own: *al-Rimal* (Unsaan, name law) [V] | The house and its hospitality standing — whose roof, how many nights (Unsaan, sitting of accounts) [N] | Personal name and register; a guest's business is not asked until the third night (Unsaan, guest-right) [V] | The name as given; a garden-name is filed as a family name and is not asked about — Kalani has a particular way of not asking (Unsaan, the Purge at home) [V] |
+| Renlei | Family name first, then a given name of one or two syllables: Luo Deshi, Feng Zhao, Wen Suyin (Appendix A). **D4:** family-first | Family name, given name, and board standing — the certificate is the introduction (Renlei, examination standing) [V] | Family name and standing; a Renlei without standing is addressed by trade [C] | The seal, then the name: authority lives in the seal (Renlei, seal law); certification grade on every file (Economic Baseline, Zhenshui) [V] |
+| Unsaan | Personal name and house in Asran; personal name and garden-name in Kalani — Golnar *Sabz* (Unsaan, the Purge at home; Appendix A). An office-holder takes the place-name and surrenders their own: *al-Rimal* (Unsaan, name law) [V] | The house and its hospitality standing — whose roof, how many nights (Unsaan, sitting of accounts) [C] | Personal name and register; a guest's business is not asked until the third night (Unsaan, guest-right) [V] | The name as given; a garden-name is filed as a family name and is not asked about — Kalani has a particular way of not asking (Unsaan, the Purge at home) [V] |
 | Yamana | Personal names in the Tepemitla / Amilpan / Ometzin register: Ometzin, Citlali (Appendix A; Part VII, God Matrix note) [V] | By the oldest inherited duty, formally (Yamana, duty inheritance) [V] | Name and duty; a runner by lineage (Yamana, Daily life) [V] | Name and file; the Ledger closes the file at death and Yamana probate expects the duties to transfer — the grief-cases (Yamana, Frictions) [V] |
-| Umutu | Personal name and age-set cohort name, the cohort carried for life (Umutu, Ritual) [V]; the well or keeper lineage as the second name [N] | Cohort, then well: the age-set answers "how old," the well answers "whose" (Umutu, Ritual and water law; Part VII, Kihesa) [V/N] | Cohort name where the stranger knows the cohorts; otherwise the well [N] | Name and a number for the cohort — the one conversion the Ledger makes that no Umutu recognizes (Umutu, Ritual) [N] |
-| Tangata | Personal name and birth-moon, the moon as a named affiliation — a berth, not a destiny (Tangata, Ritual) [V]; house-lineage (Tangata, Governance) [V] | Name, birth-moon, house, and — for a navigator — the channels claimed, by telling their tales (Tangata, Governance; Folklore) [V] | Name and birth-moon [N] | Rarely: the Chimera registers no one (Part VI, Institution Summary). The Ledger files a Tangata captain who treats with it by ship and birth-moon, and files the Passage Agreements by the names of the navigators who signed them, which its own position holds cannot exist (Part IX, 1224) [V] |
+| Umutu | Personal name and age-set cohort name, the cohort carried for life (Umutu, Ritual) [V]; the well or keeper lineage as the second name [C] | Cohort, then well: the age-set answers "how old," the well answers "whose" (Umutu, Ritual and water law; Part VII, Kihesa) [C] | Cohort name where the stranger knows the cohorts; otherwise the well [C] | Name and a number for the cohort — the one conversion the Ledger makes that no Umutu recognizes (Umutu, Ritual) [C] |
+| Tangata | Personal name and birth-moon, the moon as a named affiliation — a berth, not a destiny (Tangata, Ritual) [V]; house-lineage (Tangata, Governance) [V] | Name, birth-moon, house, and — for a navigator — the channels claimed, by telling their tales (Tangata, Governance; Folklore) [V] | Name and birth-moon [C] | Rarely: the Chimera registers no one (Part VI, Institution Summary). The Ledger files a Tangata captain who treats with it by ship and birth-moon, and files the Passage Agreements by the names of the navigators who signed them, which its own position holds cannot exist (Part IX, 1224) [V] |
 
 Rule for episodes (extends Part VI, Terminology): a character's self-introduction takes the culture's form above, in their own words; the registry form appears only when a document or a clerk is speaking.
 
 ---
 
-# Part VI — Institutions, Ethos, Class, Governance, Factions [C/N]
+# Part VI — Institutions, Ethos, Class, Governance, Factions [C]
 
-*Register: world.* v1.1 additions: Ethos Statements [V] with the D3 scope note [N]; Force Types [V/N]; one sentence added to the Terminology rule for episodes [N].
+*Register: world.* v1.1 additions: Ethos Statements [V] with the D3 scope note [C]; Force Types [C]; one sentence added to the Terminology rule for episodes [C].
 
-Ratified lists and faction table from Canon.md. One [N] section at the end: a single cross-reference matrix joining ethos, class, school, moon, institution, and the heads-of-institution data from the Chronicle.
+Ratified lists and faction table from Canon.md. One section, ratified in Block 2, at the end: a single cross-reference matrix joining ethos, class, school, moon, institution, and the heads-of-institution data from the Chronicle.
 
 ## Institutions (Ethos/Moon)
 
@@ -728,9 +728,9 @@ Consequence the creed produces without intending it: the institution that determ
 
 Consequence the creed produces without intending it: the Circles keep no count, so they cannot show that the readings are rising, only that the ground has changed (Part I, Three Readings); and the Ledger's file heading for their peak technique is the name of a procedure (Part II, Nature).
 
-### Scope note on the whole-charter cultures [N — D3]
+### Scope note on the whole-charter cultures [C — D3]
 
-Decision D3 (Block 2), reading (A), applied in draft. Part VII covers the four split cultures' pantheons by culture and stops at the charter line. The Renlei and the Tangata — the two whole-charter cultures — have no gods anywhere in canon, and this note records that as a scope decision, not a gap: the Renlei have no household cult, because certification displaced it ("a village posts its certificate wall where another culture would post its shrine," Part V, Renlei); the Tangata have named ways, keepers, birth-moons, and a channel whose keeper has not been born yet, and no god list (Part V, Tangata; Appendix C, item 3). Any Baishui or Waimotu scene with a shrine, an oath, or a festival draws on those and on nothing invented for the purpose. Building pantheons for either would be invention against the asymmetry rule with no episode driving it (XI.6).
+Decision D3 (Block 2), reading (A), ratified 24 September 2026. Part VII covers the four split cultures' pantheons by culture and stops at the charter line. The Renlei and the Tangata — the two whole-charter cultures — have no gods anywhere in canon, and this note records that as a scope decision, not a gap: the Renlei have no household cult, because certification displaced it ("a village posts its certificate wall where another culture would post its shrine," Part V, Renlei); the Tangata have named ways, keepers, birth-moons, and a channel whose keeper has not been born yet, and no god list (Part V, Tangata; Appendix C, item 3). Any Baishui or Waimotu scene with a shrine, an oath, or a festival draws on those and on nothing invented for the purpose. Building pantheons for either would be invention against the asymmetry rule with no episode driving it (XI.6).
 
 ## Class (magic/martial school)
 
@@ -747,7 +747,7 @@ Decision D3 (Block 2), reading (A), applied in draft. Part VII covers the four s
 - Hexblade (Sword and Shield)
 - Warlock (Alchemy dark arts (poisons, potions and golems))
 
-## Terminology: Registry Terms and Working Terms [N]
+## Terminology: Registry Terms and Working Terms [C]
 
 The class, school, and rank names above are Common Tongue registry vocabulary — the words the Cobalt Ledger, the Indigo Assay, and contract law use. They are not what practitioners call themselves or their work. The working terms below already exist in the ratified school descriptions; this table only fixes which register each belongs to. No new words are coined.
 
@@ -767,7 +767,7 @@ The class, school, and rank names above are Common Tongue registry vocabulary �
 | Warlock / Dark Arts | Dosing; the pharmacopoeia | No institution uses the word officially, since none licenses the art |
 | Novice / Adept / Master / Guru | — | Rank names are Ledger examination grades adopted by all three institutions; the Chimera uses them only when dealing with registries |
 
-Rule for episodes: dialogue between practitioners uses working terms; documents, hearings, and outsiders use registry terms. The gap between the two is usable — a character who uses the registry word for their own school is telling the reader something. Non-practitioners have no registry word for what they are and use their culture's own forms — trade, duty, cohort, birth-moon, garden-name (Part V, Naming and Address) — for themselves, and the registry's words only for practitioners they have reason to fear or to bill [N, Block 3 row 3h].
+Rule for episodes: dialogue between practitioners uses working terms; documents, hearings, and outsiders use registry terms. The gap between the two is usable — a character who uses the registry word for their own school is telling the reader something. Non-practitioners have no registry word for what they are and use their culture's own forms — trade, duty, cohort, birth-moon, garden-name (Part V, Naming and Address) — for themselves, and the registry's words only for practitioners they have reason to fear or to bill [C; Block 3 row 3h].
 
 ## Governance
 
@@ -808,11 +808,11 @@ Five (ethos × institution) pairings are deliberately empty; each vacancy carrie
 | Ethosless × Blue | The registry makes ethoslessness legible and therefore prosecutable; the niche exists only as its inversion, the Off-Ledger |
 | Ethosless × Gold | Officially purged. The one cell whose emptiness is a claim rather than a fact — if a hidden faction ever exists, this is its slot |
 
-## Force Types [V/N]
+## Force Types [C]
 
 A view of every armed or strategic formation the canon names, with the scale word the text already uses and where it sits against the platoon standard of Part III. Counts of Masters and Gurus available to any party come from the Rank Distribution (Part II) and the Population Magnitudes (Part V). One row on naval capacity; fortress and naval doctrine beyond it are deferred (R.8).
 
-**The platoon standard [N].** Steel Quorum doctrine manuals define the platoon as forty foot under one officer, and rate every Guru of a martial school against it ("can fight platoons of foot soldiers at once," Part III). The figure is the Quorum's: it appears in every doctrine it sells and in no tribal muster, where a muster is whoever came. Numbers are records (Canon Discipline 5; Block 3, row 3j).
+**The platoon standard [C].** Steel Quorum doctrine manuals define the platoon as forty foot under one officer, and rate every Guru of a martial school against it ("can fight platoons of foot soldiers at once," Part III). The figure is the Quorum's: it appears in every doctrine it sells and in no tribal muster, where a muster is whoever came. Numbers are records (Canon Discipline 5; Block 3, row 3j).
 
 | Force type | Party | School(s) of record | Scale word in canon | Against the platoon standard | Source |
 |:--|:--|:--|:--|:--|:--|
@@ -821,13 +821,13 @@ A view of every armed or strategic formation the canon names, with the scale wor
 | Muster | Green Chimera (claimants) | Ax (the gate) and Longbow (overwatch) | "tribal muster"; "berserker bands" | Uncounted — whoever came. Made the Mwamba foothills impassable; could not take a walled town. A Guru berserker ends an engagement when nothing in reach stands | Part III, Ax and Longbow; Part IX, Antler War |
 | Company | The Unsworn | Sword/Shield (Hexblade) lines; escort of record | "two Unsworn companies"; "a single consolidated contract" | A contract unit; stands down against another company of the compact in view of both principals (Marendi, 1184). Frostvatn's consolidated contract is the compact's first and only | Part III, Sword/Shield; Part VI, Factions; Part IX, 1184 and 1230–32 |
 | Warding compact | Ash-and-Antler (Accord-licensed) | Longbow (warden); Tangata and Yamana lineages | "warding contracts"; "held the ground approaches" | Masters by the season on prepared ground; refused Crown contracts at triple rate; led the Mwamba cull across a full phase turn | Part III, Longbow; Part VI, Factions; Part IX, 1181–88; Anchor Prices, Part V |
-| Customs cutters | Blue Accord (harbor customs) | School not stated; armed harbor craft under Accord colors with Renlei officers [N] | "Accord customs cutters" | Enforcement, not war: fired on a guild freighter at Shakoui, nine dead; the guild remembers the officers' names | Part IX, 1204; Part V, Renlei |
-| Fleets (naval capacity) | Menneske, both shores | Sailing crews; no school of record [N] | "two fleet actions"; "blockade doctrine" | The only fleet actions in the record are Menneske firing on Menneske across Svarthavet: several dozen dead, nothing settled, and the Quorum sold identical blockade doctrine to both. No other party is recorded fielding a fleet | Part IX, 1172; Part V, Menneske |
+| Customs cutters | Blue Accord (harbor customs) | School not stated; armed harbor craft under Accord colors with Renlei officers [C] | "Accord customs cutters" | Enforcement, not war: fired on a guild freighter at Shakoui, nine dead; the guild remembers the officers' names | Part IX, 1204; Part V, Renlei |
+| Fleets (naval capacity) | Menneske, both shores | Sailing crews; no school of record [C] | "two fleet actions"; "blockade doctrine" | The only fleet actions in the record are Menneske firing on Menneske across Svarthavet: several dozen dead, nothing settled, and the Quorum sold identical blockade doctrine to both. No other party is recorded fielding a fleet | Part IX, 1172; Part V, Menneske |
 | Harbor Guru | Whoever holds the Escrow lease | Elemental (Guru, harbor grade) | "strategic infrastructure"; "load-bearing" | Not a force: a sustained work that consumes itself. Four at harbor grade alive in 1174; leased under terms all three institutions countersigned | Part II, Elemental Guru; Part I, Transport; Part IX, 1174 |
 | Doctrine | Steel Quorum | — | "command doctrine and asset allocation" | Fields no one; sells to any buyer, priced by result; sold both sides of every war in the record | Part VI, Factions; Part IX, 1172, 1184, 1230 |
 | Joint command | All three institutions, once | All of the above | "one command tent" | Frostvatn, 1230–32: the century's largest joint operation and the first since the Escrow Convention to seat all three; its cost ledger is three Gurus | Part IX, Node Decade |
 
-## Consolidated Class Matrix [N]
+## Consolidated Class Matrix [C]
 
 A join of the ratified lists; no new assignments.
 
@@ -953,11 +953,11 @@ Listed so episodes can draw on them; none is resolved here.
 
 ---
 
-# Part VIII — Ecological Engine [C/N]
+# Part VIII — Ecological Engine [C]
 
 *Register: world; the Emotional Payloads and Ambient Ecological Confirmation are craft.* v1.1 addition: Generation Procedure [V].
 
-Ratified text from Canon.md. One [N] insertion: the Biome × Moon grid extended from four terrain rows to cover the nine ratified biomes.
+Ratified text from Canon.md. One insertion, ratified in Block 2: the Biome × Moon grid extended from four terrain rows to cover the nine ratified biomes.
 
 ## Ecological Engine
 
@@ -997,7 +997,7 @@ Not metaphorical. Biome, lunar phase, and prevailing ethos literally shape what 
 
 This grid determines the ambient threat profile of any location at any point in the narrative. Cross-reference with node activity for crisis escalation.
 
-### Biome × Moon Interaction Grid — Extension to the Nine Ratified Biomes [N]
+### Biome × Moon Interaction Grid — Extension to the Nine Ratified Biomes [C]
 
 The ratified grid uses four terrain classes; the biome list has nine entries. Mapping: Deciduous Forest, Evergreen, and Taiga inherit the Forest row; Desert is the Desert row; Coastal and Mountain remain terrain overlays applied on top of any biome (Puketai is Coastal over Tropical Rainforest; Frostvatn is Mountain over Tundra). The rows below add the biomes with no ratified row. Cells marked † are already attested in the Chronicle.
 
@@ -1042,15 +1042,15 @@ A non-human environmental indicator tracks system status across any volume.
 
 ---
 
-# Part IX — Chronicle, 1145–1245 [C/N]
+# Part IX — Chronicle, 1145–1245 [C]
 
-*Register: in-world — the Chronicle and its appendices are written in the compiler's frame.* v1.1 additions: Before 1145 [N]; Appendix D [N]; two [N] rows in Appendix A.
+*Register: in-world — the Chronicle and its appendices are written in the compiler's frame.* v1.1 additions: Before 1145 [C]; Appendix D [C]; two [C] rows in Appendix A.
 
 From the Chronicle addendum; ratified 11 September 2026 (R.0 #3). Its original register is preserved in Appendix H (R.3) as history. In-world compiler frame preserved.
 
 > Compiled against the Firstday Watch calendar of record, cross-checked with Cobalt Ledger registries, Gilt Chancel accounts, and Steel Quorum after-action files. Period covered: 1 Velquor 1145 through the present year, 1245. Tribal-territory events rely on Bramble Concord minutes and Sedge Circle oral record, which the Ledger classifies as anecdotal. They are included anyway. A century of history written only from what the Ledger will certify would be half a century of history.
 
-## Before 1145 [N]
+## Before 1145 [C]
 
 What the ratified text asserts about the years before the calendar of record opens, gathered and given one paragraph of history in the compiler's register. No origin is supplied for nodes, schools, or moons, and the Chronicle's own reticence about the 1130s is kept: the wars are named by their fronts, not narrated.
 
@@ -1062,7 +1062,7 @@ What the ratified text asserts about the years before the calendar of record ope
 
 **Two institutions older than the century.** The Firstday Watch kept 1 Velquor and the phase ledgers before the Ledger existed; its Accord charter came with the Register years, for the reason the faction table gives — phase timing governs cost and license — and the Watch accepted it as the Assay later accepted the Crown's: the count wanted keeping (Part VI, Factions; Part IX, Node Decade). The consecration of Qasr-Al-Rimal is the second: doctrine dates the Lender's canonical status to it (Part VII, Doctrinal Status by Moon) and the al-Rimal convention with it (The World in 1145). Neither is dated in the record more precisely than "before."
 
-**Heads of institution before Appendix A's first rows [N].** The Sacrist-General who signed the Concordat for the Crown was Idris al-Rimal, Marj-Al-Sidr-born, seated before the calendar of record and dead in 1151; Harun al-Rimal succeeded him. The First Examiner who completed the General Register in 1149 was Qian Ruolan, seated 1141–1160; Luo Deshi succeeded her. Both names are coined in their cultures' registers and may be renamed without structural effect; Appendix A carries them as [N] rows (Block 3, row 3d-ii).
+**Heads of institution before Appendix A's first rows [C].** The Sacrist-General who signed the Concordat for the Crown was Idris al-Rimal, Marj-Al-Sidr-born, seated before the calendar of record and dead in 1151; Harun al-Rimal succeeded him. The First Examiner who completed the General Register in 1149 was Qian Ruolan, seated 1141–1160; Luo Deshi succeeded her. Both names are coined in their cultures' registers and may be renamed without structural effect; Appendix A carries them as [C] rows (Block 3, row 3d-ii).
 
 ---
 
@@ -1195,7 +1195,7 @@ As of 1 Velquor 1245, the three charters stand where the Concordat set them: non
 
 | Name | Seat | Notes |
 |:--|:-:|:--|
-| Idris al-Rimal [N] | before the record–1151 | Signed the Concordat of Pingyeh for the Crown (Before 1145) |
+| Idris al-Rimal | before the record–1151 | Signed the Concordat of Pingyeh for the Crown (Before 1145) |
 | Harun al-Rimal | 1151–1163 | Assassinated at Tepemitla, 41 Namaris 1163 |
 | Basira al-Rimal | 1163–1181 | Conducted the Purge; opened the shrine expansion |
 | Ometzin al-Rimal | 1181–1204 | Antler War; Treaty of Tinwara; Edict of Amilpan |
@@ -1206,7 +1206,7 @@ As of 1 Velquor 1245, the three charters stand where the Concordat set them: non
 
 | Name | Seat | Notes |
 |:--|:-:|:--|
-| Qian Ruolan [N] | 1141–1160 | Completed the General Register, 1149 (Before 1145) |
+| Qian Ruolan | 1141–1160 | Completed the General Register, 1149 (Before 1145) |
 | Luo Deshi | 1160–1186 | Guru Escrow Convention |
 | Feng Zhao | 1186–1198 | Resigned after the Yunmen Lag |
 | Wen Suyin | 1198–1211 | Interdiction; Ledger Accords; poisoned at Baishui |
@@ -1252,7 +1252,7 @@ As of 1 Velquor 1245, the three charters stand where the Concordat set them: non
 
 ---
 
-## Appendix C: Residue [N]
+## Appendix C: Residue [C]
 
 Things in the record with no structural cause. Under the residue rule (Canon Discipline 2) these are never explained. Five to begin with; more may be added, none removed by explanation.
 
@@ -1262,7 +1262,7 @@ Things in the record with no structural cause. Under the residue rule (Canon Dis
 4. **The red strike.** When a Sacrist-General is elevated, the Chancel strikes their birth name from the register in red ink. Doctrine explains this by name law. The practice is older than the citadel's consecration and older than name law, and the ink is a specific red that the Chancel imports at cost from Zand-Kala, which is Accord territory.
 5. **The Sufra skirmishes of 1152–1153.** Two Bahr Sufra caravan houses fought for a season; eleven dead; no recorded cause, no treaty, no resumption. Both chanceries filed it as settled. The houses still trade with each other and neither will say what it was about, which the Chronicle's compiler notes is the only fact in the file that everyone agrees on.
 
-## Appendix D: Prior Guru-tier Events, as Recorded [N]
+## Appendix D: Prior Guru-tier Events, as Recorded [C]
 
 > *Extracted from the Firstday Watch's phase ledgers at the compiler's request; the Watch supplied entries, not accounts. Where the Sedge oral record, a parish, a moot, or a caravan house speaks of the same event, its word is given in the last column and not reconciled. These are the "old records that did" match Frostvatn (Part IX, 1230). Entries before the Concordat carry the Watch's own year-count, which the Ledger has adopted without checking.*
 
@@ -1356,7 +1356,7 @@ Each POV carries a distinct visual signature beyond character design:
 
 # Part XI — Working Reference
 
-*Register: mixed — XI.2 is in-world; XI.5 is craft; the rest is world.* Built to be copied out on its own: Part XI plus the cost sections of Parts II–IV is the routine episode load (front matter, "Routine episode load"). Every table here either cites the Part it is gathered from [V] or is listed in R.1 for Block 3 [N]. Nothing in Part XI is canon that is not also canon elsewhere, except XI.2 and XI.3, which are the registers of record for documents and beasts.
+*Register: mixed — XI.2 is in-world; XI.5 is craft; the rest is world.* Built to be copied out on its own: Part XI plus the cost sections of Parts II–IV is the routine episode load (front matter, "Routine episode load"). Every table here either cites the Part it is gathered from [V] or is listed in R.1 for Block 3 [C]. Nothing in Part XI is canon that is not also canon elsewhere, except XI.2 and XI.3, which are the registers of record for documents and beasts.
 
 ## XI.1 Quick-reference Index [V]
 
@@ -1384,7 +1384,7 @@ Each POV carries a distinct visual signature beyond character design:
 | Has this been decided, and where? | Appendix R.0 (blocks); R.1 (register); XI.6 |
 | What do I check before the draft goes out? | XI.5 |
 
-## XI.2 Document Exemplars [N]
+## XI.2 Document Exemplars [C]
 
 In-world register. Five documents in registry vocabulary, at most eight lines each, for Part X rule 4 (institutional documents are typeset, not hand-lettered). Fields are those the canon attests; bracketed values are filled per episode. Each exemplar is ratified as a form, not as a specific document (Block 3, row 3e).
 
@@ -1431,7 +1431,7 @@ In-world register. Five documents in registry vocabulary, at most eight lines ea
 > [Name] of [settlement], hearing. [Name] of [settlement], hearing. [Name] of [settlement], hearing.
 > *(In Isavík the third witness touches the notched post. In Grimskov the examiner's clerk writes it down and is not counted.)*
 
-## XI.3 Beast Register [N]
+## XI.3 Beast Register [C]
 
 The register of record for every named emergence. Fields follow the Generation Procedure (Part VIII). Seeded with the four canon events and the Deep Watcher; episode beasts are entered from the episode files as the next action (note below the table). A beast is not canon until it has a row; a row with a name that already exists is refused (Block 3, row 3f).
 
@@ -1451,13 +1451,13 @@ Every named individual in canon, with dates and culture, gathered from Appendix 
 
 | Name | Culture | Role | Dates | Where |
 |:--|:--|:--|:--|:--|
-| Idris al-Rimal [N] | Unsaan (Marj-Al-Sidr-born) | Sacrist-General; signed the Concordat of Pingyeh | seated before the record; d. 1151 | Part IX, Before 1145; Appendix A |
+| Idris al-Rimal | Unsaan (Marj-Al-Sidr-born) | Sacrist-General; signed the Concordat of Pingyeh | seated before the record; d. 1151 | Part IX, Before 1145; Appendix A |
 | Harun al-Rimal | Unsaan | Sacrist-General | 1151–1163; killed 41 Namaris 1163 | Part IX, Purge Years; Appendix A |
 | Basira al-Rimal | Unsaan | Sacrist-General; conducted the Purge; present at the Tepemitla naming | 1163–1181 | Part IX, Purge Years; Appendix A; H, R.3 item 28 |
 | Ometzin al-Rimal | Yamana | Sacrist-General; Antler War, Treaty of Tinwara, Edict of Amilpan | 1181–1204 | Appendix A |
 | Sunniva al-Rimal | Menneske | Sacrist-General; Benefice Crisis, Frostvatn | 1204–1236; d. 1236 | Part IX, Disputed Seat; Appendix A |
 | Citlali al-Rimal | Yamana (Teocalli-born) | Sacrist-General, present | 1239– | Part IX, Disputed Seat; Appendix A |
-| Qian Ruolan [N] | Renlei | First Examiner; completed the General Register | 1141–1160 | Part IX, Before 1145; Appendix A |
+| Qian Ruolan | Renlei | First Examiner; completed the General Register | 1141–1160 | Part IX, Before 1145; Appendix A |
 | Luo Deshi | Renlei | First Examiner; Guru Escrow Convention | 1160–1186 | Appendix A |
 | Feng Zhao | Renlei | First Examiner; certified the Yunmen station; resigned | 1186–1198 | Part IX, Yunmen Lag; Appendix A |
 | Wen Suyin | Renlei | First Examiner; Interdiction, Ledger Accords; poisoned at Baishui | 1198–1211; d. 12 Orrivane 1211 | Part IX, Baishui Poisoning; Appendix A |
@@ -1506,6 +1506,7 @@ Decisions taken against a foreseeable objection, one line each: the item, the de
 | Lunar embodiments vs gods | Deliberately undecided; three accounts of one event is the pattern; an episode that settles it is in breach | R.5 #6 (Appendix H); Part VII, Vatnmor |
 | The dagger as a martial school | Not a ranked school; the Longbow Novice entry covers it; no separate progression | Part III preamble |
 | Tienling's fourth settlement | Shakoui ratified; Tienling alone holds four; not to be balanced | R.5 #2 (Appendix H); Part V |
+| Arcane (registry class Sorcerer) rulings | Where a ruling on the Arcane school could go either way, the stronger reading is taken; portal stations are Guru-presided | R.0, Block 2 closing note (24 Sep 2026); Part I, Transport |
 | Biome × Moon grid column order | Left as is; ratified table; no content effect | R.2 #11 (Appendix H) |
 | Character–culture assignment | No culture assigned to Tal, Shulie, or Daymeen; no school assigned to any culture as an essence | R.4 items 16–17 (Appendix H); Part V, Culture Profiles |
 | Conlang coinage | No words coined; the lexical-gap table names concepts, not words; episodes may coin later if wanted | R.4 item 15 (Appendix H); Part V, The Common Tongue |
@@ -1520,7 +1521,7 @@ Decisions taken against a foreseeable objection, one line each: the item, the de
 
 # Appendix R — Ratification (live)
 
-Meta section — not in-world text. Live items only: the blocks (R.0), the consolidation register with a status column (R.1), open discrepancies (R.5), and deferred workstreams (R.8). Everything closed is in Appendix H, with its original section numbers, so that citations of the form "R.3 item 23" or "Culture item 3" still resolve.
+Meta section — not in-world text. Live items only: the blocks (R.0), the consolidation register with a status column (R.1), open discrepancies (R.5), and deferred workstreams (R.8). As of v1.2 (24 September 2026) all three blocks are closed and R.5 is empty; R.1 stays here as the register of record; R.8 is the only open list. Everything closed is in Appendix H, with its original section numbers, so that citations of the form "R.3 item 23" or "Culture item 3" still resolve.
 
 ## R.0 Ratification Blocks
 
@@ -1538,11 +1539,11 @@ Five decisions, each yes/no. Per Canon Discipline 1 they were taken together. De
 
 All five decisions taken 11 September 2026. Block closed. The v1.0 closing line — "Remaining open items are in R.5 and R.8 only" — was wrong: twelve [N] items sat outside the block and still pending; they are the first twelve rows of Block 2.
 
-### Block 2 — v1.0 [N] items and the six v1.1 decisions (open)
+### Block 2 — v1.0 [N] items and the six v1.1 decisions (closed 24 September 2026)
 
 Per Canon Discipline 1, taken together. Rows 12–26 are v1.0 sections still tagged [N], cited by their renumbered R.1 item; rows D1–D6 are the decisions on which Block 3 depends. Each is yes/no or A/B. The draft applies the recommended reading of each decision so that Block 3 could be written; a different reading means rewriting the dependents listed.
 
-| # | Decision | Recommended, and applied in draft | Dependents | If no, or the other reading |
+| # | Decision | Recommended; applied in draft; ratified 24 Sep 2026 | Dependents | If no, or the other reading |
 |:-:|:--|:--|:--|:--|
 | 12 | Transport and Infrastructure table (Part I) | Yes | XI.1; Material Signatures, mount column; R.5 #7 | Delete the table; the Chronicle still holds every fact in it |
 | 13 | Substrate and Nodes glossary (Part I) | Yes | Three Readings; Generation Procedure; XI.3 | Delete; "node" reverts to undefined usage |
@@ -1565,7 +1566,9 @@ Per Canon Discipline 1, taken together. Rows 12–26 are v1.0 sections still tag
 
 Item 25 (node activity and casting) was a design decision taken 11 September 2026, not a ratification item. Items 18 and 22 are editorial and need none.
 
-### Block 3 — v1.1 inventions (open; gated on Block 2)
+**Closed 24 September 2026.** All eighteen rows ratified as recommended, with one amendment: row 12's Transport table is ratified with two cells reduced to their ratified sources — the portal pricing cell (the superlative "dearest in Velquor" removed; the ratified rule is lowest-in-own-phase, Part I calendar consequences and Part IX 1198) and the portal staffing cell (station standing sourced to Yunmen 1198 and the Guru roll, Part II). Station operation at Guru rank, with Masters attending, is thereby [C]; Block 3 row 3a's nine Arcane Gurus on portal-station standing rest on it. R.1 item 12's frozen text still mentions a propulsion-undefined note that item 24 superseded; its status cell records this. Standing author's rule, recorded here and in XI.6: where a ruling on the Arcane school (registry class Sorcerer) could go either way, the stronger reading is taken.
+
+### Block 3 — v1.1 inventions (closed 24 September 2026)
 
 Every entry states the party whose partial view it gives and the record it is sourced to (D6). Yes/no per row. A "no" deletes the row's section and nothing else unless stated.
 
@@ -1591,6 +1594,8 @@ Every entry states the party whose partial view it gives and the record it is so
 | 3k | Force Types [N] cells: the customs cutters' composition; the fleets' crews | Part VI | — | Chronicle 1172, 1204 | Naval row |
 | 3l | Gate stations as well as seats — the R.5 #7 resolution, one clause in the Transport table | Part I | — | Transport table; Chronicle 1198 | XI.1; R.5 #7 closes |
 
+**Closed 24 September 2026.** All nineteen rows ratified as written. R.5 #7 closed with 3l and moved to Appendix H.
+
 ## R.1 Consolidation Register [N]
 
 Nothing here is canon until ratified. Reject any item and delete the matching section; the rest of the file does not depend on it unless stated. Renumbered in sequence in v1.1 (v1.0 ran 1–18, 21–24, 25, 27, 28, 26, 19, 20): items 1–18 keep their numbers; old 21–28 are 19–26; old 19–20 were resolved by Block 1 and are in Appendix H under R.2. Item text is unchanged. Items added in v1.1 follow as 27 onward.
@@ -1608,51 +1613,47 @@ Nothing here is canon until ratified. Reject any item and delete the matching se
 | 9 | Theology | **[retro]** Nari: Ziwa Nari's absent keeper as Oasira's Velquor-face. Extends Culture item 13. | Ratified — Block 1 (R.0 #5) |
 | 10 | Theology | The sacramental apparatus table — no new bodies; assigns doctrinal functions to existing factions and classes. The Firstday Watch reading (a Devout, Accord-chartered faction keeps the anathema's night) is new interpretation of a ratified fact. | Ratified — Block 1 (R.0 #5) |
 | 11 | Theology | Five listed frictions, kept as unresolved hooks. | Ratified — Block 1 (R.0 #5) |
-| 12 | Fills | Transport and Infrastructure table (Part I) — consolidation only, except the note that airship propulsion is undefined. | Pending — Block 2 |
-| 13 | Fills | Substrate and Nodes glossary (Part I) — definitions from usage; the "node activity and casting" line is explicitly left open. | Pending — Block 2 |
-| 14 | Fills | Necrotic institutional role (Part II). | Pending — Block 2 |
-| 15 | Fills | Divine institutional role (Part II). | Pending — Block 2 |
-| 16 | Fills | Consolidated Class Matrix and Institution Summary (Part VI) — views over ratified data; the "third slot" structural observation is analysis, not canon. | Pending — Block 2 |
-| 17 | Fills | Biome × Moon grid extension, six rows (Part VIII). The two † cells are Chronicle-attested; the other twenty-eight are new. | Pending — Block 2 |
+| 12 | Fills | Transport and Infrastructure table (Part I) — consolidation only, except the note that airship propulsion is undefined. | Ratified — Block 2 (24 Sep 2026); the propulsion note in the item text was superseded by item 24 (v1.0, review 2) |
+| 13 | Fills | Substrate and Nodes glossary (Part I) — definitions from usage; the "node activity and casting" line is explicitly left open. | Ratified — Block 2 (24 Sep 2026) |
+| 14 | Fills | Necrotic institutional role (Part II). | Ratified — Block 2 (24 Sep 2026) |
+| 15 | Fills | Divine institutional role (Part II). | Ratified — Block 2 (24 Sep 2026) |
+| 16 | Fills | Consolidated Class Matrix and Institution Summary (Part VI) — views over ratified data; the "third slot" structural observation is analysis, not canon. | Ratified — Block 2 (24 Sep 2026) |
+| 17 | Fills | Biome × Moon grid extension, six rows (Part VIII). The two † cells are Chronicle-attested; the other twenty-eight are new. | Ratified — Block 2 (24 Sep 2026) |
 | 18 | Fills | "Apothocarist" → "Apothecarist" spelling normalization throughout. | Editorial — no ratification |
-| 19 (was 21) | Review 1 | Design Thesis and Canon Discipline rules 1–4 (header). | Pending — Block 2 |
-| 20 (was 22) | Review 1 | Terminology table: registry terms vs working terms (Part VI). No coined words; assigns existing canon phrases to a register. | Pending — Block 2 |
-| 21 (was 23) | Review 1 | Residue appendix, five items (Part IX, Appendix C). Under the residue rule these are ratified as unexplained or rejected outright; a third option — ratify with a cause — does not exist. | Pending — Block 2 |
+| 19 (was 21) | Review 1 | Design Thesis and Canon Discipline rules 1–4 (header). | Ratified — Block 2 (24 Sep 2026) |
+| 20 (was 22) | Review 1 | Terminology table: registry terms vs working terms (Part VI). No coined words; assigns existing canon phrases to a register. | Ratified — Block 2 (24 Sep 2026) |
+| 21 (was 23) | Review 1 | Residue appendix, five items (Part IX, Appendix C). Under the residue rule these are ratified as unexplained or rejected outright; a third option — ratify with a cause — does not exist. | Ratified — Block 2 (24 Sep 2026) |
 | 22 (was 24) | Review 1 | R.0 ratification block and R.8 deferred workstreams (this appendix). | Editorial/meta — no ratification |
-| 23 (was 25) | Review 2 | Ledger hours: twenty-four-hour day as Accord measurement convention; cultural working divisions unranked; the Necrotic payload's "3:47" retained as a published registry statistic (Part I). | Pending — Block 2 |
-| 24 (was 26) | Review 2 | Airship propulsion: Light Arts lift and engines primary; Elemental wind-crew supplement, phase-priced, often unregistered; consequence for the charter petition stated (Part I). Reversible: if rejected in favor of Elemental-primary, the charter-petition paragraph inverts and should be rewritten, nothing else changes. | Pending — Block 2 |
+| 23 (was 25) | Review 2 | Ledger hours: twenty-four-hour day as Accord measurement convention; cultural working divisions unranked; the Necrotic payload's "3:47" retained as a published registry statistic (Part I). | Ratified — Block 2 (24 Sep 2026) |
+| 24 (was 26) | Review 2 | Airship propulsion: Light Arts lift and engines primary; Elemental wind-crew supplement, phase-priced, often unregistered; consequence for the charter petition stated (Part I). Reversible: if rejected in favor of Elemental-primary, the charter-petition paragraph inverts and should be rewritten, nothing else changes. | Ratified — Block 2 (24 Sep 2026) |
 | 25 (was 27) | Review 2 | Node activity and casting: decided, phase only (Part I). Not a ratification item — a design decision taken directly. | Decided 11 Sep 2026 — design decision, not a ratification item |
-| 26 (was 28) | Review 2 | Economic Baseline table and the three answers under it (Part V). Pending ratification; every line derives from goods and institutions already in canon. | Pending — Block 2 |
-| 27 | v1.1 | Substrate: the Three Readings (Part I). | Pending — Block 3, row 3c |
-| 28 | v1.1 | Practitioner, Latent and Trained (Part II) — the D1 reading written out. | Pending — Block 2 D1; Block 3, row 3a′ |
-| 29 | v1.1 | Rank Distribution, Ledger statistic, with the Assay and Sedge counts (Part II). | Pending — Block 3, row 3a |
-| 30 | v1.1 | Money; Kind and Labor (Part V, Economic Baseline). | Pending — Block 3, rows 3b-i, 3b-ii |
-| 31 | v1.1 | Population Magnitudes, twelve figures (Part V). | Pending — Block 3, row 3b-iii |
-| 32 | v1.1 | Anchor Prices, two figures (Part V). | Pending — Block 3, row 3b-iv |
-| 33 | v1.1 | Phase Cascade rule (Part V) — the D2 reading written out. | Pending — Block 2 D2; Block 3, row 3b-v |
-| 34 | v1.1 | Material Signatures [N] cells: fiber and cloth, one craft, palette (Part V). | Pending — Block 3, row 3g |
-| 35 | v1.1 | Common Tongue Distribution (Part V); the sentence extending the Terminology rule for episodes to non-practitioners (Part VI). | Pending — Block 3, row 3h |
-| 36 | v1.1 | Naming and Address [N] cells (Part V); the two D4 given-name rules. | Pending — Block 2 D4; Block 3, row 3i |
+| 26 (was 28) | Review 2 | Economic Baseline table and the three answers under it (Part V). Pending ratification; every line derives from goods and institutions already in canon. | Ratified — Block 2 (24 Sep 2026) |
+| 27 | v1.1 | Substrate: the Three Readings (Part I). | Ratified — Block 3, row 3c (24 Sep 2026) |
+| 28 | v1.1 | Practitioner, Latent and Trained (Part II) — the D1 reading written out. | Ratified — Block 2 D1; Block 3, row 3a′ (24 Sep 2026) |
+| 29 | v1.1 | Rank Distribution, Ledger statistic, with the Assay and Sedge counts (Part II). | Ratified — Block 3, row 3a (24 Sep 2026) |
+| 30 | v1.1 | Money; Kind and Labor (Part V, Economic Baseline). | Ratified — Block 3, rows 3b-i, 3b-ii (24 Sep 2026) |
+| 31 | v1.1 | Population Magnitudes, twelve figures (Part V). | Ratified — Block 3, row 3b-iii (24 Sep 2026) |
+| 32 | v1.1 | Anchor Prices, two figures (Part V). | Ratified — Block 3, row 3b-iv (24 Sep 2026) |
+| 33 | v1.1 | Phase Cascade rule (Part V) — the D2 reading written out. | Ratified — Block 2 D2; Block 3, row 3b-v (24 Sep 2026) |
+| 34 | v1.1 | Material Signatures [N] cells: fiber and cloth, one craft, palette (Part V). | Ratified — Block 3, row 3g (24 Sep 2026) |
+| 35 | v1.1 | Common Tongue Distribution (Part V); the sentence extending the Terminology rule for episodes to non-practitioners (Part VI). | Ratified — Block 3, row 3h (24 Sep 2026) |
+| 36 | v1.1 | Naming and Address [N] cells (Part V); the two D4 given-name rules. | Ratified — Block 2 D4; Block 3, row 3i (24 Sep 2026) |
 | 37 | v1.1 | Ethos Statements: What the Ledger holds; What the Circles hold (Part VI). | View — no ratification |
-| 38 | v1.1 | Scope note on the whole-charter cultures (Part VI) — the D3 reading written out. | Pending — Block 2 D3 |
-| 39 | v1.1 | Force Types (Part VI), with the platoon-standard figure and two [N] cells. | View; [N] cells pending — Block 3, rows 3j, 3k |
+| 38 | v1.1 | Scope note on the whole-charter cultures (Part VI) — the D3 reading written out. | Ratified — Block 2 D3 (24 Sep 2026) |
+| 39 | v1.1 | Force Types (Part VI), with the platoon-standard figure and two [N] cells. | View; [N] cells ratified — Block 3, rows 3j, 3k (24 Sep 2026) |
 | 40 | v1.1 | Generation Procedure with worked example (Part VIII). | View — no ratification |
-| 41 | v1.1 | Before 1145 (Part IX), including Idris al-Rimal and Qian Ruolan and their Appendix A rows. | Pending — Block 3, rows 3d-i, 3d-ii |
-| 42 | v1.1 | Appendix D: Prior Guru-tier Events, as Recorded (Part IX). | Pending — Block 3, row 3d-iii |
+| 41 | v1.1 | Before 1145 (Part IX), including Idris al-Rimal and Qian Ruolan and their Appendix A rows. | Ratified — Block 3, rows 3d-i, 3d-ii (24 Sep 2026) |
+| 42 | v1.1 | Appendix D: Prior Guru-tier Events, as Recorded (Part IX). | Ratified — Block 3, row 3d-iii (24 Sep 2026) |
 | 43 | v1.1 | Culture palette cross-reference (Part X). | View — no ratification |
 | 44 | v1.1 | XI.1 Quick-reference Index; XI.4 Named-persons Index; XI.5 Episode Compliance Checklist (absorbing R.6); XI.6 Do-not-re-raise List. | Views — no ratification |
-| 45 | v1.1 | XI.2 Document Exemplars, five, as forms. | Pending — Block 3, row 3e |
-| 46 | v1.1 | XI.3 Beast Register seed and the episode-entry rule. | Pending — Block 3, row 3f |
-| 47 | v1.1 | Canon Discipline rules 5 (numbers are records) and 6 (the do-not-re-raise list); Part register lines (D5). | Pending — Block 2 D5, D6 |
-| 48 | v1.1 | Gate-stations clause in the Transport table (Part I), resolving R.5 #7. | Pending — Block 3, row 3l |
+| 45 | v1.1 | XI.2 Document Exemplars, five, as forms. | Ratified — Block 3, row 3e (24 Sep 2026) |
+| 46 | v1.1 | XI.3 Beast Register seed and the episode-entry rule. | Ratified — Block 3, row 3f (24 Sep 2026) |
+| 47 | v1.1 | Canon Discipline rules 5 (numbers are records) and 6 (the do-not-re-raise list); Part register lines (D5). | Ratified — Block 2 D5, D6 (24 Sep 2026) |
+| 48 | v1.1 | Gate-stations clause in the Transport table (Part I), resolving R.5 #7. | Ratified — Block 3, row 3l (24 Sep 2026) |
 
 ## R.5 Open Discrepancies
 
-One state per row. Resolved rows 1–6 are in Appendix H.
-
-| # | Discrepancy | Where | Proposed resolution | Status |
-|:-:|:--|:--|:--|:--|
-| 7 | Portal stations: the Transport table and the Ledger Peace say the network moves traffic "between homeland seats"; the Yunmen station of 1198, presided over by an Arcane Guru, sits at a highland gate, not a seat | Part I, Transport; Part IX, 1145–63 and 1198 | Read as usage: the trunk network links seats, and gate stations exist where the Accord chartered them (Yunmen). One [N] clause added to the Transport table; Block 3, row 3l | Open |
+None open as of v1.2 (24 September 2026). Resolved rows 1–7 are in Appendix H.
 
 ## R.8 Deferred Workstreams
 
@@ -1670,7 +1671,7 @@ Gaps acknowledged and deliberately not filled, each with the test it must pass b
 | Episode beasts into XI.3 | Before Season 2 drafting | Entered from the episode files; the "Kilnback" duplicate resolved at entry (XI.3 note) |
 | Map corrections (external action, two items) | The map is redrawn | (1) "Ulvskor" → Ulvskov (R.5 #1); (2) Shakoui added as Tienling's fourth settlement, a harbor on the evergreen coast, and Shihmen shown (R.5 #2) |
 
-**Context-size note.** v1.0 was about 40k tokens; v1.1 is about 60k (the plan projected 50–55k; the working reference and the two ratification blocks account for the difference). A session that opens by loading the full file spends roughly a quarter of a 200k-class context before reading a draft, and the full file plus several episodes at once — the August ten-episode audit pattern — will not fit in one session. The routine episode load is Part XI plus the cost sections of Parts II–IV (about 8–9k tokens); the full file is for canon-touching sessions only. Take Blocks 2 and 3 in fresh sessions, loading only this file.
+**Context-size note.** v1.0 was about 40k tokens; v1.1 and v1.2 are about 60k (the plan projected 50–55k; the working reference and the two ratification blocks account for the difference). A session that opens by loading the full file spends roughly a quarter of a 200k-class context before reading a draft, and the full file plus several episodes at once — the August ten-episode audit pattern — will not fit in one session. The routine episode load is Part XI plus the cost sections of Parts II–IV (about 8–9k tokens); the full file is for canon-touching sessions only. Blocks 2 and 3 were closed on 24 September 2026 in one session by loading Appendix R and then only the sections each row touched, never the whole file; that is the recommended method for any future block.
 
 ---
 
@@ -1802,9 +1803,9 @@ Feedback disposition: Priorities 1–3 accepted (P3 reframed — witnessed fact 
 - Sedge Circles initiation customs are canon-level (faction table); this document adds no Sedge material — Shulie's practice remains unconstrained.
 - Black Meridian route legality (item 5) touches Daymeen's world: unlicensed movement through Chimera territory now has a stated legal texture — verify against any episode describing those routes.
 
-## R.5 Resolved Discrepancies (rows 1–6)
+## R.5 Resolved Discrepancies (rows 1–7)
 
-One state per row. Row 7 is live in Appendix R.
+One state per row.
 
 | # | Discrepancy | Where | Resolution | Status |
 |:-:|:--|:--|:--|:--|
@@ -1814,6 +1815,7 @@ One state per row. Row 7 is live in Appendix R.
 | 4 | Clock time: "3:47" in the Necrotic payload | Part II | Ledger hours, Part I. The text of that section is R.1 item 23 (Block 2) | Resolved, second review pass |
 | 5 | Airship propulsion undefined | Part I | Light Arts primary, Elemental supplement, Part I. The text of that section is R.1 item 24 (Block 2) | Resolved, second review pass |
 | 6 | Lunar embodiments vs gods: Frostvatn is a Velquor lunar embodiment (Part VIII), Vatnmor (Isavík telling), and a Guru-tier manifestation (Ledger) | Part VII, Part VIII | Deliberately undecided. Canon states no relation between lunar embodiments and gods. Three accounts of one event is the established pattern, and this one stays that way; any episode that settles it is in breach (XI.6) | Resolved 11 Sep 2026 — undecided by decision |
+| 7 | Portal stations: the Transport table and the Ledger Peace say the network moves traffic "between homeland seats"; the Yunmen station of 1198, presided over by an Arcane Guru, sits at a highland gate, not a seat | Part I, Transport; Part IX, 1145–63 and 1198 | Read as usage: the trunk network links seats, and gate stations exist where the Accord chartered them (Yunmen). One clause in the Transport table (Block 3, row 3l) | Resolved 24 Sep 2026 |
 
 ## Editorial log, v1.1
 
@@ -1834,6 +1836,19 @@ Editorial changes only; no sentence of ratified prose reworded. Content addition
 13. Part VII: one pointer line to Part VI added under the preamble.
 14. Part VIII: the Ambient Ecological Confirmation section carries a register line (D5); the section itself is unmoved.
 15. Part X: a palette cross-reference line [V] added under the School-Specific Visual Language table.
+
+## Editorial log, v1.2
+
+Ratification pass, 24 September 2026: Blocks 2 and 3 closed. No ratified sentence reworded except as item 3 states.
+
+1. Version line and ratification state revised; legend note on retired instances added; Contents updated.
+2. Every [N], [N — Dn], [C/N] and [V/N] tag in Parts I–XI flipped to [C]; the [N] row markers on Idris al-Rimal and Qian Ruolan removed; "applied in draft" and "pending ratification" phrasing replaced by the ratification date.
+3. Transport table (Part I): two cells amended per the Block 2 closing note — the only change to the content of a draft sentence.
+4. R.0: Block 2 and Block 3 headings closed; closing notes added; Block 2 column header updated.
+5. R.1: every Pending status set to Ratified with date; item 12's status annotated.
+6. R.5 #7 moved to Appendix H as resolved row 7; live R.5 emptied.
+7. XI.6: one row added (Arcane/Sorcerer stronger-reading rule).
+8. R.8 context-size note updated for v1.2 and the per-row loading method.
 
 ## R.7 Source Revision Note (Canon.md trailing comment, preserved)
 
