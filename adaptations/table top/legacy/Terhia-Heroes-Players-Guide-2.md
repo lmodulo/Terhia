@@ -1,8 +1,8 @@
 # Terhia: Heroes — Player's Guide
 
-Draft v0.4 (25 September 2026; v0.1–v0.3 the same day). Built against Terhia-Canon v1.2. **v0.4 adds §1.4 (who the character is in the world), replaces the character sheet (§16), and adds register rows H51–H59;** the source is the Cultures-and-Factions module (Terhia-Heroes-Cultures-and-Factions.md v0.1), which holds the full entries and its own register (CF-rows). No rule in §2–§15 changes in v0.4. v0.2 was the reconciliation pass with the Game Master's Guide v0.2 (its ten PG revisions applied here; H34–H41). **v0.3 applies rulings R1–R8 of the issue-by-issue ratification pass** (Terhia-Heroes-Rulings.md): the Guru Strike's second Rank Die against Cohesion only; Tempo at the rank boundaries (2 at level 9, 3 at level 13); Guru relic alterations of another school usable only as a Push; *Harbor Kept* on the harbor economy's schedule; Readings free with the exploit costing the Quick; a Mob's squares as enemies' squares; *Time Debt*, the Boss Stun, and *Threshold* settled; the moon rule ratified. New register rows H42–H50; Issues 9–15 of the ledger remain open. Sister ruleset to *Terhia: Chronicle* (Player's Manual v0.3): same world, same twelve schools, same four ranks, same six attributes; a different player promise. Where a rule below reuses a Chronicle rule it says so; where it departs, it departs on purpose and the departure is listed in §17 for ratification.
+Draft v0.2 (25 September 2026; v0.1 the same day). Built against Terhia-Canon v1.2. v0.2 is the reconciliation pass with the Game Master's Guide v0.2: the GMG's ten PG revisions (its §13.2) are applied here, and the further changes the pass found are H34–H41 in §17. Sister ruleset to *Terhia: Chronicle* (Player's Manual v0.3): same world, same twelve schools, same four ranks, same six attributes; a different player promise. Where a rule below reuses a Chronicle rule it says so; where it departs, it departs on purpose and the departure is listed in §17 for ratification.
 
-**Scope.** Player-facing rules only: what a player character is, who the character is in the world (culture, homeland, household, name, tongues, charter, faction, coin — §1.4), resolution, attributes and their limits, the turn, movement on a gridded table, damage and criticals, boons and hexes, Strain / Overdraw / Marks, readings, joins, advancement, the twelve classes with their spells and skills, gear and relics (the player's side), and the character sheet. Not here: opposition and Grand Beast stat blocks, Mob rules, relic generation, contracts, encounter budgets, calibration (Game Master's Guide).
+**Scope.** Player-facing rules only: what a player character is, resolution, attributes and their limits, the turn, movement on a gridded table, damage and criticals, boons and hexes, Strain / Overdraw / Marks, readings, joins, advancement, the twelve classes with their spells and skills, gear and relics (the player's side), and the character sheet. Not here: opposition and Grand Beast stat blocks, Mob rules, relic generation, contracts, encounter budgets, calibration (Game Master's Guide).
 
 **Status.** Nothing in this file is canon. Every rule that touches a canon sentence is listed in §17 with the reading taken.
 
@@ -65,56 +65,6 @@ Strain Capacity adds the Reserve modifier. Marks floor: reaching a rank raises y
 ### 1.3 The design test
 
 Every ability in §14 is written to one rule: **each rank changes what the ability is for, not how large its number is.** Novice targets a creature. Adept controls the creature. Master changes the battlefield. Guru changes the scenario. The canon's scale ladder — Personal → Circle → Line → Ground — is the same ladder, and on the table it reads: one square → Burst 2–3 → a Line or Wall → the whole map.
-
-### 1.4 Who you are in the world
-
-Class answers what you can do. This section answers who you are: the fields on the sheet (§16) above the attribute line. The full entries — six cultures, twelve homelands, three institutions, twelve factions, coin, tongues — are in the Cultures-and-Factions module (Terhia-Heroes-Cultures-and-Factions.md, v0.1); this section is the player's summary, and the module's section numbers are given in brackets.
-
-**Thirteen steps, after the class.** (1) **Culture**, one of six. (2) **Homeland**, one of the culture's two by default — a minority birth is allowed and is a character in itself [3.0]. (3) **Born at**: the seat, a town, or none — the road, the drove-lines, the fire country, a boat. (4) **Household**, from the culture's list [2] or your own inside its profile; it sets your coin, your tongues, and what you owe. (5) **Born**: day, phase, year — `48 Velquor 1222`; the present year is 1245; the phase gives your culture's age marker. (6) **Name**, four fields: full name in the culture's form; what you are called; what a registry files; your formal introduction [7.5]. (7) **Tongues** [7.1]. (8) **Ethos and moon** — set by the class (§1.1), not chosen. (9) **Charter of record** — the homeland's institution unless you were trained, registered, or recognized elsewhere; read the standing table below. (10) **Faction** — none, or one Member affiliation [5.3]. (11) **Coin and kind** [6.5]. (12) **The laws you carry and the word you hold**, copied from the culture entry [2]. (13) **God** — Crown homelands only, optional, yours to write [4.5].
-
-**What identity never does.** No culture, homeland, household, charter, or faction adds to or subtracts from an attribute, a defense, Vigor, Strain Capacity, damage, or an attack roll; none restricts or grants a class or school; none changes an ability. Canon XI.6 rules out the essence reading. Identity works through three levers only: **Advantage or Disadvantage on a check**, **a procedural right**, and **what is filed, owed, or refused**.
-
-**The six cultures** [2].
-
-| Culture | Homelands (charter) | Tongue | Name form | The laws you carry | The word you hold |
-|:--|:--|:--|:--|:--|:--|
-| **Menneske** | Isavík (Gold Crown) · Grimskov (Blue Accord) | The Menneske tongue; one language across the strait | Personal name, then *of* a settlement or its stem as a byname (Aslaug of Stenhavn) | Witness-law · Ice-law · Winter-count | Assent given by staying silent |
-| **Renlei** | Zhenshui · Tienling (both Blue Accord) | The Renlei tongue | Family name first, then a given name of one or two syllables (Luo Deshi) | Seal law · Phase-contract law · Examination standing | A price quoted with its phase |
-| **Unsaan** | Bahr-Al-Asra (Gold Crown) · Zand-Kala (Blue Accord) | One language, two registers: Asran (citadel, rites), Kalani (gardens, contracts) | Personal name and house (Asran) or garden-name (Kalani); an office-holder takes the place-name (al-Rimal) | Guest-right · Shade-and-water servitudes · Name law | The third night, when a host may ask a guest's business |
-| **Yamana** | Teocalli (Gold Crown) · Yaxkulu (Green Chimera) | The Yamana tongue | A personal name; formally, the oldest inherited duty | Road law · Duty inheritance · Water law at the terraces | A duty inherited from someone you never met |
-| **Umutu** | Oasira (Gold Crown) · Zulwazi (Green Chimera) | The Umutu tongue | Personal name, the age-set cohort (phase and year), the well or keeper lineage | Water law · Passage law · Market truce | Water owed back to a well |
-| **Tangata** | Awanui · Koremu (both Green Chimera) | The Tangata tongue | Personal name, birth-moon, house-lineage; a navigator adds the channels claimed | Way law · Closed ground · Fire law | A way that is closed, as distinct from not yet open |
-
-**The laws you carry.** On your culture's ground, or dealing with anyone of your culture, you have Advantage on any check that turns on one of your three laws. Checks only — never an attack roll. Off your ground the law still binds you, and the other party may not know it exists [2, CF4].
-
-**Age.** Menneske count winters; Renlei, Unsaan, and Yamana count years; an Umutu is a cohort — five a year, cut by birth phase, written as the phase and year; a Tangata carries a birth-moon, a berth and not a destiny. A registry converts all four to a number and is wrong in a way the GM decides [1, 2].
-
-**Your charter reads your ethos** [4.3]. Ethos comes from the class (§1.1: Rationalist — Sorcerer, Vanguard, Artificer; Devout — Elementalist, Paladin, Apostle; Reverie — Warden, Berserker, Apothecarist; Ethosless — Necromancer, Hexblade, Warlock). Charter comes from where you stand. Read the cell for the territory you are in; the sheet holds the home cell.
-
-| Ethos ↓ / Charter → | Blue Accord | Gold Crown | Green Chimera |
-|:--|:--|:--|:--|
-| **Rationalist** | *Home.* Licensed, filed, priced. Ledger file 1 | *Chartered guest* — the Assay's charter; the Witness, tolerated. Ledger file 1, Chancel favor 0 | *Individual* — no body to adjudicate merit. Circle recognition 0 |
-| **Devout** | *Chartered* — the Firstday Watch; registered by function; a healing is measured, not sacramental. Ledger file 1 | *Home.* Sacramental, Assay-certified, benefice-bearing. Chancel favor 1 | *Under treaty* — the Namarite Tithe; you owe the way-toll. Chancel favor 0, Circle 0 |
-| **Reverie** | *Licensed where the Accord cannot staff* — Ash-and-Antler; "experimental mercy techniques." Ledger file 1 | **Proscribed** — the Edict of Amilpan, 1189. Chancel favor 0, Circle recognition 1. Identification starts enforcement: a column on flat ground, nothing in the trees | *Home.* Recognized by keepers; nothing written. Circle recognition 1 |
-| **Ethosless** | **Unregistered** — legible and prosecutable; no registry to be late to. Any Reading by a registered practitioner, manifest, or assessment files a Register entry. Ledger file 0, Off-Ledger credit 1 | **Anathema** — the Purge, 1164–66. Guest-right shelters you three nights anyway. Chancel favor 0, Off-Ledger credit 1 | *Received* — what the Crown anathematizes and the Ledger cannot admit. Circle 1, Off-Ledger 1 |
-
-**Registry status**, one word on the sheet, two if you carry two [4.4]: *Registered* (grade — the Ledger's file; a cost file from Adept), *Attuned* (grade — the Assay's roll), *Recognized* (a keeper said it), *Unregistered*, *Proscribed*, *Anathema*, *Off-Ledger*. The GM Guide (§9.1) has what each recognition looks like and costs.
-
-**The four tracks** [5.2]. Ledger file, Chancel favor, Circle recognition, Off-Ledger credit; 0–5 each; the GM Guide (§8.4) names what every step unlocks and (§8.5) what loses one. Contracts move them; so do the factions. Standing with one moves the others: +2 with the Chancel is −1 with the Circles; a Ledger file of record is what the Off-Ledger charges for.
-
-**Factions** [5]. Twelve, three per ethos: Rationalist — the Cobalt Ledger (Accord), the Indigo Assay (Crown), Steel Quorum (none); Devout — Firstday Watch (Accord), Gilt Chancel (Crown), the Namarite Tithe (Chimera); Reverie — Ash-and-Antler (Accord-licensed), Bramble Concord (Chimera), the Sedge Circles (none); Ethosless — Black Meridian (Chimera), the Off-Ledger (none), the Unsworn (all, by contract). Ethos is belief and institution is charter; the two are independent. Three relations: **Member** — one at a time; its register is yours, its gift and demand apply, its track starts at 1; **Contractor** — as contracts run; **Marked** — it has something on you. Most level-1 characters have no Member affiliation; the file, favor, recognition, or credit comes first.
-
-**Coin** [6]. Two mints, no third. The **seal** (silver, the Ledger's, Baishui) and its **eighth** (copper, eight to the seal); the **gilt** (gold-washed silver, the Chancel's, Qasr-Al-Rimal). The Chimera mints nothing. Both coins pass everywhere; the rate is the desk's — 1 gilt = 1 seal 2 eighths at a Ledger desk, 1 = 1 at a Chancel desk, worse at a caravan house. Write `12s 3e` and `4g`; never total them. A labor-day is an eighth; a head of cattle is six seals; a Master warden's season is sixty. Castings, fares, and Guru leases are priced by the phase; bread moves a little, and late. **Starting coin, by household standing:** rich in coin 12 seals (10 gilts); ordinary 4 (3); rich in standing not coin, 1 at most and a claim under Kind; nothing, 1 and a debt you choose. The coinless are not poor; the Ledger records them as poor.
-
-**Debts that are not money** [6.6]. Winters (Menneske), well-days (Umutu), a duty (Yamana), a roof (Unsaan), a way (Tangata), a name (the Circles, the Off-Ledger), a Mark, sealed coin by phase (Renlei). The sheet keeps them owed and held. No table converts them; a registry that does is wrong in a way the GM decides.
-
-**Tongues** [7]. Your culture's tongue at **Full**. The Common Tongue at **Full** if you are Registered or Attuned or your household is one that has it — a registry, board, or portal household; clergy; a caravan, harbor, factor's, guild, or customs house; a navigator or keeper who treats with outsiders; a runner lineage; a law house; an Unsworn company — and at **Market** otherwise: a few dozen words of market and toll; anything past that is at Disadvantage, and you cannot read it. **None** only by choice. One neighbor tongue at Market if the household trades across a border. The **Trade** talent (§13.2) taken for a tongue raises it one level; at Full it adds the Rank Bonus as written.
-
-**The lexical gap** [7.3]. When a scene turns on one of the six words above and the parties are of different cultures speaking the Common Tongue, the speaker whose word it is has **Disadvantage** on the check to be understood on that point. The listener's Full fluency in the speaker's tongue removes it, and so does an interpreter who holds both at Full — and an interpreter's presence is a fact about who has standing in the scene, which the GM says aloud. A party of two cultures hears two sentences.
-
-**Registry words and working words** [7.6]. The class names are Common Tongue registry terms. Practitioners speaking to practitioners use the working terms — a Necromancer is a *reader*, a Sorcerer *runs the overlay*, a Warden holds *overwatch*, a Berserker *opens the gate*. A character who uses the registry word for their own school is telling the table something.
-
-**God** [4.5]. For the four Crown homelands only — Isavík, Teocalli, Bahr-Al-Asra, Oasira — the sheet has a line for the Lender's local name, or the Steward's for an Elementalist. The Renlei and the Tangata have no gods in canon, as a scope decision; no rule fills the line.
 
 ---
 
@@ -184,7 +134,7 @@ Six attributes, shared with Chronicle. Scores run 8–22. Modifier = (score − 
 | **Crit Chance** | 20 (the d20 result that crits; talents and relics widen it) |
 | **Crit Rate** | ×2 (the multiplier on damage dice; talents and relics raise it) |
 | **Reactions** | 1 per round · **Quick Actions** 1 per turn |
-| **Tempo** | Actions per turn: 1 at levels 1–8, 2 at levels 9–12, 3 at levels 13–16 (§5) |
+| **Tempo** | Actions per turn: 1 at levels 1–5, 2 at levels 6–11, 3 at levels 12–16 (§5) |
 
 **Armor:** none 0 · light +1 · medium +2 · heavy +3 (heavy: Speed −1, Disadvantage on stealth). **Shield:** +2 for the Hexblade (trained), +1 for anyone else who carries one; a Necromancer cannot (bare-handed, §14). Each class lists its armor allowance; wearing heavier than allowed: Disadvantage on every attack roll and spell.
 
@@ -198,27 +148,27 @@ Each round, in Initiative order, a creature takes a turn:
 
 **Move** (up to Speed) **+ Actions (your Tempo) + Quick Action + Reaction** (the Reaction is spent on anyone's turn, once per round).
 
-**Tempo** is how many Actions you take on your turn: **1** at levels 1–8, **2** at levels 9–12, **3** at levels 13–16 — it steps at the rank boundaries, with the Rank Bonus and the Core's new form. Move, Quick, and Reaction do not multiply. Four rules govern the extra Actions:
+**Tempo** is how many Actions you take on your turn: **1** at levels 1–5, **2** at levels 6–11, **3** at levels 12–16. Move, Quick, and Reaction do not multiply. Four rules govern the extra Actions:
 
 - **No repeats.** An ability with a Strain cost may be used once per turn. Your Core (0 Strain) and the Strike may be used with every Action. Three Actions means three *different* costed abilities, or Cores in the gaps.
-- **Strain is the governor.** Tempo raises nothing else. A level-13 Sorcerer spending 4 + 3 + 2 Strain a turn against Capacity 19 is at Overdraw on turn 3: Tempo gives you the option of a burst, and the Ledger sends the bill.
+- **Strain is the governor.** Tempo raises nothing else. A level-12 Sorcerer spending 3 + 2 + 2 Strain a turn against Capacity 15 is at Overdraw on turn 3: Tempo gives you the option of a burst, and the Ledger sends the bill.
 - **One Sustained effect** at a time, as below; a second Action cannot start a second Sustain. **One Ready** a turn: a Readied Action fires as your Reaction, and you have one Reaction.
 - **Summons act on your turn.** A Companion, familiar, golem, turret, or construct takes its own Move and one Action when you take your turn, whatever your Tempo, and uses your Quick if it needs one (commanding it is that Quick). A summoner with Tempo 3 has three Actions and one summon's Action, not six.
 
 | Action | Use it for |
 |:--|:--|
-| **Strike** | One weapon attack (Martial) or your class Core ability (§14). Martial Strikes scale: Novice 1 attack (weapon + Key); Adept 1 attack (weapon + RD + Key); Master 2 attacks (each weapon + RD + Key); Guru 2 attacks (each weapon + RD + Key; against a Mob, each attack adds a second RD) |
+| **Strike** | One weapon attack (Martial) or your class Core ability (§14). Martial Strikes scale: Novice 1 attack (weapon + Key); Adept 1 attack (weapon + RD + Key); Master 2 attacks (each weapon + RD + Key); Guru 2 attacks (each weapon + 2 RD + Key) |
 | **Cast / Use** | Any ability listed as an Action |
 | **Dash** | Move again (Speed) |
 | **Disengage** | Your movement this turn doesn't provoke Punishes |
 | **Shove** | Frame vs Guard: push 1 square (2 if Frame modifier is +3 or more) or knock Prone |
 | **Help** | Grant an adjacent ally Advantage on their next attack or check |
 | **Ready** | Name a trigger and an Action; it happens as your Reaction when the trigger occurs |
-| **Exploit, command, or draught** | Only if your Quick Action is spent this turn: act on a Reading (the exploit, §11), command a summon, or drink or apply a draught. The Reading itself is free |
+| **Read** | Only if you have no Quick Action left; normally a Quick Action (§11) |
 
-**Quick Action:** anything listed as Quick; act on a Reading (the exploit, §11); command a summon; drink or apply a draught; drop Prone; pick up an item; the Second Wind (§9). A Reading itself costs nothing (§11). **Reaction:** anything listed as a Reaction; Punish (§6.4); a Readied action; a Join partner's half (§12).
+**Quick Action:** anything listed as Quick; Read; drink or apply a draught; drop Prone; pick up an item; the Second Wind (§9). **Reaction:** anything listed as a Reaction; Punish (§6.4); a Readied action; a Join partner's half (§12).
 
-**"Strike" inside an ability** means one weapon attack at your rank's dice (weapon + Key at Novice; + RD from Adept; a Guru's attack adds a second RD against a Mob's Cohesion only). The Strike **Action** makes the number of attacks in the table (one at Novice and Adept, two at Master and Guru); a Master or Guru Core form that says "two Strikes" is that two-attack Strike Action with its rider, not two Actions. A Punish, a Riposte, a Join's Strike, and "an extra Strike" are one attack each.
+**"Strike" inside an ability** means one weapon attack at your rank's dice (weapon + Key at Novice; + RD from Adept; + 2 RD at Guru). The Strike **Action** makes the number of attacks in the table (one at Novice and Adept, two at Master and Guru); a Master or Guru Core form that says "two Strikes" is that two-attack Strike Action with its rider, not two Actions. A Punish, a Riposte, a Join's Strike, and "an extra Strike" are one attack each.
 
 **Sustained.** An ability marked Sustained continues while you keep it. Sustaining costs the listed upkeep at the start of each of your turns (usually your Quick Action, sometimes Strain). You can sustain one effect at a time. A sustained effect ends when you drop it, when its upkeep isn't paid, when you are Stunned or Downed, or when its duration runs out.
 
@@ -237,7 +187,7 @@ The game is played on a grid of 1-inch squares with figurines. One square is one
 - **Difficult terrain** (rubble, mud, brush, shallow water, ice, a burning square's edge): 2 per square. **Climbing and swimming:** 2 per square; a hard climb needs Frame DC 13; a Frost or Stone Wall is a hard climb.
 - **Jumping:** long jump with a running start = Frame modifier + 2 squares (minimum 1); standing, half. High jump 1 square; 2 with Frame 16+.
 - **Falling:** 1d6 per full 2 squares fallen (maximum 20d6); you land Prone. Forced movement off a ledge counts.
-- **Allies' squares** can be passed through at 2 per square, never ended in. **Enemies' squares** cannot be entered unless the enemy is two size categories smaller or larger. A Mob's squares are enemies' squares; abilities that say "enter a Mob" are the way in (GM Guide §5.7).
+- **Allies' squares** can be passed through at 2 per square, never ended in. **Enemies' squares** cannot be entered unless the enemy is two size categories smaller or larger.
 - **Standing up from Prone** costs half your Speed.
 
 ### 6.2 Range and area
@@ -382,7 +332,6 @@ Once per round, after you make an attack roll or check with an ability and befor
 - **Reach:** add your Rank Die to the d20 roll.
 - **Widen:** enlarge the area by 1 (Burst 2 → 3; Cone 6 → 7; Line 12 → 13) or double the range.
 - **Refill** (once per encounter, on your own turn): Strain to full.
-- **Use** (on your own turn, instead of after a roll): activate the alteration of a Guru relic of a school not your own (§15.2); the alteration's own action type and Strain cost apply.
 
 A Push is a permanent Mark. The player decides; the table remembers. This is the moment of "the harbor keeper sent for me."
 
@@ -431,8 +380,8 @@ Death is permanent. Two Guru abilities and no others say otherwise: the Apostle'
 
 Every school reads the world in its own register. In Heroes a Reading is an action-enabling power: **read a weakness → exploit it**.
 
-- **Read** · free · 0 Strain · no action · a target within the listed range · once per round. The GM gives one true fact in the school's register (a load path; a compensating forelimb; who this creature will attack next; what the ground answers). The sentence is the whole result; the next Reading is next round.
-- **Exploit** · Quick Action. Act on the Reading: each class entry lists what its Reading unlocks. The exploit lasts until the end of your next turn unless stated. If your Quick is spent, the exploit — or a summon's command, or a draught — may be taken as an Action instead (§5). Announcing a read weakness to allies costs nothing.
+- **Read** · Quick Action · 0 Strain · a target within the listed range · once per round. The GM gives one true fact in the school's register (a load path; a compensating forelimb; who this creature will attack next; what the ground answers). 
+- **Exploit.** Each class entry lists what its Reading unlocks. The exploit lasts until the end of your next turn unless stated. Announcing a read weakness to allies costs nothing.
 - **What a reading cannot see** is still true in Heroes: a Sorcerer reads mass and load, not intent; an Apostle reads intent, not mass. A Grand Beast's vulnerability is written in one school's register and is complete only when two schools read it together — which is what Joins are for.
 
 ---
@@ -471,14 +420,14 @@ Improvised Joins are adjudicated by the GM (GM Guide §10.3) under the same once
 | 3 | Novice ability C |
 | 4 | Attribute increase |
 | **5** | **Adept:** RB +4, RD d8, Strain Capacity 9, Marks floor 1, Core (Adept form), Adept ability A |
-| 6 | Talent |
+| 6 | Talent · **Tempo 2** (§5) |
 | 7 | Adept ability B |
 | 8 | Attribute increase |
-| **9** | **Master:** RB +6, RD d10, Strain Capacity 12, Marks floor 2, Core (Master form), Master ability A · **Tempo 2** (§5) |
+| **9** | **Master:** RB +6, RD d10, Strain Capacity 12, Marks floor 2, Core (Master form), Master ability A |
 | 10 | Talent |
 | 11 | Master ability B |
-| 12 | Attribute increase |
-| **13** | **Guru:** RB +8, RD d12, Strain Capacity 16, Marks floor 3, Core (Guru form), Guru ability A · **Tempo 3** (§5) |
+| 12 | Attribute increase · **Tempo 3** (§5) |
+| **13** | **Guru:** RB +8, RD d12, Strain Capacity 16, Marks floor 3, Core (Guru form), Guru ability A |
 | 14 | Talent |
 | 15 | Guru ability B |
 | 16 | Attribute increase; signature resource maximum +1 |
@@ -538,7 +487,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Master · Elemental Sweep** · Burst 2 on a point within 12, or Cone 6, or Line 12 · 3 RD + Key, half on a miss; riders on every hit. Fire is a fire front; Frost a wave; Stone an eruption; Storm throws the group.
 - **Guru · Cataclysm** · Battlefield · Action · 5 · Ground · Sustained (upkeep: 2 Strain). Choose a shape each round you sustain it: **Inferno** — Burst 4 within 24: 4 RD fire, Burning 3; the squares keep burning (entering one: Burning 1). **Flood** — Wall 24, three squares wide, moving 6 per round: 4 RD frost, push 3, the ground becomes difficult terrain and stays so. **Quake** — Burst 4: 4 RD stone, Prone; structures inside collapse; the area becomes rubble. **Tempest** — the whole map: ranged attacks against you have Disadvantage, flyers are grounded, each enemy in the open takes 2 RD storm at the start of each of your turns.
 
-**Reading — Read the Answer** · free · 0 · exploit: Quick · a point or creature within 12: which element the ground answers here, and one weakness (a resistance, a vulnerability, a fault line). Exploit: your next spell of that element against that target has +2 to hit and grants 1 extra Momentum.
+**Reading — Read the Answer** · Quick · 0 · a point or creature within 12: which element the ground answers here, and one weakness (a resistance, a vulnerability, a fault line). Exploit: your next spell of that element against that target has +2 to hit and grants 1 extra Momentum.
 
 **Spells.**
 - **Novice A · Ember Shield** · Boon · Quick · 1 · self or an adjacent ally · Guarded 2 rounds; anyone who hits the bearer in melee takes 1 RD fire.
@@ -549,7 +498,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Master A · Storm Call** · Damage · Action · 4 · Sustained (upkeep: Quick) · while sustained, at each upkeep a bolt strikes one creature within 12: 2 RD storm vs Guard, Dazed on a hit. Counts as a Storm cast for Momentum.
 - **Master B · Eruption** · Damage / Control · Action · 3 · Burst 3 within 12, delayed: it happens at the start of your next turn and everyone can see the ground is wrong · 4 RD + Key stone (Prone) or fire (Burning 3), half on a miss.
 - **Guru A · River Leaves Its Bank** · Battlefield · Action · 5 · Ground · a body of water, a lava stream, a slope of scree: a Wall 24 that moves 6 squares per round for 3 rounds; anything in its path takes 4 RD and is carried with it; the terrain is permanently changed.
-- **Guru B · Harbor Kept** · Boon / Battlefield · Action · 5 · Ground · a sustained work: a harbor kept ice-free, a fire held off a town, an aquifer held raised. It persists as long as you sustain it, in or out of combat. While held: Strain Capacity −1 per full phase held, restored at one per phase after release; each full year held (five phases) is 1 Mark (canon: sustained works draw cost after casting ends; the Escrow's organ-strain waivers are Stage 3).
+- **Guru B · Harbor Kept** · Boon / Battlefield · Action · 5 · Ground · a sustained work: a harbor kept ice-free, a fire held off a town, an aquifer held raised. It persists as long as you sustain it, in or out of combat. Each full day of sustaining is 1 Mark (canon: sustained works draw cost after casting ends).
 
 **Cost stages.** Fatigue → Muscle failure → Organ strain → Collapse.
 
@@ -568,7 +517,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Master · Force at Scale** · Burst 2 within 12 · 3 RD + Key force, half on a miss; every creature hit is moved 2 squares in a direction you choose for each of them. You arrange the encounter.
 - **Guru · Substrate Edit** · Battlefield · Action · 4 · 3 Overlay charges · Burst 3, placed exterior (you cannot be inside it) · Sustained (upkeep: Quick). Choose: **Slow Field** — time runs slow inside: creatures inside have Speed 1, no Reactions, one Action or Quick per turn; attacks into or out of it have Disadvantage; projectiles crossing it stop. **Gravity Well** — pinned: creatures inside are Rooted and Prone and take 3 RD force at the start of their turns; or lifted: creatures inside float 2 squares up, can't move, ranged attacks against them have Advantage; release them at will (fall damage). Edits hold only under attention: if you take damage of your level or more in one hit, Reckoning DC 13 or the edit ends.
 
-**Reading — Read Structure** · free · 0 · exploit: Quick · one object, structure, or creature within 12: its Guard, Ward, current Vigor, and one load-bearing point. Exploit: your next spell or attack against it ignores cover and any Guard from armor.
+**Reading — Read Structure** · Quick · 0 · one object, structure, or creature within 12: its Guard, Ward, current Vigor, and one load-bearing point. Exploit: your next spell or attack against it ignores cover and any Guard from armor.
 
 **Spells.**
 - **Novice A · Telekinetic Grip** · Control · Action · 2 · one creature within 12 vs Ward · Grabbed and Rooted; Sustained (upkeep: Quick); at each upkeep move it 2 squares (1 if Large) — into a hazard, off a ledge, into reach.
@@ -578,7 +527,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Adept B · Momentum Theft** · Defense · Reaction · 2 · a projectile or a charging creature within 12: the projectile drops; the creature stops in its square and loses its next Move.
 - **Master A · Shatter Point** · Battlefield · Action · 4 · a structure or construct within 12 that you have Read fails at the read point: a wall segment collapses (Line 6 of rubble; 4 RD to creatures adjacent; difficult terrain); a bridge span drops; a gate falls; a construct is Stunned 1 round and Exposed 2 rounds.
 - **Master B · Total Perception** · Boon · Quick · 3 · Sustained (upkeep: Quick) · you and allies within 6 re-roll Initiative now with Advantage; attacks against you have Disadvantage; you may spend Overlay charges on allies' attack rolls within 6.
-- **Guru A · Time Debt** · Control · Action · 5 · once per encounter · one creature within 12 vs Ward · it is pulled out of the sequence: it loses its next turn, its Interrupts (if it has them) are not refreshed, and every ally may make a Reaction attack against it. Not a hex: no shake-off applies, and it does not count as a Boss's Stun for the phase.
+- **Guru A · Time Debt** · Control · Action · 5 · once per encounter · one creature within 12 vs Ward · it is pulled out of the sequence: it loses its next turn, and every ally may make a Reaction attack against it.
 - **Guru B · Exterior Placement** · Utility · passive · while a Substrate Edit is sustained you may move its volume 3 squares at each upkeep, and Slow Field's Speed penalty doesn't apply to your allies (they act at your pace).
 
 **Cost stages.** Headache → Tremor → Time-lag perception → Memory dissonance (the End: identity-time fracture).
@@ -600,7 +549,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Master · Regenerate** · range 6 · 3 RD + Key; Regenerating RD for 3 rounds; remove all hexes.
 - **Guru · Remake** · Action · 5 · touch · the target is restored to full Vigor, or a Downed ally rises at full Vigor, or a limb regrows, a permanent injury is undone. Used on someone at 0 Vigor it costs you 1 Mark: the body is borrowed from your own.
 
-**Reading — Read the Living** · free · 0 · exploit: Quick · a creature within 6: its current Vigor, one hex or injury it carries, one bodily weakness (the forelimb compensating for an old fracture). Exploit: attacks by you or any ally who can hear you against that weakness crit on 19–20 until the end of your next turn.
+**Reading — Read the Living** · Quick · 0 · a creature within 6: its current Vigor, one hex or injury it carries, one bodily weakness (the forelimb compensating for an old fracture). Exploit: attacks by you or any ally who can hear you against that weakness crit on 19–20 until the end of your next turn.
 
 **Spells.**
 - **Novice A · Wild Call** · Damage / Control · Action · 1 · Burst 1 on a point within 12 vs Guard · small wildlife swarms: 1 RD + Key physical; creatures hit have Disadvantage on their next attack.
@@ -628,9 +577,9 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Novice · Chill of the Boundary** · Damage · Action · 0 · range 12 vs Ward · 1 RD + Key necrotic; the target regains no Vigor until the end of your next turn.
 - **Adept · Boundary Touch** · 2 RD + Key; Weakened 1 round on a hit; delivered by touch it deals +1 RD.
 - **Master · Residue Bloom** · spend 1 Residue · Burst 2 within 12 vs Ward · 3 RD + Key necrotic, half on a miss; creatures hit are Frightened 1 round — the boundary opens in front of them.
-- **Guru · Threshold** · Control · Action · 5 · Sustained (upkeep: Quick), 3 rounds · one creature within 6 that is Downed or dies this round: you hold its crossing. **An ally** stands at 1 Vigor that cannot drop for 3 rounds and may act. When the hold ends, a creature that died this round returns to death whatever its Vigor; a Downed creature returns to Downed at its clock unless healed above 1 during the hold — a delay measured in breaths, not a return. **An enemy** dies at the end of the third round no matter what; until then it takes 2 RD necrotic at the start of each of its turns and cannot regain Vigor.
+- **Guru · Threshold** · Control · Action · 5 · Sustained (upkeep: Quick), 3 rounds · one creature within 6 that is Downed or dies this round: you hold its crossing. **An ally** stands at 1 Vigor that cannot drop for 3 rounds; at the end it is Downed again unless healed above 1 — the delay measured in breaths. **An enemy** dies at the end of the third round no matter what; until then it takes 2 RD necrotic at the start of each of its turns and cannot regain Vigor.
 
-**Reading — Read the Crossing** · free · 0 · exploit: Quick · a body or a place within 6: when it died, how, and the emotional register. Exploit: a creature within 12 that has killed something this encounter: you learn its current Vigor and which of its defenses is lower; your next spell against it has +2.
+**Reading — Read the Crossing** · Quick · 0 · a body or a place within 6: when it died, how, and the emotional register. Exploit: a creature within 12 that has killed something this encounter: you learn its current Vigor and which of its defenses is lower; your next spell against it has +2.
 
 **Spells.**
 - **Novice A · Grave Cold** · Control · Action · 1 · Burst 1 within 12 vs Ward · Slowed 1 round; if anything died in the area this scene, gain 1 Residue.
@@ -660,7 +609,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Master · Sanction** · 3 RD + Key; **Sanctioned** 3 rounds: every hit against the target deals +RD sacred, and any ally who hits it gains Bolstered 1 round.
 - **Guru · Rally the Ground** · Boon / Battlefield · Action · 5 · Ground · Sustained (upkeep: Quick) · every ally on the map gains Bolstered, Guarded, Resolute, and Fortified 2 RD; allied Mobs gain +RD Cohesion; at each upkeep one ally within sight regains RD Vigor.
 
-**Reading — Read the Heart** · free · 0 · exploit: Quick · a creature within 12: its resolve (steady, wavering, Frightened, loyal to whom) and what it wants this round. Exploit: your next Rebuke or Command against it has Advantage; against a Mob, you learn which part will break first.
+**Reading — Read the Heart** · Quick · 0 · a creature within 12: its resolve (steady, wavering, Frightened, loyal to whom) and what it wants this round. Exploit: your next Rebuke or Command against it has Advantage; against a Mob, you learn which part will break first.
 
 **Spells.**
 - **Novice A · Steady** · Boon · Quick · 1 · touch · Fortified 1 RD + Key; removes Frightened. Canon: touch steadies pain without treating the source.
@@ -690,7 +639,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Master · Complete Defense** · two Strikes; between them you may Intercept for free; each hit applies Exposed 1 round.
 - **Guru · Kill the Corners** · Battlefield · Action · 5 · two Strikes with +2 RD each; then until your next turn every enemy that misses you triggers a free Riposte, and a Mob you are adjacent to loses RD Cohesion each round. The platoon standard as attrition of structure.
 
-**Reading — Read the Weight** · free · 0 · exploit: Quick · a creature within 6: whom it will attack next and how. Exploit: your Reactions against that creature this round have Advantage, and your Intercept costs 0.
+**Reading — Read the Weight** · Quick · 0 · a creature within 6: whom it will attack next and how. Exploit: your Reactions against that creature this round have Advantage, and your Intercept costs 0.
 
 **Skills.**
 - **Novice A · Intercept** · Defense · Reaction · 1 · when an ally within 2 squares is attacked: move up to 2 to be adjacent to them; the attack targets you instead. Gain 1 Parry.
@@ -700,7 +649,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Adept B · Bulwark** · Defense · Quick · 2 · you may take two Reactions this round.
 - **Master A · Counter-Practitioner** · Control · Reaction · 3 · when a creature within 6 begins any ability with a Strain cost: move up to your Speed and Strike; on a hit the ability fails and its Strain is spent. Canon: closes the distance inside a chant; takes flasks and bolts on the boss.
 - **Master B · Shut Down** · Control · Action · 4 · Strike against an Elite or Boss; hit: Stunned 1 round; you gain 3 Parry.
-- **Guru A · Fold the Line** · Battlefield · Action · 5 · Sustained (upkeep: Quick) · while you stand inside a Mob (GM Guide §5.7) it cannot move, it loses RD Cohesion at each upkeep, and its attacks against you are capped at the drill's attack cap (no engulfment).
+- **Guru A · Fold the Line** · Battlefield · Action · 5 · Sustained (upkeep: Quick) · while you stand inside a Mob it cannot move, it loses 2 Cohesion at each upkeep, and every enemy adjacent to you is Dazed.
 - **Guru B · The Guard That Will Not Drop** · Defense · Quick · 4 · 3 rounds · Guard +RD; attacks against allies adjacent to you have Disadvantage; you gain 1 Parry from every miss against any adjacent ally, not only you.
 
 **Cost stages.** Scar accumulation → Residue mapping → Startle lock → The guard that will not drop.
@@ -720,7 +669,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Master · Corridor** · move up to your Speed in a straight line; Strike + RD against every enemy within reach along it; each hit pushes the target 1 square to the side.
 - **Guru · Moving Circle** · Battlefield · Action · 5 · Sustained (upkeep: Quick, 1 Strain) · the two-square circle is wherever you walk: enemies inside have Disadvantage; an enemy that enters it or starts its turn inside takes a Strike (no Reaction cost; once per creature per round); Mobs treat it as impassable; you may *Corridor* as your Move each round. A platoon engaging you is not outnumbered so much as unscheduled.
 
-**Reading — Read the Flow** · free · 0 · exploit: Quick · where each enemy within 6 intends to move this round. Exploit: +2 on your attacks this round against any creature that moves.
+**Reading — Read the Flow** · Quick · 0 · where each enemy within 6 intends to move this round. Exploit: +2 on your attacks this round against any creature that moves.
 
 **Skills.**
 - **Novice A · Keep Spacing** · Control · Reaction · 1 · when an enemy moves adjacent to you: Strike it and push it 1.
@@ -728,7 +677,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Novice C · Haft and Butt** · Attack · Action · 1 · two Strikes at −2 each against creatures in reach; one may push 1 instead of dealing damage.
 - **Adept A · Trip Line** · Control · Action · 2 · Strike up to 2 creatures in reach; hits knock Prone.
 - **Adept B · Deny** · Control · Quick · 2 · Sustained (upkeep: Quick) · three contiguous squares adjacent to you: the first enemy each round to enter them takes a Strike and stops there.
-- **Master A · Break Formation** · Battlefield · Action · 4 · enter a Mob (GM Guide §5.7): Strike each adjacent creature (one roll); the Mob loses RD Cohesion and can bring no more than 2 attacks against you this round.
+- **Master A · Break Formation** · Battlefield · Action · 4 · enter a Mob: Strike each adjacent creature (one roll); the Mob loses RD Cohesion and can bring no more than 2 attacks against you this round.
 - **Master B · Anchor the Hinge** · Boon · Quick · 3 · 3 rounds · allies within 2 have +2 Guard against creatures you have hit this encounter; you gain 2 Flow.
 - **Guru A · Unscheduled** · Control · Reaction · 5 · once per round: when any enemy within 4 squares ends its movement, *Corridor* to it and Strike; if it belongs to a Mob, the Mob loses RD Cohesion.
 - **Guru B · Terrain** · Battlefield · passive · *Moving Circle*'s upkeep is the Quick only (no Strain); enemies inside it cannot Dash or Disengage.
@@ -748,9 +697,9 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Novice · Loose** · Attack · Action · 0 · Strike with the bow.
 - **Adept · Mark and Vanish** · Strike + RD; if you attacked from Hidden, you remain Hidden.
 - **Master · Overwatch** · two Strikes; and (Sustained, upkeep: Quick) a zone Burst 3 within 24: the first enemy each round to enter it or act inside it takes a free Strike with Advantage — the shot arrives where the target will be.
-- **Guru · Unanswerable** · Battlefield · Action · 5 · Sustained (upkeep: Quick) · you are Hidden and stay Hidden after attacks; finding you needs Notice DC 26. At each upkeep, three Strikes against targets within 24 — one target or several; against a Mob, each may name a member (a hit kills it) or strike the block. While it is sustained, these three are your Strikes for the turn: the Strike Action and any ability that includes a Strike are unavailable on your turn; Reactions are unaffected. A Mob that loses a member to you loses 2 Cohesion per death: fear does the arithmetic.
+- **Guru · Unanswerable** · Battlefield · Action · 5 · Sustained (upkeep: Quick) · you are Hidden and stay Hidden after attacks; finding you needs Notice DC 26. At each upkeep, three Strikes against three different targets within 24. A Mob that loses a member to you loses 2 Cohesion per death: fear does the arithmetic.
 
-**Reading — Read the Ground** · free · 0 · exploit: Quick · the routes enemies within 24 will take, and the chokepoints. Exploit: Advantage on your first attack this round against any creature crossing a route you read.
+**Reading — Read the Ground** · Quick · 0 · the routes enemies within 24 will take, and the chokepoints. Exploit: Advantage on your first attack this round against any creature crossing a route you read.
 
 **Skills.**
 - **Novice A · Vanish** · Utility · Quick · 1 · with cover or concealment: you are Hidden (found by Notice ≥ 10 + Poise + RB).
@@ -761,7 +710,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Master A · Bleeding Shot** · Damage / Hex · Action · 3 · Strike + RD; hit: Bleeding 3.
 - **Master B · Hold the Pass** · Battlefield · Action · 4 · Sustained (upkeep: Quick) · a Line 12 you can see: each enemy that crosses it takes a free Strike; a Mob that crosses it loses RD Cohesion.
 - **Guru A · The Unclosing Eye** · passive · immune to surprise and Blinded; Insight maximum 4; Crit Chance 19–20 against your Quarry from Insight 1.
-- **Guru B · The First Ten Deaths** · Control · Action · 5 · against a Mob within 24: three Strikes, each a kill against a Mob member; the Mob then checks Cohesion at Disadvantage vs 10 + your Rank Bonus + kills this turn, or routs (GM Guide §5.5).
+- **Guru B · The First Ten Deaths** · Control · Action · 5 · against a Mob within 24: three Strikes, each a kill against a Mob member; the Mob then makes its Cohesion check (GM Guide) with Disadvantage or routs.
 
 **Cost stages.** Draw-side deformation → Watch-broken sleep → Sensory tuning → The unclosing eye.
 
@@ -780,7 +729,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Master · Charge-Stopper** · two Strikes; and (Sustained, upkeep: Quick) *Set*: while you don't move, any creature that moves adjacent to you takes a Strike with Advantage; on a hit it stops and is Prone; a Mob that charges you loses RD Cohesion. Why the columns held anything flat.
 - **Guru · Demolition** · Battlefield · Action · 5 · strike a wall, gate, or Mob: a structure fails as a structure — a Line 6 segment collapses into Burst 2 of rubble, 4 RD and Prone to everyone in it; a Mob fails as a structure — Cohesion −2 RD, every member within Burst 2 is Prone and takes 4 RD, and the Mob cannot act next round.
 
-**Reading — Read the Seam** · free · 0 · exploit: Quick · an object, structure, or armored creature within 6: its load path. Exploit: your next Strike against it crits on 18–20.
+**Reading — Read the Seam** · Quick · 0 · an object, structure, or armored creature within 6: its load path. Exploit: your next Strike against it crits on 18–20.
 
 **Skills.**
 - **Novice A · Set** · Boon · Quick · 1 · until you move: Set, and +2 Guard.
@@ -810,7 +759,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Master · Sustained Frenzy** · two Strikes; the Gate rises 1 extra this turn; an ally within 6 may spend a Quick to aim you: Advantage on both Strikes. A Master berserker is aimable.
 - **Guru · The Gate Opens All the Way** · Battlefield · Action · 5 · once per encounter · Gate = 5. Until the end of the round you do not register wounds: you cannot be Downed (track Vigor below 0); every Strike that hits grants another Strike, up to Gate extra Strikes this turn (as *Momentum Kill* chains); you can't be Frightened, Stunned, Rooted, or Dazed. When nothing in reach stands, or the round ends: the bill — Prone, Dazed 1 round, and if your Vigor is 0 or less you are Downed with the clock at 1.
 
-**Reading — Read Fear** · free · 0 · exploit: Quick · which creatures within 6 are Frightened, wavering, or resolved. Exploit: your Strikes against Frightened creatures crit on 19–20 this round.
+**Reading — Read Fear** · Quick · 0 · which creatures within 6 are Frightened, wavering, or resolved. Exploit: your Strikes against Frightened creatures crit on 19–20 this round.
 
 **Skills.**
 - **Novice A · Over the Barricade** · Utility · Move · 0 · your Move ignores difficult terrain and may leap 2; if you move 4 or more before a Strike this turn, +RD damage.
@@ -840,7 +789,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Master · Gadget System** · deploy one: a **Turret** (Vigor 4 × level, Guard 16 + RB; on each of your turns it Strikes for 2 RD + Key at range 12; lasts until destroyed or the encounter ends), a **Lift** or **Line** (allies cross a gap or a height of up to 6 as a Move), or a **Lock** (a door, gate, or portal sealed: DC 26 to open). **One Gadget System deployed at a time;** deploying another dismantles the first.
 - **Guru · Integration** · Battlefield · Action · 5 · Ground · Sustained (upkeep: Quick) · familiars and devices act in concert: every ally on the map has +2 on attack rolls (eyes everywhere); at each upkeep one ally's gear or one construct regains 2 RD; you may deploy a primed Device at any square a familiar can see; an enemy Mob seen by two familiars loses 1 Cohesion per round.
 
-**Reading — Read the Make** · free · 0 · exploit: Quick · an object, construct, trap, or piece of gear within 6: what it does and its flaw. Exploit: your next attack against a construct, gear, or trap crits on 18–20; or bypass a read trap without a check.
+**Reading — Read the Make** · Quick · 0 · an object, construct, trap, or piece of gear within 6: what it does and its flaw. Exploit: your next attack against a construct, gear, or trap crits on 18–20; or bypass a read trap without a check.
 
 **Skills.**
 - **Novice A · Smoke** · Control · Action · 1 · Burst 1 within 8, 2 rounds · creatures inside are Hidden from those outside and Blinded to them.
@@ -885,7 +834,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Master · Contact Compound** · 3 RD + Key, Burst 1, Poisoned 2 to all hit; a Master's poison needs skin, not a cup: it ignores immunity below Guru, and a coated weapon delivers it on every hit, not three.
 - **Guru · Dose the Ground** · Battlefield · Action · 5 · Burst 4 within 12 · Sustained (upkeep: Quick) · enemies inside are Poisoned 2 at the start of each of their turns (stacking), and Frightened, Slowed, or Dazed (choose at casting); a Mob inside loses RD Cohesion per round; a well, granary, or censer inside is dosed for a phase.
 
-**Reading — Read the Dose** · free · 0 · exploit: Quick · a creature within 6: what it has consumed, its resistances, its tolerance. Exploit: your next Dose against it ignores resistance and applies one extra stack.
+**Reading — Read the Dose** · Quick · 0 · a creature within 6: what it has consumed, its resistances, its tolerance. Exploit: your next Dose against it ignores resistance and applies one extra stack.
 
 **Skills.**
 - **Novice A · Purgative** · Heal · Action · 1 · touch · remove Poisoned and Blinded; 1 RD Vigor.
@@ -927,7 +876,7 @@ Novice-grade gear is the starting kit: no intrinsic, no socket. Intrinsics stack
 A relic is beast residue with a shape: a tooth, a den-stone, a bead of reef-glass, a shard of lake ice that does not melt. It comes only from a properly resolved Grand Beast emergence (the outcome line, GM Guide §6.6) — never from a shop, never made, never copied. Its **rank** is the tier of the emergence that left it.
 
 - **Attribute.** Every relic carries one numeric or mechanical property at the magnitude of its rank — damage, attack, Guard, Ward, Vigor, Strain Capacity, Speed, healing dealt, a DoT on hit, a resistance, a crit step, a Reading line, Cohesion damage, a summon bonus, a hex resistance, casting speed, and at Guru a once-per-encounter extra Action (the catalogue is GM Guide §7.5). A Novice relic is a small permanent bonus (+1 damage); a Guru relic is a named piece of a Guru's book.
-- **Alteration** (Master and Guru relics only). One new action or one changed class mechanic, written in ability format on the relic's entry — "*Sink*: once per Breather, as an Action, move 6 through sand and surface adjacent to a target." A Guru alteration is a piece of the Guru ability of the relic's moon: a practitioner of that school uses it at the entry's cost; anyone else uses it only as a Push (§9.3, *Use*).
+- **Alteration** (Master and Guru relics only). One new action or one changed class mechanic, written in ability format on the relic's entry — "*Sink*: once per Breather, as an Action, move 6 through sand and surface adjacent to a target."
 - **Governor.** The condition under which it works, inherited from the beast that left it: **Rigidity** (Novice — one fixed condition: on a turn you did not Move; against a target that Moved this round), **Dependency** (Adept — feed it a Breather a day in contact with what it needs, or it goes dormant), **Inversion** (Master — in the beast's inverted condition the attribute becomes a penalty of the same size for the scene), **Tether** (Guru — it works within the emergence's domain, or for seven days after a Breather taken there, or in the hands of its bonded holder).
 - **Seating.** A socket seats one relic of rank equal to or below the piece's tier; seating or unseating takes a Breather. The Trinket seats any rank, and an over-rank relic there costs **1 Strain Capacity while seated** — the only bond cost in the game (D4). **At most eight seated, and the same attribute in at most one socket.**
 - **Reading it.** The school of the relic's moon reads it fully in one Reading; any other school reads the attribute and its magnitude; a martial or alchemy Reading gives one word. The Ledger's assessors identify one for a fee — and file it, and whoever brought it.
@@ -936,34 +885,14 @@ A relic is beast residue with a shape: a tooth, a den-stone, a bead of reef-glas
 
 ## 16. The character sheet
 
-Standardized. Every field is on it; nothing else is. v0.4 adds the Identity, Standing, Tongues, Coin and kind, and Debts blocks (§1.4; module CF-rows) and keeps every v0.3 block. Fields above the attribute line describe the character; none of them changes a number below it.
+Standardized. Every field is on it; nothing else is.
 
 ```
 TERHIA: HEROES — CHARACTER SHEET
 ────────────────────────────────────────────────────────────────
-IDENTITY
-  Full name (in your culture's form) ____________________________________________  Player __________
-  Called ______________________   Registry name (what the Ledger or Assay files) ____________________
-  Introduction (formal, in your own words) ______________________________________________________
-  Culture ___________  Homeland ___________  Born at ___________  Household ___________________
-  Born ___ __________ ____ (day · phase · year)    Age _____ (years / winters / cohort ______ / birth-moon ______)
-  Trained at _______________   Look (cloth · palette · mount) ___________________________________
-  God (Crown homelands only, optional) _______________
-
-CLASS
-  Class ________ School ________ Ethos ________ Moon ________  Level __  Rank ________
-  Rank Bonus +__   Rank Die d__   Tempo __   Crit Chance __–20   Crit Rate ×__
-
-STANDING (the part the registries can see)
-  Charter of record ______________   Registry status ______________ (grade ____)   on this ground: ______________
-  Faction ______________________  relation: Member / Contractor / Marked   its register: ______________
-  Ledger file ○○○○○   Chancel favor ○○○○○   Circle recognition ○○○○○   Off-Ledger credit ○○○○○   (0–5)
-  Cost file exists [ ] (from Adept)   examiner / sacrist / keeper of record ______________   phase ________
-
-TONGUES (Full · Market · None)
-  Own ______________ Full  (registers ______________)   Common Tongue ________   Others ______________
-  The word you hold ____________________________________________________
-  The laws you carry  1 ______________  2 ______________  3 ______________
+Name ____________________   Player ____________   Culture / homeland ____________
+Class ________ School ________ Ethos ________ Moon ________  Level __  Rank ________
+Rank Bonus +__   Rank Die d__   Tempo __   Crit Chance __–20   Crit Rate ×__
 
 ATTRIBUTES (score / modifier)            DEFENSES
   Frame      __ / __                       Guard   __  = 10 + Poise + armor __ + shield __ + RB (+1 martial)
@@ -1005,26 +934,17 @@ KIT
   Relics (slot · rank · attribute · governor) ___________________________________
   Companion / familiar / golem: name ______ Vigor __/__ Guard __ attack +__ damage ____ Speed __
   Doses / primed Devices / Adaptations active: ___________________________________
-  Trades and crafts ____________________________
+  Coin and kind __________________  Tongues and trades __________________________
 
-COIN AND KIND
-  Seals ____s ____e    Gilts ____g    (the rate at this desk: 1g = ________)
-  Kind (cattle · a boat's place · well credit in days · a toll-right · water shares · grain) _________________
-
-DEBTS   owed ______________________________________   held ______________________________________
-        (winters · well-days · a duty · roofs · a way · a name · a Mark · sealed coin, with its phase)
-
-NOTES  contracts held · who knows what you are · what your charter cannot see about you
+NOTES  contracts held · debts · who knows what you are
 ────────────────────────────────────────────────────────────────
 ```
-
-**Filling the top of the sheet.** Identity is §1.4's thirteen steps in order. *Registry name* is what a clerk would write and is usually not your name: a Menneske's settlement and moot of record; a Renlei's seal and grade; an Unsaan garden-name filed as a family name; a Yamana name and file; an Umutu name and a number the Umutu do not recognize; for a Tangata, often nothing. *On this ground* is the registry status read against the territory the party is in now — a Registered Adept Warden is *Proscribed* the day the party crosses into Teocalli. *Its register* is the contract form your faction uses (GM Guide §8.2). *The word you hold* and *the laws you carry* are copied from the culture entry; they are the two things the table checks when a scene crosses cultures.
 
 ---
 
 ## 17. Design register — for ratification
 
-Every rule that touches a canon sentence, with the reading taken. Nothing here is canon until Joe rules; Canon itself is untouched. Rows marked *ruled* carry the ruling's number from Terhia-Heroes-Rulings.md (v0.3); rows H42–H50 are new in v0.3; **rows H51–H59 are new in v0.4** and point at the Cultures-and-Factions module's CF-rows, which hold the full readings. Numbering is Heroes-local (H-rows) so the register never collides with Chronicle's.
+Every rule that touches a canon sentence, with the reading taken. Nothing here is canon until Joe rules; Canon itself is untouched. Numbering is Heroes-local (H-rows) so the register never collides with Chronicle's.
 
 | # | Rule | Canon touchpoint | Reading taken | Status |
 |:-:|:--|:--|:--|:-:|
@@ -1042,12 +962,12 @@ Every rule that touches a canon sentence, with the reading taken. Nothing here i
 | H12 | *Remake* (Guru heal to full / regrowth) and *Command the Ground* | Part II, Nature Master and Guru | Inventions; Remake's Mark on a Downed target keeps cost in the school | open |
 | H13 | Necromancer Residue resource; *Residue Bloom*, *Open Door* as offense; *Threshold* = boundary holding; no undead anywhere | Part VI Terminology: "does not raise, animate, or command the dead"; Part II Necrotic Guru | Preserved exactly; offense is boundary and residue, never bodies | open |
 | H14 | *Refuse Death* and *Lent Years* cost a Mark each | Part II, Divine Guru: transference is the spell | Direct | open |
-| H15 | Four elements including Stone; *Harbor Kept* costs Strain Capacity −1 per phase held and 1 Mark per year held | Part II, Elemental Novice (fires, water, gusts); Guru (sustained works keep drawing cost); Part V, the Escrow lease and its waivers | Earth admitted as the fourth element (brainstorm); v0.3: the rate set to the harbor economy — 1 Mark a day was the End in a week for a Guru leased by the year | amended (R4) |
-| H16 | Martial Strike scaling: 1 attack → +RD → 2 attacks → 2 attacks +2 RD; Guru martial abilities calibrated against a Mob | Part III: "a Guru can fight platoons" | GMG §12 (v0.2): a Guru Strike is 47 an Action, and a Guru martial is ~70% ahead of a Guru caster single-target and level at two targets; a Guru martial alone routs a Master-drill platoon in two rounds. GMG G34 offers the trim (weapon + RD + Key at Guru) if Joe wants the Master gap instead. v0.3: see H42 | ruled (R1) |
+| H15 | Four elements including Stone; *Harbor Kept* costs 1 Mark per day sustained | Part II, Elemental Novice (fires, water, gusts); Guru (sustained works keep drawing cost) | Earth admitted as the fourth element (brainstorm); sustained-work cost kept | open |
+| H16 | Martial Strike scaling: 1 attack → +RD → 2 attacks → 2 attacks +2 RD; Guru martial abilities calibrated against a Mob | Part III: "a Guru can fight platoons" | GMG §12 (v0.2): a Guru Strike is 47 an Action, and a Guru martial is ~70% ahead of a Guru caster single-target and level at two targets; a Guru martial alone routs a Master-drill platoon in two rounds. GMG G34 offers the trim (weapon + RD + Key at Guru) if Joe wants the Master gap instead | open |
 | H17 | Mobs and Cohesion referenced, defined in GM Guide | Chronicle GMG Lines / Cohesion | Reuse the Chronicle model on a grid | open |
 | H18 | Grid: 1 square = 1 pace; Speed 6; diagonals 1; sizes M/L/H/Grand | Chronicle PM §4 (6 paces per Move) | Direct to squares | open |
 | H19 | Area attacks: one roll compared to each target; half damage on a miss; **v0.2: Elites and Bosses take nothing on a miss** | — | Speed at the table; the exemption keeps an area at ~70% of a single-target attack per target against a Boss (GMG §12.3 b) | open |
-| H20 | Readings as Read → Exploit; private hand-outs dropped | Design Thesis; Part I, Three Readings | The thesis survives in what each Reading cannot see and in Joins; it no longer governs table procedure. Flag as a deliberate weakening. v0.3: the sentence is free and the exploit priced (H46); the *private* question is Issue 9 of the ledger | amended (R5) |
+| H20 | Readings as Read → Exploit; private hand-outs dropped | Design Thesis; Part I, Three Readings | The thesis survives in what each Reading cannot see and in Joins; it no longer governs table procedure. Flag as a deliberate weakening | open |
 | H21 | Joins: Action + Reaction, 2 Strain each, +2 to hit; ten listed | Chronicle PM §8 (two hard checks) | Combination attacks; improvised Joins in GM Guide | open |
 | H22 | Dagger is not a school; the Warden's dagger removes adjacent Disadvantage | Part III preamble; XI.6 | Direct | open |
 | H23 | Necromancer: wraps in the Gloves slot (bare palms), no shield | Part II, Necrotic physical practice (bare-handed) | Direct; v0.2 aligns with GMG §7.1 (wraps carry the slot's intrinsic) | open |
@@ -1056,34 +976,16 @@ Every rule that touches a canon sentence, with the reading taken. Nothing here i
 | H26 | Berserker Gate maxima 2/3/4/5; the calling-back by an adjacent ally; post-gate Dazed | Part III, Ax (the gate; companions train for the calling-back; post-gate collapse) | Direct | open |
 | H27 | Talents (ten) | — | Invention; all are table-mechanical, none touches the world | open |
 | H28 | Healing: Breather restores a quarter of maximum Vigor (three per day); full Rest restores all | Chronicle GMG §6 ("nothing heals for free") | Not adopted in Heroes; rest heals. Flag | open |
-| H29 | Death permanent; *Refuse Death* (Mark) and *Threshold* (delay) are the only exceptions | Part II, Divine and Necrotic Guru | Direct; v0.3 makes *Threshold*'s delay true mechanically (H48) | confirmed (R7) |
+| H29 | Death permanent; *Refuse Death* (Mark) and *Threshold* (delay) are the only exceptions | Part II, Divine and Necrotic Guru | Direct | open |
 | H30 | Crit Chance / Crit Rate defined; a crit adds one hex stack; maximum Crit Chance 17–20 | — | Invention | open |
 | H31 | Hexblade *Counter-Practitioner* cancels an ability mid-cast | Part III, Sword/Shield Master (closes the distance inside a chant) | Direct | open |
 | H32 | Paladin *Demolition* and Sorcerer *Shatter Point* destroy structures with listed values | Part III Hammer Guru; Part II Arcane Master | Structure Vigor table in GM Guide | open |
-| H33 | Moon phase: Magic classes' Strain Capacity +2 in the school's own phase, −1 in the two far phases (§9.1; GMG D1, reading (a)) | Part I, Moons (casting cost lowest in the school's own phase); 11 Sep 2026 decision (cost varies by phase only) | v0.2: adopted from the GMG; one lever, nothing else varies by phase | ratified (R8) |
-| H34 | Tempo: Actions per turn 1 / 2 / 3 at levels 1 / 6 / 12; no costed ability twice a turn; one Ready a turn; summons act on the summoner's turn with one Move and one Action; "Strike" inside an ability is one attack (§5, §13.1) | — | GMG G1 and PG revisions 1–3 applied. Alternative kept from G1: Tempo at rank boundaries (9, 13). The one-attack reading of "Strike" is what the GMG's damage model already assumed; without it a Master Core form saying "two Strikes" read as four attacks an Action. v0.3: Tempo 2 at level 9 and 3 at level 13 (H44) | ruled (R2) |
+| H33 | Moon phase: Magic classes' Strain Capacity +2 in the school's own phase, −1 in the two far phases (§9.1; GMG D1, reading (a)) | Part I, Moons (casting cost lowest in the school's own phase); 11 Sep 2026 decision (cost varies by phase only) | v0.2: adopted from the GMG; one lever, nothing else varies by phase | open |
+| H34 | Tempo: Actions per turn 1 / 2 / 3 at levels 1 / 6 / 12; no costed ability twice a turn; one Ready a turn; summons act on the summoner's turn with one Move and one Action; "Strike" inside an ability is one attack (§5, §13.1) | — | GMG G1 and PG revisions 1–3 applied. Alternative kept from G1: Tempo at rank boundaries (9, 13). The one-attack reading of "Strike" is what the GMG's damage model already assumed; without it a Master Core form saying "two Strikes" read as four attacks an Action | open |
 | H35 | Gear: eight slots, maker tiers, fixed intrinsics, one socket each; relics with a ranked attribute, a Master+ alteration, and a governor; no bond cost except an over-rank Trinket relic (−1 Capacity); the same attribute in at most one socket (§15) | Part VIII (relics are beast residue, not made); Part II (Necrotic works bare-palmed) | GMG §7 (D4, D11) applied; replaces v0.1's six-slot, no-flat-bonus interface. The one-socket-per-attribute cap is new in v0.2: a per-hit damage relic multiplies with the Master Strike's two attacks and with Tempo (GMG §12.3) | open |
-| H36 | Elites and Bosses: hex stack cap 4 / 3; a Boss Stunned once per phase; one shake-off a turn (d20 + Ward − 10 vs the applier's attack roll) against any hex that denies a Move, Action, or Reaction or dictates a target; a Boss also checks on entering a Ground-scale hex (§7.4, §8.2) | — | GMG G4, G29 and revision 7, generalized: one rule in place of per-hex patches. In v0.1 *Bound*, *Telekinetic Grip*, and *Lockdown* had no Boss escape at all. v0.3: a Stunned Boss loses its turn, as this file's Stunned says; the GMG's contrary sentence is struck (R7) | amended (R7) |
+| H36 | Elites and Bosses: hex stack cap 4 / 3; a Boss Stunned once per phase; one shake-off a turn (d20 + Ward − 10 vs the applier's attack roll) against any hex that denies a Move, Action, or Reaction or dictates a target; a Boss also checks on entering a Ground-scale hex (§7.4, §8.2) | — | GMG G4, G29 and revision 7, generalized: one rule in place of per-hex patches. In v0.1 *Bound*, *Telekinetic Grip*, and *Lockdown* had no Boss escape at all | open |
 | H37 | Each Join once per encounter; "Strike" in a Join is one weapon attack (§12) | Chronicle PM §8 | At Adept+ a 4-Strain auto-critical (*Hammerfall*, *Last Witness*) was the correct opener every turn; once a fight keeps a Join the remembered move | open |
 | H38 | A Core keeps every form it has had; the Guru form costs its listed Strain, the exception to the 0-Strain rule (§14) | — | Every Guru Core form in v0.1 cost 4–5 Strain against a rule that Cores cost 0; without this line a Guru had no 0-Strain turn | open |
 | H39 | Artificer: one Gadget System deployed at a time; *Adhesive* is a Quick (§14.11) | Part IV, Light Arts | A 0-Strain turret per Action out-damaged the 4-Strain *Construct*; *Adhesive* as an Action duplicated the adhesive *Flask* at a Strain | open |
 | H40 | Warlock *Sleep*: Stunned 1 round, then Slowed 2 rounds on a target at half Vigor (§14.12) | — | v0.1's "Stunned 2 rounds" broke the 1-round Stun cap | open |
 | H41 | Berserker *The Gate Opens All the Way*: the hit-chain is capped at Gate extra Strikes a turn (§14.10) | Part III, Ax | Consistency with *Momentum Kill*; unbounded at Tempo 3 the once-per-fight burst was ~450 expected against a Guru Boss's 800 (GMG §12.4) | open |
-| H42 | Guru Strike: two attacks at weapon + RD + Key; the second RD applies against a Mob's Cohesion only (§5) | Part III: "the ceiling is lower (a platoon, not a harbor)"; "the curves cross at Master"; the Guru lines locate the platoon standard in the Guru technique | R1: a Guru martial is +23% over a Guru caster single-target, matching Master; 47 an Action against Cohesion, where the platoon standard lives | ruled (R1) |
-| H43 | *Unanswerable*: the upkeep's three Strikes are the turn's Strikes; one target or several; members or the block (§14.8) | Part III, Longbow Guru | R1: with permanent Hidden the Guru form was ~148 a turn on a lone Boss, uncounted in GMG §12; now ~46 at Advantage, or ~70 to Cohesion — the form trades output for being unfindable | ruled (R1) |
-| H44 | Tempo 1 / 2 / 3 at levels 1–8 / 9–12 / 13–16 (§4, §5, §13.1) | §1.2 "rank is the large power jump"; Part III | R2: every Tempo step at a rank boundary; the GMG's tier table loses its correction lines. The brief's "a high-level Master casts three" is given up; 9 / 12 is a three-line delta if it returns | ruled (R2) |
-| H45 | Push *Use*: a Guru relic's alteration of another school is usable only as a Push, 1 Mark, once per round (§9.3, §15.2) | Premise (one school per person); Design Thesis | R3: the relic draws the school's cost from a body not trained to pay it; own-school use at the entry's cost; a second-school Reading attribute returns one word | ruled (R3) |
-| H46 | Readings free, once per round; the exploit costs the Quick, or an Action when the Quick is spent, as may a summon's command or a draught (§5, §11) | Design Thesis; Part I, Three Readings | R5: the GMG's tables are free information; the riders stay priced; the Quick is the upkeep slot at Master and Guru, and the Action fallback is what a sustaining character uses | ruled (R5) |
-| H47 | *Time Debt* is not a hex and not a Stun: a Boss loses its next turn with no shake-off and no Interrupt refresh, once per encounter (§14.2) | R.0 Sorcerer rule (D9) | R7: the one lockdown a Boss cannot shake, bounded by once per encounter | ruled (R7) |
-| H48 | *Threshold* on a dead ally is a delay: death resumes when the hold ends whatever its Vigor; a Downed ally returns to Downed at its clock unless healed (§14.4) | Part II, Necrotic Guru: "Not resurrection; a delay measured in breaths" | R7: as written, any heal in the window was a return cheaper than *Refuse Death* | ruled (R7) |
-| H49 | *The First Ten Deaths*: the Mob checks at Disadvantage vs 10 + RB + kills (§14.8). *Fold the Line*: RD Cohesion per upkeep and the drill's attack cap in place of the Dazed rider (§14.6) | Part III, Longbow and Sword/Shield Guru | R6 for *First Ten Deaths* (DC 21 for a Guru, an 84% rout from full; under the old DC every forced check was automatic). *Fold the Line* is a working reading: Dazed does nothing to a block | First Ten Deaths ruled (R6); Fold the Line open |
-| H50 | A Mob's squares are enemies' squares; entry by ability only (§6.1; GMG §5.7) | — | R6 | ruled (R6) |
-| H51 | Identity fields on the sheet — culture, homeland, birth settlement, household, birth date and age marker, four name fields, tongues, charter, registry status, faction, four tracks, god, look — modify no attribute, defense, Vigor, Strain, damage, or attack; restrict or grant no class or school (§1.4, §16) | XI.6 (no school assigned to any culture as an essence); Part V, Naming and Address; Common Tongue Distribution | Module CF1, CF15, CF16, CF17. Identity works through Advantage on checks, procedural rights, and what is filed or owed | open |
-| H52 | Charter of record defaults to the homeland's institution; the ethos × charter table sets registry status and the starting track step; *Proscribed* and *Anathema* as flags; status read against the territory (§1.4) | Part VI, Faction table and vacant cells; Part VII, Doctrinal Status; Part IX (Purge, Edict); GMG §8.4, §9.1 | Module CF2, CF3, CF19, CF23. Starting steps are the game's figures | open |
-| H53 | The laws you carry: Advantage on checks that turn on your culture's three laws, on your ground or with your people; checks only, never an attack (§1.4) | Part V, each profile's Governance and law | Module CF4. Invention on canon law; alternative: procedural rights only, no Advantage | open |
-| H54 | The Common Tongue at Full / Market / None by registration and household; the lexical gap — Disadvantage on the point unless the listener holds the speaker's tongue at Full or an interpreter with both is present, whose presence is a standing fact (§1.4) | Part V, The Common Tongue; Common Tongue Distribution | Module CF5, CF6. The Design Thesis applied to speech | open |
-| H55 | The Trade talent taken for a tongue raises it one level (None → Market → Full); at Full it adds the Rank Bonus as written; §13.2's text unchanged (§1.4) | H27 | Module CF7. A use of an existing talent, not a new one | open |
-| H56 | Faction affiliation: one Member (its register is yours; its track starts at 1), Contractors as contracts run, Marked by consequence; the GMG's four reputation tracks carried on the sheet (§1.4, §16) | Part VI, Faction ("ethos = belief, institution = charter"); GMG §8.4 (G19) | Module CF9, CF10, CF11. **Naming flag (CF11):** the GMG's Chimera column is headed "Sedge Circles"; the sheet says *Circle recognition* | open |
-| H57 | Coin notation — seals and eighths, gilts, never totaled; the desk's rate; starting coin by household standing 12 / 4 / 1 / 1 seals (10 / 3 gilts); the debts block, never converted (§1.4, §16) | Part V, Money; Kind and Labor; Anchor Prices; Canon Discipline 5 | Module CF12, CF13, CF14. Prices are the game's figures (the G17 precedent); an episode's figure governs | open |
-| H58 | The character sheet expanded: Identity, Standing, Tongues, Coin and kind, and Debts blocks; every v0.3 block kept; the KIT line's "Coin and kind · Tongues and trades" moved to the new blocks, leaving "Trades and crafts" (§16) | — | "Every field is on it; nothing else is" still holds | open |
-| H59 | God line for the four Crown homelands, optional, the player's; no rule assigns a god; Renlei and Tangata have none (§1.4, §16) | Part VII scope ("nothing in this Part assigns a god to any character"); Part VI, D3 scope note | Module CF17 | open |

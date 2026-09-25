@@ -1,8 +1,8 @@
 # Terhia: Heroes — Player's Guide
 
-Draft v0.4 (25 September 2026; v0.1–v0.3 the same day). Built against Terhia-Canon v1.2. **v0.4 adds §1.4 (who the character is in the world), replaces the character sheet (§16), and adds register rows H51–H59;** the source is the Cultures-and-Factions module (Terhia-Heroes-Cultures-and-Factions.md v0.1), which holds the full entries and its own register (CF-rows). No rule in §2–§15 changes in v0.4. v0.2 was the reconciliation pass with the Game Master's Guide v0.2 (its ten PG revisions applied here; H34–H41). **v0.3 applies rulings R1–R8 of the issue-by-issue ratification pass** (Terhia-Heroes-Rulings.md): the Guru Strike's second Rank Die against Cohesion only; Tempo at the rank boundaries (2 at level 9, 3 at level 13); Guru relic alterations of another school usable only as a Push; *Harbor Kept* on the harbor economy's schedule; Readings free with the exploit costing the Quick; a Mob's squares as enemies' squares; *Time Debt*, the Boss Stun, and *Threshold* settled; the moon rule ratified. New register rows H42–H50; Issues 9–15 of the ledger remain open. Sister ruleset to *Terhia: Chronicle* (Player's Manual v0.3): same world, same twelve schools, same four ranks, same six attributes; a different player promise. Where a rule below reuses a Chronicle rule it says so; where it departs, it departs on purpose and the departure is listed in §17 for ratification.
+Draft v0.3 (25 September 2026; v0.1 and v0.2 the same day). Built against Terhia-Canon v1.2. v0.2 was the reconciliation pass with the Game Master's Guide v0.2 (its ten PG revisions applied here; H34–H41). **v0.3 applies rulings R1–R8 of the issue-by-issue ratification pass** (Terhia-Heroes-Rulings.md): the Guru Strike's second Rank Die against Cohesion only; Tempo at the rank boundaries (2 at level 9, 3 at level 13); Guru relic alterations of another school usable only as a Push; *Harbor Kept* on the harbor economy's schedule; Readings free with the exploit costing the Quick; a Mob's squares as enemies' squares; *Time Debt*, the Boss Stun, and *Threshold* settled; the moon rule ratified. New register rows H42–H50; Issues 9–15 of the ledger remain open. Sister ruleset to *Terhia: Chronicle* (Player's Manual v0.3): same world, same twelve schools, same four ranks, same six attributes; a different player promise. Where a rule below reuses a Chronicle rule it says so; where it departs, it departs on purpose and the departure is listed in §17 for ratification.
 
-**Scope.** Player-facing rules only: what a player character is, who the character is in the world (culture, homeland, household, name, tongues, charter, faction, coin — §1.4), resolution, attributes and their limits, the turn, movement on a gridded table, damage and criticals, boons and hexes, Strain / Overdraw / Marks, readings, joins, advancement, the twelve classes with their spells and skills, gear and relics (the player's side), and the character sheet. Not here: opposition and Grand Beast stat blocks, Mob rules, relic generation, contracts, encounter budgets, calibration (Game Master's Guide).
+**Scope.** Player-facing rules only: what a player character is, resolution, attributes and their limits, the turn, movement on a gridded table, damage and criticals, boons and hexes, Strain / Overdraw / Marks, readings, joins, advancement, the twelve classes with their spells and skills, gear and relics (the player's side), and the character sheet. Not here: opposition and Grand Beast stat blocks, Mob rules, relic generation, contracts, encounter budgets, calibration (Game Master's Guide).
 
 **Status.** Nothing in this file is canon. Every rule that touches a canon sentence is listed in §17 with the reading taken.
 
@@ -65,56 +65,6 @@ Strain Capacity adds the Reserve modifier. Marks floor: reaching a rank raises y
 ### 1.3 The design test
 
 Every ability in §14 is written to one rule: **each rank changes what the ability is for, not how large its number is.** Novice targets a creature. Adept controls the creature. Master changes the battlefield. Guru changes the scenario. The canon's scale ladder — Personal → Circle → Line → Ground — is the same ladder, and on the table it reads: one square → Burst 2–3 → a Line or Wall → the whole map.
-
-### 1.4 Who you are in the world
-
-Class answers what you can do. This section answers who you are: the fields on the sheet (§16) above the attribute line. The full entries — six cultures, twelve homelands, three institutions, twelve factions, coin, tongues — are in the Cultures-and-Factions module (Terhia-Heroes-Cultures-and-Factions.md, v0.1); this section is the player's summary, and the module's section numbers are given in brackets.
-
-**Thirteen steps, after the class.** (1) **Culture**, one of six. (2) **Homeland**, one of the culture's two by default — a minority birth is allowed and is a character in itself [3.0]. (3) **Born at**: the seat, a town, or none — the road, the drove-lines, the fire country, a boat. (4) **Household**, from the culture's list [2] or your own inside its profile; it sets your coin, your tongues, and what you owe. (5) **Born**: day, phase, year — `48 Velquor 1222`; the present year is 1245; the phase gives your culture's age marker. (6) **Name**, four fields: full name in the culture's form; what you are called; what a registry files; your formal introduction [7.5]. (7) **Tongues** [7.1]. (8) **Ethos and moon** — set by the class (§1.1), not chosen. (9) **Charter of record** — the homeland's institution unless you were trained, registered, or recognized elsewhere; read the standing table below. (10) **Faction** — none, or one Member affiliation [5.3]. (11) **Coin and kind** [6.5]. (12) **The laws you carry and the word you hold**, copied from the culture entry [2]. (13) **God** — Crown homelands only, optional, yours to write [4.5].
-
-**What identity never does.** No culture, homeland, household, charter, or faction adds to or subtracts from an attribute, a defense, Vigor, Strain Capacity, damage, or an attack roll; none restricts or grants a class or school; none changes an ability. Canon XI.6 rules out the essence reading. Identity works through three levers only: **Advantage or Disadvantage on a check**, **a procedural right**, and **what is filed, owed, or refused**.
-
-**The six cultures** [2].
-
-| Culture | Homelands (charter) | Tongue | Name form | The laws you carry | The word you hold |
-|:--|:--|:--|:--|:--|:--|
-| **Menneske** | Isavík (Gold Crown) · Grimskov (Blue Accord) | The Menneske tongue; one language across the strait | Personal name, then *of* a settlement or its stem as a byname (Aslaug of Stenhavn) | Witness-law · Ice-law · Winter-count | Assent given by staying silent |
-| **Renlei** | Zhenshui · Tienling (both Blue Accord) | The Renlei tongue | Family name first, then a given name of one or two syllables (Luo Deshi) | Seal law · Phase-contract law · Examination standing | A price quoted with its phase |
-| **Unsaan** | Bahr-Al-Asra (Gold Crown) · Zand-Kala (Blue Accord) | One language, two registers: Asran (citadel, rites), Kalani (gardens, contracts) | Personal name and house (Asran) or garden-name (Kalani); an office-holder takes the place-name (al-Rimal) | Guest-right · Shade-and-water servitudes · Name law | The third night, when a host may ask a guest's business |
-| **Yamana** | Teocalli (Gold Crown) · Yaxkulu (Green Chimera) | The Yamana tongue | A personal name; formally, the oldest inherited duty | Road law · Duty inheritance · Water law at the terraces | A duty inherited from someone you never met |
-| **Umutu** | Oasira (Gold Crown) · Zulwazi (Green Chimera) | The Umutu tongue | Personal name, the age-set cohort (phase and year), the well or keeper lineage | Water law · Passage law · Market truce | Water owed back to a well |
-| **Tangata** | Awanui · Koremu (both Green Chimera) | The Tangata tongue | Personal name, birth-moon, house-lineage; a navigator adds the channels claimed | Way law · Closed ground · Fire law | A way that is closed, as distinct from not yet open |
-
-**The laws you carry.** On your culture's ground, or dealing with anyone of your culture, you have Advantage on any check that turns on one of your three laws. Checks only — never an attack roll. Off your ground the law still binds you, and the other party may not know it exists [2, CF4].
-
-**Age.** Menneske count winters; Renlei, Unsaan, and Yamana count years; an Umutu is a cohort — five a year, cut by birth phase, written as the phase and year; a Tangata carries a birth-moon, a berth and not a destiny. A registry converts all four to a number and is wrong in a way the GM decides [1, 2].
-
-**Your charter reads your ethos** [4.3]. Ethos comes from the class (§1.1: Rationalist — Sorcerer, Vanguard, Artificer; Devout — Elementalist, Paladin, Apostle; Reverie — Warden, Berserker, Apothecarist; Ethosless — Necromancer, Hexblade, Warlock). Charter comes from where you stand. Read the cell for the territory you are in; the sheet holds the home cell.
-
-| Ethos ↓ / Charter → | Blue Accord | Gold Crown | Green Chimera |
-|:--|:--|:--|:--|
-| **Rationalist** | *Home.* Licensed, filed, priced. Ledger file 1 | *Chartered guest* — the Assay's charter; the Witness, tolerated. Ledger file 1, Chancel favor 0 | *Individual* — no body to adjudicate merit. Circle recognition 0 |
-| **Devout** | *Chartered* — the Firstday Watch; registered by function; a healing is measured, not sacramental. Ledger file 1 | *Home.* Sacramental, Assay-certified, benefice-bearing. Chancel favor 1 | *Under treaty* — the Namarite Tithe; you owe the way-toll. Chancel favor 0, Circle 0 |
-| **Reverie** | *Licensed where the Accord cannot staff* — Ash-and-Antler; "experimental mercy techniques." Ledger file 1 | **Proscribed** — the Edict of Amilpan, 1189. Chancel favor 0, Circle recognition 1. Identification starts enforcement: a column on flat ground, nothing in the trees | *Home.* Recognized by keepers; nothing written. Circle recognition 1 |
-| **Ethosless** | **Unregistered** — legible and prosecutable; no registry to be late to. Any Reading by a registered practitioner, manifest, or assessment files a Register entry. Ledger file 0, Off-Ledger credit 1 | **Anathema** — the Purge, 1164–66. Guest-right shelters you three nights anyway. Chancel favor 0, Off-Ledger credit 1 | *Received* — what the Crown anathematizes and the Ledger cannot admit. Circle 1, Off-Ledger 1 |
-
-**Registry status**, one word on the sheet, two if you carry two [4.4]: *Registered* (grade — the Ledger's file; a cost file from Adept), *Attuned* (grade — the Assay's roll), *Recognized* (a keeper said it), *Unregistered*, *Proscribed*, *Anathema*, *Off-Ledger*. The GM Guide (§9.1) has what each recognition looks like and costs.
-
-**The four tracks** [5.2]. Ledger file, Chancel favor, Circle recognition, Off-Ledger credit; 0–5 each; the GM Guide (§8.4) names what every step unlocks and (§8.5) what loses one. Contracts move them; so do the factions. Standing with one moves the others: +2 with the Chancel is −1 with the Circles; a Ledger file of record is what the Off-Ledger charges for.
-
-**Factions** [5]. Twelve, three per ethos: Rationalist — the Cobalt Ledger (Accord), the Indigo Assay (Crown), Steel Quorum (none); Devout — Firstday Watch (Accord), Gilt Chancel (Crown), the Namarite Tithe (Chimera); Reverie — Ash-and-Antler (Accord-licensed), Bramble Concord (Chimera), the Sedge Circles (none); Ethosless — Black Meridian (Chimera), the Off-Ledger (none), the Unsworn (all, by contract). Ethos is belief and institution is charter; the two are independent. Three relations: **Member** — one at a time; its register is yours, its gift and demand apply, its track starts at 1; **Contractor** — as contracts run; **Marked** — it has something on you. Most level-1 characters have no Member affiliation; the file, favor, recognition, or credit comes first.
-
-**Coin** [6]. Two mints, no third. The **seal** (silver, the Ledger's, Baishui) and its **eighth** (copper, eight to the seal); the **gilt** (gold-washed silver, the Chancel's, Qasr-Al-Rimal). The Chimera mints nothing. Both coins pass everywhere; the rate is the desk's — 1 gilt = 1 seal 2 eighths at a Ledger desk, 1 = 1 at a Chancel desk, worse at a caravan house. Write `12s 3e` and `4g`; never total them. A labor-day is an eighth; a head of cattle is six seals; a Master warden's season is sixty. Castings, fares, and Guru leases are priced by the phase; bread moves a little, and late. **Starting coin, by household standing:** rich in coin 12 seals (10 gilts); ordinary 4 (3); rich in standing not coin, 1 at most and a claim under Kind; nothing, 1 and a debt you choose. The coinless are not poor; the Ledger records them as poor.
-
-**Debts that are not money** [6.6]. Winters (Menneske), well-days (Umutu), a duty (Yamana), a roof (Unsaan), a way (Tangata), a name (the Circles, the Off-Ledger), a Mark, sealed coin by phase (Renlei). The sheet keeps them owed and held. No table converts them; a registry that does is wrong in a way the GM decides.
-
-**Tongues** [7]. Your culture's tongue at **Full**. The Common Tongue at **Full** if you are Registered or Attuned or your household is one that has it — a registry, board, or portal household; clergy; a caravan, harbor, factor's, guild, or customs house; a navigator or keeper who treats with outsiders; a runner lineage; a law house; an Unsworn company — and at **Market** otherwise: a few dozen words of market and toll; anything past that is at Disadvantage, and you cannot read it. **None** only by choice. One neighbor tongue at Market if the household trades across a border. The **Trade** talent (§13.2) taken for a tongue raises it one level; at Full it adds the Rank Bonus as written.
-
-**The lexical gap** [7.3]. When a scene turns on one of the six words above and the parties are of different cultures speaking the Common Tongue, the speaker whose word it is has **Disadvantage** on the check to be understood on that point. The listener's Full fluency in the speaker's tongue removes it, and so does an interpreter who holds both at Full — and an interpreter's presence is a fact about who has standing in the scene, which the GM says aloud. A party of two cultures hears two sentences.
-
-**Registry words and working words** [7.6]. The class names are Common Tongue registry terms. Practitioners speaking to practitioners use the working terms — a Necromancer is a *reader*, a Sorcerer *runs the overlay*, a Warden holds *overwatch*, a Berserker *opens the gate*. A character who uses the registry word for their own school is telling the table something.
-
-**God** [4.5]. For the four Crown homelands only — Isavík, Teocalli, Bahr-Al-Asra, Oasira — the sheet has a line for the Lender's local name, or the Steward's for an Elementalist. The Renlei and the Tangata have no gods in canon, as a scope decision; no rule fills the line.
 
 ---
 
@@ -936,34 +886,14 @@ A relic is beast residue with a shape: a tooth, a den-stone, a bead of reef-glas
 
 ## 16. The character sheet
 
-Standardized. Every field is on it; nothing else is. v0.4 adds the Identity, Standing, Tongues, Coin and kind, and Debts blocks (§1.4; module CF-rows) and keeps every v0.3 block. Fields above the attribute line describe the character; none of them changes a number below it.
+Standardized. Every field is on it; nothing else is.
 
 ```
 TERHIA: HEROES — CHARACTER SHEET
 ────────────────────────────────────────────────────────────────
-IDENTITY
-  Full name (in your culture's form) ____________________________________________  Player __________
-  Called ______________________   Registry name (what the Ledger or Assay files) ____________________
-  Introduction (formal, in your own words) ______________________________________________________
-  Culture ___________  Homeland ___________  Born at ___________  Household ___________________
-  Born ___ __________ ____ (day · phase · year)    Age _____ (years / winters / cohort ______ / birth-moon ______)
-  Trained at _______________   Look (cloth · palette · mount) ___________________________________
-  God (Crown homelands only, optional) _______________
-
-CLASS
-  Class ________ School ________ Ethos ________ Moon ________  Level __  Rank ________
-  Rank Bonus +__   Rank Die d__   Tempo __   Crit Chance __–20   Crit Rate ×__
-
-STANDING (the part the registries can see)
-  Charter of record ______________   Registry status ______________ (grade ____)   on this ground: ______________
-  Faction ______________________  relation: Member / Contractor / Marked   its register: ______________
-  Ledger file ○○○○○   Chancel favor ○○○○○   Circle recognition ○○○○○   Off-Ledger credit ○○○○○   (0–5)
-  Cost file exists [ ] (from Adept)   examiner / sacrist / keeper of record ______________   phase ________
-
-TONGUES (Full · Market · None)
-  Own ______________ Full  (registers ______________)   Common Tongue ________   Others ______________
-  The word you hold ____________________________________________________
-  The laws you carry  1 ______________  2 ______________  3 ______________
+Name ____________________   Player ____________   Culture / homeland ____________
+Class ________ School ________ Ethos ________ Moon ________  Level __  Rank ________
+Rank Bonus +__   Rank Die d__   Tempo __   Crit Chance __–20   Crit Rate ×__
 
 ATTRIBUTES (score / modifier)            DEFENSES
   Frame      __ / __                       Guard   __  = 10 + Poise + armor __ + shield __ + RB (+1 martial)
@@ -1005,26 +935,17 @@ KIT
   Relics (slot · rank · attribute · governor) ___________________________________
   Companion / familiar / golem: name ______ Vigor __/__ Guard __ attack +__ damage ____ Speed __
   Doses / primed Devices / Adaptations active: ___________________________________
-  Trades and crafts ____________________________
+  Coin and kind __________________  Tongues and trades __________________________
 
-COIN AND KIND
-  Seals ____s ____e    Gilts ____g    (the rate at this desk: 1g = ________)
-  Kind (cattle · a boat's place · well credit in days · a toll-right · water shares · grain) _________________
-
-DEBTS   owed ______________________________________   held ______________________________________
-        (winters · well-days · a duty · roofs · a way · a name · a Mark · sealed coin, with its phase)
-
-NOTES  contracts held · who knows what you are · what your charter cannot see about you
+NOTES  contracts held · debts · who knows what you are
 ────────────────────────────────────────────────────────────────
 ```
-
-**Filling the top of the sheet.** Identity is §1.4's thirteen steps in order. *Registry name* is what a clerk would write and is usually not your name: a Menneske's settlement and moot of record; a Renlei's seal and grade; an Unsaan garden-name filed as a family name; a Yamana name and file; an Umutu name and a number the Umutu do not recognize; for a Tangata, often nothing. *On this ground* is the registry status read against the territory the party is in now — a Registered Adept Warden is *Proscribed* the day the party crosses into Teocalli. *Its register* is the contract form your faction uses (GM Guide §8.2). *The word you hold* and *the laws you carry* are copied from the culture entry; they are the two things the table checks when a scene crosses cultures.
 
 ---
 
 ## 17. Design register — for ratification
 
-Every rule that touches a canon sentence, with the reading taken. Nothing here is canon until Joe rules; Canon itself is untouched. Rows marked *ruled* carry the ruling's number from Terhia-Heroes-Rulings.md (v0.3); rows H42–H50 are new in v0.3; **rows H51–H59 are new in v0.4** and point at the Cultures-and-Factions module's CF-rows, which hold the full readings. Numbering is Heroes-local (H-rows) so the register never collides with Chronicle's.
+Every rule that touches a canon sentence, with the reading taken. Nothing here is canon until Joe rules; Canon itself is untouched. Rows marked *ruled* carry the ruling's number from Terhia-Heroes-Rulings.md (v0.3); rows H42–H50 are new in v0.3. Numbering is Heroes-local (H-rows) so the register never collides with Chronicle's.
 
 | # | Rule | Canon touchpoint | Reading taken | Status |
 |:-:|:--|:--|:--|:-:|
@@ -1078,12 +999,3 @@ Every rule that touches a canon sentence, with the reading taken. Nothing here i
 | H48 | *Threshold* on a dead ally is a delay: death resumes when the hold ends whatever its Vigor; a Downed ally returns to Downed at its clock unless healed (§14.4) | Part II, Necrotic Guru: "Not resurrection; a delay measured in breaths" | R7: as written, any heal in the window was a return cheaper than *Refuse Death* | ruled (R7) |
 | H49 | *The First Ten Deaths*: the Mob checks at Disadvantage vs 10 + RB + kills (§14.8). *Fold the Line*: RD Cohesion per upkeep and the drill's attack cap in place of the Dazed rider (§14.6) | Part III, Longbow and Sword/Shield Guru | R6 for *First Ten Deaths* (DC 21 for a Guru, an 84% rout from full; under the old DC every forced check was automatic). *Fold the Line* is a working reading: Dazed does nothing to a block | First Ten Deaths ruled (R6); Fold the Line open |
 | H50 | A Mob's squares are enemies' squares; entry by ability only (§6.1; GMG §5.7) | — | R6 | ruled (R6) |
-| H51 | Identity fields on the sheet — culture, homeland, birth settlement, household, birth date and age marker, four name fields, tongues, charter, registry status, faction, four tracks, god, look — modify no attribute, defense, Vigor, Strain, damage, or attack; restrict or grant no class or school (§1.4, §16) | XI.6 (no school assigned to any culture as an essence); Part V, Naming and Address; Common Tongue Distribution | Module CF1, CF15, CF16, CF17. Identity works through Advantage on checks, procedural rights, and what is filed or owed | open |
-| H52 | Charter of record defaults to the homeland's institution; the ethos × charter table sets registry status and the starting track step; *Proscribed* and *Anathema* as flags; status read against the territory (§1.4) | Part VI, Faction table and vacant cells; Part VII, Doctrinal Status; Part IX (Purge, Edict); GMG §8.4, §9.1 | Module CF2, CF3, CF19, CF23. Starting steps are the game's figures | open |
-| H53 | The laws you carry: Advantage on checks that turn on your culture's three laws, on your ground or with your people; checks only, never an attack (§1.4) | Part V, each profile's Governance and law | Module CF4. Invention on canon law; alternative: procedural rights only, no Advantage | open |
-| H54 | The Common Tongue at Full / Market / None by registration and household; the lexical gap — Disadvantage on the point unless the listener holds the speaker's tongue at Full or an interpreter with both is present, whose presence is a standing fact (§1.4) | Part V, The Common Tongue; Common Tongue Distribution | Module CF5, CF6. The Design Thesis applied to speech | open |
-| H55 | The Trade talent taken for a tongue raises it one level (None → Market → Full); at Full it adds the Rank Bonus as written; §13.2's text unchanged (§1.4) | H27 | Module CF7. A use of an existing talent, not a new one | open |
-| H56 | Faction affiliation: one Member (its register is yours; its track starts at 1), Contractors as contracts run, Marked by consequence; the GMG's four reputation tracks carried on the sheet (§1.4, §16) | Part VI, Faction ("ethos = belief, institution = charter"); GMG §8.4 (G19) | Module CF9, CF10, CF11. **Naming flag (CF11):** the GMG's Chimera column is headed "Sedge Circles"; the sheet says *Circle recognition* | open |
-| H57 | Coin notation — seals and eighths, gilts, never totaled; the desk's rate; starting coin by household standing 12 / 4 / 1 / 1 seals (10 / 3 gilts); the debts block, never converted (§1.4, §16) | Part V, Money; Kind and Labor; Anchor Prices; Canon Discipline 5 | Module CF12, CF13, CF14. Prices are the game's figures (the G17 precedent); an episode's figure governs | open |
-| H58 | The character sheet expanded: Identity, Standing, Tongues, Coin and kind, and Debts blocks; every v0.3 block kept; the KIT line's "Coin and kind · Tongues and trades" moved to the new blocks, leaving "Trades and crafts" (§16) | — | "Every field is on it; nothing else is" still holds | open |
-| H59 | God line for the four Crown homelands, optional, the player's; no rule assigns a god; Renlei and Tangata have none (§1.4, §16) | Part VII scope ("nothing in this Part assigns a god to any character"); Part VI, D3 scope note | Module CF17 | open |

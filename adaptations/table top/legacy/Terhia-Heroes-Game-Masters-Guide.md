@@ -1,14 +1,10 @@
 # Terhia: Heroes — Game Master's Guide
 
-**v0.3 — 25 September 2026** (v0.1 and v0.2 the same day). Companion to Terhia-Heroes-Players-Guide.md v0.3 (PG). Built from Terhia-Heroes-GM-Guide-Handoff.md and Terhia-Canon.md v1.2. Mechanics only; no adventures. Every rule that touches canon is a G-row in §13 for Joe's ratification. Canon is not edited by this file. **A table can play from the working readings as written;** the register is the author's ratification queue, not a list of rulings the GM must make before a session.
+**v0.1 — 25 September 2026.** Companion to Terhia-Heroes-Players-Guide.md v0.1 (PG). Built from Terhia-Heroes-GM-Guide-Handoff.md and Terhia-Canon.md v1.2. Mechanics only; no adventures. Every rule that touches canon is a G-row in §13 for Joe's ratification. Canon is not edited by this file.
 
-**v0.2 revision pass.** The PG was loaded and its ten revisions (§13.2) are applied there (PG v0.2, H34–H41). The damage model (§12.1) is now read off the PG's class entries instead of reconstructed: the Novice Strike had been overstated and the Guru Strike understated, and every check in §12.3 is recomputed. The played round (§11.5) uses PG abilities by name. Still unverified: the three Chronicle ports and the Grand Beasts register, whose files were not loaded (§13.3). **Band note:** the system is tightest at levels 5–12. Novice is thin by design (D2 recommends starting at level 3); Guru is the least-tested band — §6.5 and §11.4 are arithmetic, not play.
+**Sources loaded for this draft.** Handoff (whole). Canon v1.2: Part I (Transport, Moons, Substrate and Nodes), Parts II–IV (schools, ranks, costs), Part V (Money, Kind and Labor, Anchor Prices), Part VI (Institutions, Terminology, Force Types, Class Matrix), Part VIII (Ecological Engine), XI.2 (Document Exemplars), XI.3 (Beast Register), XI.6 (Do-not-re-raise), R.8. The PG level and talent tables were recovered from the PG session record. **Not available in this session:** the PG file itself, Terhia-Game-Masters-Guide.md v0.3 (Chronicle), Terhia-Grand-Beasts.md v0.2. Where the handoff asked for a port from those files (Lines/Cohesion, relic §9, the End procedure, "what an emergence leaves"), this draft rebuilds from canon and the handoff's description; the ports should be checked against the originals in the revision session (§13.3).
 
-**Sources loaded for this draft.** Handoff (whole). Canon v1.2: Part I (Transport, Moons, Substrate and Nodes), Parts II–IV (schools, ranks, costs), Part V (Money, Kind and Labor, Anchor Prices), Part VI (Institutions, Terminology, Force Types, Class Matrix), Part VIII (Ecological Engine), XI.2 (Document Exemplars), XI.3 (Beast Register), XI.6 (Do-not-re-raise), R.8. The PG level and talent tables were recovered from the PG session record. **Not available for v0.1:** the PG file itself (loaded for v0.2), Terhia-Game-Masters-Guide.md v0.3 (Chronicle), Terhia-Grand-Beasts.md v0.2 (both still unloaded). Where the handoff asked for a port from those files (Lines/Cohesion, relic §9, the End procedure, "what an emergence leaves"), this draft rebuilds from canon and the handoff's description; the ports should be checked against the originals in the revision session (§13.3).
-
-**v0.3 ratification pass.** Rulings R1–R8 of the issue-by-issue pass (Terhia-Heroes-Rulings.md) are applied here and in the PG: the Guru Strike's second Rank Die against Cohesion only, with Cohesion 6 / 9 / 12 per member (R1); Tempo at the rank boundaries and the tier table without correction lines (R2); Guru relic alterations across schools only as a Push, and the never-cheaper rule (R3, R4); Readings free with the exploit priced (R5); entry to a block by ability only, and the Cohesion check against members lost (R6); *Time Debt*, the Boss Stun, and *Threshold* (R7); the moon rule ratified (R8). Ruled register rows are marked; G40–G46 are new. Issues 9–15 of the ledger, including the editorial cross-reference list, remain open.
-
-**Two additions beyond the handoff, on Joe's brief for this session:** a **Tempo** track (actions per turn grow with level; §3) and a **gear system** with eight slots, tiers, intrinsics, and sockets that seat relics with attributes (§7). Both change PG numbers; the PG revisions are listed in §13.2 and applied in PG v0.2.
+**Two additions beyond the handoff, on Joe's brief for this session:** a **Tempo** track (actions per turn grow with level; §3) and a **gear system** with eight slots, tiers, intrinsics, and sockets that seat relics with attributes (§7). Both change PG numbers; the PG revisions are listed in §13.2, not applied silently.
 
 ---
 
@@ -41,21 +37,16 @@ The GMG builds against these. Any change is a PG revision (§13.2), never a sile
 | Levels by rank | Novice 1–4 · Adept 5–8 · Master 9–12 · Guru 13–16 (PG §13.1) |
 | Guard · Ward | 10 + Poise + armor + shield + RB (+1 martial) · 10 + Reserve + RB (+1 magic) |
 | Vigor per level | Martial 12/+7 · Alchemy 10/+6 · Magic 8/+5 · + Reserve each level |
-| Strain Capacity | 6 / 9 / 12 / 16 + Reserve, ±moon (§9.4); full refresh at a Breather (10 min); three Breathers a day; a Breather restores a quarter of maximum Vigor |
+| Strain Capacity | 6 / 9 / 12 / 16 + Reserve; full refresh at a Breather (10 min); three Breathers a day; a Breather restores a quarter of maximum Vigor |
 | Marks | Permanent; floors 0/1/2/3 by rank; Stages at 3/6/8/10; Overdraw = 1 Mark; Push = 1 Mark; the End at 10 |
-| Turn | Move (6) + Actions (Tempo, PG §5) + Quick + Reaction; one Sustained effect at a time; one Ready a turn; "Strike" inside an ability is one attack |
-| Tempo | 1 / 2 / 3 at levels 1–8 / 9–12 / 13–16 — steps at the rank boundaries (PG §5, R2) |
-| Guru Strike | Two attacks at weapon + RD + Key; the second RD against a Mob's Cohesion only (PG §5, R1) |
-| Readings | Free, no action, once per round per reader; the exploit costs the Quick, or an Action when the Quick is spent (PG §11, R5) |
+| Turn | Move (6) + Action + Quick + Reaction; one Sustained effect at a time (Tempo adds Actions: §3) |
 | Damage kinds | Physical, Fire, Frost, Storm, Stone, Force, Toxin, Necrotic, Sacred |
 | DoT | Burning 3/stack (decays) · Bleeding 2/stack · Poisoned 1/stack and −stacks Ward · cap 5 |
 | Crits | Chance 20 (max 17–20); Rate ×2 (×3 by talent/ability); a crit adds one hex stack |
-| Areas | One roll compared to each defense; half damage on a miss — except Elites and Bosses, who take nothing (PG §2, v0.2) |
+| Areas | One roll compared to each defense; half damage on a miss |
 | Downed | Death Clock 3; stabilize DC 10; death permanent except *Refuse Death* and *Threshold* |
 | Grid | 1 square = 1 pace; diagonals 1; Medium 1×1, Large 2×2, Huge 3×3, Grand Beast 4×4+; Mob = block |
 | Advancement | Abilities per PG §13.1; talents at 2/6/10/14; attribute +2 at 4/8/12/16 within caps 18/20/22/22 |
-| Core forms | A Core keeps every form it has had; the Guru form is the one that costs Strain (PG §14, H38) |
-| Elite / Boss shake-off | One Ward check a turn — d20 + (Ward − 10) vs the applier's attack roll — against any hex that denies a Move, Action, or Reaction or dictates a target (PG §8.2, H36) |
 
 **Nominal key modifier** for calibration: +3 / +4 / +5 / +6 at levels 1 / 5 / 9 / 13 (handoff 4.10).
 
@@ -63,11 +54,11 @@ The GMG builds against these. Any change is a PG revision (§13.2), never a sile
 
 ## 2. Decisions taken for this draft
 
-Working readings of the handoff's D1–D9, plus two new decisions this session's brief required. Each is a G-row; D1 and D10 are ruled (R8, R2); the rest stand until Joe rules.
+Working readings of the handoff's D1–D9, plus two new decisions this session's brief required. Each is a G-row; none is settled until Joe rules.
 
 | # | Decision | Reading used in this draft | Where it lands |
 |:-:|:--|:--|:--|
-| D1 | Moon-phase mechanic | **(a), one lever:** in your school's own phase, Strain Capacity +2; in the two far phases (two steps away in the cycle), Strain Capacity −1; adjacent phases no effect. Martial and Alchemy schools: no moon, no effect. **Ratified (R8)** | §9.4 |
+| D1 | Moon-phase mechanic | **(a), one lever:** in your school's own phase, Strain Capacity +2; in the two far phases (two steps away in the cycle), Strain Capacity −1; adjacent phases no effect. Martial and Alchemy schools: no moon, no effect | §9.4 |
 | D2 | Starting level | **Level 3** recommended (full Novice kit; Vigor survives one bad round). Encounter tables are written from level 1 regardless | §4.6 |
 | D3 | Apothecarist Adaptations | Not a GMG matter; unchanged | — |
 | D4 | Relic bond cost | **(c) no Capacity cost.** Sockets are the cap (§7.4); the only bond rule is that an over-rank relic seated in the Trinket costs 1 Strain Capacity while seated | §7.5 |
@@ -76,7 +67,7 @@ Working readings of the handoff's D1–D9, plus two new decisions this session's
 | D7 | Guru scenario powers and the registries | **Yes, automatic:** a Ground-scale effect in registered territory files itself (§8.5) | §8.5 |
 | D8 | Chronicle ↔ Heroes conversion | **Incompatible at the sheet level.** A character converts by rank, Marks count, and school only; abilities and gear are re-picked | §13.4 |
 | D9 | "Err on the side of power" for the Sorcerer | **Yes**, applied to every GMG ruling that touches the Arcane school (Canon XI.6) | throughout |
-| D10 | Tempo (new) | Actions per turn: 1 at levels 1–8, **2 at level 9, 3 at level 13** (R2; v0.2 had 6 / 12); no Strain-costing ability twice in one turn (§3) | §3, §13.2 |
+| D10 | Tempo (new) | Actions per turn: 1 at level 1, **2 at level 6, 3 at level 12**; no Strain-costing ability twice in one turn (§3) | §3, §13.2 |
 | D11 | Gear slots (new) | **Eight:** Head, Chest, Legs, Gloves, Boots, Accessory ×2, Trinket. One socket per piece. Weapons and shields carry no tier and no socket in this draft (G-row for Joe) | §7 |
 
 ---
@@ -87,19 +78,19 @@ Working readings of the handoff's D1–D9, plus two new decisions this session's
 
 | Level | Tempo | What it means at the table |
 |:-:|:-:|:--|
-| 1–8 | 1 | Move + one Action + Quick + Reaction (PG as written) |
-| 9–12 | 2 | Two Actions a turn. A Master Elementalist casts and Cores; a Master Hexblade Strikes twice (four attacks, since the Master Strike Action already makes two — counted in §12.2) |
-| 13–16 | 3 | Three Actions a turn. A Guru Sorcerer casts three spells; a Guru Berserker Strikes three times |
+| 1–5 | 1 | Move + one Action + Quick + Reaction (PG as written) |
+| 6–11 | 2 | Two Actions a turn. An Adept Elementalist casts and Cores; a Master Hexblade Strikes twice (four attacks, since the Master Strike form already makes two) |
+| 12–16 | 3 | Three Actions a turn. A level-12 Master Sorcerer casts three spells; a Guru Berserker Strikes three times |
 
 ### 3.1 Rules
 
 1. **No repeats.** A Strain-costing ability may be used once per turn. The Core (0 Strain) may be used with every Action. Three Actions means three *different* costed abilities, or Cores in the gaps.
-2. **Strain is the governor.** Nothing here raises Strain Capacity. A level-13 Sorcerer with Capacity 19 spending 4 + 3 + 2 Strain a turn is at Overdraw on turn 3. Tempo gives the option of a burst; the Ledger sends the bill.
-3. **One Sustained effect** at a time, as the PG. A second Action cannot start a second Sustain. **One Ready** a turn: a Readied Action fires as the Reaction, and there is one Reaction.
+2. **Strain is the governor.** Nothing here raises Strain Capacity. A level-12 Sorcerer with Capacity 15 spending 3 + 2 + 2 Strain a turn is at Overdraw on turn 3. Tempo gives the option of a burst; the Ledger sends the bill.
+3. **One Sustained effect** at a time, as the PG. A second Action cannot start a second Sustain.
 4. **Dash** and other Action-cost movement may be taken with any Action. Move itself stays one per turn.
 5. **Quick** stays one per turn; **Reaction** one per round. Talents that grant a second Reaction are unchanged.
-6. **Summons act on the summoner's turn** and share its Quick: a familiar, golem, turret, construct, or companion takes its own Move and one Action when its summoner takes a turn, regardless of the summoner's Tempo. (Handoff risk 8; PG §5, applied.)
-7. **Readings** cost 0 Strain and no action, once per round per reader; the exploit costs the reader's Quick, or an Action when the Quick is spent (PG §11, R5). Tempo does not multiply them.
+6. **Summons act on the summoner's turn** and share its Quick: a familiar, golem, turret, construct, or companion takes its own Move and one Action when its summoner takes a turn, regardless of the summoner's Tempo. (Handoff risk 8; PG revision.)
+7. **Readings** cost 0 Strain and are not Actions (as PG); Tempo does not multiply them.
 
 ### 3.2 Opposition Tempo
 
@@ -132,20 +123,20 @@ Mob only: unit, block, drill, Cohesion, attack cap (§5)
 
 ### 4.2 Tier table (rescaled for Tempo)
 
-Guard, Ward, and Attack keep the handoff's proposal: they set the 55–65% same-rank hit rate, and Tempo does not change hit rates. Vigor is scaled to the band's design Tempo — 1 / 1 / 2 / 3 under R2, so no level inside a band needs a correction; Novice keeps the handoff's figures (v0.1 raised the Novice Boss to 75 on a Novice Strike that carried a Rank Die it does not have — §12.1). Handoff figures in parentheses where they changed.
+Guard, Ward, and Attack keep the handoff's proposal: they set the 55–65% same-rank hit rate, and Tempo does not change hit rates. Vigor is rescaled because Tempo changes what a party does in a round. Handoff figures in parentheses where they changed.
 
 | Tier | Guard / Ward | Attack | Vigor: Standard / Elite / Boss | Damage per round: Standard / Elite / Boss | Design Tempo (party) |
 |:--|:-:|:-:|:-:|:-:|:-:|
-| Novice | 14 / 13 | +4 | 12 / 30 / 60 | 6 / 10 / 16 | 1 |
-| Adept | 17 / 16 | +7 | 30 / **35** / **110** (handoff 140; v0.2 had 70 / 220 for a Tempo-2 Adept) | 12 / 20 / 32 | 1 |
+| Novice | 14 / 13 | +4 | 12 / 30 / **75** (60) | 6 / 10 / 16 | 1 |
+| Adept | 17 / 16 | +7 | 30 / 70 / **220** (140) | 12 / 20 / 32 | 2 |
 | Master | 20 / 19 | +10 | 60 / 140 / **450** (280) | 20 / 34 / 55 | 2 |
 | Guru | 24 / 23 | +14 | **100** (120) / 280 / **800** (560, avatar) | 34 / 55 / 90 | 3 |
 
-**No Tempo adjustments.** Under R2 the design Tempo is the band's Tempo at every level in it: 1 for Novice and Adept, 2 for Master, 3 for Guru. The two correction lines v0.2 carried (a level-5 party halving Adept Vigor; a level-12 party multiplying Master's by 1.5) are gone with the mid-rank Tempo steps.
+**Tempo adjustments (two lines).** A level-5 party has Tempo 1 against Adept blocks designed for Tempo 2: halve Adept Elite and Boss Vigor (35 / 110). A level-12 party has Tempo 3 against Master blocks designed for Tempo 2: multiply Master Elite and Boss Vigor by 1.5 (210 / 675). No other adjustment.
 
 **Damage per round → attacks.** Split the per-round figure across the block's attacks: Novice standard 1 × 6 (1d6+3); Adept standard 1 × 12 (2d8+3) or 2 × 6; Master standard 2 × 10 (2d8+1 each); Guru standard 2 × 17 (2d12+4 each). Elites make two attacks per Action; Bosses make two per Action plus Interrupts, and the per-round figure includes the Interrupts (Interrupt strike: 4 / 8 / 8 / 8 by tier). Dice are optional; the flat figure is the calibration.
 
-**Why these numbers.** A standard enemy dies to one PC turn of its tier (two hits at Novice; two Actions at Master). An Elite dies to one round of focused party fire. A Boss survives 3–4 rounds of a full party spending **every** Action on damage at the design Tempo — that is the floor. A party that also reverses the arena, boons, positions, and Reads spends about half its Actions on damage and takes 6–7 rounds, which is one to two rounds a phase (§11.5, §12.3 c). §12 shows the arithmetic.
+**Why these numbers.** A standard enemy dies to one PC turn of its tier (two hits at Novice; two Actions at Master). An Elite dies to one round of focused party fire. A Boss survives 3–4 rounds of a full party at the design Tempo. §12 shows the arithmetic.
 
 ### 4.3 Roles
 
@@ -163,11 +154,11 @@ Apply to the tier line. Standard-line Vigor unless the role says otherwise.
 
 ### 4.4 Elites and Bosses
 
-- **Shake-off** as the PG (§8.2, v0.2): at the end of its turn an Elite or Boss makes one Ward check — **d20 + (Ward − 10)** vs the attack roll that applied the hex (or 10 + the applier's Key + RB where no roll was made) — against any one hex that denies it a Move, Action, or Reaction or dictates its target (Stunned, Rooted, Grabbed, Bound, Dazed, Frightened). Success ends that hex. A Master Boss (Ward 21, +11) shakes a Master Hexblade's *Bind* (attack roll ~26) on a 15+: it stays Bound about two rounds in three, and is never Bound for a fight.
+- **Shake-off** as the PG: Elites and Bosses end Stunned early on their shake-off.
 - **Hex stack caps:** standard 5 (PG), **Elite 4, Boss 3.** A Boss's Ward at −3 from Poisoned is still a Boss's Ward; the Warlock snowball (handoff risk 7) stops at −3.
-- **Interrupts.** At the end of any other creature's turn, a Boss may spend one Interrupt: a strike at the tier's Interrupt figure (4 / 8 / 8 / 8), a Move of 3, or a listed Interrupt ability. Interrupts refresh at the start of the Boss's turn; a turn lost to *Time Debt* refreshes nothing (§10.4). They cannot use phase abilities, Sustain, or Overdraw.
+- **Interrupts.** At the end of any other creature's turn, a Boss may spend one Interrupt: a strike at the tier's Interrupt figure (4 / 8 / 8 / 8), a Move of 3, or a listed Interrupt ability. Interrupts refresh at the start of the Boss's turn. They cannot use phase abilities, Sustain, or Overdraw.
 - **Weakness.** Every Boss lists one: a Reading that reveals it, and the mechanical effect of exploiting it (Guard −4 for a round; a resistance removed; an ability lost until the next phase). Grand Beast weaknesses come from the canon tier table (§6).
-- **Bosses and Slow Field / mass hexes.** A Boss entering a Sorcerer's *Slow Field* or any Ground-scale or Battlefield hex makes the same Ward check on entry, and again with its end-of-turn shake-off; success ends the effect for it alone. The field stays (D9: the Sorcerer keeps the ability; the Boss keeps its check). Elites use the end-of-turn shake-off only.
+- **Bosses and Slow Field / mass hexes.** A Boss entering a Sorcerer's *Slow Field* or any Ground-scale hex makes a Ward check (d20 + tier Ward bonus vs the caster's ability DC) on entry and at the start of each of its turns; success ends the effect for it alone. The field stays (D9: the Sorcerer keeps the ability; the Boss keeps its check). Elites make the check on entry only.
 
 ### 4.5 Practitioner opposition
 
@@ -193,7 +184,7 @@ Enemy practitioners **use the PG classes at their listed level**; there are no s
 
 **Budget for four PCs, own-tier TP:** Easy 2 · Standard 4 · Hard 6 · Deadly 8. Five PCs ×1.25; three PCs ×0.75. Levels 1–2 use Easy and Standard only. A day of adventuring holds about 12 TP between night rests; three Breathers are the spacer.
 
-**Within-tier level.** A block has a tier, not a level. A level-8 party against Adept blocks is at the top of the band and will find Standard fights easy; use Hard. A level-5 party is at the bottom of its band: treat Hard as Deadly.
+**Within-tier level.** A block has a tier, not a level. A level-8 party against Adept blocks is at the top of the band and will find Standard fights easy; use Hard. A level-5 party uses the Tempo adjustment (§4.2) and treats Hard as Deadly.
 
 **The ±1 rank rule.** An encounter's enemies are within one rank of the party, or the scene is a chase, a puzzle, or a Boss with a listed Weakness — never a stand-up fight.
 
@@ -232,11 +223,11 @@ The Chronicle's Lines / Cohesion model converted to figurines. A Mob is one bloc
 
 | Drill | Cohesion per member | Guard / Ward | Attack | Damage per hit | Speed | Attack cap per target | Cohesion bonus |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| Novice | 6 | 14 / 11 | +4 | 6 | 4 | 3 | +2 |
-| Adept | 9 | 15 / 12 | +5 | 8 | 5 | 4 | +4 |
-| Master | 12 | 16 / 13 | +6 | 10 | 6 | 5 | +6 |
+| Novice | 4 | 14 / 11 | +4 | 6 | 4 | 3 | +2 |
+| Adept | 6 | 15 / 12 | +5 | 8 | 5 | 4 | +4 |
+| Master | 8 | 16 / 13 | +6 | 10 | 6 | 5 | +6 |
 
-**Cohesion** = members × the drill's per-member figure (6 / 9 / 12, G39 taken under R1): a Novice platoon 240, an Adept platoon 360, a Master platoon 480; a Novice squad 60; a band 30. Cohesion is the Mob's Vigor. Tempo 1. No Reactions.
+**Cohesion** = members × the drill's per-member figure: a Novice platoon 160, an Adept platoon 240, a Master platoon 320; a Novice squad 40; a band 20. Cohesion is the Mob's Vigor. Tempo 1. No Reactions.
 
 ### 5.3 Attacks
 
@@ -255,7 +246,7 @@ The Chronicle's Lines / Cohesion model converted to figurines. A Mob is one bloc
 
 ### 5.5 Cohesion check, rout, break
 
-- **Check.** The first time a Mob is at or below half Cohesion, and at the end of every later round in which it took damage while at or below half: **d20 + Cohesion bonus vs 10 + members lost this round** (damage taken this round ÷ the drill's per-member figure, rounded down). Failure: the Mob **routs**. A Master platoon with its officer holds on 7+ after losing five members and on 13+ after losing eleven; a Novice squad holds on 8+ after losing two. (v0.2's DC of 10 + damage taken was unreachable above about 20 damage, so every forced check was an automatic rout — R6.) Abilities that force a check set their own DC (Warden *The First Ten Deaths*: 10 + Rank Bonus + kills, at Disadvantage).
+- **Check.** The first time a Mob is at or below half Cohesion, and at the end of every later round in which it took damage while at or below half: **d20 + Cohesion bonus vs 10 + damage taken this round.** Failure: the Mob **routs**.
 - **Rout.** A routed Mob moves away from the nearest enemy at double Speed on its turns and makes no attacks. It **breaks** (is removed) if it takes any further damage, or when it leaves the map. A broken Mob's members are casualties, deserters, and prisoners at the GM's split; the number is a record, not a rule.
 - **Rally.** An Elite officer adjacent to or inside a routed Mob may spend its Action: Cohesion check vs 15; success ends the rout at current Cohesion. One attempt per rout.
 - **Broken outright** at Cohesion 0.
@@ -268,8 +259,6 @@ The Chronicle's Lines / Cohesion model converted to figurines. A Mob is one bloc
 ### 5.7 Movement and shape
 
 A block moves as one piece at its Speed and cannot enter a gap narrower than its short side. **Reshaping** (5×8 to 4×10, a column to a line) costs the Mob's Action. Difficult ground halves Speed. A Mob cannot Dash; only a rout doubles its Speed. Sliding blocks (animals: a herd, a swarm) reshape freely and ignore the gap rule.
-
-**Inside a block (R6).** A block's squares are enemies' squares (PG §6.1). A creature enters one only by an ability that says so — Vanguard *Break Formation*, Hexblade *Fold the Line*, Paladin *Bulwark Step* through Medium members, *Split the Door* on a shield wall — or by being pushed in. Inside, it occupies its square and the block keeps its footprint; it is engulfed (§5.3) unless the ability caps the attacks; the officer is adjacent from inside and has no cover; the block moves only by reshaping (its Action) and leaves the creature standing; a rout leaves it; a break empties the squares; leaving provokes nothing but the Doctrine line's *The circle*.
 
 ### 5.8 What a Mob reads as
 
@@ -290,7 +279,7 @@ A block moves as one piece at its Speed and cannot enter a gap narrower than its
 
 ### 5.9 Calibration: the platoon standard
 
-A Guru martial PC (level 13, Tempo 3) hits a Mob's Guard of 14–16 about 95% of the time, and against Cohesion its Strike carries the second Rank Die (PG §5, R1): two attacks at weapon + 2 RD + Key, 47 an Action, about 140 Cohesion a round with Strikes alone (single-target the same Strike is 34, §12.1). Against a Novice platoon (240): round 1 → 100, under half — an automatic rout (23 members lost is DC 33, §5.5). Adept platoon (360): round 1 → 220; round 2 → 80, under half — rout in round 2. Master platoon (480): round 1 → 340; round 2 → 200, under half — rout in round 2. **One round at Novice drill, two at Adept and Master drill,** Strikes alone; the Guru abilities that name Cohesion can only make it faster, and *The First Ten Deaths* routs from full on its own DC. The handoff asked for 2–4; the drilled figures are inside it, and a levy is not the platoon standard. A Master party of four routs a Novice platoon in one round (areas deal double to Cohesion, §5.4); a Novice party of four (~17 a round) cannot break a platoon and should not be shown one except as scenery or as the thing to hide from.
+A Guru martial PC (level 13, Tempo 3) does about 61 Cohesion a round with Strikes alone (§12). Against a Novice platoon (160): round 1 → 99; round 2 → 38, under half, check vs 71 — automatic rout. **Two rounds.** Adept platoon (240): routs in round 3. Master platoon (320): under half in round 3, check at +6 vs 71, routs in round 3. Add the Guru abilities that name Cohesion and the range is **2–3 rounds**, inside the handoff's 2–4. A Master party of four (130/round) routs a Novice platoon in one round; a Novice party of four (25/round) cannot break a platoon and should not be shown one except as scenery or as the thing to hide from.
 
 ---
 
@@ -318,8 +307,8 @@ A phase is announced when its trigger lands; the change is applied before the ne
 
 | Tier | Vigor (Boss line) | Phases | Vulnerability procedure |
 |:--|:-:|:-:|:--|
-| Novice | 60 | 2 | **Pattern.** The beast runs a fixed 3-turn cycle (e.g., stalk → charge → recover) with a **tell** the turn before its big attack. A PC who has read the pattern (any Reading, or two full cycles observed) gains the **exploit**: on the recover turn, attacks against it have Advantage and its Guard is −4. Phase 2 at half Vigor: the cycle changes and a new tell must be read. A hunt: the party's first job is to watch |
-| Adept | 110 | 3 | **Dependency.** A food, a den, a moon-lit pool, a substrate reading at a site on the map. While intact: one resistance and one ability. **Denying it** removes both for the rest of the fight: two Actions at the site and a check vs DC 16 (any attribute the fiction supports), or breaking a 30-Vigor object there. Phase 2 at half Vigor: the beast moves to the dependency and fights at it. Phase 3 at a quarter: damage ×1.25, Speed +2, no more Interrupts (it has stopped thinking) |
+| Novice | 75 | 2 | **Pattern.** The beast runs a fixed 3-turn cycle (e.g., stalk → charge → recover) with a **tell** the turn before its big attack. A PC who has read the pattern (any Reading, or two full cycles observed) gains the **exploit**: on the recover turn, attacks against it have Advantage and its Guard is −4. Phase 2 at half Vigor: the cycle changes and a new tell must be read. A hunt: the party's first job is to watch |
+| Adept | 220 | 3 | **Dependency.** A food, a den, a moon-lit pool, a substrate reading at a site on the map. While intact: one resistance and one ability. **Denying it** removes both for the rest of the fight: two Actions at the site and a check vs DC 16 (any attribute the fiction supports), or breaking a 30-Vigor object there. Phase 2 at half Vigor: the beast moves to the dependency and fights at it. Phase 3 at a quarter: damage ×1.25, Speed +2, no more Interrupts (it has stopped thinking) |
 | Master | 450 | 4, map change between each | **Reversal.** The arena is the beast's: an environmental condition (fog, flooded ground, heat, ice, dark) grants it +1 Interrupt, one resistance, and puts a hazard on the party. The party must **reverse the condition mid-fight**: a map task of 3 steps in Phase 1 (each an Action at a point plus a check vs DC 18, or a structure break, §10.8), 2 steps in Phase 2, 1 in Phase 3. Reversal opens a **vulnerability window** of 2 rounds: Guard −4, Vulnerable to one named kind, no Interrupts. Each phase the beast re-asserts the condition and changes the map (water rises, a ridge falls, the fog thickens). Phase 4 has no reversal: the beast is at a quarter Vigor and the window is permanent |
 | Guru | 800 per manifestation | Repeats | **Tether.** The avatar is 4×4 or larger and built of parts (§6.5). It can be climbed, blinded, broken piece by piece, and its manifestation destroyed at 0 Vigor — and it **returns at the next phase of its moon** (or the next night, on the GM's clock) at full unless the tether is unseated. The tether is a node anchor: a basin, a range, a reef, an oasis. Unseating it is a **campaign objective**, not a fight: three **tether points** on a regional map, each unseated by a Guru-scale action (a Guru ability at Ground scale; a season's engineering work; a joint operation; a treaty that moves people). Each tether point unseated removes one part permanently from the next manifestation and one ability with it. All three unseated: the domain collapses with the avatar (Frostvatn, 1232) |
 
@@ -327,7 +316,7 @@ A phase is announced when its trigger lands; the change is applied before the ne
 
 ### 6.4 What each school's Reading reveals about a beast
 
-One line per class per tier. Readings are 0 Strain and free of any action (the exploit is the reader's Quick, PG §11); the GM says the line and no more. A Reading that fails is still a result.
+One line per class per tier. Readings are 0 Strain and free of Actions; the GM says the line and no more. A Reading that fails is still a result.
 
 | Class | Novice | Adept | Master | Guru |
 |:--|:--|:--|:--|:--|
@@ -418,7 +407,7 @@ Intrinsics stack across slots and do not stack within one. A full named kit at G
 - **One socket per piece.** A socket seats **one relic of rank equal to or below the piece's tier**: a Master helm seats a Master, Adept, or Novice relic; an Adept ring seats Adept or Novice.
 - **The Trinket's socket seats any rank.** An over-rank relic there (a Novice carrying a Master relic) costs **1 Strain Capacity while seated** — the only bond cost in the game (D4).
 - **Seating and unseating** take a Breather. A relic seated unread (§7.7) reveals its governor the first time it fails.
-- **Maximum seated: eight**, one per slot, and **the same attribute in at most one socket** (v0.1 said two: a per-hit damage attribute multiplies with the Master Strike's two attacks and with Tempo, and two of them put a Master martial at +80% over the tier table's assumption — §12.3). No Capacity cost beyond the Trinket rule.
+- **Maximum seated: eight**, one per slot, and **the same attribute in at most two sockets**. No Capacity cost beyond the Trinket rule.
 
 ### 7.5 Relics
 
@@ -447,13 +436,13 @@ A relic is beast residue with a shape: a tooth, a stone from a den, a bead of re
 | Death Clock | — | +1 | +1 | +2 |
 | Breather | — | restores a third | restores a third | restores half |
 | Reach or range | — | Strike reach +1 or Core range +4 | same | same, and areas +1 scale step 1/encounter |
-| Reading | — | one line one tier up, own school | same | one word of a second school (the relic's moon) — R3 |
+| Reading | — | one line one tier up, own school | same | one line of a second school (the relic's moon) at Novice level (G-row 13) |
 | Cohesion damage | — | ×1.5 | ×2 | ×2; areas ×3 |
 | Summon (familiar, golem, companion, construct) | — | +1 Guard and attack | +2 | +2; one extra Action for the summon |
 | Hex resistance, one named hex | — | +2 on checks against it | immune | immune |
 | Tempo | — | — | — | 1/encounter: one extra Action |
 
-**Alteration (Master and Guru only).** One new action or one changed class mechanic, written in PG format on the relic entry. A Master alteration is bounded to an encounter (a new Reaction; a movement mode; a once-per-Breather effect). **A Guru alteration is a bounded piece of the Guru ability of the relic's moon** — Sustained Works (Saelura / Elemental), Substrate Editing (Orrivane / Arcane), Morphic Borrowing (Threnis / Nature), Boundary Holding (Velquor / Necrotic), Lifespan Transference (Namaris / Divine) A practitioner of that school uses it at the cost the entry states. **Anyone else uses it only as a Push** (PG §9.3, *Use*): 1 Mark, once per round — the relic draws the school's cost from a body not trained to pay it. Where the alteration sets a sustained work, the Push sets it and the entry's holding cost falls on whoever holds it (R3). **A relic's alteration never costs less than the school's own ability for the same work** (R4). This is the handoff's "the GM can see the intended power": a Guru relic hands a Warden a sentence of a Guru's book, tethered, and the Warden pays in the Guru's coin.
+**Alteration (Master and Guru only).** One new action or one changed class mechanic, written in PG format on the relic entry. A Master alteration is bounded to an encounter (a new Reaction; a movement mode; a once-per-Breather effect). **A Guru alteration is a bounded piece of the Guru ability of the relic's moon** — Sustained Works (Saelura / Elemental), Substrate Editing (Orrivane / Arcane), Morphic Borrowing (Threnis / Nature), Boundary Holding (Velquor / Necrotic), Lifespan Transference (Namaris / Divine) — usable by any class, at a cost the entry states. This is the handoff's "the GM can see the intended power": a Guru relic hands a Warden a sentence of a Guru's book, tethered.
 
 **Governors** reuse the beast vocabulary. A relic's governor is the vulnerability logic of the tier that left it:
 
@@ -495,7 +484,7 @@ Bond: none; 1 Capacity if over-rank in the Trinket
 
 ### 7.10 Ten sample relics
 
-Origins marked *[register]* are emergences that exist in the Grand Beasts module's register or must be entered there; Canon XI.3 rows are cited where one exists. None of these is canon until its emergence has a row. Alterations are used at the stated cost by the relic's own school and as a Push by anyone else (§7.5).
+Origins marked *[register]* are emergences that exist in the Grand Beasts module's register or must be entered there; Canon XI.3 rows are cited where one exists. None of these is canon until its emergence has a row.
 
 **1. Watcher's tooth (Novice).** Origin: the Deep Watcher archetype at Novice tier (XI.3; otter, water, node-active). Line: Trait. *Attribute:* Damage +1 Frost on Strike. *Governor:* Rigidity — only against a target that Moved this round (the ambush from still water).
 
@@ -509,9 +498,9 @@ Origins marked *[register]* are emergences that exist in the Grand Beasts module
 
 **6. Frostvatn basin-shard (Guru, named).** Origin: Frostvatn manifestation, 1230–32 (XI.3; tundra with mountain overlay, Velquor, Guru, the lake basin). Line: Tether. *Attribute:* Death Clock +2. *Alteration:* **Boundary held** — once per day, when an ally within 6 is Downed, their Death Clock does not tick for three rounds and they may speak (Necrotic Guru: a delay measured in breaths, not resurrection). *Governor:* Tether — the Frostvatn basin under the Hrafnrygg, or its bonded holder; re-bond at the basin. What the Chancel says about a person carrying it is a scene, not a rule.
 
-**7. Harbor-keeping ember (Guru, named).** Origin: a Saelura embodiment *[register]* — a harbor or oasis node. Line: Tether. *Attribute:* Resistance, Fire, and immune to Burning. *Alteration:* **Sustained work** — as an Action, set one environmental hold in a 12×12 area (ice-free water; a raised spring; a still wind; a cool shade) and walk away. It holds while you are within a mile. Each phase it holds costs 1 Strain Capacity, restored at one per phase after release; a work held a full year costs 1 Mark — the school's own rate (PG §14.1, R4; Elemental Guru: the body as an ongoing power source). *Governor:* Tether — the embodiment's harbor or oasis, or its bonded holder.
+**7. Harbor-keeping ember (Guru, named).** Origin: a Saelura embodiment *[register]* — a harbor or oasis node. Line: Tether. *Attribute:* Resistance, Fire, and immune to Burning. *Alteration:* **Sustained work** — as an Action, set one environmental hold in a 12×12 area (ice-free water; a raised spring; a still wind; a cool shade) and walk away. It holds while you are within a mile. Each day it holds costs 1 Strain Capacity, restored when you release it; a work held through a whole 80-day phase costs 1 Mark (Elemental Guru: the body as an ongoing power source). *Governor:* Tether — the embodiment's harbor or oasis, or its bonded holder.
 
-**8. Overlay lens (Guru, named).** Origin: an Orrivane embodiment *[register]* — a portal-station or coordinate node. Line: Tether. *Attribute:* for a Sorcerer, Crit Chance +1 step on the Core (D9); for anyone else, one word of the Sorcerer's Reading (R3). *Alteration:* **Gravity, bounded** — once per Breather, as an Action, set gravity in a Burst 2 for three rounds: *down* (creatures in it are Prone with Speed 1, Force 1 RD per round) or *up* (flying creatures fall; thrown and falling objects hang and drop when it ends). Ward check on entry for Elites and Bosses (§4.4). *Governor:* Tether — the station or node, or its bonded holder. Canon: edits hold only under attention; if the holder is Stunned the effect ends.
+**8. Overlay lens (Guru, named).** Origin: an Orrivane embodiment *[register]* — a portal-station or coordinate node. Line: Tether. *Attribute:* for a Sorcerer, Crit Chance +1 step on the Core (D9); for anyone else, the Sorcerer's Reading line at Novice level (mass and charge line). *Alteration:* **Gravity, bounded** — once per Breather, as an Action, set gravity in a Burst 2 for three rounds: *down* (creatures in it are Prone with Speed 1, Force 1 RD per round) or *up* (flying creatures fall; thrown and falling objects hang and drop when it ends). Ward check on entry for Elites and Bosses (§4.4). *Governor:* Tether — the station or node, or its bonded holder. Canon: edits hold only under attention; if the holder is Stunned the effect ends.
 
 **9. Borrowed soma (Guru, named).** Origin: a Threnis embodiment *[register]* — a canopy or apex predator node. Line: Tether. *Attribute:* Speed +2. *Alteration:* **Morphic borrowing** — once per day, for ten rounds, take one animal trait: a climb Speed equal to your Speed; night eyes (no Blinded from darkness); or a bite, a Strike-kind attack at 1 RD + Key, Physical, that inflicts Bleeding 1 on a crit. The fifth use in a campaign, and every fifth after, is 1 Mark, narrated as species bleed. *Governor:* Tether — the emergence's forest, or its bonded holder.
 
@@ -612,16 +601,16 @@ Guru consequences are treaty matters (Canon Part II): a party that carries a nam
 
 ### 8.6 What the poster is not saying
 
-Roll or choose one per contract; the Revelation step is where it lands. Each has a Reading that can find it early: the party's investigation is its Readings (PG §11), and a PC who Reads the right thing at the Discovery or Location step gets the line. The lie is discoverable, not fiat.
+Roll or choose one per contract; the Revelation step is where it lands.
 
-1. The tier rating is one step low, because the posting was written before the node reading rose. *Found by:* Sorcerer (the node reading, as a quantity); Elementalist (what the ground answers now).
-2. The beast is the second one; the first was culled by attrition and left the arena's condition standing. *Found by:* Necromancer (the first beast's crossing, a phase old); Elementalist (the condition standing with nothing under it).
-3. The residue is already promised to someone else. *Found by:* Apostle (what the poster wants, and that it is not the residue).
-4. The poster's own practitioner failed the job last phase and is on the party's route. *Found by:* Warden (who is on the route); Necromancer (a crossing on the road).
-5. The dependency site is a village's well, den, grove, or rite ground. *Found by:* Apothecarist (the dependency, named); Artificer (a well or works as a mechanism).
-6. The contract exists so that the registry can file who took it. *Found by:* Hexblade (the assessor's posture: watching, not measuring); Apostle (what the registry wants).
-7. The benefice, share, or price is denominated in something the party does not yet know it has (a Mark, a name, a way). *Found by:* Apostle (what the poster wants of the party itself).
-8. The tether point the party is sent to is one of three, and the other two are someone else's contracts. *Found by:* Sorcerer (the tether's coordinates come back plural); Warden (the other roads into the domain).
+1. The tier rating is one step low, because the posting was written before the node reading rose.
+2. The beast is the second one; the first was culled by attrition and left the arena's condition standing.
+3. The residue is already promised to someone else.
+4. The poster's own practitioner failed the job last phase and is on the party's route.
+5. The dependency site is a village's well, den, grove, or rite ground.
+6. The contract exists so that the registry can file who took it.
+7. The benefice, share, or price is denominated in something the party does not yet know it has (a Mark, a name, a way).
+8. The tether point the party is sent to is one of three, and the other two are someone else's contracts.
 
 ---
 
@@ -685,7 +674,7 @@ Modes from Canon Part I, priced by phase (Phase Cascade, Part V). Figures are th
 
 ### 9.4 The moons (D1)
 
-Canon: casting cost varies by moon phase only. Heroes' rule, one lever (ratified, R8):
+Canon: casting cost varies by moon phase only. Heroes' rule, one lever:
 
 | Phase, relative to your school's moon | Strain Capacity |
 |:--|:-:|
@@ -739,7 +728,7 @@ The GM says one sentence. The table is the sentence's shape; the beast table (§
 | Artificer | The mechanism: how it works, what it needs | Anything without parts |
 | Warlock | The body's tolerances: what it drank, what would drop it | Anything without a body |
 
-**Cost:** 0 Strain, no action, once per round per reader; a target can be Read by every school present; the exploit costs the reader's Quick, or an Action when the Quick is spent (PG §5, §11; R5). **Load:** the sentence is the whole result; a player who wants more spends the next round on the next Reading. "This is above you" is a valid result at every school.
+**Cost:** 0 Strain, no Action, once per target per round. **Load:** the sentence is the whole result; a player who wants more spends the next round on the next Reading. "This is above you" is a valid result at every school.
 
 ### 10.3 Improvised Joins
 
@@ -751,15 +740,13 @@ Two schools, two abilities, one effect. Procedure:
 4. Both contributors spend an Action; the Join resolves on the later turn. One roll, the higher contributor's, compared to each defense.
 5. Damage kind and hexes are the higher component's; range is the shorter.
 6. A Join is never narrated as a whole: each contributor is told what their part did (Design Thesis).
-7. **Once per encounter** for each pair, as the PG's listed Joins (PG §12); "Strike" in a Join is one weapon attack.
 
 ### 10.4 Stunned: how many a fight can absorb
 
 - Standard enemies: no limit.
 - Elites: once per source per fight; then the shake-off applies immediately.
-- **Bosses: once per phase.** A Stunned Boss loses its turn (PG §8.2) and its Interrupts until its next turn; a second Stun in the same phase becomes Slowed (R7 — v0.2's "loses its Interrupts, not its turn" contradicted the PG's Stunned and is struck).
-- ***Time Debt*** (Sorcerer Guru A) is not a Stun and not a hex: a Boss loses its next turn with no shake-off and no Interrupt refresh, once per encounter (D9; R7).
-- The 1-round cap is the PG's, and the general shake-off (PG §8.2) covers Rooted, Grabbed, Bound, Dazed, and Frightened the same way. *Slow Field* stays as written (D9); Elites and Bosses get the Ward check (§4.4).
+- **Bosses: once per phase.** A second Stun in the same phase becomes Slowed. A Stunned Boss loses its Interrupts until its next turn, not its turn (it is still a Boss).
+- The 1-round cap is the PG's. *Slow Field* stays as written (D9); Elites and Bosses get the Ward check (§4.4).
 
 ### 10.5 Sustained effects
 
@@ -817,7 +804,7 @@ Not adventures. Blocks are built from §4; beasts are treatments of register row
 | Controller | A net-thrower; a marsh snake | 12 | 14 / 13 | 6 | 1 × 4 | *Snare*: Ward check or Slowed; *Daze* (1/fight): on a hit, Stunned 1 round | Vanguard: its reach and the square it will take |
 | Support | A drummer; a camp healer | 12 | 14 / 13 | 6 | 1 × 3 | *Mend*: 6 Vigor, range 6; *Steady*: an ally +2 Guard for a round | Apostle: whom it is trying to keep alive |
 | Elite | A sergeant; a lead hound | 30 | 15 / 14 | 6 | 2 × 5 | *Rally* (§5.5); *Press*: an adjacent ally's next attack has Advantage; *Hold*: Guard +2 if it did not Move; shake-off | Necromancer: how many it has buried today |
-| Boss | A bandit captain; a Novice beast (§11.4) | 60 | 16 / 15 | 6 | 2 × 6; Interrupt strike 4 | Two of the above, one Interrupt (a Strike); **Weakness:** a tell (§6.3) or a Reading-revealed fear: Guard −4 for a round when exploited | Any: "this is a captain" |
+| Boss | A bandit captain; a Novice beast (§11.4) | 75 | 16 / 15 | 6 | 2 × 6; Interrupt strike 4 | Two of the above, one Interrupt (a Strike); **Weakness:** a tell (§6.3) or a Reading-revealed fear: Guard −4 for a round when exploited | Any: "this is a captain" |
 
 **Adept tier** — Guard 17 / Ward 16 · Attack +7 · Tempo 1 (Elite 1, Boss 2)
 
@@ -828,8 +815,8 @@ Not adventures. Blocks are built from §4; beasts are treatments of register row
 | Caster | A registered Adept, any school | 23 | 16 / 18 | 6 | *Bolt* 1 × 10, range 12 | *Area* (1/fight): Burst 2, 12, half on miss; *Ward* (Quick): Guard +2 for a round; Strain 6 | Elementalist: what it will do to the ground |
 | Controller | A whip-line handler; a python | 30 | 17 / 16 | 6 | 1 × 9 | *Grasp*: Ward check or Slowed and Prone; *Hush*: Ward check or the target's next costed ability fails (1/fight) | Hexblade: the casting posture, one round early |
 | Support | An Apostle's deacon; a den-mother | 30 | 17 / 16 | 6 | 1 × 6 | *Mend*: 12; *Boon*: an ally +1 RD damage for a round; *Cover*: a Reaction, +4 Guard to an adjacent ally | Apothecarist: whom it is bound to |
-| Elite | A column lieutenant; a pack leader | 35 | 18 / 17 | 6 | 2 × 10 | *Rally*; *Press*; *Second Wind* (1/fight): 10 Vigor; *Shield Line*: adjacent allies +1 Guard; shake-off | Vanguard: its hinge |
-| Boss | A rival Adept practitioner (§4.5) or an Adept beast (§11.4) | 110 | 19 / 18 | 6 | Tempo 2: 2 Actions × 2 × 6; Interrupt strike 8 | One Interrupt; a dependency (§6.3) or a **Weakness** a Reading reveals; two role abilities | Necromancer: what it feeds on |
+| Elite | A column lieutenant; a pack leader | 70 | 18 / 17 | 6 | 2 × 10 | *Rally*; *Press*; *Second Wind* (1/fight): 20 Vigor; *Shield Line*: adjacent allies +1 Guard; shake-off | Vanguard: its hinge |
+| Boss | A rival Adept practitioner (§4.5) or an Adept beast (§11.4) | 220 | 19 / 18 | 6 | Tempo 2: 2 Actions × 2 × 6; Interrupt strike 8 | One Interrupt; a dependency (§6.3) or a **Weakness** a Reading reveals; two role abilities | Necromancer: what it feeds on |
 
 **Master tier** — Guard 20 / Ward 19 · Attack +10 · Tempo 1 (Elite 2, Boss 2)
 
@@ -877,11 +864,11 @@ Not adventures. Blocks are built from §4; beasts are treatments of register row
 
 Treatments of register rows (Canon XI.3; Canon Part VIII worked example). Illustrations, not canon beasts.
 
-**Novice — the Deep Watcher at Novice tier** (otter; lake, node-active; Trait line). Boss line: Vigor 60, Guard 16 / Ward 15, Speed 6 (swim 8), Tempo 1, Interrupt 1 (a bite, 4). *Pattern:* submerge (Hidden, no attacks) → surface-drag (one attack, 12, and the target is pulled 2 paces toward water, Ward check) → recover (surfaced, Guard −4 if the pattern has been read). *Tell:* the water stills the turn before the drag. **Phase 2** (Vigor 30): trigger, half Vigor; change, the fight is at the water's edge — squares within 2 of the water are deep water at the end of each round; new ability, *Drag Under*: on a drag, the target starts drowning (PG deep water); new Reading, Warden: the bank it will surface at. Exploit executed: 1 Novice relic (the Watcher's tooth, §7.10).
+**Novice — the Deep Watcher at Novice tier** (otter; lake, node-active; Trait line). Boss line: Vigor 75, Guard 16 / Ward 15, Speed 6 (swim 8), Tempo 1, Interrupt 1 (a bite, 4). *Pattern:* submerge (Hidden, no attacks) → surface-drag (one attack, 12, and the target is pulled 2 paces toward water, Ward check) → recover (surfaced, Guard −4 if the pattern has been read). *Tell:* the water stills the turn before the drag. **Phase 2** (Vigor 37): trigger, half Vigor; change, the fight is at the water's edge — squares within 2 of the water are deep water at the end of each round; new ability, *Drag Under*: on a drag, the target starts drowning (PG deep water); new Reading, Warden: the bank it will surface at. Exploit executed: 1 Novice relic (the Watcher's tooth, §7.10).
 
-**Adept — the Ulvskov pack** (wolf; taiga × Threnis, pack coordination; node Adept; Dependency on a den-site reading). Boss: the pack leader, Vigor 110, Guard 19 / Ward 18, Speed 8, Tempo 2, Interrupt 1 (a call: the band Moves). With it: a **band** of wolves (Mob, 5, sliding block, Novice drill, Cohesion 30). *Dependency:* the den site, a 30-Vigor structure of earth and root two squares across on the map; while intact, *Pack Coordination* (the band's attacks +2, and the leader's Interrupt) and Resist Frost. *Deny it:* two Actions at the site and a check vs DC 16 (any attribute the fiction supports), or break it. **Phase 2** (55): the leader Moves to the den and fights at it; the band engulfs whoever is adjacent to the site. **Phase 3** (27): damage ×1.25, Speed 10, no Interrupts; the band checks Cohesion at the leader's death. Dependency executed: 1 Adept relic (the den-earth pouch) and 1 Novice; the pack is wolves again.
+**Adept — the Ulvskov pack** (wolf; taiga × Threnis, pack coordination; node Adept; Dependency on a den-site reading). Boss: the pack leader, Vigor 220, Guard 19 / Ward 18, Speed 8, Tempo 2, Interrupt 1 (a call: the band Moves). With it: a **band** of wolves (Mob, 5, sliding block, Novice drill, Cohesion 20). *Dependency:* the den site, a 30-Vigor structure of earth and root two squares across on the map; while intact, *Pack Coordination* (the band's attacks +2, and the leader's Interrupt) and Resist Frost. *Deny it:* two Actions at the site and a check vs DC 16 (any attribute the fiction supports), or break it. **Phase 2** (110): the leader Moves to the den and fights at it; the band engulfs whoever is adjacent to the site. **Phase 3** (55): damage ×1.25, Speed 10, no Interrupts; the band checks Cohesion at the leader's death. Dependency executed: 1 Adept relic (the den-earth pouch) and 1 Novice; the pack is wolves again.
 
-**Master — Shalei burrow-dominant, 1155** (XI.3; desert × Threnis, burrow dominance; Master-active node; oasis dependency read as energy inversion). Boss: Vigor 450, Guard 22 / Ward 21, Speed 6 (burrow 8 through sand), Large 2×2, Tempo 2, Interrupts 2 (a surfacing strike, 8; a Move of 3 underground). *Arena condition — burrow dominance:* the sand is the beast's: it moves through it ignoring Reactions and Prone, has Resist Stone, and every round each PC on sand makes a check vs DC 15 or is Slowed by sinking (the hazard). *Reversal:* wet the sand from the oasis — three sluice-cuts on the dune lip, each an Action and a check vs DC 18 (or a break: 15 Vigor each); when all three are cut the water runs and the arena is wet sand for two rounds: **window** — Guard 18, Vulnerable Stone, no burrowing, no Interrupts. **Phase 2** (337): the beast collapses the first cut (map change: the north sluice is a 40-Vigor bank); two cuts remain. **Phase 3** (225): the pool drains a pace; one cut remains, at the pool's edge, and the beast holds it. **Phase 4** (112): no reversal; the window is permanent; the beast is above ground, damage ×1.25. Reversal executed: the Shalei burrow-tooth (Master) and 1 Adept relic; the Shakou road reopens for a season (the record: reopened 1156).
+**Master — Shalei burrow-dominant, 1155** (XI.3; desert × Threnis, burrow dominance; Master-active node; oasis dependency read as energy inversion). Boss: Vigor 450 (675 against a level-12 party), Guard 22 / Ward 21, Speed 6 (burrow 8 through sand), Large 2×2, Tempo 2, Interrupts 2 (a surfacing strike, 8; a Move of 3 underground). *Arena condition — burrow dominance:* the sand is the beast's: it moves through it ignoring Reactions and Prone, has Resist Stone, and every round each PC on sand makes a check vs DC 15 or is Slowed by sinking (the hazard). *Reversal:* wet the sand from the oasis — three sluice-cuts on the dune lip, each an Action and a check vs DC 18 (or a break: 15 Vigor each); when all three are cut the water runs and the arena is wet sand for two rounds: **window** — Guard 18, Vulnerable Stone, no burrowing, no Interrupts. **Phase 2** (337): the beast collapses the first cut (map change: the north sluice is a 40-Vigor bank); two cuts remain. **Phase 3** (225): the pool drains a pace; one cut remains, at the pool's edge, and the beast holds it. **Phase 4** (112): no reversal; the window is permanent; the beast is above ground, damage ×1.25. Reversal executed: the Shalei burrow-tooth (Master) and 1 Adept relic; the Shakou road reopens for a season (the record: reopened 1156).
 
 **Guru — the Frostvatn manifestation, 1230–32** (XI.3; tundra with mountain overlay; Velquor, 1 Velquor 1230; node off prior scale; geographic tether, the lake basin). The record does not settle what it was (a beast; the lake mother — R.5 #6, not settled here either). Treatment as the avatar: 6×6, Speed 0 (the manifestation is the lake's edge), Vigor 800 per manifestation, Tempo 3, Interrupts 3. **Parts** (4; part Vigor 160): the shelf (Guard 26, the body; *Heave*: Burst 2, 21 Frost, Prone); two reaches of ice (Guard 22 each; 2 × 11 Frost, reach 3; destroying one removes a reach); the eye (Guard 26; *Lake-ice anomaly*: Ground scale, all water squares freeze and all frozen squares are unstable footing; *Drain*: Strain +2 in Burst 3, Ward check halves). *Manifestation destroyed:* it returns at the next Velquor phase, or at the next Firstday, at full, minus parts unseated. **Tether points** (the record names two operations; the campaign may add a third and must enter it): (1) the Iselva headwaters — diverted by a season's works or an Elemental Guru's sustained work: removes the eye's *Drain*; (2) the basin's substrate anchor — unseated by a Sorcerer Guru's edit at Ground scale with the overlay reading the anchor, or a joint operation of three Gurus: removes the shelf's *Heave* and ends the domain when both are done (Velquor 1232). Tether executed: the Frostvatn basin-shard (Guru, named) and two Master relics; the node reading falls one step and does not return to baseline.
 
@@ -889,75 +876,70 @@ Treatments of register rows (Canon XI.3; Canon Part VIII worked example). Illust
 
 *Phase:* Velquor, eleven days before the Saelura turn. *Map:* the oasis basin, 20×20; the pool (deep water) fills the centre 6×6; sand elsewhere; the dune lip on the north edge with three sluice-cuts marked at squares N4, N10, N16; a 40-Vigor bank of packed earth along the lip. *Party:* Hexblade (Guard 24 with a Master helm, Vigor 95, Tempo 2), Warden (Guard 22, Vigor 90, Tempo 2), Elementalist (Ward 21, Vigor 75, Strain Capacity 15 — Velquor is adjacent to Saelura, no effect — Tempo 2), Apostle (Ward 21, Vigor 72, Strain Capacity 14 — Velquor is a far phase for Namaris, −1 — Tempo 2). Key modifiers +5. *Beast:* Guard 22 / Ward 21, Vigor 450, burrowed under the pool's east shore.
 
-**Readings (0 Strain, no action; no exploit claimed, so no Quick spent — R5).** Sorcerer absent. Elementalist: *the condition is dry sand; water reverses it.* Warden: *it will surface at the shore square nearest the Apostle.* Hexblade: *the seam is two rounds wide.* Apostle: *it knows the Saelura turn is eleven days off.*
+**Readings (0 Strain, before anyone acts).** Sorcerer absent. Elementalist: *the condition is dry sand; water reverses it.* Warden: *it will surface at the shore square nearest the Apostle.* Hexblade: *the seam is two rounds wide.* Apostle: *it knows the Saelura turn is eleven days off.*
 
-**Hexblade, Tempo 2.** Move 6 to the shore square the Warden named. Action 1, *Strike* (Master form, two attacks): d20+11 vs 22 — 14+11 hits, 9+11 misses; damage d8 + d10 + 5 = 15. Action 2, *Ready*: "when it surfaces adjacent to me, Strike" — the Readied attack fires as his Reaction. Beast 435.
+**Hexblade, Tempo 2.** Move 6 to the shore square the Warden named. Action 1, *Strike* (Master form, two attacks): d20+11 vs 22 — 14+11 hits, 9+11 misses; damage d8 + d10 + 5 = 15. Action 2, a Master ability (2 Strain; the PG's counter-practitioner stance, name per PG): the next attack against him from a surfacing target is answered by a Reaction Strike first. Beast 435.
 
-**Elementalist, Tempo 2.** Action 1, Core (*Elemental Sweep*, Master form, 0 Strain): Line 12 of Fire along the east shore, one roll compared to the beast's Guard 22: 12+11 hits; 3d10 + 5 = 21 Fire and the Master rider, Burning 2. Action 2, *Eruption* (Master B, 3 Strain): Burst 3 on the shore, delayed — it goes off at the start of her next turn: 4d10 + 5 Stone, Prone, half on a miss. Momentum 0 (Fire, then Stone). Strain 3 of 15 spent. Beast 414, Burning 2.
+**Elementalist, Tempo 2.** Action 1, *Elemental Sweep* (3 Strain): Line 8 of Fire along the east shore, one roll compared to the beast's Ward 21: 12+11 hits; 3d10 + 5 = 21 Fire, and Burning 1 stack. Action 2, Core (0 Strain, Master form): 3d10 + 5 Frost, d20+11 vs Ward 21 — 8+11 misses. Strain 3 of 15 spent. Beast 414, Burning.
 
 **Warden, Tempo 2.** Move 6 toward N4. Action 1, Dash to the cut. Action 2, the first sluice-cut: a check vs DC 18, d20 + 5 + 6 — 9+11 = 20, cut one. Two cuts remain.
 
-**Apostle, Tempo 2.** Action 1, *Encouragement Lands* (Adept A, 2 Strain): Burst 3 around her — the Hexblade is in it, Bolstered 2 rounds; 1 Conviction. Action 2, Core (*Sanction*, Master form, 0 Strain): 3d10 + 5 Sacred at Ward 21 — 15+11 hits, 21; the beast is **Sanctioned** 3 rounds: every hit against it deals +RD Sacred, and an ally who hits it is Bolstered a round. Beast 393. Strain 2 of 14.
+**Apostle, Tempo 2.** Action 1, an Adept boon (2 Strain; name per PG): the Hexblade deals +1 RD this round. Action 2, Core (0 Strain): Sacred, 3d10 + 5 at Ward 21 — 15+11 hits, 21. Beast 393. Strain 2 of 14.
 
-**Beast, Tempo 2, one Interrupt already spent** (after the Warden's turn it Moved 3 underground toward the Warden). Burning 2 ticks 6, then decays to 1: 387. Action 1, surface adjacent to the Warden — the Hexblade's Readied Strike is conditioned on *adjacent to me*, six paces off, and does not fire — Strike ×2 at +10 vs 22: 17+10 hits, 10; 6+10 misses. Warden 80. Action 2, *Sand-take* (arena ability): Burst 2 at the Warden's cut, each PC in it checks vs DC 15 or is Slowed; the Warden rolls 11+5+6, holds the cut. No shake-off: nothing on it denies an Action (Sanctioned and Burning are not lockdowns). Its two Interrupts refresh at the start of its turn; it holds them for the party's next turns (a surfacing strike, 8, or a Move of 3 underground, at the end of any PC's turn).
+**Beast, Tempo 2, Interrupts already spent one** (after the Warden's turn it Moved 3 underground toward the Warden). Burning ticks 3: 390. Action 1, surface adjacent to the Warden — the Hexblade's stance is 6 paces away and does not trigger — Strike ×2 at +10 vs 22: 17+10 hits, 10; 6+10 misses. Warden 80. Action 2, *Sand-take* (arena ability): Burst 2 at the Warden's cut, each PC in it checks vs DC 15 or is Slowed; the Warden rolls 11+5+6, holds the cut. Its two Interrupts refresh at the start of its turn; it holds them for the party's next turns (a surfacing strike, 8, or a Move of 3 underground, at the end of any PC's turn).
 
-**Round tally.** Beast 387 of 450 after one round: 63 dealt (15 + 21 + 21 + 6 Burning) from three damaging Actions, against an expected 48 for three (19.5 + 14 + 14) — above par on the dice, with *Eruption* still to land. The other five Actions bought a Readied Strike, a Dash, a sluice-cut, a Bolster, and the delayed Burst: a real party spends about half its Actions on damage, so the 3–4 rounds of §4.2 is the full-damage floor and this fight runs six or seven — one or two rounds a phase, which is what four phases need. Cuts: one of three. The Warden took 10; the beast's 55-a-round budget is 40 in Action attacks and 16 in Interrupts, and it spent one Interrupt on a Move. Sanctioned, Bolstered, and Burning all roll into round two. The Elementalist's Capacity 15 buys about four costed casts across the fight before the Ledger arrives, which is the design.
+**Round tally.** Beast 390 of 450 after one round; the party at Tempo 2 dealt 60 against an expected 130 (two misses and one wasted Action on Dash); a Boss's 3–4 rounds holds. Cuts: one of three. The Warden took 10; the beast's 55-a-round budget is 40 in Action attacks and 16 in Interrupts, and it spent one Interrupt on a Move. By round three the Elementalist, at 3 Strain a Sweep and Tempo 2, is one Sweep from Overdraw, which is the design: the Ledger arrives on turn three.
 
 ---
 
 ## 12. Calibration pass
 
-### 12.1 PG damage model (v0.2: read off the PG)
+### 12.1 Assumed PG damage model
 
-v0.1 reconstructed this table from the handoff and got two lines wrong: the Novice Strike carried a Rank Die it does not have (PG §5: Novice is weapon + Key), and the Guru Strike was assumed at weapon + RD when the PG gave weapon + 2 RD, two attacks. Both were corrected in v0.2; under R1 (v0.3) the second Guru Rank Die applies against Cohesion only, so the single-target Guru Strike is two attacks at weapon + RD + Key. The representative weapon is a d8; the two-handed classes (maul, great-ax d12) run about +2 a hit above these lines, the Vanguard's glaive +1. A Guru's 0-Strain turn uses the Master Core form (PG §14, H38).
+The PG file was not available; the model below is reconstructed from the handoff's own figures (Hexblade Master = 2 × (d8 + d10 + 4); Elementalist Sweep = 3d10 + 4; "casters' 3 RD Core at Master"). **Check each line against the PG in the revision session.**
 
-| Rank (level) | Key | Attack bonus | Core (caster), 0 Strain | Rank ability, single target | Strike (martial), one Action |
+| Rank (level) | Key | Attack bonus | Core (caster) | Rank ability, single target | Strike (martial) |
 |:--|:-:|:-:|:--|:--|:--|
-| Novice (1) | +3 | +5 | 1d6 + 3 = 6.5 | 1 RD + Key = 6.5 (Novice abilities are control, not damage) | d8 + 3 = 7.5, one attack |
-| Adept (5) | +4 | +8 | 2d8 + 4 = 13 | 3 RD + Key = 17.5 (*Timed Charge*) | d8 + d8 + 4 = 13, one attack |
-| Master (9) | +5 | +11 | 3d10 + 5 = 21.5 | 4 RD + Key = 27 (*Eruption*) | 2 × (d8 + d10 + 5) = 30 |
-| Guru (13) | +6 | +14 | Master form: 3d12 + 6 = 25.5 | 4 RD + Key = 32 (*Open Door*) | 2 × (d8 + d12 + 6) = 34 single-target; 2 × (d8 + 2d12 + 6) = 47 against Cohesion (R1) |
+| Novice (1) | +3 | +5 | 1d6 + 3 = 6.5 | Core + 1 RD = 10 | d8 + d6 + 3 = 11, one attack |
+| Adept (5) | +4 | +8 | 2d8 + 4 = 13 | 17.5 | d8 + d8 + 4 = 13, one attack |
+| Master (9) | +5 | +11 | 3d10 + 5 = 21.5 | 27 | 2 × (d8 + d10 + 5) = 30 |
+| Guru (13) | +6 | +14 | 4d12 + 6 = 32 | 38.5 | 2 × (d8 + d12 + 6) = 34 (assumed two attacks) |
 
-Hit chance against own-tier Guard / Ward: 60% at Novice, Adept, Master; 55% at Guru. Crits at 5%, ×2. Expected multiplier 0.65 / 0.65 / 0.65 / 0.60. Signature resources (Momentum, Flow, the Gate, Quarry, Impact) are not in the model; they add about a fifth at Novice and less as the dice grow.
+Hit chance against own-tier Guard / Ward: 60% at Novice, Adept, Master; 55% at Guru. Crits at 5%, ×2. Expected multiplier 0.65 / 0.65 / 0.65 / 0.60.
 
 ### 12.2 Expected damage
 
-Per Action, then per turn at the design Tempo (1 / 1 / 2 / 3 by rank, R2). Caster turn = one costed ability + Cores. Figures are expected (after the multiplier).
+Per Action, then per turn at the design Tempo (1 / 2 / 2 / 3). Caster turn = one costed ability + Cores.
 
 | Rank | Core | Rank ability | Strike | **Martial / turn** | **Caster / turn** | **Party of four / round** (2 martial, 1 caster, 1 support at 0.7 caster) |
 |:--|:-:|:-:|:-:|:-:|:-:|:-:|
-| Novice (Tempo 1) | 4.2 | 4.2 | 4.9 | 4.9 | 4.2 | 17 (about 21 with resources) |
-| Adept (Tempo 1) | 8.5 | 11.4 | 8.5 | 8.5 | 11.4 | 36 |
-| Master (Tempo 2) | 14.0 | 17.6 | 19.5 | 39 | 31.6 | 132 |
-| Guru (Tempo 3) | 15.3 | 19.2 | 20.4 | 61 | 50 | 207 |
-
-The party figure is the **full-damage floor**: every Action spent on damage. A party that also reverses the arena, boons, positions, and Reads spends about half its Actions on damage (§11.5) and does about half this.
+| Novice | 4.2 | 6.5 | 7.2 | 7.2 | 6.5 | 25 |
+| Adept, level 5 (Tempo 1) | 8.5 | 11.4 | 8.5 | 8.5 | 11.4 | 36 |
+| Adept, levels 6–8 | 8.5 | 11.4 | 8.5 | 17 | 19.9 | 68 |
+| Master, levels 9–11 | 14.0 | 17.6 | 19.5 | 39 | 31.6 | 132 |
+| Master, level 12 (Tempo 3) | 14.0 | 17.6 | 19.5 | 58 | 45.6 | 196 |
+| Guru | 19.2 | 23.1 | 20.4 | 61 | 61.5 | 227 |
 
 ### 12.3 Checks
 
 | Check | Result | Finding |
 |:--|:--|:--|
-| (a) Casters vs martials within ~20% single-target | Novice: martial +17%. Adept: caster +34% (a Strain-bounded burst figure — the 3-Strain rank ability four times per Breather at Capacity ~12, then Cores at parity; the martial resources the model omits close about half of it). Master: **martial +23%**. **Guru: martial +23%** (61 vs 50, R1) | Master is the handoff's risk 4 and is the genre trade: areas hit several targets, and at two targets the Master caster is at parity, at three ahead. Guru matches Master under R1: two attacks at weapon + RD + Key single-target (34 an Action); the second Rank Die applies against Cohesion only, where the platoon standard lives (Canon Part III: "the curves cross at Master"). The Adept figure is R2's cost, accepted |
-| (b) Area vs single-target ~60–70% per target | Master *Sweep* 14 vs Strike 19.5 per target = 72%. With half-on-miss against a Boss it was 94% | Risk 1 confirmed and closed: Elites and Bosses take nothing on a miss (PG §2, H19). Standard enemies still take half; that is what areas are for |
-| (c) Boss survives 3–4 rounds of a full party at full damage | Novice 60 / 17 = 3.5 (about 2.9 with resources); Adept 110 / 36 = 3.1; Master 450 / 132 = 3.4; Guru 800 / 207 = 3.9 (the top of the floor; 700 would give the Master band's 3.4 — working reading: 800 stays) | ✓ at every band as a floor. **At the table** a party spends about half its Actions on damage (§11.5): 6–7 rounds, one or two a phase, which is what a four-phase Master fight needs. Novice Boss Vigor returns to the handoff's 60; v0.1's 75 rested on the overstated Novice Strike |
-| (d) Guru martial breaks a platoon of 40 in 2–4 rounds | §5.9: about 140 Cohesion a round (the second Guru RD applies against Cohesion) at Cohesion 6 / 9 / 12 per member — Novice drill routs in one round, Adept and Master in two | Inside the handoff's 2–4 for drilled units; a levy is not the platoon standard. R1: the second Guru RD against Cohesion only, with G39 taken |
-| (e) Support boons ≈ one extra member | Master support: 0.7 caster (22) + *Extra* (one martial Action, 19.5) + Mend 20 a round ≈ 1.2 members | ✓ |
-| Incoming damage per Boss fight vs party Vigor | Nominal per-round figures over the 3–4 round floor: Novice 48 of ~130 (level 4); Adept 102 of ~230; Master 187 of ~330; Guru 315 of ~560. Over the 6–7 realistic rounds at the Boss's ~55% hit rate the expected total is about the same number | 30–55% of party Vigor a Boss fight. Three Breathers at a quarter each carry a 12-TP day; a Boss focusing one Master caster (75 Vigor) at 55 nominal a round downs it in two or three rounds, so Support and Cover are load-bearing |
-| Tempo and Strain | A level-13 caster at 4 + 3 + 2 Strain a turn against Capacity 19 is at Overdraw on turn 3 | Intended (risk 9). The no-repeat rule keeps the best spell to once a turn; the Ledger arrives on schedule |
-| Gear and relics | Full Master kit (§7.3) on a Master martial: attack +1, damage +1 a hit, Guard +2, Vigor +10 ≈ **+15%** output (v0.1 said +8%: per-hit damage counts twice on a two-attack Strike). Relics at the v0.2 cap of one socket per attribute — damage +3, attack +1, a crit step, a DoT — ≈ **+55%** on top; under v0.1's two-per-attribute cap it was ≈ +80% | **The tier table assumes an Adept kit and two relics at Master.** A party carrying a full Master kit and four or more seated relics is run one budget step harder (Hard as Standard = +50% TP), which is the right size for +55%. The one-per-attribute cap (§7.4, G35) is what makes the step the right size; without it the step is short |
-| Stun and lockdown (risk 2) | Bosses Stunned once per phase; Elites once per source; the general shake-off (PG §8.2) gives a Boss a check each turn against *Bound*, *Telekinetic Grip*, *Lockdown*, and any lockdown hex — none of which had an escape in v0.1 | Holds at a table of four. A Master Boss shakes a Master Hexblade's *Bind* on a 15+ (about 30% a turn): two rounds Bound is the norm, a whole fight is not. R7: a Stunned Boss loses its turn (the PG's Stunned), once per phase; *Time Debt* is neither a Stun nor a hex and is bounded by once per encounter |
+| (a) Casters vs martials within ~20% single-target | Novice 10%; Adept 17%; **Master: martial +23%**; Guru 1% | Master gap is the handoff's risk 4 and is intended (areas hit several targets). No change; re-check with the PG's actual Master ability list |
+| (b) Area vs single-target ~60% per target | Sweep 20.5 vs Strike 30 = 68% on paper; with half-on-miss, expected 16.9 vs 19.5 = **87%** | Risk 1 confirmed. **Recommend:** half damage on a miss applies against standard enemies only; Elites and Bosses take nothing on a miss. Expected against a Boss becomes 13.3 = 68% ✓ (PG revision 6) |
+| (c) Boss survives 3–4 rounds of a full party | Novice 75 / 25 = 3.0; Adept 220 / 68 = 3.2 (level 5: 110 / 36 = 3.1); Master 450 / 132 = 3.4 (level 12: 675 / 196 = 3.4); Guru 800 / 227 = 3.5 | ✓ at every band with the rescaled Vigor and the two Tempo adjustments |
+| (d) Guru martial breaks a platoon of 40 in 2–4 rounds | §5.9: Novice drill 2, Adept 3, Master 3 | ✓ with Strikes alone; the PG's Guru Cohesion abilities can only shorten it |
+| (e) Support boons ≈ one extra member | Master support: 0.7 caster (22) + *Extra* (one martial Action, 19.5) + Mend 20 a round ≈ 1.2 members | ✓; verify against the PG's Apostle Conviction economy (risk 6) |
+| Incoming damage per Boss fight vs party Vigor | Novice 48 of ~150; Adept 102 of ~230; Master 187 of ~330; Guru 315 of ~560 | 30–55% of party Vigor a Boss fight. Three Breathers at a quarter each carry a 12-TP day; a Boss focusing one Master caster (75 Vigor) at 55 a round downs it in two rounds, so Support and Cover are load-bearing |
+| Tempo and Strain | A level-12 caster at 2 + 3 + 3 Strain a turn against Capacity 15 is at Overdraw on turn 3 | Intended (risk 9). The no-repeat rule keeps the best spell to once a turn; the Ledger arrives on schedule |
+| Gear and relics | Full Master kit: attack +1, damage +1, Guard +2, Vigor +10, Capacity +2 ≈ +8% output. Six Master relics (damage +3 ×2, attack +1 ×2, crit step, DoT) ≈ +35% | **The tier table assumes an Adept kit and two relics at Master.** A party with a full Master kit and six or more seated relics is run one budget step harder (Hard as Standard). Simpler than rescaling |
+| Stun chain (risk 2) | Bosses once per phase; Elites once per source; a fight against two Elites and a Boss absorbs at most five Stuns across four phases | Holds at a table of four |
 | Warlock snowball (risk 7) | Boss hex cap 3: Ward 21 − 3 = 18; caster +11 hits on 7+ = 70% | Absorbed |
-| Joins | *Hammerfall* at Master: one auto-hit critical attack (2d12 + 2d10 + 5 = 29) and the fight's one Boss Stun, for an Action, a Reaction, and 4 Strain | v0.1 read "Strike" as the whole Master Strike (two attacks, 58) and set no limit: the correct opener every turn. v0.2: one attack, once per encounter (PG §12, H37) |
 | Summons (risk 8) | One Move and one Action on the summoner's turn | Table actions bounded at Tempo + 1 per summoner |
-| Readings load (risk 10) | §10.2, §6.4, §5.8: one sentence each, free; the exploit is the Quick (R5) | Fast enough; the GM reads the row, not the beast |
+| Readings load (risk 10) | §10.2, §6.4, §5.8: one sentence each | Fast enough; the GM reads the row, not the beast |
 
-### 12.4 Verified against the PG (v0.2)
+### 12.4 Not testable without the PG
 
-- **Apostle *Miracle* rate (risk 6).** *Encouragement Lands* (2 Strain) gives up to 3 Conviction; *Miracle* costs 3 Strain + 3 Conviction. At Tempo 2 the Apostle can cast both every turn for 5 Strain against Capacity ~14: two turns, then Overdraw on turn 3 — the same schedule as the Sorcerer — for 21.5 Vigor a turn against a Boss's 55 nominal. Holds as written; no change.
-- **Berserker post-gate bill (risk 5).** *The Gate Opens All the Way* at Tempo 3 with an unbounded hit-chain was about 500 expected in one round against a Guru Boss's 800. The chain is now capped at Gate extra Strikes a turn, as *Momentum Kill* already was (PG §14.10, H41): about 290 expected, once per encounter, with the bill (Prone, Dazed, Downed at clock 1 if Vigor ≤ 0) unchanged. Intended as the battlefield event; now bounded.
-- **Master Strike vs Core (risk 4).** See (a).
-- **Artificer *Gadget System*.** A 0-Strain turret per Action, uncapped, was two turrets a turn at Tempo 2 at 16 each — more than the 4-Strain *Construct*. Capped at one deployed (PG §14.11, H39).
-- **Guru Core forms.** Every Guru Core form costs 4–5 Strain against a PG rule that Cores cost 0. The PG now says a Core keeps its earlier forms and the Guru form is the costed exception (H38); the Guru caster column in §12.1 uses the Master form.
+Berserker Gate 5 + *Hits That End Exchanges* + Cleave (risk 5): the burst is intended; the post-gate bill must be checked against the Ax cost column (§10.1). Apostle *Miracle* at 3 Conviction (risk 6): if available every second round at Tempo 2, raise to 4 or cap Conviction gain at 2 a round. Master Strike vs Core (risk 4): see (a).
 
 ---
 
@@ -965,23 +947,23 @@ The party figure is the **full-damage floor**: every Action spent on damage. A p
 
 ### 13.1 G-rows
 
-Same columns as the PG's H-rows. **Status:** rows marked *Ruled* carry the ruling's number from Terhia-Heroes-Rulings.md (v0.3); the rest are open until Joe rules. The PG's H-rows are the other half of the register (§13.3); a G-row applied to the PG in v0.2 carries its H-number in the Where column.
+Same columns as the PG's H-rows. **Status: all open** until Joe rules. Consolidation with H1–H33 waits for the PG file (§13.3).
 
 | # | Rule | Touches canon | Where | Note / alternative |
 |:-:|:--|:-:|:--|:--|
-| G1 | Tempo: Actions 1 / 2 / 3 at levels 1 / 6 / 12; no costed ability twice a turn; one Ready a turn (D10) | No | §3; PG §5 (H34) | Alternative: Tempo at rank boundaries (9, 13) — loses "a Master Sorcerer casts three". **Ruled (R2): the alternative taken; 9 / 12 is a three-line delta if the line returns** |
-| G2 | Opposition tier table, rescaled Vigor; two Tempo adjustments | No | §4.2 | Handoff figures kept for Guard / Ward / Attack. **R2:** the two adjustments removed; Adept Elite / Boss 35 / 110 (G41) |
+| G1 | Tempo: Actions 1 / 2 / 3 at levels 1 / 6 / 12; no costed ability twice a turn (D10) | No | §3 | Alternative: Tempo at rank boundaries (9, 13) — loses "a Master Sorcerer casts three" |
+| G2 | Opposition tier table, rescaled Vigor; two Tempo adjustments | No | §4.2 | Handoff figures kept for Guard / Ward / Attack |
 | G3 | Threat Points, cross-tier ×3 / ÷3, budgets 2 / 4 / 6 / 8, 12 TP a day | No | §4.6 | — |
-| G4 | Elite hex cap 4, Boss hex cap 3; Boss Interrupts 1 / 1 / 2 / 3; the shake-off generalized to every lockdown hex, one Ward check a turn (d20 + Ward − 10); Boss Ward check on entering Ground hexes | No | §4.4; PG §8.2 (H36) | D9 kept *Slow Field* whole. v0.1's Stunned-only shake-off left *Bound*, *Telekinetic Grip*, and *Lockdown* with no Boss escape. **R7:** a Stunned Boss loses its turn; see G46 |
+| G4 | Elite hex cap 4, Boss hex cap 3; Boss Interrupts 1 / 1 / 2 / 3; Boss Ward check vs Ground hexes | No | §4.4 | D9 kept *Slow Field* whole |
 | G5 | NPC Push and Overdraw, 3 Marks a session | Yes: cost is universal (Parts II–IV) | §4.5 | Alternative: NPCs never Push |
-| G6 | Mob units band / squad / platoon (D6); Cohesion 4 / 6 / 8 per member; area and DoT double against Mobs; engulf; rout and break | Yes: the platoon standard (Part VI) | §5 | Alternative: sliding block only. v0.2: a Guru martial routs a Master-drill platoon in two rounds with Strikes alone (§5.9). **Ruled (R1, R6):** Cohesion 6 / 9 / 12 per member; the check against members lost (G45); interior rules (G44) |
+| G6 | Mob units band / squad / platoon (D6); Cohesion 4 / 6 / 8 per member; area and DoT double against Mobs; engulf; rout and break | Yes: the platoon standard (Part VI) | §5 | Alternative: sliding block only |
 | G7 | Beast fight structures by tier; phase template | Yes: tier table (Part VIII), used as written | §6.3 | — |
 | G8 | Readings-by-school tables, including the lines that fail (Apostle, Apothecarist, Berserker, Warlock at Guru) | Yes: Design Thesis; Part VIII payload ("not a monster; a response") | §6.4, §10.2, §5.8 | The failures are the partial-view rule made mechanical |
 | G9 | Avatar parts, part Vigor, tether points as campaign objectives; the avatar returns unless the tether is unseated | Yes: Frostvatn (Part I, Part IX, XI.3) | §6.5 | — |
 | G10 | Outcome lines drop relics by how the beast was beaten; no relic is made or copied | Yes: "environmentally produced, not designed" (Part VIII); R.8 no species list | §6.6, §7.6 | — |
-| G11 | Eight gear slots (D11); weapons and shields carry no tier or socket | No | §7.1; PG §15 (H35) | Alternative: one socket on the weapon. The PG's v0.1 six-slot interface is replaced |
+| G11 | Eight gear slots (D11); weapons and shields carry no tier or socket | No | §7.1 | Alternative: one socket on the weapon |
 | G12 | Trade grades Novice–Guru for makers | Yes: rank names are Ledger examination grades (Part VI, Terminology); extension to non-practitioner trades is new | §7.2 | Alternative: gear tier by Artificer rank only |
-| G13 | Guru relic attribute "one line of a second school's Reading"; Guru alterations are bounded pieces of the five Guru abilities usable by any class | **Yes: one school per person (Premise; Part II D1)** | §7.5, §7.10 | The relic does the work, not the person; but a Warden holding a Necrotic line is a fragmentation question. **Recommended for ratification: the alternative** — a Guru alteration usable by the relic's own school only, and the second-school Reading attribute returning one word, as §7.7 gives a martial Reading of a relic one word. The Design Thesis is the reason: a relic that hands a Warden a Necromancer's sentence is the full picture arriving as loot. **Ruled (R3):** neither reading — own school at the entry's cost, anyone else only as a Push (1 Mark, once per round); the second-school Reading returns one word |
+| G13 | Guru relic attribute "one line of a second school's Reading"; Guru alterations are bounded pieces of the five Guru abilities usable by any class | **Yes: one school per person (Premise; Part II D1)** | §7.5, §7.10 | The relic does the work, not the person; but a Warden holding a Necrotic line is a fragmentation question. Alternative: Guru alterations usable only by the relic's own school |
 | G14 | Accord: relics are declared residue under the Manifest Rule | Yes: Manifest Rule (Part I) | §7.8 | — |
 | G15 | Crown: Velquor-line relics contraband; Namaris-line relics sacramental property | Yes: Purge; Part VII sacramental apparatus | §7.8 | — |
 | G16 | Chimera: a Threnis relic belongs to the ground; the keeper decides | Yes: way law, fire law (Part V) | §7.8 | — |
@@ -991,57 +973,38 @@ Same columns as the PG's H-rows. **Status:** rows marked *Ruled* carry the rulin
 | G20 | Consequences: Register entry, Assay audit, closed way, price; Ground-scale effects file automatically (D7) | Yes: Second Register; Assay; way law; Escrow | §8.5 | D7 alternative: filing is a scene, not a rule |
 | G21 | Rank-up recognition table; unregistered practice filed on any Reading or inspection | Yes: Second Register (Part IX); Rank Distribution (Part II) | §9.1 | — |
 | G22 | Biome × Moon cells as table mechanics; hazard damage = tier standard ×2 | Yes: grid (Part VIII), used as written; mechanics are new | §9.3 | Cells may be revised without touching the pattern (canon) |
-| G23 | Moon rule: own phase Capacity +2, far phases −1 (D1 (a)) | Yes: cost varies by phase only (Part I, R.0) | §9.4 | Alternatives (b)–(d) in the handoff. **Ratified (R8) as written; (b)–(d) superseded unloaded** |
+| G23 | Moon rule: own phase Capacity +2, far phases −1 (D1 (a)) | Yes: cost varies by phase only (Part I, R.0) | §9.4 | Alternatives (b)–(d) in the handoff |
 | G24 | Mark narration table by school and Stage | Yes: cost progressions (Parts II–IV), used verbatim | §10.1 | — |
-| G25 | Improvised Joins: 2 Strain each, one scale step up, Ground refused below Guru, never narrated whole; once per encounter per pair; "Strike" is one attack | Yes: Design Thesis | §10.3; PG §12 (H37) | v0.2 limit: at Adept+ a listed Join was the correct opener every turn |
+| G25 | Improvised Joins: 2 Strain each, one scale step up, Ground refused below Guru, never narrated whole | Yes: Design Thesis | §10.3 | — |
 | G26 | The End procedure (Chronicle port, unverified); the campaign keeps a record as a reputation step | Yes: cost as the End of practice (Parts II–IV) | §10.7 | Check against Chronicle GMG v0.3 |
 | G27 | Carried Back, optional (D5) | Yes: death permanence in the PG; Nature Master "cannot always cure" | §10.7 | Off by default |
 | G28 | Structures table and which abilities target them | No | §10.8 | — |
-| G29 | Stun budget: Bosses once per phase | No | §10.4 | **R7:** a Stunned Boss loses its turn, as the PG's Stunned says; v0.2's contrary sentence struck |
+| G29 | Stun budget: Bosses once per phase | No | §10.4 | — |
 | G30 | Sample relics: five Guru relics tied to the five Guru abilities; the Frostvatn shard's Necrotic line | Yes: the five Guru abilities (Part II, ratified) | §7.10 | See G13 |
 | G31 | Exemplar beasts: Deep Watcher at Novice; Ulvskov pack (illustration, not entered); Shalei 1155; Frostvatn 1230–32 treated without settling R.5 #6 | Yes: XI.3 rows; Part VIII worked example; XI.6 | §11.4 | None entered; none named beyond the register |
 | G32 | Guru-tier "standard" opposition redefined as manifestations of the node | Yes: Rank Distribution (Gurus are a roll, not a rate) | §11.1 | — |
-| G33 | Half damage on a miss: standard enemies only | No | §12.3 (b); PG §2 (H19) | Applied in PG v0.2 |
-| G34 | Guru Strike as the PG writes it (two attacks at weapon + 2 RD + Key, 47 an Action): a Guru martial is about 70% ahead of a Guru caster single-target, level at two targets | No | §12.1, §12.3 (a) | v0.1 modelled 34 and did not see it. Alternative: Guru Strike at weapon + RD + Key (34), which puts the gap at Master's +23%. **Ruled (R1):** the trim single-target, the second RD against Cohesion only (G40) |
-| G35 | Relic seating: the same attribute in at most one socket (v0.1: two) | No | §7.4; PG §15 (H35) | Per-hit damage relics multiply with the Master Strike and Tempo: two put a Master martial at +80% over the tier table's assumption, one at +55%, which the one-step budget rule absorbs |
-| G36 | Novice Boss Vigor 60 (the handoff figure), not v0.1's 75 | No | §4.2, §6.3, §11.1, §11.4 | v0.1's Novice Strike carried a Rank Die it does not have (PG §5) |
-| G37 | Boss Vigor is a 3–4 round floor at full damage; the fight at the table is 6–7 rounds, one or two a phase | No | §4.2, §11.5, §12.3 (c) | v0.1 stated the floor as the fight length; §11.5 shows a real round at about half of full damage |
-| G38 | Each §8.6 lie is findable by a named school's Reading at the Discovery or Location step | Yes: Design Thesis; Three Readings (Part I) | §8.6 | The Revelation step was GM fiat with no player-side hook; the Readings are the investigation |
-| G39 | Platoon standard: a Guru martial routs a Novice or Adept drill in one round and a Master drill in two, Strikes alone | Yes: the platoon standard (Part VI) | §5.9 | Alternative for the handoff's 2–4: Cohesion 6 / 9 / 12 per member (G6). **Ruled (R1): taken** |
-| G40 | Guru Strike: two attacks at weapon + RD + Key; the second Rank Die applies against a Mob's Cohesion only | Yes: Part III ("the ceiling is lower — a platoon, not a harbor"; "the curves cross at Master"; the Guru lines locate the platoon standard in the Guru technique) | §5.9, §12; PG §5 (H42) | Ruled (R1). *Unanswerable*'s upkeep Strikes are the turn's Strikes (PG H43) |
-| G41 | Tempo 1 / 1 / 2 / 3 by rank; the tier table without correction lines; Adept Elite / Boss 35 / 110 | No | §3, §4.2, §6.3, §11.1, §11.4, §12; PG §5, §13.1 (H44) | Ruled (R2). D (9 / 12) is a three-line delta if the "Master casts three" line returns |
-| G42 | A relic's alteration never costs less than the school's own ability for the same work; the ember on *Harbor Kept*'s schedule (Capacity −1 per phase held, 1 Mark per year) | Yes: Part II Elemental Guru; Part V (the Escrow lease and its waivers) | §7.5, §7.10 #7; PG §14.1 (H15) | Ruled (R4). v0.2's 1 Mark a day was the End in a week for a Guru leased by the year |
-| G43 | Readings free, no action, once per round per reader; the exploit is the reader's Quick, or an Action when the Quick is spent | Yes: Design Thesis | §3.1, §6.4, §10.2; PG §5, §11 (H46) | Ruled (R5). v0.2's two files disagreed (Quick vs free); the sentence is free and the rider priced |
-| G44 | Inside a block: entry by ability only; interior rules | No | §5.7; PG §6.1 (H50) | Ruled (R6) |
-| G45 | Cohesion check vs 10 + members lost this round; forced checks set their own DC | Yes: the platoon standard (Part VI) | §5.5; PG §14.8 (H49) | Ruled (R6). v0.2's DC of 10 + damage was unreachable above about 20 damage |
-| G46 | A Stunned Boss loses its turn (the PG's Stunned), once per phase; *Time Debt* is neither a Stun nor a hex — a lost turn with no shake-off, once per encounter | Yes: R.0 Sorcerer rule (D9) | §4.4, §10.4; PG §14.2 (H47) | Ruled (R7) |
+| G33 | Half damage on a miss: standard enemies only (recommended) | No | §12.3 (b) | PG revision 6 |
 
-### 13.2 PG revisions (applied in PG v0.2)
+### 13.2 PG revisions required (to apply in the PG's own register, not here)
 
-| # | PG section | Change | Reason | Status |
-|:-:|:--|:--|:--|:--|
-| 1 | §13.1 level table | Level 6: "Tempo 2". Level 12: "Tempo 3" | G1 | Applied (H34) |
-| 2 | §5 turn structure | "Move + Actions (Tempo) + Quick + Reaction"; the no-repeat rule; one Ready; Sustained unchanged; "Strike" inside an ability defined as one attack | G1 | Applied (H34) |
-| 3 | §5 summons | Act on the summoner's turn, one Move and one Action, sharing its Quick | Risk 8 | Applied (H34) |
-| 4 | §15.1 Gear | Eight slots, tiers, intrinsics, one socket each, seating rules, Trinket over-rank bond; PG armor and weapon values unchanged | G11, D4 | Applied (H35) |
-| 5 | §15.2 Relics | Rank, attribute catalogue (by reference), governors, seating cap; the same attribute in at most one socket | §7.5; G35 | Applied (H35) |
-| 6 | §2 Areas | Half damage on a miss against standard enemies only | Risk 1 | Applied (H19) |
-| 7 | §7.4, §8.2 Hexes | Elite cap 4, Boss cap 3; Boss once-per-phase Stun; the shake-off generalized; Boss Ward check on Ground hexes | G4, G29 | Applied (H36) |
-| 8 | §9.1 Strain | Moon rule (D1) | G23 | Applied (H33) |
-| 9 | §10.4 Death | A pointer to the optional *Carried Back*; the rule itself stays here, off by default | G27 | Applied as a pointer |
-| 10 | Verify only | Apostle Conviction / *Miracle* rate; Berserker post-gate bill; Master Strike vs Core | Risks 4–6 | Verified (§12.4): *Miracle* holds; the Gate chain capped (H41); Strike vs Core is check (a) |
+| # | PG section | Change | Reason |
+|:-:|:--|:--|:--|
+| 1 | §13.1 level table | Level 6: add "Tempo 2". Level 12: add "Tempo 3" | G1 |
+| 2 | Turn structure | "Move + Action + Quick + Reaction" → "Move + Actions (Tempo) + Quick + Reaction"; add the no-repeat rule; Sustained unchanged | G1 |
+| 3 | Summons (all classes with a familiar, golem, turret, construct, companion) | Act on the summoner's turn, one Move and one Action, sharing its Quick | Risk 8 |
+| 4 | New section: Gear | Eight slots, tiers, intrinsics, one socket each, seating rules, Trinket over-rank bond; PG armor and weapon values unchanged | G11, D4 |
+| 5 | New section: Relics (player-facing) | Rank, attribute catalogue, governors, seating cap, same attribute in two sockets | §7.5 |
+| 6 | Areas | Half damage on a miss against standard enemies only | Risk 1 |
+| 7 | Hexes | Elite cap 4, Boss cap 3; Boss once-per-phase Stun; Boss Ward check on Ground hexes | G4, G29 |
+| 8 | Strain | Moon rule (D1) | G23 |
+| 9 | Death | Optional Carried Back, if Joe accepts D5's second option | G27 |
+| 10 | Verify only | Apostle Conviction / Miracle rate; Berserker post-gate bill; Master Strike vs Core | Risks 4–6 |
 
 ### 13.3 Revision session
 
-**Done in v0.2:** the PG loaded whole; §13.2 applied (PG v0.2, H34–H41); §12 recomputed from the PG's class entries; §11.5 rewritten with PG abilities by name; Novice Boss Vigor returned to 60 (§4.2, §6.3, §11.1, §11.4); one socket per attribute (§7.4); the §8.6 Reading column.
+Load: this file; the PG (whole); Chronicle GMG v0.3 §§ Lines / Cohesion, §9, the End; Grand Beasts v0.2 §2 and its register; Canon Part VIII only. Verify the three ports (§5, §7 against Chronicle §9, §10.7), the damage model (§12.1) against the PG's class entries, and every ability name in §11 against the PG. Consolidate G1–G33 with H1–H33 into one table. Apply §13.2 to the PG. Do not load the whole Canon; nothing in this file needs it.
 
-**Done in v0.3 (the ratification pass):** R1–R8 applied here and in the PG (H42–H50); the two registers annotated; §5.9, §12.2, and §12.3 recomputed. The PG's *Fold the Line* rider is a working reading (PG H49). Open: Issues 9–15 of the ledger — the three Chronicle departures (H5, H28, H20), Adaptations at Adept (H10), the Guru-beast Reading failures (G8), the five table-rule rows (G5, G27, G20, G11, G12), the level-16 resource maxima, the Chronicle ports below, and the editorial cross-reference list (§4.5's §11.6; §4.1 and §4.7's §10.3; §8.2's §11.5; §4.3's §10.5; the Contents line for §13; Boss Ward +2; *Marked*).
-
-**Still to do, needing files not loaded:** verify the three Chronicle ports — §5 against Chronicle GMG v0.3 Lines / Cohesion, §7 against Chronicle §9, §10.7 against the Chronicle End procedure — and enter §11.4's Ulvskov pack (and any emergence a campaign adds) in the Grand Beasts v0.2 register. Load: this file, the PG, those two files, Canon Part VIII only.
-
-**Register layout:** H-rows stay in the PG and G-rows here; each file's register lists the rules that file states, and a rule applied to the PG on a G-row's account carries both numbers (G1 → H34). One consolidated table was the v0.1 plan; two registers that point at each other are shorter to read and do not drift.
-
-**Context note.** v0.1 was written in one session at about 18,000 words after loading the handoff and roughly 15,000 tokens of Canon; v0.2 loaded the PG (15,000 words) and this file whole. The next pass should start fresh with the four files above and nothing else.
+**Context note.** This draft was written in one session at about 18,000 words after loading the handoff and roughly 15,000 tokens of Canon; the revision pass should start fresh with the four files above and nothing else.
 
 ### 13.4 Chronicle ↔ Heroes (D8)
 
