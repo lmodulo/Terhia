@@ -1,6 +1,6 @@
 # Terhia: Heroes — Player's Guide
 
-Draft v0.6 (25 September 2026; v0.1–v0.5 the same day). Built against Terhia-Canon v1.2. **v0.6 replaces each class's fixed ability list with a larger pool (§13.3, §14):** every class keeps nine picks — three Novice, two Adept, two Master, two Guru — drawn from pools of 21–28, so one class supports several builds; the Elementalist's list splits by element, with a sub-discipline from Master. Every v0.5 ability is kept word for word apart from its letter label (two exceptions: *Storm Call*'s Momentum sentence is now its [Storm] tag, and *Standing Orders* carries a *requires Golem* tag); the Cores, Readings, and every rule in §2–§13.2 and §15 are unchanged; two signature resources gain options (three Apothecarist somas, seven Warlock Properties). New register rows H61–H72. v0.5 applied the Game Master's Guide v0.4 calibration-closure pass to §15.1 (H60): the gloves' damage bonus is on the Strike and the Core at every tier; the Guru chest's resistance is never Physical; the kit the GM's opposition tables assume, and the budget step for an own-tier kit, are stated for the player.** No other rule changes in v0.5. **v0.4 adds §1.4 (who the character is in the world), replaces the character sheet (§16), and adds register rows H51–H59;** the source is the Cultures-and-Factions module (Terhia-Heroes-Cultures-and-Factions.md v0.1), which holds the full entries and its own register (CF-rows). No rule in §2–§15 changes in v0.4. v0.2 was the reconciliation pass with the Game Master's Guide v0.2 (its ten PG revisions applied here; H34–H41). **v0.3 applies rulings R1–R8 of the issue-by-issue ratification pass** (Terhia-Heroes-Rulings.md): the Guru Strike's second Rank Die against Cohesion only; Tempo at the rank boundaries (2 at level 9, 3 at level 13); Guru relic alterations of another school usable only as a Push; *Harbor Kept* on the harbor economy's schedule; Readings free with the exploit costing the Quick; a Mob's squares as enemies' squares; *Time Debt*, the Boss Stun, and *Threshold* settled; the moon rule ratified. New register rows H42–H50; Issues 9–15 of the ledger remain open. Sister ruleset to *Terhia: Chronicle* (Player's Manual v0.3): same world, same twelve schools, same four ranks, same six attributes; a different player promise. Where a rule below reuses a Chronicle rule it says so; where it departs, it departs on purpose and the departure is listed in §17 for ratification.
+Draft v0.7 (26 September 2026; v0.1–v0.6 25 September). Built against Terhia-Canon v1.2. **v0.7 adds advancement: levels are earned by Proofs, a party tally (§13.4), and a rank-up also needs a gate and the phase turn, after which the character chooses how the registries record it (§13.5).** §0, §1.4, §11, §13.1, and §16 carry one-line cross-references; no other rule changes. New register rows H73–H78. **v0.6 replaces each class's fixed ability list with a larger pool (§13.3, §14):** every class keeps nine picks — three Novice, two Adept, two Master, two Guru — drawn from pools of 21–28, so one class supports several builds; the Elementalist's list splits by element, with a sub-discipline from Master. Every v0.5 ability is kept word for word apart from its letter label (two exceptions: *Storm Call*'s Momentum sentence is now its [Storm] tag, and *Standing Orders* carries a *requires Golem* tag); the Cores, Readings, and every rule in §2–§13.2 and §15 are unchanged; two signature resources gain options (three Apothecarist somas, seven Warlock Properties). New register rows H61–H72. v0.5 applied the Game Master's Guide v0.4 calibration-closure pass to §15.1 (H60): the gloves' damage bonus is on the Strike and the Core at every tier; the Guru chest's resistance is never Physical; the kit the GM's opposition tables assume, and the budget step for an own-tier kit, are stated for the player.** No other rule changes in v0.5. **v0.4 adds §1.4 (who the character is in the world), replaces the character sheet (§16), and adds register rows H51–H59;** the source is the Cultures-and-Factions module (Terhia-Heroes-Cultures-and-Factions.md v0.1), which holds the full entries and its own register (CF-rows). No rule in §2–§15 changes in v0.4. v0.2 was the reconciliation pass with the Game Master's Guide v0.2 (its ten PG revisions applied here; H34–H41). **v0.3 applies rulings R1–R8 of the issue-by-issue ratification pass** (Terhia-Heroes-Rulings.md): the Guru Strike's second Rank Die against Cohesion only; Tempo at the rank boundaries (2 at level 9, 3 at level 13); Guru relic alterations of another school usable only as a Push; *Harbor Kept* on the harbor economy's schedule; Readings free with the exploit costing the Quick; a Mob's squares as enemies' squares; *Time Debt*, the Boss Stun, and *Threshold* settled; the moon rule ratified. New register rows H42–H50; Issues 9–15 of the ledger remain open. Sister ruleset to *Terhia: Chronicle* (Player's Manual v0.3): same world, same twelve schools, same four ranks, same six attributes; a different player promise. Where a rule below reuses a Chronicle rule it says so; where it departs, it departs on purpose and the departure is listed in §17 for ratification.
 
 **Scope.** Player-facing rules only: what a player character is, who the character is in the world (culture, homeland, household, name, tongues, charter, faction, coin — §1.4), resolution, attributes and their limits, the turn, movement on a gridded table, damage and criticals, boons and hexes, Strain / Overdraw / Marks, readings, joins, advancement, the twelve classes with their spell and skill pools, gear and relics (the player's side), and the character sheet. Not here: opposition and Grand Beast stat blocks, Mob rules, relic generation, contracts, encounter budgets, calibration (Game Master's Guide).
 
@@ -20,7 +20,7 @@ Draft v0.6 (25 September 2026; v0.1–v0.5 the same day). Built against Terhia-C
 | Readings | Private, partial information | Read a weakness → exploit it |
 | Joins | Two hard checks | Cross-class combination attacks |
 | Grand Beasts | Problems that change type by tier | Bosses that change type by tier, and can be fought |
-| Advancement | Four ranks | Sixteen levels, four per rank |
+| Advancement | Four ranks | Sixteen levels, four per rank; levels earned by Proofs (§13.4), ranks by a gate (§13.5) |
 
 Both games use the same canon. A Chronicle character and a Heroes character are the same kind of person; the Heroes character is the one the harbor keeper sends for when something under the harbor wakes up.
 
@@ -98,7 +98,7 @@ Class answers what you can do. This section answers who you are: the fields on t
 | **Reverie** | *Licensed where the Accord cannot staff* — Ash-and-Antler; "experimental mercy techniques." Ledger file 1 | **Proscribed** — the Edict of Amilpan, 1189. Chancel favor 0, Circle recognition 1. Identification starts enforcement: a column on flat ground, nothing in the trees | *Home.* Recognized by keepers; nothing written. Circle recognition 1 |
 | **Ethosless** | **Unregistered** — legible and prosecutable; no registry to be late to. Any Reading by a registered practitioner, manifest, or assessment files a Register entry. Ledger file 0, Off-Ledger credit 1 | **Anathema** — the Purge, 1164–66. Guest-right shelters you three nights anyway. Chancel favor 0, Off-Ledger credit 1 | *Received* — what the Crown anathematizes and the Ledger cannot admit. Circle 1, Off-Ledger 1 |
 
-**Registry status**, one word on the sheet, two if you carry two [4.4]: *Registered* (grade — the Ledger's file; a cost file from Adept), *Attuned* (grade — the Assay's roll), *Recognized* (a keeper said it), *Unregistered*, *Proscribed*, *Anathema*, *Off-Ledger*. The GM Guide (§9.1) has what each recognition looks like and costs.
+**Registry status**, one word on the sheet, two if you carry two [4.4]: *Registered* (grade — the Ledger's file; a cost file from Adept), *Attuned* (grade — the Assay's roll), *Recognized* (a keeper said it), *Unregistered*, *Proscribed*, *Anathema*, *Off-Ledger*. The GM Guide (§9.1) has what each recognition looks like and costs. A grade never exceeds your rank; a grade below it is legal, and the tier of posting you may take is set by the grade, not the rank (§13.5).
 
 **The four tracks** [5.2]. Ledger file, Chancel favor, Circle recognition, Off-Ledger credit; 0–5 each; the GM Guide (§8.4) names what every step unlocks and (§8.5) what loses one. Contracts move them; so do the factions. Standing with one moves the others: +2 with the Chancel is −1 with the Circles; a Ledger file of record is what the Off-Ledger charges for.
 
@@ -434,6 +434,7 @@ Every school reads the world in its own register. In Heroes a Reading is an acti
 - **Read** · free · 0 Strain · no action · a target within the listed range · once per round. The GM gives one true fact in the school's register (a load path; a compensating forelimb; who this creature will attack next; what the ground answers). The sentence is the whole result; the next Reading is next round.
 - **Exploit** · Quick Action. Act on the Reading: each class entry lists what its Reading unlocks. The exploit lasts until the end of your next turn unless stated. If your Quick is spent, the exploit — or a summon's command, or a draught — may be taken as an Action instead (§5). Announcing a read weakness to allies costs nothing.
 - **What a reading cannot see** is still true in Heroes: a Sorcerer reads mass and load, not intent; an Apostle reads intent, not mass. A Grand Beast's vulnerability is written in one school's register and is complete only when two schools read it together — which is what Joins are for.
+- **Cross-reading.** Readings from two different schools on the same subject, put together, support an action that neither Reading supported alone: the Sorcerer's load path and the Apothecarist's compensating limb together say where to hit; the Necromancer's crossing and the Warden's route together say who is waiting on the road. The GM confirms it when the party acts on it. A cross-reading is a source of Proofs (§13.4).
 
 ---
 
@@ -483,7 +484,7 @@ Improvised Joins are adjudicated by the GM (GM Guide §10.3) under the same once
 | 15 | A second Guru ability |
 | 16 | Attribute increase; signature resource maximum +1 |
 
-Vigor increases at every level (§4). Rank-up is an in-world event: a board, a roll, a Circle's recognition, or nobody's recognition at all; the GM Guide covers what the registries make of it.
+Vigor increases at every level (§4). Each level costs 5 Proofs (§13.4). Levels 5, 9, and 13 also require a gate and take effect at the phase turn (§13.5); what the registries make of the new rank is a separate choice (§13.5, GM Guide §9.1).
 
 ### 13.2 Talents
 
@@ -515,6 +516,48 @@ Each class entry in §14 lists a **pool** at each rank, larger than the number y
 - **Opposition.** An NPC practitioner holds nine picks like a PC; the GM chooses them (GM Guide §4.5).
 
 **Budget.** New abilities are written to the GM Guide's calibration lines (§12.1): Novice picks are control or utility at 0–1 Strain and at most 1 RD; Adept picks 2–3 Strain and at most 3 RD single-target or 2 RD in an area; Master picks 3–4 Strain and at most 4 RD; Guru picks 4–5 Strain or a Mark, at scenario scale. Passives cost a pick in place of Strain. Where a new ability bends a rule of §5 (an extra Action, a second summon Action), it says so and is listed in §17.
+
+### 13.4 Proofs
+
+A level is earned in play, not granted by an institution. The party keeps **one tally of Proofs**, 0–5, and every character in the party levels together.
+
+- **Cost.** 5 Proofs per level. When the tally reaches 5, every character gains a level and the tally drops by 5; any excess carries.
+- **When it applies.** A level that is not a rank level (§13.5) applies at the party's next Full Rest (§10.2).
+- **Sources.** Each source below counts **at most once per contract**. The GM tallies at the contract's Consequences step (GM Guide §8.1).
+
+| Source | Proofs | What counts |
+|:--|:-:|:--|
+| **Contract closed** | 1 | The contract reaches its Consequences step — done, or failed and walked away from with the poster's answer in hand |
+| **The unsaid, found early** | 1 | The thing the poster was not saying (GM Guide §8.6) is identified by a Reading before the Revelation step |
+| **Cross-reading** | 1 | Two schools' Readings put together, as §11 defines it |
+| **Join landed** | 1 | A Join (§12) hits or resolves its effect in a fight against a Boss or Grand Beast |
+| **Resolved through its structure** | 2 | A Grand Beast beaten by executing its vulnerability logic (GM Guide §6.3, §6.6), or a Boss that falls in a phase in which its Weakness was exploited (GM Guide §4.4). Beaten by attrition alone: **1** |
+| **Consequence answered** | 1 | A Register entry, Assay audit, closed way, or Off-Ledger price faced rather than evaded — the hearing sat, the audit met, the way reopened, the debt-job done (GM Guide §8.5) |
+
+A typical contract yields 3–5 Proofs; the most one contract can yield is 7.
+
+**What is not a source.** *Kills* — the consequence table already penalizes a beast culled by attrition where the dependency read was asked for (GM Guide §8.5), and the table does not pay for what the world punishes. *Marks* — a Push or Overdraw earns nothing; Marks are the cost of power, never its currency (§9.5).
+
+**Three of the six sources need two characters or more.** The tally belongs to the party because the progress does.
+
+- **Joining the party.** A new or replacement character enters at the party's level; the tally stands where it is.
+- **Work without a contract.** The GM may declare a matter contract-equivalent once it has someone who wants it done and a consequence if it goes wrong; the once-per-contract limits apply to it.
+- **A split party.** Proofs earned by either half go into the one tally.
+
+### 13.5 Rank-up and recognition
+
+A rank level — **5, 9, or 13** — needs three things:
+
+1. **5 Proofs**, as any level.
+2. **The gate.** Since reaching its current rank, the party has resolved a Boss or Grand Beast **of that rank's tier** through its structure (the "Resolved through its structure" line of §13.4; attrition does not open the gate). In a split party, at least half the party must have been at the resolution. Until the gate is met, the tally holds at 5 and further Proofs are not kept.
+3. **The phase turn.** The rank takes effect at the next phase turn. This is the window for retraining (§13.3): a board's syllabus, a keeper's season, a column's drill manual, a winter of bench work.
+
+**Recognition.** At that phase turn each character chooses, separately, how the new rank is recorded: a **Ledger board**, **Chancel attunement** (in Namaris only), a keeper's **Circle recognition**, or **none**. The GM Guide (§9.1) has what each looks like, what it costs, and what it does at the table. Two rules hold everywhere:
+
+- **A grade never exceeds rank.** No board examines you above what you can do.
+- **A grade below rank is legal.** It limits the tier of posting you can take — posting tier is set by grade — and it leaves a gap between what you can do and what is on file, which the registries treat as the GM Guide's consequence table (§8.5) says: unregistered practice at Adept or above in Accord territory is a Register entry once it is noticed.
+
+The institution records the rank; it does not grant it. A Necromancer, Hexblade, or Warlock ranks up exactly as fast as anyone else and is filed by no one until someone notices.
 
 ---
 
@@ -1220,7 +1263,7 @@ A relic is beast residue with a shape: a tooth, a den-stone, a bead of reef-glas
 
 ## 16. The character sheet
 
-Standardized. Every field is on it; nothing else is. v0.6 renumbers the ability lines as picks (§13.3) and adds the sub-discipline and retraining lines. v0.4 adds the Identity, Standing, Tongues, Coin and kind, and Debts blocks (§1.4; module CF-rows) and keeps every v0.3 block. Fields above the attribute line describe the character; none of them changes a number below it.
+Standardized. Every field is on it; nothing else is. v0.7 adds the party's Proofs to the CLASS line (§13.4). v0.6 renumbers the ability lines as picks (§13.3) and adds the sub-discipline and retraining lines. v0.4 adds the Identity, Standing, Tongues, Coin and kind, and Debts blocks (§1.4; module CF-rows) and keeps every v0.3 block. Fields above the attribute line describe the character; none of them changes a number below it.
 
 ```
 TERHIA: HEROES — CHARACTER SHEET
@@ -1235,7 +1278,7 @@ IDENTITY
   God (Crown homelands only, optional) _______________
 
 CLASS
-  Class ________ School ________ Ethos ________ Moon ________  Level __  Rank ________
+  Class ________ School ________ Ethos ________ Moon ________  Level __  Rank ________  Proofs __ / 5 (party)
   Rank Bonus +__   Rank Die d__   Tempo __   Crit Chance __–20   Crit Rate ×__
 
 STANDING (the part the registries can see)
@@ -1310,7 +1353,7 @@ NOTES  contracts held · who knows what you are · what your charter cannot see 
 
 ## 17. Design register — for ratification
 
-Every rule that touches a canon sentence, with the reading taken. Nothing here is canon until Joe rules; Canon itself is untouched. Rows marked *ruled* carry the ruling's number from Terhia-Heroes-Rulings.md (v0.3); rows H42–H50 are new in v0.3; **rows H51–H59 are new in v0.4** and H60 in v0.5; **H61–H72 are new in v0.6;** H51–H59 point at the Cultures-and-Factions module's CF-rows, which hold the full readings. Numbering is Heroes-local (H-rows) so the register never collides with Chronicle's.
+Every rule that touches a canon sentence, with the reading taken. Nothing here is canon until Joe rules; Canon itself is untouched. Rows marked *ruled* carry the ruling's number from Terhia-Heroes-Rulings.md (v0.3); rows H42–H50 are new in v0.3; **rows H51–H59 are new in v0.4** and H60 in v0.5; **H61–H72 are new in v0.6; H73–H78 are new in v0.7;** H51–H59 point at the Cultures-and-Factions module's CF-rows, which hold the full readings. Numbering is Heroes-local (H-rows) so the register never collides with Chronicle's.
 
 | # | Rule | Canon touchpoint | Reading taken | Status |
 |:-:|:--|:--|:--|:-:|
@@ -1386,3 +1429,9 @@ Every rule that touches a canon sentence, with the reading taken. Nothing here i
 | H70 | Apothecarist: three new somas (Boar, Gecko, Owl) on the Adaptation list; *Herd Soma* (Guru) lends somas party-wide | Part II, Nature Guru (morphic borrowing is the peak technique) | Rides on H10: the somas are still available from Adept, which is the flag already open there | open |
 | H71 | Novice Elementalist *Minor Works*: canon's Novice line as a 0-Strain utility with no combat effect | Part II, Elemental Novice | Direct | open |
 | H72 | The character sheet's ability block renumbered as picks; sub-discipline and retraining lines added (§16) | — | "Every field is on it; nothing else is" still holds | open |
+| H73 | Levels are earned by Proofs: one party tally, 5 per level; a non-rank level applies at the next Full Rest (§13.4) | Part II, Ranks; Part VI, Terminology (rank names are Ledger examination grades) | A level is capability, earned in play; no registry confers it — the registry records it (H77) | open |
+| H74 | Six Proof sources, each once per contract: contract closed; the unsaid found early; cross-reading; Join landed; resolved through its structure (2, attrition 1); consequence answered (§11, §13.4) | Design Thesis (no one person holds the full picture); Part VIII, tier table (vulnerability logic) | Three of the six need two characters; the structural resolution reads the tier table's vulnerability logic as the fight's purpose | open |
+| H75 | Kills and Marks are not sources (§13.4) | Parts II–IV, cost (severity nearly equal to power) | Marks stay a cost, never a currency; a kill-based reward would pay for the attrition GM Guide §8.5 penalizes | open |
+| H76 | Rank gate: a structural resolution at the current tier; the rank takes effect at the next phase turn; retraining in that window (§13.5) | Part VIII, Grand Beast tier table; Part I, Moons and Calendar | Invention. The phase turn matches the world's other lapses (postings, closed ground) and the Ledger's phase wait for a sitting | open |
+| H77 | Recognition separate from rank: a grade never exceeds rank; a grade below rank is legal; posting tier is set by grade (§1.4, §13.5) | Part VI, Terminology; Part IX, Second Register (unregistered practice prosecutable) | Direct: the registries grade what they examine, and the gap between capability and file is the Second Register's subject | open |
+| H78 | The sheet's CLASS line carries the party's Proofs (§16) | — | "Every field is on it; nothing else is" still holds | open |

@@ -1,6 +1,6 @@
 # Terhia: Heroes — Game Master's Guide
 
-**v0.5 — 25 September 2026** (v0.1–v0.4 the same day). Companion to Terhia-Heroes-Players-Guide.md v0.6 (PG) and Terhia-Heroes-Grand-Beasts.md v0.2 (GB). Built from Terhia-Heroes-GM-Guide-Handoff.md and Terhia-Canon.md v1.2. Mechanics only; no adventures. Every rule that touches canon is a G-row in §13 for Joe's ratification. Canon is not edited by this file. **A table can play from the working readings as written;** the register is the author's ratification queue, not a list of rulings the GM must make before a session.
+**v0.6 — 26 September 2026** (v0.1–v0.5 25 September). Companion to Terhia-Heroes-Players-Guide.md v0.7 (PG) and Terhia-Heroes-Grand-Beasts.md v0.2 (GB). Built from Terhia-Heroes-GM-Guide-Handoff.md and Terhia-Canon.md v1.2. Mechanics only; no adventures. Every rule that touches canon is a G-row in §13 for Joe's ratification. Canon is not edited by this file. **A table can play from the working readings as written;** the register is the author's ratification queue, not a list of rulings the GM must make before a session.
 
 **v0.2 revision pass.** The PG was loaded and its ten revisions (§13.2) are applied there (PG v0.2, H34–H41). The damage model (§12.1) is now read off the PG's class entries instead of reconstructed: the Novice Strike had been overstated and the Guru Strike understated, and every check in §12.3 is recomputed. The played round (§11.5) uses PG abilities by name. Still unverified: the three Chronicle ports and the Grand Beasts register, whose files were not loaded (§13.3). **Band note:** the system is tightest at levels 5–12. Novice is thin by design (D2 recommends starting at level 3); Guru is the least-tested band — §6.5 and §11.4 are arithmetic, not play.
 
@@ -12,6 +12,8 @@
 
 **v0.5 ability-pool pass.** The PG (v0.6) replaces each class's fixed list of nine abilities with pools of 21–28 from which a character still holds nine (PG §13.3). This file changes only where it named an ability by its old letter slot (§10.4, §11.5), where it tells the GM what an NPC practitioner holds (§4.5), and in one calibration note (§12.4) and one register row (G53). No number in §3–§12 moves: the pick count, Tempo, and Strain Capacity are unchanged, and the new entries are written to §12.1's rank-ability line. The entries themselves are not yet checked against §12.3; G53 lists the ones that bend a rule.
 
+**v0.6 advancement pass.** The PG (v0.7) adds the mechanism between levels: a party tally of Proofs, 5 per level, from six sources each counted once per contract (PG §13.4), and a rank gate with the phase turn (PG §13.5). The institution records a rank; it does not grant it. This file adds the GM's side: §9.1 is rewritten around adjudicating Proofs, the gate, and what each recognition route does at the table; §8.5 gains an *Answered by* column; §8.1, §8.6, and §11.3 carry one line each; §12.3 gains check (q); D12 sets the pace. No number in §3–§7 or §10 moves. New register rows G54–G59.
+
 **Two additions beyond the handoff, on Joe's brief for this session:** a **Tempo** track (actions per turn grow with level; §3) and a **gear system** with eight slots, tiers, intrinsics, and sockets that seat relics with attributes (§7). Both change PG numbers; the PG revisions are listed in §13.2 and applied in PG v0.2.
 
 ---
@@ -19,14 +21,14 @@
 ## Contents
 
 1. Fixed by the PG
-2. Decisions taken for this draft (D1–D11)
+2. Decisions taken for this draft (D1–D12)
 3. Tempo: actions per turn
 4. Opposition: stat blocks, tiers, roles, encounter budget
 5. Mobs
 6. Grand Beasts as bosses
 7. Gear and relics
 8. Contracts and the quest loop
-9. Rank-up, rest, travel, and the moons
+9. Advancement, rank-up, rest, travel, and the moons
 10. Adjudication
 11. Exemplars (28 stat blocks, 3 Mobs, 4 beasts, 4 contracts, one played round)
 12. Calibration pass
@@ -57,7 +59,7 @@ The GMG builds against these. Any change is a PG revision (§13.2), never a sile
 | Areas | One roll compared to each defense; half damage on a miss — except Elites and Bosses, who take nothing (PG §2, v0.2) |
 | Downed | Death Clock 3; stabilize DC 10; death permanent except *Refuse Death* and *Threshold* |
 | Grid | 1 square = 1 pace; diagonals 1; Medium 1×1, Large 2×2, Huge 3×3, Grand Beast 4×4+; Mob = block |
-| Advancement | Nine ability picks from rank pools per PG §13.1 and §13.3; talents at 2/6/10/14; attribute +2 at 4/8/12/16 within caps 18/20/22/22 |
+| Advancement | Nine ability picks from rank pools per PG §13.1 and §13.3; talents at 2/6/10/14; attribute +2 at 4/8/12/16 within caps 18/20/22/22; levels by Proofs, 5 per level from a party tally, and a rank gate at 5 / 9 / 13 (PG §13.4–13.5; §9.1) |
 | Core forms | A Core keeps every form it has had; the Guru form is the one that costs Strain (PG §14, H38) |
 | Elite / Boss shake-off | One Ward check a turn — d20 + (Ward − 10) vs the applier's attack roll — against any hex that denies a Move, Action, or Reaction or dictates a target (PG §8.2, H36) |
 
@@ -67,7 +69,7 @@ The GMG builds against these. Any change is a PG revision (§13.2), never a sile
 
 ## 2. Decisions taken for this draft
 
-Working readings of the handoff's D1–D9, plus two new decisions this session's brief required. Each is a G-row; D1 and D10 are ruled (R8, R2); the rest stand until Joe rules.
+Working readings of the handoff's D1–D9, plus two new decisions this session's brief required; D12 is new in v0.6. Each is a G-row; D1 and D10 are ruled (R8, R2); the rest stand until Joe rules.
 
 | # | Decision | Reading used in this draft | Where it lands |
 |:-:|:--|:--|:--|
@@ -82,6 +84,7 @@ Working readings of the handoff's D1–D9, plus two new decisions this session's
 | D9 | "Err on the side of power" for the Sorcerer | **Yes**, applied to every GMG ruling that touches the Arcane school (Canon XI.6) | throughout |
 | D10 | Tempo (new) | Actions per turn: 1 at levels 1–8, **2 at level 9, 3 at level 13** (R2; v0.2 had 6 / 12); no Strain-costing ability twice in one turn (§3) | §3, §13.2 |
 | D11 | Gear slots (new) | **Eight:** Head, Chest, Legs, Gloves, Boots, Accessory ×2, Trinket. One socket per piece. Weapons and shields carry no tier and no socket in this draft (G-row for Joe) | §7 |
+| D12 | Advancement pace (new, v0.6) | **5 Proofs per level** (PG §13.4). A typical contract yields 3–5, so a party levels about once per contract; from level 3 (D2) it reaches 16 in about 16–18 contracts (§12.3 q). A table that wants a slower campaign raises the cost to 6; it never adds or removes sources | §9.1; PG §13.4 |
 
 ---
 
@@ -554,7 +557,7 @@ Contract → Travel → Discovery → Danger → Location → Fight → Revelati
 | Revelation | The phase change that shows what the contract was actually about |
 | Boss | The final phase; the vulnerability procedure |
 | Relic | The outcome line (§6.6, §7.6) |
-| Consequences | The registries (§8.5); the reputation track (§8.4); the poster's reaction |
+| Consequences | The registries (§8.5); the reputation track (§8.4); the poster's reaction; tally Proofs (§9.1) |
 | Next contract | Generated from the consequence, not from a board |
 
 ### 8.2 Contract templates, each in its institution's register
@@ -619,18 +622,20 @@ Standing with one institution moves the others: +2 with the Chancel is −1 with
 
 ### 8.5 Consequences of a contract done wrong
 
-| Consequence | Trigger | Effect |
-|:--|:--|:--|
-| **Register entry** (Accord) | Unregistered practice at Adept or above in Accord territory; undeclared residue; a Ground-scale effect in registered territory (D7: automatic) | Ledger standing −1; the next posting requires a hearing; a Guru-scale effect files an Escrow audit within the phase (D7) |
-| **Assay audit** (Crown) | A benefice claimed on another's work; a Velquor-line relic carried into Chancel territory; a transfer made without an Apostle | Chancel favor −2; benefice voided; the party's names on the Scribe's copy |
-| **A closed way** (Chimera) | Taking what the keeper named as the ground's; a beast killed by attrition where the keeper asked for the dependency read; writing anything down | The way closes to the party until the next Threnis turn; Circle recognition −2 |
-| **A price** (Off-Ledger) | A job's word broken | The next job is the debt; credit 0 |
+| Consequence | Trigger | Effect | Answered by |
+|:--|:--|:--|:--|
+| **Register entry** (Accord) | Unregistered practice at Adept or above in Accord territory; undeclared residue; a Ground-scale effect in registered territory (D7: automatic) | Ledger standing −1; the next posting requires a hearing; a Guru-scale effect files an Escrow audit within the phase (D7) | The hearing sat, and the file corrected at the next posting |
+| **Assay audit** (Crown) | A benefice claimed on another's work; a Velquor-line relic carried into Chancel territory; a transfer made without an Apostle | Chancel favor −2; benefice voided; the party's names on the Scribe's copy | The audit met: the work's attribution corrected on the Scribe's copy, the relic surrendered or the transfer re-certified |
+| **A closed way** (Chimera) | Taking what the keeper named as the ground's; a beast killed by attrition where the keeper asked for the dependency read; writing anything down | The way closes to the party until the next Threnis turn; Circle recognition −2 | The way reopened at the next Threnis turn, on the keeper's price, paid in kind |
+| **A price** (Off-Ledger) | A job's word broken | The next job is the debt; credit 0 | The debt-job done |
+
+A consequence answered is a Proof (PG §13.4), counted in the contract during which it is answered, whichever contract caused it. A consequence evaded stays on the file, the roll, or the way.
 
 Guru consequences are treaty matters (Canon Part II): a party that carries a named relic or unseats a tether has done something three institutions will file three ways.
 
 ### 8.6 What the poster is not saying
 
-Roll or choose one per contract; the Revelation step is where it lands. Each has a Reading that can find it early: the party's investigation is its Readings (PG §11), and a PC who Reads the right thing at the Discovery or Location step gets the line. The lie is discoverable, not fiat.
+Roll or choose one per contract; the Revelation step is where it lands. Each has a Reading that can find it early: the party's investigation is its Readings (PG §11), and a PC who Reads the right thing at the Discovery or Location step gets the line. The lie is discoverable, not fiat. Found before the Revelation step, it is a Proof (PG §13.4).
 
 1. The tier rating is one step low, because the posting was written before the node reading rose. *Found by:* Sorcerer (the node reading, as a quantity); Elementalist (what the ground answers now).
 2. The beast is the second one; the first was culled by attrition and left the arena's condition standing. *Found by:* Necromancer (the first beast's crossing, a phase old); Elementalist (the condition standing with nothing under it).
@@ -643,19 +648,34 @@ Roll or choose one per contract; the Revelation step is where it lands. Each has
 
 ---
 
-## 9. Rank-up, rest, travel, and the moons
+## 9. Advancement, rank-up, rest, travel, and the moons
 
-### 9.1 Rank-up in the world
+### 9.1 Advancement and rank-up in the world
 
-Rank-up happens on the level table (PG §13.1). What happens in the world is this:
+Levels are earned by Proofs (PG §13.4); a rank level also needs the gate and the phase turn (PG §13.5). The institutions record what the party has become; they do not decide it. This section is the GM's side: adjudicating Proofs, running the gate, and what each recognition does at the table.
 
-| Recognition | What it looks like | What is recorded | Time and fee |
-|:--|:--|:--|:--|
-| **Ledger board** (Accord; any school) | An examination table; the cost read aloud; a waiver signed | A cost-file entry (Canon XI.2 form 1): rank, stage, examiner, phase | A phase's wait for a sitting; 2 / 8 / 30 seals by rank; Guru: the roll, by petition |
-| **Chancel attunement** (Crown; Apostles by rite, others by the Assay's counters) | The Assay's reading; a rite in Namaris for Apostles | The Assay's roll; benefice-bearing certification (form 2) | Namaris only; tithe, not fee |
-| **Circle recognition** (Chimera) | A keeper says it before whoever is there | Nothing | When the keeper says so |
-| **No recognition** | The party knows; the registries do not | Nothing, until a Reading by a registered practitioner or an inspection files it | — |
+**Adjudicating Proofs.** Tally at the Consequences step (§8.1), source by source, each at most once per contract.
 
+- **Contract closed.** The poster learns the outcome — the assessor confirms, the Assay certifies, the keeper is told, the principal is paid or refused. A contract abandoned without word does not close.
+- **The unsaid, found early.** A player states the conclusion aloud, from a Reading, before the Revelation step. The §8.6 *Found by* lists are the likely schools, not the only ones.
+- **Cross-reading.** Two Readings by different schools, put together, and acted on. The GM confirms it at the moment the party acts. Two Readings by one school do not count.
+- **Join landed.** The Join's attack hits, or — for a Join with no attack roll — its effect resolves, in a fight against a Boss or Grand Beast.
+- **Resolved through its structure.** A Grand Beast: the "vulnerability logic was executed" column of §6.6. A Boss that is not a beast: it falls in a phase in which its Weakness exploit landed (§4.4). Elites do not count. Attrition alone is worth 1, not 2.
+- **Consequence answered.** The *Answered by* column of §8.5.
+- **Contract-equivalent.** Work with no posting counts once it has someone who wants it done and a consequence if it goes wrong. Say so at the table when it starts.
+
+**The gate.** A rank level needs a structural resolution of a Boss or Grand Beast of the party's current tier (§4.2, §6.3); one above the tier also counts. Until then the tally holds at 5. When the party is at the gate, the next contract's Boss step is of their tier — the loop supplies one per contract. A table that resolves every fight by attrition will not rank up; the Readings of §6.4 and §10.2 are how the structure is found, and the GM gives them.
+
+**The phase turn.** The rank takes effect at the next phase turn, not on the night of the fight. Retraining (PG §13.3) happens in the same window. So does recognition: each character chooses a route below. The wait and fee are the route's.
+
+| Recognition | What it looks like | What is recorded | Time and fee | At the table |
+|:--|:--|:--|:--|:--|
+| **Ledger board** (Accord; any school) | An examination table; the cost read aloud; a waiver signed | A cost-file entry (Canon XI.2 form 1): rank, stage, examiner, phase | A phase's wait for a sitting; 2 / 8 / 30 seals by rank; Guru: the roll, by petition | Status *Registered* at the grade. Ledger postings of the grade's tier. Ledger file raised to at least 2 (§8.4). The cost file, from Adept, is readable by any assessor |
+| **Chancel attunement** (Crown; Apostles by rite, others by the Assay's counters) | The Assay's reading; a rite in Namaris for Apostles | The Assay's roll; benefice-bearing certification (form 2) | Namaris only; tithe, not fee | Status *Attuned* at the grade. Chancel commissions of the grade's tier. Chancel favor raised to at least 2. Not open to a Reverie school (Proscribed) or an Ethosless one (Anathema) |
+| **Circle recognition** (Chimera) | A keeper says it before whoever is there | Nothing | When the keeper says so | Status *Recognized*. Keepers' requests come at the character's rank, not below it. Circle recognition raised to at least 1. Nothing to file, so nothing to be filed for |
+| **No recognition** | The party knows; the registries do not | Nothing, until a Reading by a registered practitioner or an inspection files it | — | Status unchanged. Off-Ledger jobs, keepers' requests, and Unsworn contracts at any tier; registered postings at the old grade. §8.5 applies when noticed |
+
+- **Grade and rank.** A grade never exceeds rank. A grade below rank is legal: posting tier is set by grade (the Ledger posting asks for registration to be shown), and the gap between what the character can do and what is on file is what §8.5 prosecutes.
 - **Unregistered rank-up in Accord territory is prosecutable** under the Second Register: any Reading of the character by a registered practitioner, any portal manifest, any assessor's confirmation files a Register entry (§8.5). The Ethosless schools have no registry to be late to; a Necromancer, Hexblade, or Warlock ranks up unregistered by default and is filed only when noticed.
 - Talents with a trade, and Trade checks, use the same grades (§7.2).
 
@@ -883,13 +903,13 @@ Not adventures. Blocks are built from §4; beasts are treatments of register row
 
 ### 11.3 Four contracts, filled
 
-**Ledger posting, Novice.** *COBALT LEDGER · CONTRACT POSTING · Grimskov registry · Saelura 1245. Matter: emergence at the mill-pond below Ulvskov, node reading Novice as of Saelura. Tier rating: Novice. Fee: 4 seals, half on posting. Residue to be declared. Standing: noted. Assessor of record: [seal].* Not said (§8.6, 5): the pond is the mill's, and the miller's latent school is Nature.
+**Ledger posting, Novice.** *COBALT LEDGER · CONTRACT POSTING · Grimskov registry · Saelura 1245. Matter: emergence at the mill-pond below Ulvskov, node reading Novice as of Saelura. Tier rating: Novice. Fee: 4 seals, half on posting. Residue to be declared. Standing: noted. Assessor of record: [seal].* Not said (§8.6, 5): the pond is the mill's, and the miller's latent school is Nature. *Proofs available:* closed 1; the unsaid (an Apothecarist names the dependency, or an Artificer reads the mill as a works) 1; a cross-reading of the pond 1; a Join landed 1; the Novice beast resolved through its Pattern 2 — the gate to Adept. Up to 6.
 
-**Chancel commission, Adept.** *GILT CHANCEL · COMMISSION · a Tepemitla parish · 12 Namaris 1245. Commissions the bearers to deny the den of the pack at the parish's north pasture, for the relief of the Namaris circuit. Benefice: 15 gilts on Assay certification. Sacramental property recovered is the Chancel's. Attribution: the commissioned alone.* Not said (2): the parish's own Apostle culled the first pack by attrition; the den-site reading stands.
+**Chancel commission, Adept.** *GILT CHANCEL · COMMISSION · a Tepemitla parish · 12 Namaris 1245. Commissions the bearers to deny the den of the pack at the parish's north pasture, for the relief of the Namaris circuit. Benefice: 15 gilts on Assay certification. Sacramental property recovered is the Chancel's. Attribution: the commissioned alone.* Not said (2): the parish's own Apostle culled the first pack by attrition; the den-site reading stands. *Proofs available:* closed 1; the unsaid (a Necromancer reads the first beast's crossing) 1; cross-reading 1; Join 1; the dependency resolved 2 — the gate to Master; an Assay audit answered 1, if the attribution clause is broken by an unregistered party member. Up to 7.
 
-**Circle request, Master.** *The keeper of the Shalei crossing says it once: the ground at the oasis is the beast's again; open the road before the Saelura turn. Owed: a way opened for the party's whole life on the crossing. Not the party's: the oasis water, and what the beast has killed.* Not said (8): the oasis is one of three sites the Threnis-phase claims name, and the other two have keepers who did not ask.
+**Circle request, Master.** *The keeper of the Shalei crossing says it once: the ground at the oasis is the beast's again; open the road before the Saelura turn. Owed: a way opened for the party's whole life on the crossing. Not the party's: the oasis water, and what the beast has killed.* Not said (8): the oasis is one of three sites the Threnis-phase claims name, and the other two have keepers who did not ask. *Proofs available:* closed 1; the unsaid (a Sorcerer's site coordinates come back plural, or a Warden finds the other roads in) 1; cross-reading 1; Join 1; the burrow-dominant reversed 2 — the gate to Guru; a closed way answered 1, if the party takes the water. Up to 7.
 
-**Off-Ledger job, Master.** *Job: bring the Mwamba apex-claw out of the foothills before the Assay's inspector reaches Tinwara. Principal: not named. Priced: a portal manifest without inspection, once. Registration: not asked. Residue: the principal's, or the price is halved.* Not said (3): the claw is promised to a company that already holds it.
+**Off-Ledger job, Master.** *Job: bring the Mwamba apex-claw out of the foothills before the Assay's inspector reaches Tinwara. Principal: not named. Priced: a portal manifest without inspection, once. Registration: not asked. Residue: the principal's, or the price is halved.* Not said (3): the claw is promised to a company that already holds it. *Proofs available:* closed 1; the unsaid (an Apostle reads that what the principal wants is not the claw) 1; cross-reading 1; a Join, if the company's holder is a Boss 1; a structural resolution 2 only if the job reaches a Boss; a price answered 1, if the word is broken and the debt-job done. Up to 7.
 
 ### 11.4 One Grand Beast per tier, with phases
 
@@ -957,7 +977,7 @@ The party figure is the **full-damage floor**: every Action spent on damage. A p
 
 ### 12.3 Checks
 
-Sixteen checks, (a)–(p), against the PG's numbers. (a)–(e) are the handoff's five design targets; (f) and (i) are the checks §4.2 and §7.3 promise; the rest are the handoff's risks and the v0.2–v0.4 additions. **Risk map:** risk 1 → (b); 2 → (j); 4 → (a) and §12.4; 5 and 6 → §12.4; 7 → (k); 8 → (m); 9 → (h); 10 → (n). **Risk 3 has no row in any version of this file** — it is not named anywhere in the GMG and the handoff was not loaded for this pass; if it was the gear stack or the Guru burst, (i) or (f) covers it, and Joe should say which (G52). Rows say which model they use (§12.1): the class model (standard Guard, no kit) or the Boss model (Boss Guard, assumed kit).
+Seventeen checks, (a)–(q), against the PG's numbers. (a)–(e) are the handoff's five design targets; (f) and (i) are the checks §4.2 and §7.3 promise; the rest are the handoff's risks and the v0.2–v0.4 additions. **Risk map:** risk 1 → (b); 2 → (j); 4 → (a) and §12.4; 5 and 6 → §12.4; 7 → (k); 8 → (m); 9 → (h); 10 → (n). **Risk 3 has no row in any version of this file** — it is not named anywhere in the GMG and the handoff was not loaded for this pass; if it was the gear stack or the Guru burst, (i) or (f) covers it, and Joe should say which (G52). Rows say which model they use (§12.1): the class model (standard Guard, no kit) or the Boss model (Boss Guard, assumed kit).
 
 | Check | Result | Finding |
 |:--|:--|:--|
@@ -977,6 +997,7 @@ Sixteen checks, (a)–(p), against the PG's numbers. (a)–(e) are the handoff's
 | (n) Readings load (risk 10) | §10.2, §6.4, §5.8: one sentence each, free; the exploit is the Quick (R5) | Fast enough; the GM reads the row, not the beast |
 | **(o) What the opposition hits** | Nominal PC Guard by class family against the tier's attack, no kit (§4.7, second table): the Hexblade is hit 20–25% at every tier, a Poise martial 35–45%, a Frame martial 40–65%, a caster in light armor 55–75%. The spread widens with level because the opposition's attack grows +3 / +3 / +4 a tier and a PC's Guard +2 plus what the class adds | The party average — 43% at Novice, 46% at Adept, 50% at Master, 59% at Guru — is what (g) uses. The consequence is already in the design: a Boss that focuses the caster downs it in two or three rounds; one that swings at the Hexblade wastes its turn. The assumed kit lowers every Master figure 5 points and every Guru figure 10 |
 | **(p) The Guru relic farm** | v0.3's outcome line left a Master relic per manifestation destroyed, and the manifestation returns at the next phase or the next night on the GM's clock. A party that can end a manifestation in 2.3 rounds (f) could take a Master relic a night from an avatar it has no intention of unseating — more Master relics in a month than the Master tier's whole outcome line leaves in a campaign | Closed: the first manifestation destroyed leaves a Master relic; a later one only after a tether point has been unseated since the last relic left (§6.6; GB §2.7). Three tether points, three more relics at most, and the campaign objective is the schedule |
+| **(q) Advancement pace (D12)** | Level 3 to 16 is 13 levels × 5 = 65 Proofs. At 4 a contract, about 16 contracts; at 3.5, about 19; at the 7 maximum, 10. A party that resolves every fight by attrition earns 2–3 a contract and never opens a gate | Inside the target of one level per contract. The attrition case is intended: the gate is what makes the tier's vulnerability logic worth finding. A table that wants a slower curve raises the cost to 6 (about 20 contracts), never the sources |
 
 ### 12.4 Verified against the PG (v0.2)
 
@@ -1050,6 +1071,12 @@ Same columns as the PG's H-rows. **Status:** rows marked *Ruled* carry the rulin
 | G51 | Kit baseline: the tier table, budget, and calibration assume the kit of one tier below the party's; own-tier kit or four seated relics is one budget step; the gloves' damage bonus is on Strike and Core at every tier; the Guru chest's resistance is never Physical; the §7.3 summary corrected to Guard +3 | No | §4.2, §4.6, §4.7, §7.3, §12.3 (i); PG §15.1 (H60) | New in v0.4. The baseline was stated for Master only, in §12.3, where the GM would not look for it. Alternative: hold intrinsic Guard at +2 by making the Guru chest Guard +1 — not taken; the ladder 1 / 2 / 3 is already slower than the opposition's attack |
 | G52 | §12.3 closed as checks (a)–(p) with the risk map; the Boss model (Boss Guard, assumed kit) beside the class model in §12.2; the Gate figure recomputed under the PG's per-turn cap (210–257, not 290) | No | §12.1–§12.4 | New in v0.4. **Open for Joe:** the handoff's risk 3 has no row in any GMG version and the handoff was not loaded; name it, and say whether (f) or (i) covers it |
 | G53 | Ability pools: nine picks from pools of 21–28 per class; down-picks and one retraining per rank-up; Elementalist sub-discipline; the new entries written to §12.1's rank-ability line and not yet run through §12.3 | Yes: Parts II–IV rank lines (PG H61–H72) | §4.5, §10.4, §11.5, §12.4; PG §13.3, §14 (H61–H72) | New in v0.5. Check first: *Quickened Hour*, *The Order Given*, *Walking Arsenal*, *Overclock*, *Short Crossing*, *Pyre*, and down-picks (§12.4). Alternative: ship the pools with those six struck until checked |
+| G54 | Advancement pace: 5 Proofs per level from a party tally (D12) | No | §2; PG §13.4 (H73) | Alternative: 6 for a slower campaign; the cost moves, the sources do not |
+| G55 | §8.5 gains an *Answered by* column; a consequence answered is a Proof in the contract during which it is answered | No | §8.5; PG §13.4 (H74) | Each answer is one the consequence's own institution accepts; none is invented beyond the trigger's own register |
+| G56 | §9.1 retitled and rewritten: adjudicating Proofs, the gate, the phase turn, and an *At the table* column for each recognition route; track floors on recognition (Ledger file 2, Chancel favor 2, Circle 1) | Yes — Part VI, Terminology; Part IX, Second Register | §9.1; PG §13.5 (H76, H77) | The route table's first four columns are unchanged from v0.5. Invention: the track floors and the Chancel's closure to Reverie and Ethosless schools (read off the standing table, PG §1.4) |
+| G57 | The unsaid, found before the Revelation step, is a Proof | No | §8.6; PG §13.4 (H74) | — |
+| G58 | Each §11.3 contract lists the Proofs it offers | No | §11.3 | Calibration exemplars for (q) |
+| G59 | Check (q): advancement pace | No | §12.3 | Assumes 4 Proofs a contract as typical |
 
 ### 13.2 PG revisions (applied in PG v0.2)
 
