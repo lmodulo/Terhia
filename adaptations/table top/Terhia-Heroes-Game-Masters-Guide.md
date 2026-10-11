@@ -1,6 +1,6 @@
 # Terhia: Heroes — Game Master's Guide
 
-**v0.6 — 26 September 2026** (v0.1–v0.5 25 September). Companion to Terhia-Heroes-Players-Guide.md v0.7 (PG) and Terhia-Heroes-Grand-Beasts.md v0.2 (GB). Built from Terhia-Heroes-GM-Guide-Handoff.md and Terhia-Canon.md v1.2. Mechanics only; no adventures. Every rule that touches canon is a G-row in §13 for Joe's ratification. Canon is not edited by this file. **A table can play from the working readings as written;** the register is the author's ratification queue, not a list of rulings the GM must make before a session.
+**v0.7 — 11 October 2026** (v0.6 26 September; v0.1–v0.5 25 September). Companion to Terhia-Heroes-Players-Guide.md v0.8 (PG) and Terhia-Heroes-Grand-Beasts.md v0.2 (GB). Built from Terhia-Heroes-GM-Guide-Handoff.md and Terhia-Canon.md v1.2. Mechanics only; no adventures. Every rule that touches canon is a G-row in §13 for Joe's ratification. Canon is not edited by this file. **A table can play from the working readings as written;** the register is the author's ratification queue, not a list of rulings the GM must make before a session.
 
 **v0.2 revision pass.** The PG was loaded and its ten revisions (§13.2) are applied there (PG v0.2, H34–H41). The damage model (§12.1) is now read off the PG's class entries instead of reconstructed: the Novice Strike had been overstated and the Guru Strike understated, and every check in §12.3 is recomputed. The played round (§11.5) uses PG abilities by name. Still unverified: the three Chronicle ports and the Grand Beasts register, whose files were not loaded (§13.3). **Band note:** the system is tightest at levels 5–12. Novice is thin by design (D2 recommends starting at level 3); Guru is the least-tested band — §6.5 and §11.4 are arithmetic, not play.
 
@@ -13,6 +13,8 @@
 **v0.5 ability-pool pass.** The PG (v0.6) replaces each class's fixed list of nine abilities with pools of 21–28 from which a character still holds nine (PG §13.3). This file changes only where it named an ability by its old letter slot (§10.4, §11.5), where it tells the GM what an NPC practitioner holds (§4.5), and in one calibration note (§12.4) and one register row (G53). No number in §3–§12 moves: the pick count, Tempo, and Strain Capacity are unchanged, and the new entries are written to §12.1's rank-ability line. The entries themselves are not yet checked against §12.3; G53 lists the ones that bend a rule.
 
 **v0.6 advancement pass.** The PG (v0.7) adds the mechanism between levels: a party tally of Proofs, 5 per level, from six sources each counted once per contract (PG §13.4), and a rank gate with the phase turn (PG §13.5). The institution records a rank; it does not grant it. This file adds the GM's side: §9.1 is rewritten around adjudicating Proofs, the gate, and what each recognition route does at the table; §8.5 gains an *Answered by* column; §8.1, §8.6, and §11.3 carry one line each; §12.3 gains check (q); D12 sets the pace. No number in §3–§7 or §10 moves. New register rows G54–G59.
+
+**v0.7 weapons pass.** The PG (v0.8) adds a class weapon for every class (PG §4.1), two weapon slots — Main Hand and Off Hand — beside the eight (PG §15.1), and Cleave, a standard 0-Strain Action against two or more enemies, strong for Martial classes and weak for Magic and Alchemy, which hold two more ability picks to make up for it (PG §5.1, §13.3). This file changes §1, §4.3, §4.5, §5.4, §7.1, §7.3, §7.4, and §11.1, and adds check (r). No figure in the Boss checks moves: Cleave needs two enemies, the Main Hand's bonus is off the Strike and the Core, and a Mob's block is one target. New rows G60–G65; G11 is superseded.
 
 **Two additions beyond the handoff, on Joe's brief for this session:** a **Tempo** track (actions per turn grow with level; §3) and a **gear system** with eight slots, tiers, intrinsics, and sockets that seat relics with attributes (§7). Both change PG numbers; the PG revisions are listed in §13.2 and applied in PG v0.2.
 
@@ -52,6 +54,8 @@ The GMG builds against these. Any change is a PG revision (§13.2), never a sile
 | Turn | Move (6) + Actions (Tempo, PG §5) + Quick + Reaction; one Sustained effect at a time; one Ready a turn; "Strike" inside an ability is one attack |
 | Tempo | 1 / 2 / 3 at levels 1–8 / 9–12 / 13–16 — steps at the rank boundaries (PG §5, R2) |
 | Guru Strike | Two attacks at weapon + RD + Key; the second RD against a Mob's Cohesion only (PG §5, R1) |
+| Class weapons | Every class has one (PG §4.1): Martial as before; staff d6 (Elementalist, Apothecarist), focus d4 range 6 (Sorcerer, Apostle), scythe d8 reach 2 (Necromancer), mace d6 (Artificer), dagger d4 (Warlock). Magic and Alchemy weapon attacks deal the weapon die only |
+| Cleave | Action, 0 Strain, one roll vs each Guard, at least two enemies, nothing on a miss. Martial: count 2 / 3 / 4 / 5, weapon die (+ RD from Master), Key once. Magic and Alchemy: count 2 / 2 / 3 / 3, weapon die (PG §5.1) |
 | Readings | Free, no action, once per round per reader; the exploit costs the Quick, or an Action when the Quick is spent (PG §11, R5) |
 | Damage kinds | Physical, Fire, Frost, Storm, Stone, Force, Toxin, Necrotic, Sacred |
 | DoT | Burning 3/stack (decays) · Bleeding 2/stack · Poisoned 1/stack and −stacks Ward · cap 5 |
@@ -59,7 +63,7 @@ The GMG builds against these. Any change is a PG revision (§13.2), never a sile
 | Areas | One roll compared to each defense; half damage on a miss — except Elites and Bosses, who take nothing (PG §2, v0.2) |
 | Downed | Death Clock 3; stabilize DC 10; death permanent except *Refuse Death* and *Threshold* |
 | Grid | 1 square = 1 pace; diagonals 1; Medium 1×1, Large 2×2, Huge 3×3, Grand Beast 4×4+; Mob = block |
-| Advancement | Nine ability picks from rank pools per PG §13.1 and §13.3; talents at 2/6/10/14; attribute +2 at 4/8/12/16 within caps 18/20/22/22; levels by Proofs, 5 per level from a party tally, and a rank gate at 5 / 9 / 13 (PG §13.4–13.5; §9.1) |
+| Advancement | Nine ability picks from rank pools (eleven for Magic and Alchemy classes: a fourth Novice, a third Adept) per PG §13.1 and §13.3; talents at 2/6/10/14; attribute +2 at 4/8/12/16 within caps 18/20/22/22; levels by Proofs, 5 per level from a party tally, and a rank gate at 5 / 9 / 13 (PG §13.4–13.5; §9.1) |
 | Core forms | A Core keeps every form it has had; the Guru form is the one that costs Strain (PG §14, H38) |
 | Elite / Boss shake-off | One Ward check a turn — d20 + (Ward − 10) vs the applier's attack roll — against any hex that denies a Move, Action, or Reaction or dictates a target (PG §8.2, H36) |
 
@@ -160,7 +164,7 @@ Apply to the tier line. Standard-line Vigor unless the role says otherwise.
 
 | Role | Vigor | Guard | Speed | Damage | Build note |
 |:--|:-:|:-:|:-:|:-:|:--|
-| Brute | ×1.5 | −1 | 6 | ×1.25 | Melee; may be Large; one Cleave-type ability |
+| Brute | ×1.5 | −1 | 6 | ×1.25 | Melee; may be Large; one *Hew*-type ability (a second attack on a kill) |
 | Skirmisher | ×0.75 | +1 | 8 | ×1 | Ranged or hit-and-run; Disengage as a Quick |
 | Caster | ×0.75 | −1 (Ward +2) | 6 | ×1 (one area per fight) | Strain 4 / 6 / 8 / 10 by tier; abilities cost 2; no Overdraw unless a named practitioner |
 | Controller | ×1 | 0 | 6 | ×0.75 | Two hex abilities; one Stun-capable at most (§10.5) |
@@ -181,7 +185,7 @@ Apply to the tier line. Standard-line Vigor unless the role says otherwise.
 Enemy practitioners **use the PG classes at their listed level**; there are no separate "enemy caster" tables for named people. The GM runs the resource:
 
 - Strain Capacity, Marks (start at the rank floor), Tempo by level, talents per PG (pick two that fit; skip the rest).
-- **Abilities:** nine picks from the class's pools, as a PC (PG §13.3). Pick to a build and say it in one line in your notes ("a Frost Elementalist", "a counter-practitioner Hexblade"); a rival party of four should not hold four copies of the Builds line's first example.
+- **Abilities:** nine picks from the class's pools (eleven for a Magic or Alchemy class), as a PC (PG §13.3). **Weapon and Cleave** as a PC (PG §4.1, §5.1): a named practitioner carries its class weapon and may Cleave. Unnamed opposition and roles do not take the standard Cleave; a Brute's *Hew* is its version (§4.3). Pick to a build and say it in one line in your notes ("a Frost Elementalist", "a counter-practitioner Hexblade"); a rival party of four should not hold four copies of the Builds line's first example.
 - **NPC Push and Overdraw: allowed.** Budget: **3 Marks per session across all NPCs**, and every NPC Mark is narrated in the school's register exactly as a PC's would be (§10.1). An NPC at Stage 3+ has the Stage penalties on the sheet.
 - Unnamed practitioners (a garrison's Adept, a column's Apostle) use the Caster / Support / Controller roles above with a school label and one PG ability; they do not Push.
 - A **rival practitioner party** is a listed encounter type: four PG characters at the party's level ±1, run with the same rules. §11.6 plays one round of it.
@@ -269,6 +273,7 @@ The Chronicle's Lines / Cohesion model converted to figurines. A Mob is one bloc
 ### 5.4 Damage to a Mob
 
 - **Single-target** attacks and abilities deal their damage to Cohesion normally.
+- **Cleave** (PG §5.1) is not an area: a block is one target however many of its squares are in reach, and takes single damage. Counted per square, a Guru Vanguard's glaive Cleave reached about 47 Cohesion an Action against the Strike's 29 and out-broke the casters' doubled areas; as one target it changes nothing in §5.9 or (d).
 - **Area effects and DoTs deal double damage to Cohesion.** This is the whole reason casters exist at the platoon scale. Handoff 4.3: "PC area effects deal damage to Cohesion directly" — here, directly and doubled.
 - **Hexes** apply to the block: Stunned, the Mob makes no attacks until its next turn ends; Slowed, Speed halves; Blinded, attacks at Disadvantage; Prone does not apply (a block cannot fall over).
 - A crit against a Mob adds a hex stack as usual and kills a member if any ability cares.
@@ -395,7 +400,7 @@ The canon-strict register in the Grand Beasts module records the emergence; the 
 
 Gear is what a character wears; a relic is what a socket in that gear seats. Gear has a **slot**, a **tier**, an **intrinsic** (a fixed bonus by slot and tier), and **one socket**. A relic has a **rank**, an **attribute** (any numeric or mechanical property the game names), from Master rank an **alteration** (a new action or a changed class mechanic), and a **governor** (the condition under which it works, inherited from the beast that left it). This section replaces the Chronicle's six-slot model for Heroes (D11).
 
-### 7.1 The eight slots
+### 7.1 The ten slots
 
 | Slot | What the piece is | Intrinsic stat |
 |:--|:--|:--|
@@ -406,8 +411,10 @@ Gear is what a character wears; a relic is what a socket in that gear seats. Gea
 | Boots | Boots, sandals, snow-shoes, climbing irons | Hazard checks; Speed from Master |
 | Accessory ×2 | Ring, amulet, belt, bracer, sash, token on a cord | Strain Capacity |
 | Trinket | A tooth, a charm, a keeper's token, a page | **No intrinsic. Its socket accepts a relic of any rank** |
+| Main Hand | The class weapon (PG §4.1) | Cleave and Punish damage; Cleave count from Master |
+| Off Hand | A shield, a focus, a light weapon, or nothing | Strain Capacity; a second Reaction at Guru |
 
-Weapons and shields keep their PG values and carry no tier and no socket in this draft (G-row 11; the obvious extension is one socket on the weapon, tiered like the rest).
+Weapons and shields keep their PG §4.1 values at every tier; the tier adds the intrinsic and a socket. **A two-handed weapon is one piece in both weapon slots**, with both intrinsics and both sockets, so a maul and a sword-and-shield come to the same kit. The Warden's dagger is a sidearm in no slot. (v0.7, G60, superseding G11.) The Main Hand's intrinsic is deliberately off the Strike, the Core, the attack roll, and Guard: those carry every hit table and Boss floor in §12, and the weapon slot does not move them (check r).
 
 ### 7.2 Tiers and makers
 
@@ -431,15 +438,17 @@ A piece's tier is its maker's grade: Novice, Adept, Master, Guru. Trade grades a
 | Boots | — | +2 on checks against hazards | Speed +1 | Speed +1; difficult ground costs no extra Move |
 | Accessory (each) | — | Strain Capacity +1 | Strain Capacity +1 | Strain Capacity +1 |
 | Trinket | — | — | — | — |
+| Main Hand | — | Cleave and Punish damage +1 (to each target hit) | Cleave and Punish damage +1; Cleave count +1 | Cleave and Punish damage +2; Cleave count +1; Cleave ignores half cover |
+| Off Hand | — | Strain Capacity +1 | Strain Capacity +1 | Strain Capacity +1; once per encounter, a second Reaction in a round |
 
-Intrinsics stack across slots and do not stack within one. The gloves' damage bonus is on the Strike and the Core at every tier and never on a costed ability (v0.3's Master and Guru lines did not say; the §12 model always read them so). **Kit totals, from the table.** Adept: Ward +1, Guard +1, Vigor +5, damage +1, Capacity +2. Master: Ward +1, Guard +2, Vigor +10, attack +1, damage +1, Speed +1, Capacity +2. Guru (named): Ward +2, **Guard +3** above PG armor (Head +1, Chest +2 — v0.3's summary said +4, which the table never gave), Vigor +20, attack +1, damage +2, Speed +1, Capacity +2, one resistance, difficult ground free. **The assumed kit.** The tier table, the encounter budget, and the calibration are written for a party in the full kit of one tier below its own — nothing at Novice and Adept, the Adept kit at Master, the Master kit at Guru (§4.2, §4.6). Measured against that, an own-tier kit adds: at Master, Guard +1, attack +1, Vigor +5, Speed +1; at Guru, Guard +1, Ward +1, Vigor +10, damage +1 a hit, the resistance, and the boots' ground rule — one budget step in each case. The resistance is the Guru kit's one large item and it is a commitment made at commissioning: it is never Physical, so it is chosen against a named threat — a moon's element, a poison, the boundary — and does nothing against the next one. §12.3 (i) is the check; §4.7 has what the kit does to the opposition's hit chance.
+Intrinsics stack across slots and do not stack within one. The gloves' damage bonus is on the Strike and the Core at every tier and never on a costed ability (v0.3's Master and Guru lines did not say; the §12 model always read them so). **Kit totals, from the table.** Adept: Ward +1, Guard +1, Vigor +5, damage +1, Cleave and Punish +1, Capacity +3. Master: Ward +1, Guard +2, Vigor +10, attack +1, damage +1, Cleave and Punish +1, Cleave count +1, Speed +1, Capacity +3. Guru (named): Ward +2, **Guard +3** above PG armor (Head +1, Chest +2 — v0.3's summary said +4, which the table never gave), Vigor +20, attack +1, damage +2, Cleave and Punish +2, Cleave count +1, Speed +1, Capacity +3, one resistance, difficult ground free, a second Reaction once per encounter. (v0.7: the weapon slots add the Cleave and Punish lines and one Capacity; the Off Hand's Capacity moves no Overdraw turn in check h.) **The assumed kit.** The tier table, the encounter budget, and the calibration are written for a party in the full kit of one tier below its own — nothing at Novice and Adept, the Adept kit at Master, the Master kit at Guru (§4.2, §4.6). Measured against that, an own-tier kit adds: at Master, Guard +1, attack +1, Vigor +5, Speed +1; at Guru, Guard +1, Ward +1, Vigor +10, damage +1 a hit, the resistance, and the boots' ground rule — one budget step in each case. The resistance is the Guru kit's one large item and it is a commitment made at commissioning: it is never Physical, so it is chosen against a named threat — a moon's element, a poison, the boundary — and does nothing against the next one. §12.3 (i) is the check; §4.7 has what the kit does to the opposition's hit chance.
 
 ### 7.4 Sockets
 
 - **One socket per piece.** A socket seats **one relic of rank equal to or below the piece's tier**: a Master helm seats a Master, Adept, or Novice relic; an Adept ring seats Adept or Novice.
 - **The Trinket's socket seats any rank.** An over-rank relic there (a Novice carrying a Master relic) costs **1 Strain Capacity while seated** — the only bond cost in the game (D4).
 - **Seating and unseating** take a Breather. A relic seated unread (§7.7) reveals its governor the first time it fails.
-- **Maximum seated: eight**, one per slot, and **the same attribute in at most one socket** (v0.1 said two: a per-hit damage attribute multiplies with the Master Strike's two attacks and with Tempo, and two of them put a Master martial at +80% over the tier table's assumption — §12.3). No Capacity cost beyond the Trinket rule.
+- **Maximum seated: ten**, one per slot (a two-handed weapon seats two), and **the same attribute in at most one socket** (v0.1 said two: a per-hit damage attribute multiplies with the Master Strike's two attacks and with Tempo, and two of them put a Master martial at +80% over the tier table's assumption — §12.3). No Capacity cost beyond the Trinket rule.
 
 ### 7.5 Relics
 
@@ -861,7 +870,7 @@ Not adventures. Blocks are built from §4; beasts are treatments of register row
 
 | Role | Example | Vigor | Guard / Ward | Speed | Attacks | Abilities | Reads as |
 |:--|:--|:-:|:-:|:-:|:--|:--|:--|
-| Brute | A column's breacher; a bear | 45 | 16 / 16 | 6 | 1 × 15 | *Cleave*: on a kill, a second attack; *Shove*: 2 paces on a hit (1/turn) | Paladin: where its weight sits |
+| Brute | A column's breacher; a bear | 45 | 16 / 16 | 6 | 1 × 15 | *Hew*: on a kill, a second attack; *Shove*: 2 paces on a hit (1/turn) | Paladin: where its weight sits |
 | Skirmisher | A compact scout; a hawk | 23 | 18 / 16 | 8 | 2 × 6, range 12 | *Mark*: a target it hit is Advantaged for allies until its next turn; Disengage as a Quick | Warden: its next square |
 | Caster | A registered Adept, any school | 23 | 16 / 18 | 6 | *Bolt* 1 × 10, range 12 | *Area* (1/fight): Burst 2, 12, half on miss; *Ward* (Quick): Guard +2 for a round; Strain 6 | Elementalist: what it will do to the ground |
 | Controller | A whip-line handler; a python | 30 | 17 / 16 | 6 | 1 × 9 | *Grasp*: Ward check or Slowed and Prone; *Hush*: Ward check or the target's next costed ability fails (1/fight) | Hexblade: the casting posture, one round early |
@@ -977,7 +986,7 @@ The party figure is the **full-damage floor**: every Action spent on damage. A p
 
 ### 12.3 Checks
 
-Seventeen checks, (a)–(q), against the PG's numbers. (a)–(e) are the handoff's five design targets; (f) and (i) are the checks §4.2 and §7.3 promise; the rest are the handoff's risks and the v0.2–v0.4 additions. **Risk map:** risk 1 → (b); 2 → (j); 4 → (a) and §12.4; 5 and 6 → §12.4; 7 → (k); 8 → (m); 9 → (h); 10 → (n). **Risk 3 has no row in any version of this file** — it is not named anywhere in the GMG and the handoff was not loaded for this pass; if it was the gear stack or the Guru burst, (i) or (f) covers it, and Joe should say which (G52). Rows say which model they use (§12.1): the class model (standard Guard, no kit) or the Boss model (Boss Guard, assumed kit).
+Eighteen checks, (a)–(r), against the PG's numbers. (a)–(e) are the handoff's five design targets; (f) and (i) are the checks §4.2 and §7.3 promise; the rest are the handoff's risks and the v0.2–v0.4 additions. **Risk map:** risk 1 → (b); 2 → (j); 4 → (a) and §12.4; 5 and 6 → §12.4; 7 → (k); 8 → (m); 9 → (h); 10 → (n). **Risk 3 has no row in any version of this file** — it is not named anywhere in the GMG and the handoff was not loaded for this pass; if it was the gear stack or the Guru burst, (i) or (f) covers it, and Joe should say which (G52). Rows say which model they use (§12.1): the class model (standard Guard, no kit) or the Boss model (Boss Guard, assumed kit).
 
 | Check | Result | Finding |
 |:--|:--|:--|
@@ -998,6 +1007,7 @@ Seventeen checks, (a)–(q), against the PG's numbers. (a)–(e) are the handoff
 | **(o) What the opposition hits** | Nominal PC Guard by class family against the tier's attack, no kit (§4.7, second table): the Hexblade is hit 20–25% at every tier, a Poise martial 35–45%, a Frame martial 40–65%, a caster in light armor 55–75%. The spread widens with level because the opposition's attack grows +3 / +3 / +4 a tier and a PC's Guard +2 plus what the class adds | The party average — 43% at Novice, 46% at Adept, 50% at Master, 59% at Guru — is what (g) uses. The consequence is already in the design: a Boss that focuses the caster downs it in two or three rounds; one that swings at the Hexblade wastes its turn. The assumed kit lowers every Master figure 5 points and every Guru figure 10 |
 | **(p) The Guru relic farm** | v0.3's outcome line left a Master relic per manifestation destroyed, and the manifestation returns at the next phase or the next night on the GM's clock. A party that can end a manifestation in 2.3 rounds (f) could take a Master relic a night from an avatar it has no intention of unseating — more Master relics in a month than the Master tier's whole outcome line leaves in a campaign | Closed: the first manifestation destroyed leaves a Master relic; a later one only after a tether point has been unseated since the last relic left (§6.6; GB §2.7). Three tether points, three more relics at most, and the campaign objective is the schedule |
 | **(q) Advancement pace (D12)** | Level 3 to 16 is 13 levels × 5 = 65 Proofs. At 4 a contract, about 16 contracts; at 3.5, about 19; at the 7 maximum, 10. A party that resolves every fight by attrition earns 2–3 a contract and never opens a gate | Inside the target of one level per contract. The attrition case is intended: the gate is what makes the tier's vulnerability logic worth finding. A table that wants a slower curve raises the cost to 6 (about 20 contracts), never the sources |
+| **(r) Cleave and the extra picks (PG v0.8)** | Class model, d8 representative (staff d6 for Magic and Alchemy), per Action. **Martial Cleave vs Strike:** Novice, 2 targets 7.8 vs 4.9 (+59%); Adept, 2 targets 8.5 vs 8.5, 3 targets 11.4 (+34%); Master, 2 targets 16.3 vs 19.5 (−17%), 3 targets 22.8 (+17%), 4 targets 29.3 (+50%); Guru, 2 targets 16.8 vs 20.4 (−18%), 3 targets 23.4 (+15%), 5 targets 36.6 (+79%). **Against an area:** a Master *Sweep* over four targets is 56 against the four-target Cleave's 29; areas stay the caster's tool, and Cleave never takes the Mob's double (§5.4). **Magic and Alchemy Cleave vs Core:** Novice 4.6 vs 4.2 (+8%); Adept 4.6 vs 8.5 (54%); Master 6.8 vs 14.0 (49%); Guru 6.3 vs 15.3 (41%); the scythe runs about +30% on these. **The offset** is two picks — a fourth Novice from level 1 and a third Adept from level 6: options, not Actions or Strain, so §12.2's per-turn figures and the Strain schedule in (h) stand | **Strong for Martial, weak for Magic and Alchemy, as briefed.** Martial Cleave is a crowd tool from three enemies and never a Boss tool — the two-enemy floor keeps (c), (f), and §12.4's Gate figures where they were; with adds on the field it trades the Boss's damage for the adds', which is the choice the rule is for. The Novice line (+59% at two targets) is the outlier, accepted: Novice is thin by design and a d8 + Key Cleave is still under a Novice Boss's 60 by a long way. The offset's cost is in (j): a Magic class may hold four Novice control spells plus down-picks — check a Sorcerer at Master holding *Bind*-class Novice picks against a Boss's once-per-phase Stun before ratifying G63. Alternative offset: one extra pick only (the fourth Novice) |
 
 ### 12.4 Verified against the PG (v0.2)
 
@@ -1077,6 +1087,12 @@ Same columns as the PG's H-rows. **Status:** rows marked *Ruled* carry the rulin
 | G57 | The unsaid, found before the Revelation step, is a Proof | No | §8.6; PG §13.4 (H74) | — |
 | G58 | Each §11.3 contract lists the Proofs it offers | No | §11.3 | Calibration exemplars for (q) |
 | G59 | Check (q): advancement pace | No | §12.3 | Assumes 4 Proofs a contract as typical |
+| G60 | Ten gear slots: Main Hand and Off Hand beside the eight; weapons and shields tiered and socketed; a two-handed weapon is one piece in both slots; ten relics seated at most | No | §7.1, §7.3, §7.4; PG §15.1 (H79, H86) | New in v0.7. **Supersedes G11** |
+| G61 | Class weapons for Magic and Alchemy (focus, staff, scythe, mace, dagger); their weapon attacks deal the weapon die only | Yes: Part II (Necrotic bare-handed practice) | §1; PG §4.1 (H80, H83) | New in v0.7. The scythe is held by the haft so the palms stay bare |
+| G62 | Cleave as PG §5.1; a Mob's block is one target and takes single damage | No | §1, §5.4; PG §5.1 (H81, H82) | New in v0.7. Alternative: each square a target, which out-breaks areas against Cohesion |
+| G63 | Magic and Alchemy classes hold eleven picks | No | §1, §4.5; PG §13.3 (H84) | New in v0.7; check (r) and (j) |
+| G64 | Named practitioner opposition carries a class weapon and may Cleave; unnamed roles do not; the Brute's *Cleave* renamed *Hew* | No | §4.3, §4.5, §11.1 | New in v0.7 |
+| G65 | Check (r): Cleave and the extra picks | No | §12.3 | New in v0.7 |
 
 ### 13.2 PG revisions (applied in PG v0.2)
 
@@ -1093,6 +1109,7 @@ Same columns as the PG's H-rows. **Status:** rows marked *Ruled* carry the rulin
 | 9 | §10.4 Death | A pointer to the optional *Carried Back*; the rule itself stays here, off by default | G27 | Applied as a pointer |
 | 10 | Verify only | Apostle Conviction / *Miracle* rate; Berserker post-gate bill; Master Strike vs Core | Risks 4–6 | Verified (§12.4): *Miracle* holds; the Gate chain capped (H41); Strike vs Core is check (a) |
 | 11 | §15.1 gear | The gloves' damage bonus on Strike and Core at every tier; the Guru chest's resistance never Physical; the assumed kit and the budget step stated for the player | G51 | Applied (H60, PG v0.5) |
+| 12 | §4.1, §5.1, §13.1, §13.3, §14, §15.1, §16 | Class weapons for every class; Cleave; eleven picks for Magic and Alchemy; Main Hand and Off Hand; the Berserker's *Cleave* renamed *Full Swing* | Joe's brief; G60–G63 | Applied (H79–H86, PG v0.8) |
 
 ### 13.3 Revision session
 

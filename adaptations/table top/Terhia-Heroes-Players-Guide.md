@@ -1,8 +1,8 @@
 # Terhia: Heroes — Player's Guide
 
-Draft v0.7 (26 September 2026; v0.1–v0.6 25 September). Built against Terhia-Canon v1.2. **v0.7 adds advancement: levels are earned by Proofs, a party tally (§13.4), and a rank-up also needs a gate and the phase turn, after which the character chooses how the registries record it (§13.5).** §0, §1.4, §11, §13.1, and §16 carry one-line cross-references; no other rule changes. New register rows H73–H78. **v0.6 replaces each class's fixed ability list with a larger pool (§13.3, §14):** every class keeps nine picks — three Novice, two Adept, two Master, two Guru — drawn from pools of 21–28, so one class supports several builds; the Elementalist's list splits by element, with a sub-discipline from Master. Every v0.5 ability is kept word for word apart from its letter label (two exceptions: *Storm Call*'s Momentum sentence is now its [Storm] tag, and *Standing Orders* carries a *requires Golem* tag); the Cores, Readings, and every rule in §2–§13.2 and §15 are unchanged; two signature resources gain options (three Apothecarist somas, seven Warlock Properties). New register rows H61–H72. v0.5 applied the Game Master's Guide v0.4 calibration-closure pass to §15.1 (H60): the gloves' damage bonus is on the Strike and the Core at every tier; the Guru chest's resistance is never Physical; the kit the GM's opposition tables assume, and the budget step for an own-tier kit, are stated for the player.** No other rule changes in v0.5. **v0.4 adds §1.4 (who the character is in the world), replaces the character sheet (§16), and adds register rows H51–H59;** the source is the Cultures-and-Factions module (Terhia-Heroes-Cultures-and-Factions.md v0.1), which holds the full entries and its own register (CF-rows). No rule in §2–§15 changes in v0.4. v0.2 was the reconciliation pass with the Game Master's Guide v0.2 (its ten PG revisions applied here; H34–H41). **v0.3 applies rulings R1–R8 of the issue-by-issue ratification pass** (Terhia-Heroes-Rulings.md): the Guru Strike's second Rank Die against Cohesion only; Tempo at the rank boundaries (2 at level 9, 3 at level 13); Guru relic alterations of another school usable only as a Push; *Harbor Kept* on the harbor economy's schedule; Readings free with the exploit costing the Quick; a Mob's squares as enemies' squares; *Time Debt*, the Boss Stun, and *Threshold* settled; the moon rule ratified. New register rows H42–H50; Issues 9–15 of the ledger remain open. Sister ruleset to *Terhia: Chronicle* (Player's Manual v0.3): same world, same twelve schools, same four ranks, same six attributes; a different player promise. Where a rule below reuses a Chronicle rule it says so; where it departs, it departs on purpose and the departure is listed in §17 for ratification.
+Draft v0.8 (11 October 2026; v0.7 26 September; v0.1–v0.6 25 September). Built against Terhia-Canon v1.2. **v0.8 adds the weapons: two weapon slots, Main Hand and Off Hand, beside the eight armor and clothing slots (§15.1); a class weapon for every class, including the Magic and Alchemy schools — focus, staff, scythe, mace, dagger (§4.1); and Cleave, a standard 0-Strain attack every class may take against every enemy in its weapon's reach or around a point in its range (§5.1). Cleave is strong for Martial classes and weak for Magic and Alchemy; to even that out, Magic and Alchemy classes hold eleven ability picks instead of nine (§13.1, §13.3). The Berserker's Master skill *Cleave* is renamed *Full Swing*. New register rows H79–H86.** **v0.7 adds advancement: levels are earned by Proofs, a party tally (§13.4), and a rank-up also needs a gate and the phase turn, after which the character chooses how the registries record it (§13.5).** §0, §1.4, §11, §13.1, and §16 carry one-line cross-references; no other rule changes. New register rows H73–H78. **v0.6 replaces each class's fixed ability list with a larger pool (§13.3, §14):** every class keeps nine picks — three Novice, two Adept, two Master, two Guru — drawn from pools of 21–28, so one class supports several builds; the Elementalist's list splits by element, with a sub-discipline from Master. Every v0.5 ability is kept word for word apart from its letter label (two exceptions: *Storm Call*'s Momentum sentence is now its [Storm] tag, and *Standing Orders* carries a *requires Golem* tag); the Cores, Readings, and every rule in §2–§13.2 and §15 are unchanged; two signature resources gain options (three Apothecarist somas, seven Warlock Properties). New register rows H61–H72. v0.5 applied the Game Master's Guide v0.4 calibration-closure pass to §15.1 (H60): the gloves' damage bonus is on the Strike and the Core at every tier; the Guru chest's resistance is never Physical; the kit the GM's opposition tables assume, and the budget step for an own-tier kit, are stated for the player.** No other rule changes in v0.5. **v0.4 adds §1.4 (who the character is in the world), replaces the character sheet (§16), and adds register rows H51–H59;** the source is the Cultures-and-Factions module (Terhia-Heroes-Cultures-and-Factions.md v0.1), which holds the full entries and its own register (CF-rows). No rule in §2–§15 changes in v0.4. v0.2 was the reconciliation pass with the Game Master's Guide v0.2 (its ten PG revisions applied here; H34–H41). **v0.3 applies rulings R1–R8 of the issue-by-issue ratification pass** (Terhia-Heroes-Rulings.md): the Guru Strike's second Rank Die against Cohesion only; Tempo at the rank boundaries (2 at level 9, 3 at level 13); Guru relic alterations of another school usable only as a Push; *Harbor Kept* on the harbor economy's schedule; Readings free with the exploit costing the Quick; a Mob's squares as enemies' squares; *Time Debt*, the Boss Stun, and *Threshold* settled; the moon rule ratified. New register rows H42–H50; Issues 9–15 of the ledger remain open. Sister ruleset to *Terhia: Chronicle* (Player's Manual v0.3): same world, same twelve schools, same four ranks, same six attributes; a different player promise. Where a rule below reuses a Chronicle rule it says so; where it departs, it departs on purpose and the departure is listed in §17 for ratification.
 
-**Scope.** Player-facing rules only: what a player character is, who the character is in the world (culture, homeland, household, name, tongues, charter, faction, coin — §1.4), resolution, attributes and their limits, the turn, movement on a gridded table, damage and criticals, boons and hexes, Strain / Overdraw / Marks, readings, joins, advancement, the twelve classes with their spell and skill pools, gear and relics (the player's side), and the character sheet. Not here: opposition and Grand Beast stat blocks, Mob rules, relic generation, contracts, encounter budgets, calibration (Game Master's Guide).
+**Scope.** Player-facing rules only: what a player character is, who the character is in the world (culture, homeland, household, name, tongues, charter, faction, coin — §1.4), resolution, attributes and their limits, weapons, the turn and the standard Cleave, movement on a gridded table, damage and criticals, boons and hexes, Strain / Overdraw / Marks, readings, joins, advancement, the twelve classes with their spell and skill pools, gear and relics (the player's side), and the character sheet. Not here: opposition and Grand Beast stat blocks, Mob rules, relic generation, contracts, encounter budgets, calibration (Game Master's Guide).
 
 **Status.** Nothing in this file is canon. Every rule that touches a canon sentence is listed in §17 with the reading taken.
 
@@ -32,20 +32,20 @@ Both games use the same canon. A Chronicle character and a Heroes character are 
 
 Everyone in Terhia is born with exactly one school, latent; training makes a practitioner. A player character is a trained practitioner of unusual talent. The class name is the Common Tongue registry term for the school; practitioners use the working terms (a Necromancer says "reader"; a Sorcerer "runs the overlay").
 
-| Class | School | Type | Key attribute | Damage kind | Role tags |
-|:--|:--|:--|:--|:--|:--|
-| **Elementalist** | Elemental (Saelura, red) | Magic | Attunement | Fire / Frost / Storm / Stone | Damage, Control, Battlefield |
-| **Sorcerer** | Arcane (Orrivane, purple) | Magic | Reckoning | Force | Control, Damage, Battlefield |
-| **Apothecarist** | Nature (Threnis, green) | Magic | Attunement | Physical (via Companion / soma) | Heal, Boon, Summon |
-| **Necromancer** | Necrotic (Velquor, black) | Magic | Attunement | Necrotic | Damage, Hex, Control |
-| **Apostle** | Divine (Namaris, gold) | Magic | Standing | Sacred | Boon, Heal, Control |
-| **Hexblade** | Sword/Shield | Martial | Poise | Physical | Defender, Control |
-| **Vanguard** | Glaive | Martial | Poise | Physical | Damage, Control (reach) |
-| **Warden** | Longbow + dagger | Martial | Poise | Physical | Ranged damage, Hex, Utility |
-| **Paladin** | Hammer | Martial | Frame | Physical | Damage, Battlefield (breach) |
-| **Berserker** | Ax | Martial | Frame | Physical | Damage (escalating) |
-| **Artificer** | Alchemy, Light Arts | Alchemy | Reckoning | Fire / Physical (devices) | Control, Summon, Boon |
-| **Warlock** | Alchemy, Dark Arts | Alchemy | Reckoning | Toxin | Hex, Control, Summon |
+| Class | School | Type | Key attribute | Damage kind | Class weapon (§4.1) | Role tags |
+|:--|:--|:--|:--|:--|:--|:--|
+| **Elementalist** | Elemental (Saelura, red) | Magic | Attunement | Fire / Frost / Storm / Stone | Staff | Damage, Control, Battlefield |
+| **Sorcerer** | Arcane (Orrivane, purple) | Magic | Reckoning | Force | Focus | Control, Damage, Battlefield |
+| **Apothecarist** | Nature (Threnis, green) | Magic | Attunement | Physical (via Companion / soma) | Staff | Heal, Boon, Summon |
+| **Necromancer** | Necrotic (Velquor, black) | Magic | Attunement | Necrotic | Scythe | Damage, Hex, Control |
+| **Apostle** | Divine (Namaris, gold) | Magic | Standing | Sacred | Focus | Boon, Heal, Control |
+| **Hexblade** | Sword/Shield | Martial | Poise | Physical | Longsword + shield | Defender, Control |
+| **Vanguard** | Glaive | Martial | Poise | Physical | Glaive | Damage, Control (reach) |
+| **Warden** | Longbow + dagger | Martial | Poise | Physical | Longbow + dagger | Ranged damage, Hex, Utility |
+| **Paladin** | Hammer | Martial | Frame | Physical | Maul | Damage, Battlefield (breach) |
+| **Berserker** | Ax | Martial | Frame | Physical | Great-ax | Damage (escalating) |
+| **Artificer** | Alchemy, Light Arts | Alchemy | Reckoning | Fire / Physical (devices) | Mace | Control, Summon, Boon |
+| **Warlock** | Alchemy, Dark Arts | Alchemy | Reckoning | Toxin | Dagger | Hex, Control, Summon |
 
 **Magic classes** cast **spells**. **Martial and Alchemy classes** use **skills**. The rules treat them identically; the words differ because the world's registries do.
 
@@ -186,9 +186,31 @@ Six attributes, shared with Chronicle. Scores run 8–22. Modifier = (score − 
 | **Reactions** | 1 per round · **Quick Actions** 1 per turn |
 | **Tempo** | Actions per turn: 1 at levels 1–8, 2 at levels 9–12, 3 at levels 13–16 (§5) |
 
-**Armor:** none 0 · light +1 · medium +2 · heavy +3 (heavy: Speed −1, Disadvantage on stealth). **Shield:** +2 for the Hexblade (trained), +1 for anyone else who carries one; a Necromancer cannot (bare-handed, §14). Each class lists its armor allowance; wearing heavier than allowed: Disadvantage on every attack roll and spell.
+**Armor:** none 0 · light +1 · medium +2 · heavy +3 (heavy: Speed −1, Disadvantage on stealth). **Shield:** +2 for the Hexblade (trained), +1 for anyone else who carries one, in the Off Hand (§15.1); a Necromancer cannot (bare-handed, §14). Each class lists its armor allowance; wearing heavier than allowed: Disadvantage on every attack roll and spell.
 
-**Weapons.** Everyone can use simple weapons (dagger d4, staff d6, club d6, hand-ax d6, sling d4 range 12) without the Rank Bonus. Martial classes use their school's weapon with the Rank Bonus: longsword d8 · glaive d10 (reach 2) · longbow d8 (range 24; Disadvantage against adjacent targets — the Warden's dagger covers that distance) · maul d12 (two-handed) · great-ax d12 (two-handed). Thrown flasks and vials: range 8, keyed to Reckoning, with the Rank Bonus.
+### 4.1 Weapons
+
+Every class has a **class weapon.** It attacks with the Rank Bonus, keyed to the class's key attribute, and it is the weapon the class Cleaves with (§5.1) and Punishes with (§6.4). Anyone can use a simple weapon (club d6, hand-ax d6, sling d4 range 12, or another class's weapon) without the Rank Bonus.
+
+| Weapon | Class | Die | Reach / range | Hands | Damage kind | Notes |
+|:--|:--|:-:|:--|:-:|:--|:--|
+| Longsword | Hexblade | d8 | reach 1 | 1 | Physical (cut) | The Off Hand takes the shield (+2 trained) |
+| Glaive | Vanguard | d10 | reach 2 | 2 | Physical (cut) | — |
+| Longbow | Warden | d8 | range 24 | 2 | Physical (pierce) | Disadvantage against adjacent targets; Cleaves as a Burst 1 at a point in range |
+| Dagger (sidearm) | Warden | d4 | reach 1; thrown 6 | — | Physical (pierce) | Carried in no slot; while drawn, no Disadvantage against adjacent targets |
+| Maul | Paladin | d12 | reach 1 | 2 | Physical (crush) | — |
+| Great-ax | Berserker | d12 | reach 1 | 2 | Physical (cut) | — |
+| Staff | Elementalist, Apothecarist | d6 | reach 1 | 2 | Physical (crush) | — |
+| Scythe | Necromancer | d8 | reach 2 | 2 | Physical (cut) | Held by the haft; the palms stay bare (§14.4) |
+| Focus | Sorcerer, Apostle | d4 | range 6 | 1 | Force (Sorcerer) · Sacred (Apostle) | A lens or rod (Sorcerer); a token, book, or small standard (Apostle). Cleaves as a Burst 1 at a point in range; no Disadvantage against adjacent targets |
+| Mace | Artificer | d6 | reach 1 | 1 | Physical (crush) | The free hand throws flasks |
+| Dagger | Warlock | d4 | reach 1; thrown 6 | 1 | Physical (pierce) | A coated Dose (§14.12) is delivered by its hits; each target a Cleave hits counts against the coat's three |
+
+**Hands.** A one-handed weapon fills the Main Hand slot (§15.1) and leaves the Off Hand for a shield, a focus, a light weapon, or nothing. A two-handed weapon fills both. A Necromancer carries no shield.
+
+**Damage by type.** Martial weapon attacks scale with the Strike (§5). **Magic and Alchemy weapon attacks** — Cleave and Punish — roll d20 + Key + RB and deal **the weapon die only**: no Key, no Rank Die, at any rank. The Core is a Magic or Alchemy class's real attack; the weapon is what it does with an Action when the Strain is spent and three enemies are at its elbow.
+
+**Thrown flasks and vials:** range 8, keyed to Reckoning, with the Rank Bonus.
 
 ---
 
@@ -200,7 +222,7 @@ Each round, in Initiative order, a creature takes a turn:
 
 **Tempo** is how many Actions you take on your turn: **1** at levels 1–8, **2** at levels 9–12, **3** at levels 13–16 — it steps at the rank boundaries, with the Rank Bonus and the Core's new form. Move, Quick, and Reaction do not multiply. Four rules govern the extra Actions:
 
-- **No repeats.** An ability with a Strain cost may be used once per turn. Your Core (0 Strain) and the Strike may be used with every Action. Three Actions means three *different* costed abilities, or Cores in the gaps.
+- **No repeats.** An ability with a Strain cost may be used once per turn. Your Core (0 Strain), the Strike, and Cleave (§5.1) may be used with every Action. Three Actions means three *different* costed abilities, or Cores in the gaps.
 - **Strain is the governor.** Tempo raises nothing else. A level-13 Sorcerer spending 4 + 3 + 2 Strain a turn against Capacity 19 is at Overdraw on turn 3: Tempo gives you the option of a burst, and the Ledger sends the bill.
 - **One Sustained effect** at a time, as below; a second Action cannot start a second Sustain. **One Ready** a turn: a Readied Action fires as your Reaction, and you have one Reaction.
 - **Summons act on your turn.** A Companion, familiar, golem, turret, or construct takes its own Move and one Action when you take your turn, whatever your Tempo, and uses your Quick if it needs one (commanding it is that Quick). A summoner with Tempo 3 has three Actions and one summon's Action, not six.
@@ -208,6 +230,7 @@ Each round, in Initiative order, a creature takes a turn:
 | Action | Use it for |
 |:--|:--|
 | **Strike** | One weapon attack (Martial) or your class Core ability (§14). Martial Strikes scale: Novice 1 attack (weapon + Key); Adept 1 attack (weapon + RD + Key); Master 2 attacks (each weapon + RD + Key); Guru 2 attacks (each weapon + RD + Key; against a Mob, each attack adds a second RD) |
+| **Cleave** | One roll against every enemy in your weapon's reach, or in a Burst 1 at a point in its range, up to your Cleave count; at least two enemies (§5.1) |
 | **Cast / Use** | Any ability listed as an Action |
 | **Dash** | Move again (Speed) |
 | **Disengage** | Your movement this turn doesn't provoke Punishes |
@@ -223,6 +246,26 @@ Each round, in Initiative order, a creature takes a turn:
 **Sustained.** An ability marked Sustained continues while you keep it. Sustaining costs the listed upkeep at the start of each of your turns (usually your Quick Action, sometimes Strain). You can sustain one effect at a time. A sustained effect ends when you drop it, when its upkeep isn't paid, when you are Stunned or Downed, or when its duration runs out.
 
 **Ability format in §14:** **Name** · Type · Action type · Strain cost · Range / Area · Effect. Types: Damage, Control, Heal, Boon, Hex, Defense, Utility, Summon, Battlefield.
+
+### 5.1 Cleave
+
+Every class may Cleave. It is not a class ability, costs no pick, and is not a Strike.
+
+**Cleave** · Attack · Action · 0 · **melee weapon:** enemies within the weapon's reach; **ranged weapon** (longbow, focus): enemies in a Burst 1 at a point within range · up to your Cleave count, at least two · one attack roll with your class weapon (§4.1), compared to each target's Guard · hit: Cleave damage; miss: nothing.
+
+| | Novice | Adept | Master | Guru |
+|:--|:-:|:-:|:-:|:-:|
+| **Martial** — Cleave count | 2 | 3 | 4 | 5 |
+| Martial — damage to each target hit | weapon die | weapon die | weapon die + RD | weapon die + RD |
+| **Magic, Alchemy** — Cleave count | 2 | 2 | 3 | 3 |
+| Magic, Alchemy — damage to each target hit | weapon die | weapon die | weapon die | weapon die |
+
+- **At least two.** Cleave needs two or more enemies in its reach or Burst. Against one enemy, Strike.
+- **The Key once.** A Martial Cleave adds the Key modifier once, to one target it hits (your choice). A Magic or Alchemy Cleave never adds it.
+- **One roll.** A natural 20 crits only against the first target it is compared to (§7.3). A miss deals nothing, against any target.
+- **Mobs and avatars.** Cleave is not an area. A Mob's block is **one target** however many of its squares are in reach, and takes single damage to Cohesion (GM Guide §5.4) — the Guru Strike's second Rank Die and the casters' areas are what break a platoon. A Grand Beast avatar is one target and the Cleave damages one pool (GM Guide §6.5).
+- **What it never carries.** No hex, no rider, no Strain cost. Bonuses that name "Strike and Core" do not apply; bonuses that name Cleave do (the Main Hand intrinsic, §15.1).
+- **The split.** From Adept a Martial Cleave is behind the Strike against one or two enemies and ahead against three or more; at Novice it is ahead against two. A Magic or Alchemy Cleave is about the Core at Novice and half of it from Adept — what a practitioner does with a staff when the Strain is spent. Magic and Alchemy classes hold two more abilities to make up the difference (§13.1, §13.3).
 
 ---
 
@@ -265,7 +308,7 @@ Canon's scale ladder on the table: **Personal** = one target · **Circle** = Bur
 ### 6.4 Engagement
 
 - **Threatened squares.** Every square within your reach.
-- **Punish.** Reaction: when an enemy leaves a square you threaten without Disengaging, make one weapon attack against it (a Martial Strike, single attack; Magic and Alchemy classes use a simple weapon). Forced movement never provokes.
+- **Punish.** Reaction: when an enemy leaves a square you threaten without Disengaging, make one weapon attack against it (a Martial Strike, single attack; Magic and Alchemy classes attack with their class weapon at d20 + Key + RB for the weapon die only, §4.1). Forced movement never provokes.
 - **Pushing.** A push moves the target the stated number of squares directly away (or as the ability says). A pushed creature that hits a wall, an object, or another creature stops and takes 1d6 per square of push it lost (maximum 3d6); the creature it hit takes the same. A push into a hazard square applies the hazard.
 - **Hazard squares** (set by the GM at the start of the encounter): fire (Burning 1 on entering or ending a turn there), deep water (swim; heavy armor sinks: Frame DC 13 per turn), a pit or drop (fall), unstable footing (Poise DC 13 or Prone).
 - **Destructible terrain.** Walls, doors, and bridges have Vigor and a break threshold; Paladin and Sorcerer abilities address them directly. Values are in the GM Guide.
@@ -467,12 +510,12 @@ Improvised Joins are adjudicated by the GM (GM Guide §10.3) under the same once
 
 | Level | Gains |
 |:-:|:--|
-| 1 | Class kit: Core (Novice form), Reading, signature resource, two Novice abilities from your pool (§13.3), armor and weapon |
+| 1 | Class kit: Core (Novice form), Reading, signature resource, two Novice abilities from your pool (three for Magic and Alchemy classes; §13.3), armor, and class weapon (§4.1) |
 | 2 | Talent |
-| 3 | A third Novice ability |
+| 3 | A third Novice ability (a fourth for Magic and Alchemy classes) |
 | 4 | Attribute increase |
 | **5** | **Adept:** RB +4, RD d8, Strain Capacity 9, Marks floor 1, Core (Adept form), an Adept ability |
-| 6 | Talent |
+| 6 | Talent · Magic and Alchemy classes: an additional Adept ability (their third Adept pick, §13.3) |
 | 7 | A second Adept ability |
 | 8 | Attribute increase |
 | **9** | **Master:** RB +6, RD d10, Strain Capacity 12, Marks floor 2, Core (Master form), a Master ability · **Tempo 2** (§5) · Elementalist sub-discipline (§14.1) |
@@ -505,7 +548,7 @@ Choose one at levels 2, 6, 10, and 14. Each may be taken once.
 
 ### 13.3 Choosing abilities
 
-Each class entry in §14 lists a **pool** at each rank, larger than the number you hold. The number you hold does not change: **three Novice, two Adept, two Master, two Guru — nine in a career**, as the level table gives them. What changes is which nine; two characters of one class should be able to meet and play differently.
+Each class entry in §14 lists a **pool** at each rank, larger than the number you hold. The number you hold: **three Novice, two Adept, two Master, two Guru — nine in a career** for Martial classes; **four Novice, three Adept, two Master, two Guru — eleven** for Magic and Alchemy classes, whose Cleave is weak (§5.1). The level table gives them. What changes is which nine; two characters of one class should be able to meet and play differently.
 
 - **Picks.** At each level that grants an ability, choose one from that rank's pool that you do not already hold.
 - **Down-picks.** Any pick may be spent on an ability from an earlier rank's pool instead (a Master who wants a fourth Novice trick may have it). Never from a later rank.
@@ -513,7 +556,7 @@ Each class entry in §14 lists a **pool** at each rank, larger than the number y
 - **Tagged spells.** The Elementalist's element-bound spells and sub-discipline are in §14.1; no other class has a restriction on its pool.
 - **Retraining.** At each rank-up (levels 5, 9, 13) you may exchange one ability you hold for another you qualify for. In the world this is a board's syllabus, a keeper's season, a column's drill manual, or a winter of bench work — the GM may ask which.
 - **Joins** (§12) name specific abilities; a Join is available to a pair only if both hold what it requires. Cores are always held.
-- **Opposition.** An NPC practitioner holds nine picks like a PC; the GM chooses them (GM Guide §4.5).
+- **Opposition.** An NPC practitioner holds nine or eleven picks like a PC; the GM chooses them (GM Guide §4.5).
 
 **Budget.** New abilities are written to the GM Guide's calibration lines (§12.1): Novice picks are control or utility at 0–1 Strain and at most 1 RD; Adept picks 2–3 Strain and at most 3 RD single-target or 2 RD in an area; Master picks 3–4 Strain and at most 4 RD; Guru picks 4–5 Strain or a Mark, at scenario scale. Passives cost a pick in place of Strain. Where a new ability bends a rule of §5 (an extra Action, a second summon Action), it says so and is listed in §17.
 
@@ -563,7 +606,7 @@ The institution records the rank; it does not grant it. A Necromancer, Hexblade,
 
 ## 14. The twelve classes
 
-Each entry gives: the fantasy; key attribute, armor, Vigor type; the **signature resource** (the little game only this class plays); the **Core** (the 0-Strain ability that changes form at every rank); the **Reading** and its exploit; the **ability pool** by rank (hold three Novice — two at level 1, one at 3 — two Adept at 5 and 7, two Master at 9 and 11, two Guru at 13 and 15; §13.1, §13.3), with a **Builds** line naming a few of the directions the pool supports (suggestions, not paths — any mix is legal); and the four canon cost stages. Damage entries add the Key modifier once per hit unless noted.
+Each entry gives: the fantasy; key attribute, armor, Vigor type; the **signature resource** (the little game only this class plays); the **Core** (the 0-Strain ability that changes form at every rank); the **Reading** and its exploit; the **ability pool** by rank (hold three Novice — two at level 1, one at 3 — two Adept at 5 and 7, two Master at 9 and 11, two Guru at 13 and 15; Magic and Alchemy classes also hold a fourth Novice from level 1 and a third Adept from level 6; §13.1, §13.3), with a **Builds** line naming a few of the directions the pool supports (suggestions, not paths — any mix is legal); and the four canon cost stages. Damage entries add the Key modifier once per hit unless noted.
 
 **A Core keeps every form it has had.** Choose the form each time you use it: a Master Elementalist casts *Kindle*, *Elemental Lash*, or *Elemental Sweep* as the round wants. The Novice, Adept, and Master forms cost 0 Strain. **The Guru form is the exception:** it is a scenario-scale ability and costs the Strain it lists; the Master form remains the Guru's 0-Strain turn.
 
@@ -574,7 +617,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 ### 14.1 Elementalist — Elemental (Saelura)
 
 **Fantasy.** Battlefield elemental controller. Novice throws the element; Adept shapes what it does to the target; Master shapes the battlefield; Guru changes rivers, streets, and weather.
-**Key** Attunement · **Armor** light · **Vigor** Magic · simple weapons.
+**Key** Attunement · **Armor** light · **Vigor** Magic · staff d6 (§4.1).
 
 **Elements.** Every Elemental spell chooses an element when cast: **Fire**, **Frost** (water and ice), **Storm** (air and lightning), **Stone** (earth). Damage kind follows the element.
 
@@ -599,7 +642,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 
 **Reading — Read the Answer** · free · 0 · exploit: Quick · a point or creature within 12: which element the ground answers here, and one weakness (a resistance, a vulnerability, a fault line). Exploit: your next spell of that element against that target has +2 to hit and grants 1 extra Momentum.
 
-**Spells** — hold three Novice, two Adept, two Master, two Guru (§13.3). Tagged spells are element-bound.
+**Spells** — hold four Novice, three Adept, two Master, two Guru (§13.3). Tagged spells are element-bound.
 **Builds.** *Pyromancer* — Ember Shield, Searing Brand, Pyre, Kiln Heart: stacks Burning and cashes it. *Frost warden* — Rime Skin, Hoarfrost, Deep Freeze, Winter Held: slows, then locks. *Stormcaller* — Gust, Arc, Storm Call, Wind Road: pushes, chains, and moves the party. *Earthshaper* — Heave, Earthen Grasp, Fault Line, Raise the Bastion: builds and breaks terrain. *Generalist* — Surge Step, Wall, Conduit, Harbor Kept: the Core carries the elements; the picks carry the party.
 
 *Novice*
@@ -645,7 +688,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 ### 14.2 Sorcerer — Arcane (Orrivane)
 
 **Fantasy.** Reality engineer. Novice moves things with force and sees structure; Adept applies force with precision and predicts; Master edits whole encounters; Guru edits time and gravity. Canon's standing rule: where a ruling on this class could go either way, the stronger reading is taken.
-**Key** Reckoning · **Armor** light · **Vigor** Magic · simple weapons.
+**Key** Reckoning · **Armor** light · **Vigor** Magic · focus d4, range 6, Force (§4.1).
 
 **Signature resource — Overlay.** Quick · 1 Strain · activate. The Overlay runs until the encounter ends or you are Stunned or Downed. While it runs, gain 1 **Overlay charge** at the start of each of your turns (maximum 3; Master 4; Guru 5). Spend charges: **1** = +1 to a Sorcerer spell attack roll or a Reckoning check (declare before rolling; any number of charges). **2** = *Predict* (Reaction): an attack against you or an ally within 6 is rolled with Disadvantage. **3** = required to cast a Guru edit. Canon: the full overlay is Master technique; below Master the class runs it partially — structural sight.
 
@@ -657,7 +700,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 
 **Reading — Read Structure** · free · 0 · exploit: Quick · one object, structure, or creature within 12: its Guard, Ward, current Vigor, and one load-bearing point. Exploit: your next spell or attack against it ignores cover and any Guard from armor.
 
-**Spells** — hold three Novice, two Adept, two Master, two Guru (§13.3). Canon allows the Guru two writable variables, time and gravity; every Guru spell below is one of them except *Echo Gate* (H64).
+**Spells** — hold four Novice, three Adept, two Master, two Guru (§13.3). Canon allows the Guru two writable variables, time and gravity; every Guru spell below is one of them except *Echo Gate* (H64).
 **Builds.** *Kineticist* — Telekinetic Grip, Dancing Blade, Crush, Vector Lock, Redirect the Fall: holds and throws bodies. *Seer* — Deflect, Catch, Calculated Shot, Foreknowledge, Total Perception, Time Debt: prediction and denial. *Structuralist* — Kinetic Lance, Measured Casting, Shatter Point, Arrest, Echo Gate: moves the map, not the enemy. *Chronometer* — Momentum Theft, Trajectory, Quickened Hour, Exterior Placement: makes the party faster than the fight.
 
 *Novice*
@@ -698,7 +741,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 ### 14.3 Apothecarist — Nature (Threnis)
 
 **Fantasy.** Shapeshifting life-master. Novice runs with an animal and mends; Adept cures, commands beasts, and borrows a soma; Master regenerates allies and lends somas; Guru takes an apex form and calls the ground's animals.
-**Key** Attunement · **Armor** light · **Vigor** Magic · simple weapons (staff).
+**Key** Attunement · **Armor** light · **Vigor** Magic · staff d6 (§4.1).
 
 **Companion** (Novice). A bonded animal (wolf, hawk, lynx, boar, otter — a natural creature of the region): Vigor 3 × your level, Guard = your Guard, attacks with your attack bonus for 1 RD + 2 physical, Speed 8 (a hawk flies 12). Commanding it is a Quick Action; uncommanded it stays with you and defends. From Master it acts on your turn without a command. If it dies, a new bond forms after a full Rest. It uses its own figurine.
 
@@ -712,7 +755,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 
 **Reading — Read the Living** · free · 0 · exploit: Quick · a creature within 6: its current Vigor, one hex or injury it carries, one bodily weakness (the forelimb compensating for an old fracture). Exploit: attacks by you or any ally who can hear you against that weakness crit on 19–20 until the end of your next turn.
 
-**Spells** — hold three Novice, two Adept, two Master, two Guru (§13.3).
+**Spells** — hold four Novice, three Adept, two Master, two Guru (§13.3).
 **Builds.** *Beastmaster* — Pack Bond, Hold Attention, Alpha, Pack, Command the Ground: the Companion is the weapon. *Mender* — Stabilize, Thicken Hide, Hold the Channel, Lifeweb, Green Return: nobody drops. *Thornwarden* — Bramble, Wild Call, Open the Wound, Pollen Drift, Channel Redirect: the living ground fights for you. *Shapeshifter* — Sense the Green, Beast Command, Share Soma, Apex Form, Herd Soma: the somas are the build.
 
 *Novice*
@@ -751,7 +794,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 ### 14.4 Necromancer — Necrotic (Velquor)
 
 **Fantasy.** Master of the death boundary. The school does not raise, animate, or command the dead — canon — and never will here. Novice senses death and residue; Adept reads recent crossings; Master weaponizes residue and interrogates scenes; Guru holds a crossing open.
-**Key** Attunement · **Armor** light; no gloves, gauntlets, or shield — the Gloves slot takes wraps that leave the palm bare (§15) · **Vigor** Magic · simple weapons.
+**Key** Attunement · **Armor** light; no gloves, gauntlets, or shield — the Gloves slot takes wraps that leave the palm bare (§15) · **Vigor** Magic · scythe d8, reach 2, held by the haft (§4.1).
 
 **Signature resource — Residue.** Gain 1 Residue whenever a creature dies within 6 squares of you (maximum 5). In a place of prior death the GM may start you with some. Spend it as listed. Residue doesn't persist past the scene.
 
@@ -763,7 +806,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 
 **Reading — Read the Crossing** · free · 0 · exploit: Quick · a body or a place within 6: when it died, how, and the emotional register. Exploit: a creature within 12 that has killed something this encounter: you learn its current Vigor and which of its defenses is lower; your next spell against it has +2.
 
-**Spells** — hold three Novice, two Adept, two Master, two Guru (§13.3). Nothing below raises, animates, or commands the dead (canon, Part VI).
+**Spells** — hold four Novice, three Adept, two Master, two Guru (§13.3). Nothing below raises, animates, or commands the dead (canon, Part VI).
 **Builds.** *Reader* — Sense the Door, Mortal Count, Last Words, Boundary Interrogation, Finish the Sentence: the investigator the Ledger will not admit. *Grave-cold* — Grave Cold, Pallor, Shiver, The Instant, Open Door: fear and denial. *Residue-eater* — Residue Well, Ebb, Cold Room, Wake of Crossings, Short Crossing: the more that dies, the harder it lands. *Doorkeeper* — Self-Grounding, Ward of Residue, Deathwatch, Stand in the Doorway: holds the party on the right side.
 
 *Novice*
@@ -802,7 +845,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 ### 14.5 Apostle — Divine (Namaris)
 
 **Fantasy.** Champion and voice. Novice steadies and inspires; Adept commands and shields; Master sanctions enemies and performs miracles; Guru refuses death and rallies armies. The Apostle's healing is the will, not the flesh (the Apothecarist's); at Master it becomes miraculous, and at Guru it is paid in years.
-**Key** Standing · **Armor** medium · **Vigor** Magic · simple weapons.
+**Key** Standing · **Armor** medium · **Vigor** Magic · focus d4, range 6, Sacred (§4.1).
 
 **Signature resource — Conviction.** Gain 1 Conviction whenever an Apostle boon or Vigor restoration you grant lands on an ally (maximum 5). Spend as listed. Lost when the encounter ends.
 
@@ -814,7 +857,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 
 **Reading — Read the Heart** · free · 0 · exploit: Quick · a creature within 12: its resolve (steady, wavering, Frightened, loyal to whom) and what it wants this round. Exploit: your next Rebuke or Command against it has Advantage; against a Mob, you learn which part will break first.
 
-**Spells** — hold three Novice, two Adept, two Master, two Guru (§13.3).
+**Spells** — hold four Novice, three Adept, two Master, two Guru (§13.3).
 **Builds.** *Chaplain* — Steady, Get Up, Slow the Pulse, Miracle, Lent Years: the will that keeps bodies standing. *Herald* — Inspire, Voice Carries, Oath, Standard, The Order Given: the party acts harder and more often. *Inquisitor* — Denounce, Calm, Weight of Voice, Judgment, Unmake the Will: the voice as a weapon. *Shield of the Rite* — Word of Warning, Stand With Me, Unbreakable, Refuse Death: takes the hit and refuses the loss.
 
 *Novice*
@@ -1070,7 +1113,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 **Reading — Read Fear** · free · 0 · exploit: Quick · which creatures within 6 are Frightened, wavering, or resolved. Exploit: your Strikes against Frightened creatures crit on 19–20 this round.
 
 **Skills** — hold three Novice, two Adept, two Master, two Guru (§13.3).
-**Builds.** *Shock trooper* — Over the Barricade, Headlong, Roar, Worth a Breach, Nothing in Reach Stands: first over, into the block. *Butcher* — Blood Up, Rending Blow, Cleave, Wound-Hunger, The Heart Spent: kills fuel kills. *Aimed weapon* — First Over, Gate Discipline, Aimable, Hits That End Exchanges, The Calling-Back: the fury the party points. *Unkillable* — Shrug, Pain Is Later, Reckless, Numbers Do Not Register: stays up and makes them pay for it.
+**Builds.** *Shock trooper* — Over the Barricade, Headlong, Roar, Worth a Breach, Nothing in Reach Stands: first over, into the block. *Butcher* — Blood Up, Rending Blow, Full Swing, Wound-Hunger, The Heart Spent: kills fuel kills. *Aimed weapon* — First Over, Gate Discipline, Aimable, Hits That End Exchanges, The Calling-Back: the fury the party points. *Unkillable* — Shrug, Pain Is Later, Reckless, Numbers Do Not Register: stays up and makes them pay for it.
 
 *Novice*
 - **Over the Barricade** · Utility · Move · 0 · your Move ignores difficult terrain and may leap 2; if you move 4 or more before a Strike this turn, +RD damage.
@@ -1089,7 +1132,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 - **Gate Discipline** · passive · the forced-Strike check at Gate 3+ is Standing DC 10 (not + Gate), and closing a Gate of 3 or less leaves you with no Dazed.
 
 *Master*
-- **Cleave** · Damage · Action · 4 · Strike against every adjacent enemy (one roll); each kill raises the Gate by 1, even past its maximum, to 5.
+- **Full Swing** · Damage · Action · 4 · Strike against every adjacent enemy (one roll); each kill raises the Gate by 1, even past its maximum, to 5. (v0.7's *Cleave*, renamed for the standard Cleave, §5.1.)
 - **Hits That End Exchanges** · passive · Crit Rate ×3 while the Gate is open.
 - **Aimable** · passive · an ally within 12 (not 6) may aim you as a Quick; while aimed you ignore the forced-nearest rule and your Strikes deal +1 RD.
 - **Worth a Breach** · Battlefield · Action · 4 · Strike a barricade, gate, shield wall, or Mob · a structure takes triple; a Mob loses RD Cohesion and you enter it (GM Guide §5.7). Canon's Master: worth a breach alone.
@@ -1097,7 +1140,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 
 *Guru*
 - **The Calling-Back** · passive · allies within 6 can call you back as a Quick; called back after *The Gate Opens All the Way*, you are Dazed only, not Prone.
-- **Nothing in Reach Stands** · Battlefield · Action · 5 · against a Mob: *Cleave* every adjacent member, move up to your Speed, *Cleave* again; the Mob loses Cohesion equal to twice your kills.
+- **Nothing in Reach Stands** · Battlefield · Action · 5 · against a Mob: *Full Swing* every adjacent member, move up to your Speed, *Full Swing* again; the Mob loses Cohesion equal to twice your kills.
 - **Numbers Do Not Register** · passive · while the Gate is open, flanking and Mobs grant no Advantage against you, and each enemy adjacent to you beyond the first adds +1 to your melee damage (at most +4).
 - **The Heart Spent** · Battlefield · Action · 5 · once per encounter · move up to your Speed through enemies (no Punishes), and Strike every enemy you pass adjacent to (one roll); the Gate rises 2. Afterward: Dazed 1 round.
 
@@ -1108,7 +1151,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 ### 14.11 Artificer — Alchemy, Light Arts (Rationalist)
 
 **Fantasy.** Gadget combat engineer. Novice throws flasks and lays smoke; Adept builds conditional devices and a familiar; Master deploys turrets, constructs, and gadget systems; Guru integrates a household of familiars and equips a company from a wagon.
-**Key** Reckoning · **Armor** medium · **Vigor** Alchemy · thrown flasks range 8; simple weapons.
+**Key** Reckoning · **Armor** medium · **Vigor** Alchemy · mace d6 (§4.1); thrown flasks range 8.
 
 **Signature resource — Loadout.** After a Rest, **prime** Devices from your known list: Novice 2, Adept 3, Master 4, Guru 6 primed. A primed Device is used once at 0 Strain. An unprimed or spent Device costs its listed Strain. Devices marked *(bench)* can only be made at a Rest.
 
@@ -1120,7 +1163,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 
 **Reading — Read the Make** · free · 0 · exploit: Quick · an object, construct, trap, or piece of gear within 6: what it does and its flaw. Exploit: your next attack against a construct, gear, or trap crits on 18–20; or bypass a read trap without a check.
 
-**Skills** — hold three Novice, two Adept, two Master, two Guru (§13.3). Your known list for the Loadout is the skills you hold; a passive is not primed. *Familiar* is the prerequisite of three skills below and of *Integration*'s familiar clauses; without it, *Integration* gives the +2 and the regained Vigor only.
+**Skills** — hold four Novice, three Adept, two Master, two Guru (§13.3). Your known list for the Loadout is the skills you hold; a passive is not primed. *Familiar* is the prerequisite of three skills below and of *Integration*'s familiar clauses; without it, *Integration* gives the +2 and the regained Vigor only.
 **Builds.** *Bomber* — Flash Powder, Tripwire, Proximity Mine, Timed Charge, Walking Arsenal: the field is mined before the fight starts. *Engineer* — Maintenance, Spare Parts, Construct, Arsenal Discipline, Overclock: the turret and the guard do the fighting. *Spymaster* — Grapnel, Familiar, Specialized Familiar, Signal Line, Eyes Everywhere: nothing on the map is unseen. *Quartermaster* — Smoke, Harness, Net Flask, Company Standard, Infrastructure: equips and moves the company.
 
 *Novice*
@@ -1159,7 +1202,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 ### 14.12 Warlock — Alchemy, Dark Arts (Ethosless)
 
 **Fantasy.** Poison and control alchemist. Novice handles what others must not; Adept grades venoms and builds a golem; Master makes contact-grade compounds and tailored poisons; Guru doses grounds and crowds and holds the antidote no one else can check.
-**Key** Reckoning · **Armor** light · **Vigor** Alchemy · thrown vials range 8; simple weapons.
+**Key** Reckoning · **Armor** light · **Vigor** Alchemy · dagger d4, thrown 6 (§4.1); thrown vials range 8.
 
 **Signature resource — Formula.** After a Rest, compound **Doses** from Properties you know: Novice 3, Adept 4, Master 5, Guru 6 doses. A Dose combines two Properties. Use a Dose as an **Action** (throw, range 8, vs Ward), a **Quick** (coat your weapon or an adjacent ally's: its next 3 hits deliver it), or a **drink** (a draught, Quick). Doses cost no Strain. **Improvise:** Action + 2 Strain to compound one Dose on the spot.
 
@@ -1193,7 +1236,7 @@ Every ability answers three questions: what do I do every round (the Core and th
 
 **Reading — Read the Dose** · free · 0 · exploit: Quick · a creature within 6: what it has consumed, its resistances, its tolerance. Exploit: your next Dose against it ignores resistance and applies one extra stack.
 
-**Skills** — hold three Novice, two Adept, two Master, two Guru (§13.3). *Golem* is the prerequisite of two skills below.
+**Skills** — hold four Novice, three Adept, two Master, two Guru (§13.3). *Golem* is the prerequisite of two skills below.
 **Builds.** *Poisoner* — Needle, Venom Ladder, Hidden Dose, Tailored Poison, Contagion: the Ward snowball, all the way down. *Brewer* — Preservation Draught, Deep Kit, Push Draught, Bitter Reserve, Pharmacopoeia Entire: the party's bottles. *Golemancer* — Handle It, Golem, Vat-Grown Brute, Standing Orders, Golem Team: strong, stupid, and obedient. *Crowd-steerer* — Know the Taste, Choking Cloud, Contagion, Censer: no one in the square wants to be there.
 
 *Novice*
@@ -1235,7 +1278,7 @@ Gear is what you wear; a relic is what a socket in that gear seats. The GM Guide
 
 ### 15.1 Gear
 
-**Eight slots:** Head · Chest (your armor, light / medium / heavy, §4) · Legs · Gloves (wraps for a Necromancer, who works bare-palmed) · Boots · Accessory ×2 (ring, amulet, belt, bracer, sash, a token on a cord) · Trinket (a tooth, a charm, a page). A piece is graded by its maker's rank — Novice, Adept, Master, Guru — readable by the Artificer's *Read the Make*; Guru-grade gear is always a named piece with a record. Each slot carries a fixed **intrinsic** by tier (no choices to make) and **one socket**.
+**Ten slots: eight for what you wear, two for what you hold.** Head · Chest (your armor, light / medium / heavy, §4) · Legs · Gloves (wraps for a Necromancer, who works bare-palmed) · Boots · Accessory ×2 (ring, amulet, belt, bracer, sash, a token on a cord) · Trinket (a tooth, a charm, a page) · **Main Hand** (your class weapon, §4.1) · **Off Hand** (a shield, a focus, a light weapon, or nothing). A two-handed weapon is one piece that fills both weapon slots: it carries both slots' intrinsics and both sockets. A piece is graded by its maker's rank — Novice, Adept, Master, Guru — readable by the Artificer's *Read the Make*; Guru-grade gear is always a named piece with a record. Each slot carries a fixed **intrinsic** by tier (no choices to make) and **one socket**.
 
 | Slot | Adept | Master | Guru (named) |
 |:--|:--|:--|:--|
@@ -1246,8 +1289,10 @@ Gear is what you wear; a relic is what a socket in that gear seats. The GM Guide
 | Boots | +2 on checks against hazards | Speed +1 | Speed +1; difficult ground costs no extra Move |
 | Accessory (each) | Strain Capacity +1 | Strain Capacity +1 | Strain Capacity +1 |
 | Trinket | — | — | — (its socket seats a relic of any rank) |
+| Main Hand | Cleave and Punish damage +1 (to each target hit) | Cleave and Punish damage +1; Cleave count +1 | Cleave and Punish damage +2; Cleave count +1; Cleave ignores half cover |
+| Off Hand | Strain Capacity +1 | Strain Capacity +1 | Strain Capacity +1; once per encounter, a second Reaction in a round (twice with the *Second Reaction* talent) |
 
-Novice-grade gear is the starting kit: no intrinsic, no socket. Intrinsics stack across slots, never within one. The gloves' damage bonus is on your Strike and your Core, not on a costed ability. **A full kit adds up to:** Adept — Ward +1, Guard +1, Vigor +5, damage +1, Capacity +2; Master — Ward +1, Guard +2, Vigor +10, attack +1, damage +1, Speed +1, Capacity +2; Guru — Ward +2, Guard +3, Vigor +20, attack +1, damage +2, Speed +1, Capacity +2, one resistance, and difficult ground free. The GM's opposition tables assume you are in the kit of one tier below your own — nothing at Novice and Adept, the Adept kit at Master, the Master kit at Guru — and a party in its own tier's full kit, or carrying four or more seated relics, is run one budget step harder (GM Guide §4.6, §7.3, §12.3 i). The Guru chest's resistance is a commitment made when the piece is commissioned: it is never Physical, so it is chosen against a named threat and does nothing against the next one. **Weapons and shields** keep their §4 values and carry no tier and no socket in this draft (GM Guide G11).
+Novice-grade gear is the starting kit: no intrinsic, no socket. Intrinsics stack across slots, never within one. The gloves' damage bonus is on your Strike and your Core, not on a costed ability; the Main Hand's is on Cleave and Punish only. **A full kit adds up to:** Adept — Ward +1, Guard +1, Vigor +5, damage +1, Cleave and Punish damage +1, Capacity +3; Master — Ward +1, Guard +2, Vigor +10, attack +1, damage +1, Cleave and Punish damage +1, Cleave count +1, Speed +1, Capacity +3; Guru — Ward +2, Guard +3, Vigor +20, attack +1, damage +2, Cleave and Punish damage +2, Cleave count +1, Speed +1, Capacity +3, one resistance, difficult ground free, and a second Reaction once per encounter. The GM's opposition tables assume you are in the kit of one tier below your own — nothing at Novice and Adept, the Adept kit at Master, the Master kit at Guru — and a party in its own tier's full kit, or carrying four or more seated relics, is run one budget step harder (GM Guide §4.6, §7.3, §12.3 i). The Guru chest's resistance is a commitment made when the piece is commissioned: it is never Physical, so it is chosen against a named threat and does nothing against the next one. **Weapons and shields** keep their §4.1 values at every tier; the tier adds the slot's intrinsic and a socket. The shield's Guard bonus (+2 Hexblade, +1 anyone else) belongs to the shield, not the tier. The Warden's dagger is a sidearm in no slot (§4.1). (v0.8; GM Guide G60, superseding G11.)
 
 ### 15.2 Relics
 
@@ -1256,14 +1301,14 @@ A relic is beast residue with a shape: a tooth, a den-stone, a bead of reef-glas
 - **Attribute.** Every relic carries one numeric or mechanical property at the magnitude of its rank — damage, attack, Guard, Ward, Vigor, Strain Capacity, Speed, healing dealt, a DoT on hit, a resistance, a crit step, a Reading line, Cohesion damage, a summon bonus, a hex resistance, casting speed, and at Guru a once-per-encounter extra Action (the catalogue is GM Guide §7.5). A Novice relic is a small permanent bonus (+1 damage); a Guru relic is a named piece of a Guru's book.
 - **Alteration** (Master and Guru relics only). One new action or one changed class mechanic, written in ability format on the relic's entry — "*Sink*: once per Breather, as an Action, move 6 through sand and surface adjacent to a target." A Guru alteration is a piece of the Guru ability of the relic's moon: a practitioner of that school uses it at the entry's cost; anyone else uses it only as a Push (§9.3, *Use*).
 - **Governor.** The condition under which it works, inherited from the beast that left it: **Rigidity** (Novice — one fixed condition: on a turn you did not Move; against a target that Moved this round), **Dependency** (Adept — feed it a Breather a day in contact with what it needs, or it goes dormant), **Inversion** (Master — in the beast's inverted condition the attribute becomes a penalty of the same size for the scene), **Tether** (Guru — it works within the emergence's domain, or for seven days after a Breather taken there, or in the hands of its bonded holder).
-- **Seating.** A socket seats one relic of rank equal to or below the piece's tier; seating or unseating takes a Breather. The Trinket seats any rank, and an over-rank relic there costs **1 Strain Capacity while seated** — the only bond cost in the game (D4). **At most eight seated, and the same attribute in at most one socket.**
+- **Seating.** A socket seats one relic of rank equal to or below the piece's tier; seating or unseating takes a Breather. The Trinket seats any rank, and an over-rank relic there costs **1 Strain Capacity while seated** — the only bond cost in the game (D4). **At most ten seated, and the same attribute in at most one socket.**
 - **Reading it.** The school of the relic's moon reads it fully in one Reading; any other school reads the attribute and its magnitude; a martial or alchemy Reading gives one word. The Ledger's assessors identify one for a fee — and file it, and whoever brought it.
 
 ---
 
 ## 16. The character sheet
 
-Standardized. Every field is on it; nothing else is. v0.7 adds the party's Proofs to the CLASS line (§13.4). v0.6 renumbers the ability lines as picks (§13.3) and adds the sub-discipline and retraining lines. v0.4 adds the Identity, Standing, Tongues, Coin and kind, and Debts blocks (§1.4; module CF-rows) and keeps every v0.3 block. Fields above the attribute line describe the character; none of them changes a number below it.
+Standardized. Every field is on it; nothing else is. v0.8 adds the weapon slots and the Cleave line to KIT and two ability lines for Magic and Alchemy classes. v0.7 adds the party's Proofs to the CLASS line (§13.4). v0.6 renumbers the ability lines as picks (§13.3) and adds the sub-discipline and retraining lines. v0.4 adds the Identity, Standing, Tongues, Coin and kind, and Debts blocks (§1.4; module CF-rows) and keeps every v0.3 block. Fields above the attribute line describe the character; none of them changes a number below it.
 
 ```
 TERHIA: HEROES — CHARACTER SHEET
@@ -1311,12 +1356,14 @@ CORE  (current form) ___________________________________________________________
 READING  ____________________  exploit: ____________________________________________
 
 ABILITIES (name · type · action · Strain · range/area · effect)
-  (nine picks; a pick may hold an earlier rank's ability — mark it ↓)
+  (nine picks, eleven for Magic and Alchemy; a pick may hold an earlier rank's ability — mark it ↓)
   Novice 1 ______________________________________________________________________
   Novice 2 ______________________________________________________________________
   Novice 3 ______________________________________________________________________
+  Novice 4 (Magic, Alchemy) ____________________________________________________________
   Adept 1  ______________________________________________________________________
   Adept 2  ______________________________________________________________________
+  Adept 3  (Magic, Alchemy) ____________________________________________________________
   Master 1 ______________________________________________________________________
   Master 2 ______________________________________________________________________
   Guru 1   ______________________________________________________________________
@@ -1329,7 +1376,8 @@ CONDITIONS NOW   boons: ________________________   hexes: ______________________
                  Burning __  Bleeding __  Poisoned __   Death Clock  ○○○
 
 KIT
-  Weapon _____________ (die d__, reach/range __)    Armor _____________ (+__)   Shield (+__)
+  Main Hand _____________ (die d__, reach/range __, hands _, tier ______)   Off Hand _____________ (shield +__ / focus / light weapon / two-handed)
+  Cleave: count __   damage ____________ (§5.1)    Armor _____________ (+__)
   Head ______  Chest ______  Legs ______  Gloves ______  Boots ______  Accessory ______  Accessory ______  Trinket ______
   Relics (slot · rank · attribute · governor) ___________________________________
   Companion / familiar / golem: name ______ Vigor __/__ Guard __ attack +__ damage ____ Speed __
@@ -1353,7 +1401,7 @@ NOTES  contracts held · who knows what you are · what your charter cannot see 
 
 ## 17. Design register — for ratification
 
-Every rule that touches a canon sentence, with the reading taken. Nothing here is canon until Joe rules; Canon itself is untouched. Rows marked *ruled* carry the ruling's number from Terhia-Heroes-Rulings.md (v0.3); rows H42–H50 are new in v0.3; **rows H51–H59 are new in v0.4** and H60 in v0.5; **H61–H72 are new in v0.6; H73–H78 are new in v0.7;** H51–H59 point at the Cultures-and-Factions module's CF-rows, which hold the full readings. Numbering is Heroes-local (H-rows) so the register never collides with Chronicle's.
+Every rule that touches a canon sentence, with the reading taken. Nothing here is canon until Joe rules; Canon itself is untouched. Rows marked *ruled* carry the ruling's number from Terhia-Heroes-Rulings.md (v0.3); rows H42–H50 are new in v0.3; **rows H51–H59 are new in v0.4** and H60 in v0.5; **H61–H72 are new in v0.6; H73–H78 are new in v0.7; H79–H86 are new in v0.8;** H51–H59 point at the Cultures-and-Factions module's CF-rows, which hold the full readings. Numbering is Heroes-local (H-rows) so the register never collides with Chronicle's.
 
 | # | Rule | Canon touchpoint | Reading taken | Status |
 |:-:|:--|:--|:--|:-:|
@@ -1435,3 +1483,11 @@ Every rule that touches a canon sentence, with the reading taken. Nothing here i
 | H76 | Rank gate: a structural resolution at the current tier; the rank takes effect at the next phase turn; retraining in that window (§13.5) | Part VIII, Grand Beast tier table; Part I, Moons and Calendar | Invention. The phase turn matches the world's other lapses (postings, closed ground) and the Ledger's phase wait for a sitting | open |
 | H77 | Recognition separate from rank: a grade never exceeds rank; a grade below rank is legal; posting tier is set by grade (§1.4, §13.5) | Part VI, Terminology; Part IX, Second Register (unregistered practice prosecutable) | Direct: the registries grade what they examine, and the gap between capability and file is the Second Register's subject | open |
 | H78 | The sheet's CLASS line carries the party's Proofs (§16) | — | "Every field is on it; nothing else is" still holds | open |
+| H79 | Ten gear slots: Main Hand and Off Hand beside the eight; weapons and shields tiered and socketed; a two-handed weapon is one piece in both slots with both intrinsics and sockets; the Warden's dagger a sidearm in no slot (§15.1) | — | Joe's brief. Supersedes GM Guide G11; the two-handed rule keeps a maul and a sword-and-shield at the same kit total | open |
+| H80 | A class weapon for every class (§4.1): focus (Sorcerer, Apostle), staff (Elementalist, Apothecarist), scythe (Necromancer), mace (Artificer), dagger (Warlock); dice, reach, and kinds are the game's | Part II, Necrotic (bare-handed practice); Parts II–IV (no school is defined by a weapon) | The five weapons are Joe's; the scythe is held by the haft so the palms stay bare; a focus deals the school's own kind. That Magic and Alchemy practitioners carry a trained weapon is new to canon | open |
+| H81 | Cleave: a standard 0-Strain Action for every class; at least two enemies; one roll vs each Guard; nothing on a miss; no rider; not a Strike and not an area; one pool of an avatar (§5.1) | — | Invention. The two-enemy floor keeps it out of every Boss fight | open |
+| H82 | Cleave counts and damage: Martial 2 / 3 / 4 / 5, weapon die (+ RD from Master), Key once; Magic and Alchemy 2 / 2 / 3 / 3, weapon die only (§5.1) | — | Strong for Martial, weak for Magic and Alchemy, per the brief. GM Guide §12.3 (r) has the arithmetic; the Novice line (+59% over the Strike against two) is the outlier, accepted | open |
+| H83 | Magic and Alchemy weapon attacks (Cleave, Punish) roll d20 + Key + RB for the weapon die only (§4.1, §6.4) | — | Replaces "Magic and Alchemy classes use a simple weapon" on the Punish | open |
+| H84 | Magic and Alchemy classes hold eleven picks: four Novice (three at level 1) and three Adept (the third at level 6) (§13.1, §13.3, §14) | — | The offset for a weak Cleave. Placed where Tempo is 1, so it adds options before output; GM Guide §12.3 (r), (h). Alternative: one extra pick only | open |
+| H85 | Berserker Master skill *Cleave* renamed *Full Swing*; *Nothing in Reach Stands* updated (§14.10) | — | Name collision with the standard Cleave; no rule changes | open |
+| H86 | Weapon-slot intrinsics: Main Hand — Cleave and Punish damage +1 / +1 / +2, Cleave count +1 from Master, half cover ignored at Guru; Off Hand — Strain Capacity +1 at each tier, a second Reaction once per encounter at Guru; at most ten relics seated; the sheet's KIT and ability lines (§15, §16) | — | Kept off the Strike, Core, Guard, and attack roll so the GM Guide's hit tables and Boss floor do not move (GM Guide §7.3, §12.3 i, r) | open |
